@@ -1,3 +1,6 @@
+# surfquake csv2xml -c [csv_file_path] -r [resp_files_path] -o [output_path] -n [stations_xml_name]
+surfquake csv2xml -c /Volumes/LaCie/all_andorra/mini_test/inputs/metadata/coords.txt -r /Volumes/LaCie/all_andorra/mini_test/inputs/metadata/resp_files -o /Volumes/LaCie/all_andorra/mini_test/inputs/metadata -n WM.xml
+
 # surfquake project -d [path to data files] -s [path to save directory] -n [project name] --verbose
 surfquake project -d /Volumes/LaCie/all_andorra/mini_test/inputs/waveforms_cut -s /Volumes/LaCie/all_andorra/mini_test/project -n project_sh.pkl -v
 

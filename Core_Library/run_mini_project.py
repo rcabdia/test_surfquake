@@ -2,8 +2,8 @@ from multiprocessing import freeze_support
 from surfquakecore.project.surf_project import SurfProject
 
 
-path_to_data = "/Volumes/LaCie/all_andorra/mini_test/inputs/waveforems_cut"
-path_to_project = "/Volumes/LaCie/all_andorra/mini_test/outputs/project/project.pkl"
+path_to_data = "/test_surfquake/inputs/waveforms_cut"
+path_to_project = "/test_surfquake/outputs/project/project.pkl"
 
 if __name__ == '__main__':
 

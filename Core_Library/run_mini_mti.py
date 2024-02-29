@@ -15,10 +15,10 @@ def list_files_with_iversion_json(root_folder):
 
 if __name__ == "__main__":
 
-    inventory_path = "/Volumes/LaCie/all_andorra/mini_test/inputs/metadata/inv_all.xml"
-    path_to_project = "/Volumes/LaCie/all_andorra/mini_test/outputs/project/project.pkl"
-    path_to_configfiles = '/Volumes/LaCie/all_andorra/mini_test/inputs/configs/mti_config_mini_test.ini'
-    output_directory = '/Volumes/LaCie/all_andorra/mini_test/outputs/mti'
+    inventory_path = "/test_surfquake/inputs/metadata/inv_all.xml"
+    path_to_project = "/test_surfquake/outputs/project/project.pkl"
+    path_to_configfiles = '/test_surfquake/inputs/configs/mti_config_mini_test.ini'
+    output_directory = '/test_surfquake/outputs/mti'
     #
     # # Load the Project
     sp = SurfProject.load_project(path_to_project_file=path_to_project)

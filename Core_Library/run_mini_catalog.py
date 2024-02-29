@@ -1,11 +1,10 @@
 import os
-
 from surfquakecore.utils.manage_catalog import BuildCatalog, WriteCatalog
 
-path_events_file = '/Volumes/LaCie/all_andorra/mini_test/outputs/nll/all_loc'
-path_source_file = '/Volumes/LaCie/all_andorra/mini_test/outputs/source/source_summary.txt'
-#path_mti_summary = "/Volumes/LaCie/all_andorra/mti/mti_summary.txt"
-output_path = "/Volumes/LaCie/all_andorra/mini_test/outputs/catalog"
+path_events_file = '/test_surfquake/outputs/nll/all_loc'
+path_source_file = '/test_surfquake/outputs/source/source_summary.txt'
+path_mti_summary = "/test_surfquake/outputs/mti/summary_mti.txt"
+output_path = "/test_surfquake/outputs/catalog"
 
 format = "QUAKEML"
 bc = BuildCatalog(loc_folder=path_events_file, output_path=output_path,
