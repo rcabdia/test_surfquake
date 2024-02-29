@@ -3,8 +3,8 @@ Hypocenter location:
   Agency: 
   Origin time: 2022-02-01 02:03:00
   Lat   42.527   Lon    1.442   Depth 5.8 km
-Station coordinates: /var/folders/gj/jqdffl4j0694fbnkzr8x231h0000gn/T/tmpdliyqbjb/stations.txt
-Crustal model(s): /Volumes/LaCie/surfquake_test/working_directory/earth_models/Iberia.dat
+Station coordinates: /var/folders/b6/tdjvjsb916l44pn536hjt3b00000gp/T/tmpzqxz30et/stations.txt
+Crustal model(s): /Volumes/LaCie/all_andorra/mini_test/inputs/model_mti/Iberia.dat
 
 Sampling frequencies:
   Data sampling: 100.0 Hz, 100.0 Hz, 100.0 Hz, 100.0 Hz, 100.0 Hz, 100.0 Hz, 100.0 Hz, 100.0 Hz, 100.0 Hz
@@ -51,19 +51,19 @@ Inversion of deviatoric part of moment tensor (5 components)
 
 Centroid location:
   Centroid time: 2022-02-01 02:03:00
-  Lat   42.519   Lon    1.432   Depth   5.8 km
+  Lat   42.519   Lon    1.432   Depth   4.9 km
   ( -851 m to the north and  -851 m to the east with respect to epicenter)
-  time:  0.68 s before origin time
+  time:  0.04 s before origin time
 
   VR:   22 %
   CN:    3
   MT [ Mrr    Mtt    Mpp    Mrt    Mrp    Mtp  ]:
-     [-1.82   0.74   1.08  -1.17   0.10  -1.68 ] * 1e+14
+     [-1.83   0.80   1.03  -1.09  -0.03  -1.74 ] * 1e+14
 
-Scalar Moment: M0 =  2.77e+14 Nm (Mw = 3.6)
-  DC component:  72 %  CLVD component:  28 %   ISOtropic component: -0 %
-  Fault plane 1: strike =  115, dip =  61 , slip-rake = -119
-  Fault plane 2: strike =  344, dip =  41 , slip-rake = -49
+Scalar Moment: M0 =  2.78e+14 Nm (Mw = 3.6)
+  DC component:  71 %  CLVD component:  29 %   ISOtropic component:  0 %
+  Fault plane 1: strike =  113, dip =  60 , slip-rake = -122
+  Fault plane 2: strike =  343, dip =  43 , slip-rake = -48
 
 Uncertainty evaluation: plotted 400 mechanism of 400 requested.
-Standard deviation :: dc: 0.04, clvd: 0.04, iso: 0.00, Mw: 0.05, t: 0.02, x: 0.00, y: 0.00, z: 0.12
+Standard deviation :: dc: 0.04, clvd: 0.04, iso: 0.00, Mw: 0.05, t: 0.01, x: 0.00, y: 0.00, z: 0.31

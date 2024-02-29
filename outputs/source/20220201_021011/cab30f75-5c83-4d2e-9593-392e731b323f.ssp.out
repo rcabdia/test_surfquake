@@ -1,0 +1,43 @@
+*** Note: this file is deprecated and might not contain all the output information. ***
+*** It will be removed in future versions of SourceSpec. ***
+*** Please look at the YAML file in this directory. ***
+cab30f75-5c83-4d2e-9593-392e731b323f lon    1.458 lat  42.502 depth   4.6 km orig_time 2022-02-01T02:10:10.055630Z
+
+*** Station source parameters ***
+*** Note: outliers are prepended by a star (*) symbol ***
+   CA.CEST..HHH broadb	  Mw  1.972   fc  7.623   t_star  0.000  *Qo     inf   Mo 1.144e+12   bsd 1.001e-01   ra  170.992   hyp_dist  20.737   az 302.612   Er 8.574e+05 
+            --- errmin	  Mw  0.095   fc 14.646   t_star  0.093  *Qo     inf   Mo 3.191e+11   bsd 1.000e-01   ra  112.462   hyp_dist     nan   az     nan   Er       nan 
+            --- errmax	  Mw  0.095   fc 14.646   t_star  0.093  *Qo    -inf   Mo 4.425e+11   bsd 3.362e+00   ra 1459.072   hyp_dist     nan   az     nan   Er       nan 
+   CA.CSOR..HHH broadb	  Mw  2.094   fc 10.094   t_star  0.017   Qo   508.1   Mo 1.739e+12   bsd 3.533e-01   ra  129.129   hyp_dist  30.859   az 242.150   Er 5.009e+06 
+            --- errmin	  Mw  0.077   fc 17.145   t_star  0.061   Qo   396.4   Mo 4.082e+11   bsd 3.532e-01   ra   81.277   hyp_dist     nan   az     nan   Er       nan 
+            --- errmax	  Mw  0.077   fc 17.145   t_star  0.061   Qo  8156.3   Mo 5.334e+11   bsd 8.720e+00   ra 1500.936   hyp_dist     nan   az     nan   Er       nan 
+ FR.GENF.00.HHH broadb	  Mw  1.832   fc  6.436   t_star  0.013   Qo   759.5   Mo 7.038e+11   bsd 3.707e-02   ra  202.513   hyp_dist  37.271   az  14.672   Er 2.026e+05 
+            --- errmin	  Mw  0.097   fc 12.615   t_star  0.111   Qo   678.5   Mo 1.998e+11   bsd 3.702e-02   ra  134.098   hyp_dist     nan   az     nan   Er       nan 
+            --- errmax	  Mw  0.097   fc 12.615   t_star  0.111   Qo  9354.8   Mo 2.790e+11   bsd 1.306e+00   ra 1427.551   hyp_dist     nan   az     nan   Er       nan 
+ FR.PAND.00.HHH broadb	  Mw  2.107  *fc 48.212   t_star  0.010   Qo   294.3   Mo 1.820e+12  *bsd 4.029e+01   ra   27.035   hyp_dist   9.944   az  71.820  *Er 5.709e+08 
+            --- errmin	  Mw  0.050  *fc 635.513   t_star  0.031   Qo   221.8   Mo 2.880e+11  *bsd 4.029e+01   ra   25.128   hyp_dist     nan   az     nan  *Er       nan 
+            --- errmax	  Mw  0.050  *fc 635.513   t_star  0.031   Qo  2670.1   Mo 3.422e+11  *bsd 1.365e+05   ra 1603.030   hyp_dist     nan   az     nan  *Er       nan 
+
+*** Average source parameters ***
+*** Note: averages computed after removing outliers ****
+Mw: 2.00 +/- 0.11
+Mw (weighted): 2.05 +/- 0.10
+Mo: 1.263e+12 /- 4.021e+11 /+ 5.899e+11 N·m
+Mo (weighted): 1.483e+12 /- 4.215e+11 /+ 5.888e+11 N·m
+fc: 7.912 /- 1.340 /+ 1.613 Hz
+fc (weighted): 7.947 /- 1.352 /+ 1.630 Hz
+t_star: 0.010 +/- 0.006 s
+t_star (weighted): 0.011 +/- 0.004 s
+Qo: 520.6 +/- 190.1
+Qo (weighted): 347.0 +/- 128.9
+Source radius: 104.856 /- 57.690 /+ 128.252 m
+Source radius (weighted): 145.978 /- 58.479 /+ 97.564 m
+Brune stress drop: 1.095e-01 /- 6.595e-02 /+ 1.659e-01 MPa
+Brune stress drop (weighted): 1.025e-01 /- 6.152e-02 /+ 1.540e-01 MPa
+Ml: 1.110 +/- 0.571
+Er: 9.547e+05 /- 6.975e+05 /+ 2.590e+06 N·m
+
+*** SourceSpec: 1.7
+*** Run completed on: 2024-02-29 14:42:33.000670 CET
+*** Author: SurfQuakeCore <https://projectisp.github.io/ISP_tutorial.github.io/>
+*** Agency: Spanish Navy Observatory (ROA) - https://armada.defensa.gob.es/ArmadaPortal/page/Portal/ArmadaEspannola/cienciaobservatorio/prefLang-es/02InfoGeneral

@@ -1,152 +1,152 @@
-NLLOC "/Volumes/LaCie/all_andorra/mini_test/outputs/nll/loc/location.20220201.013522.grid0" "LOCATED" "Location completed."
+NLLOC "/Volumes/LaCie/all_andorra/mini_test/outputs_sh/nll/loc/location.20220201.013522.grid0" "LOCATED" "Location completed."
 PUBLIC_ID None
-SIGNATURE "surfQuake   obs:/Volumes/LaCie/all_andorra/mini_test/outputs/real/output_directory/nll_input.txt   NLLoc:v7.00.13(17Jan2022)   run:24Feb2024 11h02m15"
+SIGNATURE "surfQuake   obs:/Volumes/LaCie/all_andorra/mini_test/outputs_sh/real/output_directory/nll_input.txt   NLLoc:v7.00.13(17Jan2022)   run:29Feb2024 14h00m36"
 COMMENT ""
 GRID  391 391 48  5 5 -2  1 1 1 PROB_DENSITY
-SEARCH OCTREE nInitial 1000 nEvaluated 25016 smallestNodeSide 0.030469/0.304688/0.367188 oct_tree_integral 2.972343e+01 scatter_volume 2.972343e+01
-HYPOCENTER  x 60.7578 y 185.984 z 0.203125  OT 16.5152  ix -1 iy -1 iz -1 MAXIMUM_LIKELIHOOD
-GEOGRAPHIC  OT 2022 02 01  01 35 16.515166  Lat 42.672595 Long 0.743170 Depth 0.203125
-QUALITY  Pmax 1.66778e-26 MFmin 3.28511 MFmax 24.272 RMS 0.659118 Nphs 11 Gap 299.168 Dist 37.5078 Mamp -9.90 0 Mdur -9.90 0
-VPVSRATIO  VpVsRatio 1.49074  Npair 5  Diff 4.08
-STATISTICS  ExpectX 60.867467 Y 186.040187 Z 1.869405  CovXX 1.15187 XY -0.300621 XZ 0.356585 YY 0.533992 YZ -0.0112138 ZZ 6.32202 EllAz1  202.584 Dip1  1.22645 Len1  1.20189 Az2  292.664 Dip2  3.76195 Len2  2.10227 Len3  4.733261e+00
-STAT_GEOG  ExpectLat 42.673097 Long 0.744517 Depth 1.869405
+SEARCH OCTREE nInitial 1000 nEvaluated 25000 smallestNodeSide 0.030469/0.304688/0.367188 oct_tree_integral 2.989277e+01 scatter_volume 2.979600e+01
+HYPOCENTER  x 62.3574 y 179.738 z 23.8867  OT 15.7753  ix -1 iy -1 iz -1 MAXIMUM_LIKELIHOOD
+GEOGRAPHIC  OT 2022 02 01  01 35 15.775338  Lat 42.616423 Long 0.762047 Depth 23.886719
+QUALITY  Pmax 5.00414e-06 MFmin 1.6469 MFmax 23.1319 RMS 0.330305 Nphs 9 Gap 292.327 Dist 38.1109 Mamp -9.90 0 Mdur -9.90 0
+VPVSRATIO  VpVsRatio 1.8568  Npair 3  Diff 3.61
+STATISTICS  ExpectX 62.112179 Y 179.892325 Z 23.245572  CovXX 1.83694 XY -0.208638 XZ 0.793514 YY 0.566737 YZ 0.0964804 ZZ 6.14192 EllAz1  190.486 Dip1  2.43886 Len1  1.35997 Az2  280.907 Dip2  9.80194 Len2  2.47659 Len3  4.709877e+00
+STAT_GEOG  ExpectLat 42.617808 Long 0.759067 Depth 23.245572
 TRANSFORM  SIMPLE LatOrig 41.000000  LongOrig 0.000000  RotCW 0.000000
-QML_OriginQuality  assocPhCt 11  usedPhCt 11  assocStaCt -1  usedStaCt 6  depthPhCt -1  stdErr 0.659118  azGap 299.168  secAzGap 299.168  gtLevel -  minDist 37.5078 maxDist 69.5232 medDist 57.1373
-QML_OriginUncertainty  horUnc -1  minHorUnc 0.973289  maxHorUnc 1.71178  azMaxHorUnc 112.109
-QML_ConfidenceEllipsoid  semiMajorAxisLength 4.73326  semiMinorAxisLength 1.20189  semiIntermediateAxisLength 2.10227  majorAxisPlunge 86.0426  majorAxisAzimuth 94.5565  majorAxisRotation 341.77
-FOCALMECH  Hyp  42.672595 0.743170 0.203125 Mech  0 0 0 mf  0 nObs -1
+QML_OriginQuality  assocPhCt 9  usedPhCt 9  assocStaCt -1  usedStaCt 6  depthPhCt -1  stdErr 0.330305  azGap 292.327  secAzGap 292.327  gtLevel -  minDist 38.1109 maxDist 69.7748 medDist 51.9318
+QML_OriginUncertainty  horUnc -1  minHorUnc 1.10756  maxHorUnc 2.07407  azMaxHorUnc 99.093
+QML_ConfidenceEllipsoid  semiMajorAxisLength 4.70988  semiMinorAxisLength 1.35997  semiIntermediateAxisLength 2.47659  majorAxisPlunge 79.8934  majorAxisAzimuth 86.6611  majorAxisRotation 345.085
+FOCALMECH  Hyp  42.616423 0.762047 23.886719 Mech  0 0 0 mf  0 nObs -1
 END_NLLOC
 
-NLLOC "/Volumes/LaCie/all_andorra/mini_test/outputs/nll/loc/location.20220201.020301.grid0" "LOCATED" "Location completed."
+NLLOC "/Volumes/LaCie/all_andorra/mini_test/outputs_sh/nll/loc/location.20220201.020301.grid0" "LOCATED" "Location completed."
 PUBLIC_ID None
-SIGNATURE "surfQuake   obs:/Volumes/LaCie/all_andorra/mini_test/outputs/real/output_directory/nll_input.txt   NLLoc:v7.00.13(17Jan2022)   run:24Feb2024 11h02m15"
+SIGNATURE "surfQuake   obs:/Volumes/LaCie/all_andorra/mini_test/outputs_sh/real/output_directory/nll_input.txt   NLLoc:v7.00.13(17Jan2022)   run:29Feb2024 14h00m36"
 COMMENT ""
 GRID  391 391 48  5 5 -2  1 1 1 PROB_DENSITY
-SEARCH OCTREE nInitial 1000 nEvaluated 13144 smallestNodeSide 0.007617/0.076172/0.091797 oct_tree_integral 9.445244e-01 scatter_volume 9.421764e-01
-HYPOCENTER  x 117.792 y 168.655 z -1.9541  OT 0.876284  ix -1 iy -1 iz -1 MAXIMUM_LIKELIHOOD
-GEOGRAPHIC  OT 2022 02 01  02 03 0.876284  Lat 42.516751 Long 1.437189 Depth -1.954102
-QUALITY  Pmax 7.34145e-77 MFmin 4.18695 MFmax 29.9892 RMS 0.838613 Nphs 20 Gap 63.6253 Dist 8.94564 Mamp -9.90 0 Mdur -9.90 0
-VPVSRATIO  VpVsRatio 1.7438  Npair 10  Diff 8.76
-STATISTICS  ExpectX 117.822338 Y 168.610765 Z -0.639524  CovXX 0.0698857 XY -0.00349341 XZ 0.018555 YY 0.0951564 YZ -0.0317455 ZZ 1.09091 EllAz1  83.3351 Dip1  -0.826832 Len1  0.494271 Az2  353.363 Dip2  1.93575 Len2  0.577515 Len3  1.963591e+00
-STAT_GEOG  ExpectLat 42.516351 Long 1.437556 Depth -0.639524
+SEARCH OCTREE nInitial 1000 nEvaluated 17288 smallestNodeSide 0.007617/0.076172/0.091797 oct_tree_integral 1.398079e+00 scatter_volume 1.395581e+00
+HYPOCENTER  x 119.848 y 166.827 z 5.29785  OT 0.276594  ix -1 iy -1 iz -1 MAXIMUM_LIKELIHOOD
+GEOGRAPHIC  OT 2022 02 01  02 03 0.276594  Lat 42.500311 Long 1.461898 Depth 5.297852
+QUALITY  Pmax 9.38764e-05 MFmin 0.962992 MFmax 30.5625 RMS 0.192742 Nphs 20 Gap 60.244 Dist 7.33233 Mamp -9.90 0 Mdur -9.90 0
+VPVSRATIO  VpVsRatio 1.7689  Npair 10  Diff 7.5
+STATISTICS  ExpectX 119.837340 Y 166.830476 Z 5.212173  CovXX 0.0823774 XY -0.0127454 XZ 0.0481325 YY 0.113063 YZ -0.0678602 ZZ 0.993774 EllAz1  73.4588 Dip1  -1.67594 Len1  0.52177 Az2  343.608 Dip2  5.09074 Len2  0.624584 Len3  1.880314e+00
+STAT_GEOG  ExpectLat 42.500340 Long 1.461767 Depth 5.212173
 TRANSFORM  SIMPLE LatOrig 41.000000  LongOrig 0.000000  RotCW 0.000000
-QML_OriginQuality  assocPhCt 20  usedPhCt 20  assocStaCt -1  usedStaCt 10  depthPhCt -1  stdErr 0.838613  azGap 63.6253  secAzGap 63.6253  gtLevel -  minDist 8.94564 maxDist 68.8298 medDist 33.6783
-QML_OriginUncertainty  horUnc -1  minHorUnc 0.399558  maxHorUnc 0.468988  azMaxHorUnc 172.272
-QML_ConfidenceEllipsoid  semiMajorAxisLength 1.96359  semiMinorAxisLength 0.494271  semiIntermediateAxisLength 0.577515  majorAxisPlunge 87.8949  majorAxisAzimuth 150.217  majorAxisRotation 156.812
-FOCALMECH  Hyp  42.516751 1.437189 -1.954102 Mech  0 0 0 mf  0 nObs -1
+QML_OriginQuality  assocPhCt 20  usedPhCt 20  assocStaCt -1  usedStaCt 10  depthPhCt -1  stdErr 0.192742  azGap 60.244  secAzGap 60.244  gtLevel -  minDist 7.33233 maxDist 68.4177 medDist 34.4927
+QML_OriginUncertainty  horUnc -1  minHorUnc 0.422943  maxHorUnc 0.520224  azMaxHorUnc 160.142
+QML_ConfidenceEllipsoid  semiMajorAxisLength 1.88031  semiMinorAxisLength 0.52177  semiIntermediateAxisLength 0.624584  majorAxisPlunge 84.6391  majorAxisAzimuth 145.291  majorAxisRotation 161.456
+FOCALMECH  Hyp  42.500311 1.461898 5.297852 Mech  0 0 0 mf  0 nObs -1
 END_NLLOC
 
-NLLOC "/Volumes/LaCie/all_andorra/mini_test/outputs/nll/loc/location.20220201.020801.grid0" "LOCATED" "Location completed."
+NLLOC "/Volumes/LaCie/all_andorra/mini_test/outputs_sh/nll/loc/location.20220201.020801.grid0" "LOCATED" "Location completed."
 PUBLIC_ID None
-SIGNATURE "surfQuake   obs:/Volumes/LaCie/all_andorra/mini_test/outputs/real/output_directory/nll_input.txt   NLLoc:v7.00.13(17Jan2022)   run:24Feb2024 11h02m16"
+SIGNATURE "surfQuake   obs:/Volumes/LaCie/all_andorra/mini_test/outputs_sh/real/output_directory/nll_input.txt   NLLoc:v7.00.13(17Jan2022)   run:29Feb2024 14h00m36"
 COMMENT ""
 GRID  391 391 48  5 5 -2  1 1 1 PROB_DENSITY
-SEARCH OCTREE nInitial 1000 nEvaluated 25008 smallestNodeSide 0.015234/0.152344/0.183594 oct_tree_integral 2.907689e+00 scatter_volume 2.850638e+00
-HYPOCENTER  x 117.59 y 170.521 z -1.9082  OT 0.0576534  ix -1 iy -1 iz -1 MAXIMUM_LIKELIHOOD
-GEOGRAPHIC  OT 2022 02 01  02 08 0.057653  Lat 42.533534 Long 1.435112 Depth -1.908203
-QUALITY  Pmax 1.69201e-05 MFmin 1.30012 MFmax 29.2157 RMS 0.260668 Nphs 13 Gap 78.565 Dist 9.17944 Mamp -9.90 0 Mdur -9.90 0
-VPVSRATIO  VpVsRatio 1.58669  Npair 6  Diff 3.13
-STATISTICS  ExpectX 117.731645 Y 170.471806 Z 0.566111  CovXX 0.14402 XY 0.0129524 XZ 0.239412 YY 0.108435 YZ -0.0718631 ZZ 3.07304 EllAz1  147.878 Dip1  -3.61527 Len1  0.578918 Az2  237.676 Dip2  3.19421 Len2  0.693909 Len3  3.304899e+00
-STAT_GEOG  ExpectLat 42.533088 Long 1.436834 Depth 0.566111
+SEARCH OCTREE nInitial 1000 nEvaluated 25000 smallestNodeSide 0.015234/0.152344/0.183594 oct_tree_integral 3.270761e+00 scatter_volume 3.226560e+00
+HYPOCENTER  x 121.002 y 166.256 z 8.00586  OT 59.2866  ix -1 iy -1 iz -1 MAXIMUM_LIKELIHOOD
+GEOGRAPHIC  OT 2022 02 01  02 07 59.286577  Lat 42.495173 Long 1.475853 Depth 8.005859
+QUALITY  Pmax 2.58955e-05 MFmin 1.27469 MFmax 22.6383 RMS 0.255444 Nphs 13 Gap 83.2742 Dist 6.52457 Mamp -9.90 0 Mdur -9.90 0
+VPVSRATIO  VpVsRatio 1.64639  Npair 6  Diff 3.61
+STATISTICS  ExpectX 120.996408 Y 166.254070 Z 7.902331  CovXX 0.339483 XY -0.0615028 XZ 0.476457 YY 0.162652 YZ -0.177984 ZZ 1.56806 EllAz1  183.004 Dip1  -6.10759 Len1  0.70388 Az2  270.893 Dip2  18.9991 Len2  0.789048 Len3  2.487923e+00
+STAT_GEOG  ExpectLat 42.495157 Long 1.475783 Depth 7.902331
 TRANSFORM  SIMPLE LatOrig 41.000000  LongOrig 0.000000  RotCW 0.000000
-QML_OriginQuality  assocPhCt 13  usedPhCt 13  assocStaCt -1  usedStaCt 7  depthPhCt -1  stdErr 0.260668  azGap 78.565  secAzGap 100.663  gtLevel -  minDist 9.17944 maxDist 35.0787 medDist 30.2518
-QML_OriginUncertainty  horUnc -1  minHorUnc 0.489598  maxHorUnc 0.583902  azMaxHorUnc 71.9734
-QML_ConfidenceEllipsoid  semiMajorAxisLength 3.3049  semiMinorAxisLength 0.578918  semiIntermediateAxisLength 0.693909  majorAxisPlunge 85.173  majorAxisAzimuth 106.311  majorAxisRotation 48.9393
-FOCALMECH  Hyp  42.533534 1.435112 -1.908203 Mech  0 0 0 mf  0 nObs -1
+QML_OriginQuality  assocPhCt 13  usedPhCt 13  assocStaCt -1  usedStaCt 7  depthPhCt -1  stdErr 0.255444  azGap 83.2742  secAzGap 100.159  gtLevel -  minDist 6.52457 maxDist 37.8951 medDist 31.0091
+QML_OriginUncertainty  horUnc -1  minHorUnc 0.574229  maxHorUnc 0.90839  azMaxHorUnc 107.411
+QML_ConfidenceEllipsoid  semiMajorAxisLength 2.48792  semiMinorAxisLength 0.70388  semiIntermediateAxisLength 0.789048  majorAxisPlunge 69.9709  majorAxisAzimuth 110.073  majorAxisRotation 23.1221
+FOCALMECH  Hyp  42.495173 1.475853 8.005859 Mech  0 0 0 mf  0 nObs -1
 END_NLLOC
 
-NLLOC "/Volumes/LaCie/all_andorra/mini_test/outputs/nll/loc/location.20220201.021011.grid0" "LOCATED" "Location completed."
+NLLOC "/Volumes/LaCie/all_andorra/mini_test/outputs_sh/nll/loc/location.20220201.021011.grid0" "LOCATED" "Location completed."
 PUBLIC_ID None
-SIGNATURE "surfQuake   obs:/Volumes/LaCie/all_andorra/mini_test/outputs/real/output_directory/nll_input.txt   NLLoc:v7.00.13(17Jan2022)   run:24Feb2024 11h02m16"
+SIGNATURE "surfQuake   obs:/Volumes/LaCie/all_andorra/mini_test/outputs_sh/real/output_directory/nll_input.txt   NLLoc:v7.00.13(17Jan2022)   run:29Feb2024 14h00m36"
 COMMENT ""
 GRID  391 391 48  5 5 -2  1 1 1 PROB_DENSITY
-SEARCH OCTREE nInitial 1000 nEvaluated 14264 smallestNodeSide 0.007617/0.076172/0.091797 oct_tree_integral 1.007553e+00 scatter_volume 1.007553e+00
-HYPOCENTER  x 116.382 y 169.722 z -1.9541  OT 10.3749  ix -1 iy -1 iz -1 MAXIMUM_LIKELIHOOD
-GEOGRAPHIC  OT 2022 02 01  02 10 10.374876  Lat 42.526342 Long 1.420213 Depth -1.954102
-QUALITY  Pmax 3.15682e-22 MFmin 2.22502 MFmax 28.9174 RMS 0.44538 Nphs 20 Gap 66.2487 Dist 10.3256 Mamp -9.90 0 Mdur -9.90 0
-VPVSRATIO  VpVsRatio 1.75712  Npair 10  Diff 7.39
-STATISTICS  ExpectX 116.393414 Y 169.666464 Z -0.452969  CovXX 0.0701982 XY -0.00185638 XZ 0.0157812 YY 0.097457 YZ -0.0397057 ZZ 1.50395 EllAz1  86.9235 Dip1  -0.544471 Len1  0.496908 Az2  356.939 Dip2  1.64781 Len2  0.583383 Len3  2.305108e+00
-STAT_GEOG  ExpectLat 42.525845 Long 1.420337 Depth -0.452969
+SEARCH OCTREE nInitial 1000 nEvaluated 18584 smallestNodeSide 0.007617/0.076172/0.091797 oct_tree_integral 1.507012e+00 scatter_volume 1.507012e+00
+HYPOCENTER  x 119.536 y 167.056 z 4.56348  OT 10.0556  ix -1 iy -1 iz -1 MAXIMUM_LIKELIHOOD
+GEOGRAPHIC  OT 2022 02 01  02 10 10.055630  Lat 42.502366 Long 1.458136 Depth 4.563477
+QUALITY  Pmax 5.15128e-05 MFmin 0.993664 MFmax 30.4508 RMS 0.198916 Nphs 20 Gap 60.614 Dist 7.55024 Mamp -9.90 0 Mdur -9.90 0
+VPVSRATIO  VpVsRatio 1.76229  Npair 10  Diff 7.21
+STATISTICS  ExpectX 119.522428 Y 167.077707 Z 4.379648  CovXX 0.079504 XY -0.0086142 XZ 0.0535175 YY 0.111182 YZ -0.0785039 ZZ 1.27544 EllAz1  80.2697 Dip1  -1.8856 Len1  0.518772 Az2  350.409 Dip2  4.22443 Len2  0.613884 Len3  2.128246e+00
+STAT_GEOG  ExpectLat 42.502564 Long 1.457977 Depth 4.379648
 TRANSFORM  SIMPLE LatOrig 41.000000  LongOrig 0.000000  RotCW 0.000000
-QML_OriginQuality  assocPhCt 20  usedPhCt 20  assocStaCt -1  usedStaCt 10  depthPhCt -1  stdErr 0.44538  azGap 66.2487  secAzGap 66.2487  gtLevel -  minDist 10.3256 maxDist 69.2863 medDist 33.1606
-QML_OriginUncertainty  horUnc -1  minHorUnc 0.401455  maxHorUnc 0.473751  azMaxHorUnc 176.122
-QML_ConfidenceEllipsoid  semiMajorAxisLength 2.30511  semiMinorAxisLength 0.496908  semiIntermediateAxisLength 0.583383  majorAxisPlunge 88.2645  majorAxisAzimuth 158.645  majorAxisRotation 161.682
-FOCALMECH  Hyp  42.526342 1.420213 -1.954102 Mech  0 0 0 mf  0 nObs -1
+QML_OriginQuality  assocPhCt 20  usedPhCt 20  assocStaCt -1  usedStaCt 10  depthPhCt -1  stdErr 0.198916  azGap 60.614  secAzGap 60.614  gtLevel -  minDist 7.55024 maxDist 68.5052 medDist 34.3586
+QML_OriginUncertainty  horUnc -1  minHorUnc 0.421687  maxHorUnc 0.510645  azMaxHorUnc 165.73
+QML_ConfidenceEllipsoid  semiMajorAxisLength 2.12825  semiMinorAxisLength 0.518772  semiIntermediateAxisLength 0.613884  majorAxisPlunge 85.3725  majorAxisAzimuth 146.27  majorAxisRotation 155.65
+FOCALMECH  Hyp  42.502366 1.458136 4.563477 Mech  0 0 0 mf  0 nObs -1
 END_NLLOC
 
-NLLOC "/Volumes/LaCie/all_andorra/mini_test/outputs/nll/loc/location.20220201.021549.grid0" "LOCATED" "Location completed."
+NLLOC "/Volumes/LaCie/all_andorra/mini_test/outputs_sh/nll/loc/location.20220201.021549.grid0" "LOCATED" "Location completed."
 PUBLIC_ID None
-SIGNATURE "surfQuake   obs:/Volumes/LaCie/all_andorra/mini_test/outputs/real/output_directory/nll_input.txt   NLLoc:v7.00.13(17Jan2022)   run:24Feb2024 11h02m16"
+SIGNATURE "surfQuake   obs:/Volumes/LaCie/all_andorra/mini_test/outputs_sh/real/output_directory/nll_input.txt   NLLoc:v7.00.13(17Jan2022)   run:29Feb2024 14h00m36"
 COMMENT ""
 GRID  391 391 48  5 5 -2  1 1 1 PROB_DENSITY
-SEARCH OCTREE nInitial 1000 nEvaluated 11752 smallestNodeSide 0.007617/0.076172/0.091797 oct_tree_integral 8.662478e-01 scatter_volume 8.662478e-01
-HYPOCENTER  x 124.007 y 169.646 z -1.9541  OT 50.5395  ix -1 iy -1 iz -1 MAXIMUM_LIKELIHOOD
-GEOGRAPHIC  OT 2022 02 01  02 15 50.539514  Lat 42.525657 Long 1.513242 Depth -1.954102
-QUALITY  Pmax 7.23398e-128 MFmin 8.06573 MFmax 28.0688 RMS 1.61648 Nphs 9 Gap 146.876 Dist 2.70535 Mamp -9.90 0 Mdur -9.90 0
-VPVSRATIO  VpVsRatio 0.877755  Npair 4  Diff 4.81
-STATISTICS  ExpectX 124.044802 Y 169.644565 Z -1.376827  CovXX 0.151266 XY -0.0139155 XZ 0.0120053 YY 0.184926 YZ -0.00678593 ZZ 0.240919 EllAz1  251.507 Dip1  5.52036 Len1  0.716394 Az2  162.56 Dip2  -10.7653 Len2  0.814522 Len3  9.276504e-01
-STAT_GEOG  ExpectLat 42.525648 Long 1.513702 Depth -1.376827
+SEARCH OCTREE nInitial 1000 nEvaluated 8024 smallestNodeSide 0.007617/0.076172/0.091797 oct_tree_integral 5.452138e-01 scatter_volume 5.452138e-01
+HYPOCENTER  x 124.921 y 170.56 z -1.9541  OT 51.0264  ix -1 iy -1 iz -1 MAXIMUM_LIKELIHOOD
+GEOGRAPHIC  OT 2022 02 01  02 15 51.026382  Lat 42.533877 Long 1.524597 Depth -1.954102
+QUALITY  Pmax 1.29327e-89 MFmin 6.39801 MFmax 29.3951 RMS 1.28214 Nphs 10 Gap 116.537 Dist 2.11139 Mamp -9.90 0 Mdur -9.90 0
+VPVSRATIO  VpVsRatio 0.905042  Npair 4  Diff 4.87
+STATISTICS  ExpectX 124.910811 Y 170.550589 Z -1.489292  CovXX 0.137563 XY 0.0016894 XZ -0.00180555 YY 0.10462 YZ -0.000737336 ZZ 0.153179 EllAz1  357.114 Dip1  0.760102 Len1  0.607432 Az2  267.203 Dip2  -6.66331 Len2  0.696523 Len3  7.358756e-01
+STAT_GEOG  ExpectLat 42.533796 Long 1.524468 Depth -1.489292
 TRANSFORM  SIMPLE LatOrig 41.000000  LongOrig 0.000000  RotCW 0.000000
-QML_OriginQuality  assocPhCt 9  usedPhCt 9  assocStaCt -1  usedStaCt 5  depthPhCt -1  stdErr 1.61648  azGap 146.876  secAzGap 146.876  gtLevel -  minDist 2.70535 maxDist 37.4412 medDist 33.3649
-QML_OriginUncertainty  horUnc -1  minHorUnc 0.579994  maxHorUnc 0.660944  azMaxHorUnc 160.207
-QML_ConfidenceEllipsoid  semiMajorAxisLength 0.92765  semiMinorAxisLength 0.716394  semiIntermediateAxisLength 0.814522  majorAxisPlunge 77.8716  majorAxisAzimuth 134.78  majorAxisRotation 330.538
-FOCALMECH  Hyp  42.525657 1.513242 -1.954102 Mech  0 0 0 mf  0 nObs -1
+QML_OriginQuality  assocPhCt 10  usedPhCt 10  assocStaCt -1  usedStaCt 6  depthPhCt -1  stdErr 1.28214  azGap 116.537  secAzGap 170.517  gtLevel -  minDist 2.11139 maxDist 37.489 medDist 27.8808
+QML_OriginUncertainty  horUnc -1  minHorUnc 0.490334  maxHorUnc 0.562667  azMaxHorUnc 87.072
+QML_ConfidenceEllipsoid  semiMajorAxisLength 0.735876  semiMinorAxisLength 0.607432  semiIntermediateAxisLength 0.696523  majorAxisPlunge 83.2931  majorAxisAzimuth 260.636  majorAxisRotation 353.297
+FOCALMECH  Hyp  42.533877 1.524597 -1.954102 Mech  0 0 0 mf  0 nObs -1
 END_NLLOC
 
-NLLOC "/Volumes/LaCie/all_andorra/mini_test/outputs/nll/loc/location.20220201.022033.grid0" "LOCATED" "Location completed."
+NLLOC "/Volumes/LaCie/all_andorra/mini_test/outputs_sh/nll/loc/location.20220201.022336.grid0" "LOCATED" "Location completed."
 PUBLIC_ID None
-SIGNATURE "surfQuake   obs:/Volumes/LaCie/all_andorra/mini_test/outputs/real/output_directory/nll_input.txt   NLLoc:v7.00.13(17Jan2022)   run:24Feb2024 11h02m16"
+SIGNATURE "surfQuake   obs:/Volumes/LaCie/all_andorra/mini_test/outputs_sh/real/output_directory/nll_input.txt   NLLoc:v7.00.13(17Jan2022)   run:29Feb2024 14h00m36"
 COMMENT ""
 GRID  391 391 48  5 5 -2  1 1 1 PROB_DENSITY
-SEARCH OCTREE nInitial 1000 nEvaluated 25000 smallestNodeSide 0.030469/0.304688/0.367188 oct_tree_integral 3.728113e+01 scatter_volume 3.677690e+01
-HYPOCENTER  x 113.057 y 150.184 z -1.81641  OT 30.4701  ix -1 iy -1 iz -1 MAXIMUM_LIKELIHOOD
-GEOGRAPHIC  OT 2022 02 01  02 20 30.470074  Lat 42.350632 Long 1.375776 Depth -1.816406
-QUALITY  Pmax 4.69151e-42 MFmin 6.16969 MFmax 18.0405 RMS 1.23849 Nphs 5 Gap 303.979 Dist 23.5917 Mamp -9.90 0 Mdur -9.90 0
-VPVSRATIO  VpVsRatio 0.5  Npair 2  Diff 0.14
-STATISTICS  ExpectX 113.245277 Y 150.121136 Z 0.447698  CovXX 0.797214 XY 0.0652867 XZ 0.269172 YY 3.04074 YZ 0.106421 ZZ 3.47858 EllAz1  271.382 Dip1  5.61811 Len1  1.64776 Az2  180.08 Dip2  13.0073 Len2  3.26303 Len3  3.530564e+00
-STAT_GEOG  ExpectLat 42.350070 Long 1.378050 Depth 0.447698
+SEARCH OCTREE nInitial 1000 nEvaluated 24416 smallestNodeSide 0.007617/0.076172/0.091797 oct_tree_integral 2.056119e+00 scatter_volume 2.052687e+00
+HYPOCENTER  x 120.739 y 166.827 z 6.21582  OT 34.4125  ix -1 iy -1 iz -1 MAXIMUM_LIKELIHOOD
+GEOGRAPHIC  OT 2022 02 01  02 23 34.412547  Lat 42.500311 Long 1.472769 Depth 6.215820
+QUALITY  Pmax 1.52841e-05 MFmin 1.21593 MFmax 29.9023 RMS 0.243438 Nphs 15 Gap 78.5215 Dist 6.50675 Mamp -9.90 0 Mdur -9.90 0
+VPVSRATIO  VpVsRatio 1.71  Npair 7  Diff 3.13
+STATISTICS  ExpectX 120.751406 Y 166.822414 Z 6.224109  CovXX 0.164389 XY -0.0294127 XZ 0.203442 YY 0.12971 YZ -0.0941806 ZZ 1.12837 EllAz1  221.368 Dip1  3.58922 Len1  0.627879 Az2  312.14 Dip2  12.1249 Len2  0.682767 Len3  2.039831e+00
+STAT_GEOG  ExpectLat 42.500268 Long 1.472915 Depth 6.224109
 TRANSFORM  SIMPLE LatOrig 41.000000  LongOrig 0.000000  RotCW 0.000000
-QML_OriginQuality  assocPhCt 5  usedPhCt 5  assocStaCt -1  usedStaCt 3  depthPhCt -1  stdErr 1.23849  azGap 303.979  secAzGap 305.201  gtLevel -  minDist 23.5917 maxDist 48.1593 medDist 29.4778
-QML_OriginUncertainty  horUnc -1  minHorUnc 1.35249  maxHorUnc 2.64539  azMaxHorUnc 1.66543
-QML_ConfidenceEllipsoid  semiMajorAxisLength 3.53056  semiMinorAxisLength 1.64776  semiIntermediateAxisLength 3.26303  majorAxisPlunge -75.792  majorAxisAzimuth 204.245  majorAxisRotation 333.686
-FOCALMECH  Hyp  42.350632 1.375776 -1.816406 Mech  0 0 0 mf  0 nObs -1
+QML_OriginQuality  assocPhCt 15  usedPhCt 15  assocStaCt -1  usedStaCt 8  depthPhCt -1  stdErr 0.243438  azGap 78.5215  secAzGap 78.5215  gtLevel -  minDist 6.50675 maxDist 56.4917 medDist 31.806
+QML_OriginUncertainty  horUnc -1  minHorUnc 0.509593  maxHorUnc 0.645557  azMaxHorUnc 119.74
+QML_ConfidenceEllipsoid  semiMajorAxisLength 2.03983  semiMinorAxisLength 0.627879  semiIntermediateAxisLength 0.682767  majorAxisPlunge 77.3394  majorAxisAzimuth 115.154  majorAxisRotation 341.751
+FOCALMECH  Hyp  42.500311 1.472769 6.215820 Mech  0 0 0 mf  0 nObs -1
 END_NLLOC
 
-NLLOC "/Volumes/LaCie/all_andorra/mini_test/outputs/nll/loc/location.20220201.022336.grid0" "LOCATED" "Location completed."
+NLLOC "/Volumes/LaCie/all_andorra/mini_test/outputs_sh/nll/loc/location.20220201.023032.grid0" "LOCATED" "Location completed."
 PUBLIC_ID None
-SIGNATURE "surfQuake   obs:/Volumes/LaCie/all_andorra/mini_test/outputs/real/output_directory/nll_input.txt   NLLoc:v7.00.13(17Jan2022)   run:24Feb2024 11h02m16"
+SIGNATURE "surfQuake   obs:/Volumes/LaCie/all_andorra/mini_test/outputs_sh/real/output_directory/nll_input.txt   NLLoc:v7.00.13(17Jan2022)   run:29Feb2024 14h00m36"
 COMMENT ""
 GRID  391 391 48  5 5 -2  1 1 1 PROB_DENSITY
-SEARCH OCTREE nInitial 1000 nEvaluated 25016 smallestNodeSide 0.015234/0.152344/0.183594 oct_tree_integral 2.100868e+00 scatter_volume 2.100868e+00
-HYPOCENTER  x 117.59 y 169.912 z -1.9082  OT 34.8669  ix -1 iy -1 iz -1 MAXIMUM_LIKELIHOOD
-GEOGRAPHIC  OT 2022 02 01  02 23 34.866932  Lat 42.528054 Long 1.434986 Depth -1.908203
-QUALITY  Pmax 6.33017e-06 MFmin 1.26334 MFmax 28.0842 RMS 0.252911 Nphs 15 Gap 62.5582 Dist 9.12692 Mamp -9.90 0 Mdur -9.90 0
-VPVSRATIO  VpVsRatio 1.72138  Npair 7  Diff 3.23
-STATISTICS  ExpectX 117.685408 Y 169.939287 Z 0.285737  CovXX 0.105861 XY -0.00258231 XZ 0.140821 YY 0.11117 YZ -0.0631738 ZZ 2.61934 EllAz1  94.6353 Dip1  -3.30185 Len1  0.587926 Az2  4.70297 Dip2  1.17364 Len2  0.62217 Len3  3.046248e+00
-STAT_GEOG  ExpectLat 42.528299 Long 1.436160 Depth 0.285737
+SEARCH OCTREE nInitial 1000 nEvaluated 19776 smallestNodeSide 0.007617/0.076172/0.091797 oct_tree_integral 1.641176e+00 scatter_volume 1.641176e+00
+HYPOCENTER  x 120.861 y 166.827 z 6.49121  OT 30.7553  ix -1 iy -1 iz -1 MAXIMUM_LIKELIHOOD
+GEOGRAPHIC  OT 2022 02 01  02 30 30.755345  Lat 42.500311 Long 1.474255 Depth 6.491211
+QUALITY  Pmax 7.32925e-05 MFmin 1.09093 MFmax 29.2622 RMS 0.218346 Nphs 16 Gap 57.6957 Dist 6.39522 Mamp -9.90 0 Mdur -9.90 0
+VPVSRATIO  VpVsRatio 1.73326  Npair 7  Diff 3.42
+STATISTICS  ExpectX 120.858944 Y 166.833617 Z 6.454883  CovXX 0.112919 XY -0.00725094 XZ 0.110655 YY 0.119612 YZ -0.045789 ZZ 0.931729 EllAz1  86.4574 Dip1  -7.35622 Len1  0.588638 Az2  356.926 Dip2  3.62829 Len2  0.642915 Len3  1.830302e+00
+STAT_GEOG  ExpectLat 42.500369 Long 1.474229 Depth 6.454883
 TRANSFORM  SIMPLE LatOrig 41.000000  LongOrig 0.000000  RotCW 0.000000
-QML_OriginQuality  assocPhCt 15  usedPhCt 15  assocStaCt -1  usedStaCt 8  depthPhCt -1  stdErr 0.252911  azGap 62.5582  secAzGap 75.0812  gtLevel -  minDist 9.12692 maxDist 58.1901 medDist 31.4028
-QML_OriginUncertainty  horUnc -1  minHorUnc 0.490987  maxHorUnc 0.508038  azMaxHorUnc 157.893
-QML_ConfidenceEllipsoid  semiMajorAxisLength 3.04625  semiMinorAxisLength 0.587926  semiIntermediateAxisLength 0.62217  majorAxisPlunge 86.4953  majorAxisAzimuth 114.246  majorAxisRotation 109.441
-FOCALMECH  Hyp  42.528054 1.434986 -1.908203 Mech  0 0 0 mf  0 nObs -1
+QML_OriginQuality  assocPhCt 16  usedPhCt 16  assocStaCt -1  usedStaCt 9  depthPhCt -1  stdErr 0.218346  azGap 57.6957  secAzGap 79.6026  gtLevel -  minDist 6.39522 maxDist 56.3812 medDist 32.6325
+QML_OriginUncertainty  horUnc -1  minHorUnc 0.499042  maxHorUnc 0.534582  azMaxHorUnc 147.387
+QML_ConfidenceEllipsoid  semiMajorAxisLength 1.8303  semiMinorAxisLength 0.588638  semiIntermediateAxisLength 0.642915  majorAxisPlunge 81.7888  majorAxisAzimuth 112.994  majorAxisRotation 115.365
+FOCALMECH  Hyp  42.500311 1.474255 6.491211 Mech  0 0 0 mf  0 nObs -1
 END_NLLOC
 
-NLLOC "/Volumes/LaCie/all_andorra/mini_test/outputs/nll/loc/location.20220201.023032.grid0" "LOCATED" "Location completed."
+NLLOC "/Volumes/LaCie/all_andorra/mini_test/outputs_sh/nll/loc/location.20220201.023249.grid0" "LOCATED" "Location completed."
 PUBLIC_ID None
-SIGNATURE "surfQuake   obs:/Volumes/LaCie/all_andorra/mini_test/outputs/real/output_directory/nll_input.txt   NLLoc:v7.00.13(17Jan2022)   run:24Feb2024 11h02m16"
+SIGNATURE "surfQuake   obs:/Volumes/LaCie/all_andorra/mini_test/outputs_sh/real/output_directory/nll_input.txt   NLLoc:v7.00.13(17Jan2022)   run:29Feb2024 14h00m36"
 COMMENT ""
 GRID  391 391 48  5 5 -2  1 1 1 PROB_DENSITY
-SEARCH OCTREE nInitial 1000 nEvaluated 25000 smallestNodeSide 0.015234/0.152344/0.183594 oct_tree_integral 2.430867e+00 scatter_volume 2.430867e+00
-HYPOCENTER  x 117.437 y 169.912 z -1.9082  OT 31.231  ix -1 iy -1 iz -1 MAXIMUM_LIKELIHOOD
-GEOGRAPHIC  OT 2022 02 01  02 30 31.231043  Lat 42.528054 Long 1.433127 Depth -1.908203
-QUALITY  Pmax 7.47883e-06 MFmin 1.21467 MFmax 27.3681 RMS 0.243175 Nphs 16 Gap 62.9682 Dist 9.27905 Mamp -9.90 0 Mdur -9.90 0
-VPVSRATIO  VpVsRatio 1.72939  Npair 7  Diff 3.3
-STATISTICS  ExpectX 117.527420 Y 169.911036 Z 0.624054  CovXX 0.0879504 XY 0.00419975 XZ 0.114721 YY 0.112802 YZ -0.0519261 ZZ 3.00437 EllAz1  101.846 Dip1  -2.40899 Len1  0.538468 Az2  11.8689 Dip2  0.539435 Len2  0.632094 Len3  3.259536e+00
-STAT_GEOG  ExpectLat 42.528045 Long 1.434226 Depth 0.624054
+SEARCH OCTREE nInitial 1000 nEvaluated 25008 smallestNodeSide 0.030469/0.304688/0.367188 oct_tree_integral 3.235282e+01 scatter_volume 3.235282e+01
+HYPOCENTER  x 116.013 y 154.145 z -1.81641  OT 47.0256  ix -1 iy -1 iz -1 MAXIMUM_LIKELIHOOD
+GEOGRAPHIC  OT 2022 02 01  02 32 47.025582  Lat 42.386253 Long 1.412542 Depth -1.816406
+QUALITY  Pmax 1.41395e-15 MFmin 3.37601 MFmax 17.0437 RMS 0.676376 Nphs 6 Gap 295.521 Dist 18.6514 Mamp -9.90 0 Mdur -9.90 0
+VPVSRATIO  VpVsRatio 0.801794  Npair 3  Diff 3.24
+STATISTICS  ExpectX 116.211948 Y 154.364517 Z 0.800868  CovXX 0.608884 XY 0.248397 XZ 0.40776 YY 2.71572 YZ 0.357449 ZZ 4.29392 EllAz1  275.598 Dip1  5.64939 Len1  1.38576 Az2  184.265 Dip2  13.2391 Len2  3.05846 Len3  3.952069e+00
+STAT_GEOG  ExpectLat 42.388232 Long 1.415010 Depth 0.800868
 TRANSFORM  SIMPLE LatOrig 41.000000  LongOrig 0.000000  RotCW 0.000000
-QML_OriginQuality  assocPhCt 16  usedPhCt 16  assocStaCt -1  usedStaCt 9  depthPhCt -1  stdErr 0.243175  azGap 62.9682  secAzGap 74.7911  gtLevel -  minDist 9.27905 maxDist 58.3324 medDist 32.8111
-QML_OriginUncertainty  horUnc -1  minHorUnc 0.447993  maxHorUnc 0.510914  azMaxHorUnc 9.33729
-QML_ConfidenceEllipsoid  semiMajorAxisLength 3.25954  semiMinorAxisLength 0.538468  semiIntermediateAxisLength 0.632094  majorAxisPlunge 87.5313  majorAxisAzimuth 114.483  majorAxisRotation 102.58
-FOCALMECH  Hyp  42.528054 1.433127 -1.908203 Mech  0 0 0 mf  0 nObs -1
+QML_OriginQuality  assocPhCt 6  usedPhCt 6  assocStaCt -1  usedStaCt 3  depthPhCt -1  stdErr 0.676376  azGap 295.521  secAzGap 295.521  gtLevel -  minDist 18.6514 maxDist 45.5944 medDist 27.1372
+QML_OriginUncertainty  horUnc -1  minHorUnc 1.15498  maxHorUnc 2.51249  azMaxHorUnc 6.63403
+QML_ConfidenceEllipsoid  semiMajorAxisLength 3.95207  semiMinorAxisLength 1.38576  semiIntermediateAxisLength 3.05846  majorAxisPlunge 75.5654  majorAxisAzimuth 28.199  majorAxisRotation 206.144
+FOCALMECH  Hyp  42.386253 1.412542 -1.816406 Mech  0 0 0 mf  0 nObs -1
 END_NLLOC
 

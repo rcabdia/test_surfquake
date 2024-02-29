@@ -1,0 +1,37 @@
+*** Note: this file is deprecated and might not contain all the output information. ***
+*** It will be removed in future versions of SourceSpec. ***
+*** Please look at the YAML file in this directory. ***
+8b976612-1d8a-4188-8033-b427c2a07b14 lon    1.525 lat  42.534 depth   0.0 km orig_time 2022-02-01T02:15:51.026382Z
+
+*** Station source parameters ***
+*** Note: outliers are prepended by a star (*) symbol ***
+ FR.FNEB.00.HHH broadb	  Mw  2.079   fc  0.974   t_star  0.067   Qo   279.7   Mo 1.653e+12   bsd 3.020e-04   ra 1338.024   hyp_dist  62.879   az  49.086   Er 1.772e+02 
+            --- errmin	  Mw  0.174   fc  0.611   t_star  0.038   Qo   101.2   Mo 7.478e+11   bsd 2.934e-04   ra  515.776   hyp_dist     nan   az     nan   Er       nan 
+            --- errmax	  Mw  0.174   fc  0.611   t_star  0.038   Qo   365.9   Mo 1.365e+12   bsd 2.074e-03   ra 2251.821   hyp_dist     nan   az     nan   Er       nan 
+ FR.SALF.00.HHH broadb	  Mw  0.392   fc  7.813   t_star  0.000  *Qo     inf   Mo 4.873e+09   bsd 4.592e-04   ra  166.826   hyp_dist  37.240   az 312.315   Er 5.422e+01 
+            --- errmin	  Mw  0.598   fc 95.700   t_star  0.582  *Qo     inf   Mo 4.255e+09   bsd 4.591e-04   ra  154.234   hyp_dist     nan   az     nan   Er       nan 
+            --- errmax	  Mw  0.598   fc 95.700   t_star  0.582  *Qo    -inf   Mo 3.355e+10   bsd 8.421e+00   ra 1463.239   hyp_dist     nan   az     nan   Er       nan 
+
+*** Average source parameters ***
+*** Note: averages computed after removing outliers ****
+Mw: 1.24 +/- 0.84
+Mw (weighted): 1.95 +/- 0.45
+Mo: 8.976e+10 /- 8.489e+10 /+ 1.564e+12 N·m
+Mo (weighted): 1.048e+12 /- 8.286e+11 /+ 3.966e+12 N·m
+fc: 2.759 /- 1.785 /+ 5.054 Hz
+fc (weighted): 1.159 /- 0.507 /+ 0.902 Hz
+t_star: 0.033 +/- 0.033 s
+t_star (weighted): 0.067 +/- 0.004 s
+Qo: 279.7 +/- 0.0
+Qo (weighted): 279.7 +/- 0.0
+Source radius: 472.459 /- 305.633 /+ 865.565 m
+Source radius (weighted): 1123.076 /- 492.928 /+ 878.518 m
+Brune stress drop: 3.724e-04 /- 7.040e-05 /+ 8.682e-05 MPa
+Brune stress drop (weighted): 3.126e-04 /- 3.411e-05 /+ 3.829e-05 MPa
+Ml: 0.433 +/- 0.305
+Er: 9.801e+01 /- 4.379e+01 /+ 7.916e+01 N·m
+
+*** SourceSpec: 1.7
+*** Run completed on: 2024-02-29 14:43:23.953851 CET
+*** Author: SurfQuakeCore <https://projectisp.github.io/ISP_tutorial.github.io/>
+*** Agency: Spanish Navy Observatory (ROA) - https://armada.defensa.gob.es/ArmadaPortal/page/Portal/ArmadaEspannola/cienciaobservatorio/prefLang-es/02InfoGeneral

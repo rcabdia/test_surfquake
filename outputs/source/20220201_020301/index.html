@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SourceSpec: e6453f28-17d7-4c31-ab86-98bfc26eef28</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <link rel="stylesheet" href="style.css" onerror="this.onerror=null;this.href='http://cdn.jsdelivr.net/gh/SeismicSource/sourcespec/sourcespec/html_report_template/style.css';">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.6.0/lightgallery.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.6.0/plugins/zoom/lg-zoom.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.6.0-beta.1/css/lightgallery-bundle.min.css">
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <span id="event_summary"></span>
+
+      <nav id="sidebar">
+        <div class="sidebar-header">
+
+          <a href="https://github.com/SeismicSource/sourcespec" target="_blank">
+            <img class="logo" src="https://cdn.jsdelivr.net/gh/SeismicSource/sourcespec@1.6/imgs/SourceSpec_logo.svg"/>
+          </a>
+        </div>
+        <ul class="list-unstyled components">
+          <li>
+            <a href="#event_summary">
+              <i class="fas fa-info-circle"></i>
+              &nbsp;&nbsp;
+              Event Summary
+            </a>
+          </li>
+          <li>
+            <a href="#traces">
+              <i class="fas fa-image"></i>
+              &nbsp;&nbsp;
+              Traces
+            </a>
+          </li>
+          <li>
+            <a href="#spectra">
+              <i class="fas fa-image"></i>
+              &nbsp;&nbsp;
+              Spectra
+            </a>
+          </li>
+          <li>
+            <a href="#inversion_info">
+              <i class="fas fa-table"></i>
+              &nbsp;&nbsp;
+              Inversion Information
+            </a>
+          </li>
+          <li>
+            <a href="#summary_spectral_parameters">
+              <i class="fas fa-table"></i>
+              &nbsp;&nbsp;
+              Summary Spectral Parameters
+            </a>
+          </li>
+          <li>
+            <a href="#box_plots">
+              <i class="fas fa-image"></i>
+              &nbsp;&nbsp;
+              Spectral Parameter<br>Box Plots
+            </a>
+          </li>
+          <li>
+            <a href="#stacked_spectra">
+              <i class="fas fa-image"></i>
+              &nbsp;&nbsp;
+              Stacked Spectra
+            </a>
+          </li>
+          <li>
+            <a href="#station_parameters">
+              <i class="fas fa-table"></i>
+              &nbsp;&nbsp;
+              Station Parameters
+            </a>
+          </li>
+          <li>
+            <a href="#files">
+              <i class="fas fa-file"></i>
+              &nbsp;&nbsp;
+              Files
+            </a>
+          </li>
+        </ul>
+        <div class="sidebar-footer">
+          SourceSpec 1.7<br/>
+          Run completed on<br/>
+          2024-02-29 14:41:42CET
+          <br/><br/><a href="mailto:https://projectisp.github.io/ISP_tutorial.github.io/">SurfQuakeCore</a>
+          <br/><a href="https://armada.defensa.gob.es/ArmadaPortal/page/Portal/ArmadaEspannola/cienciaobservatorio/prefLang-es/02InfoGeneral" target="_blank">Spanish Navy Observatory (ROA)</a>
+        </div>
+      </nav>
+
+      <div id="content">
+        <div id="sidebarCollapse">
+            <button type="button" class="btn btn-info">
+            <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+      <div class="text_footer">
+        <a href="mailto:https://projectisp.github.io/ISP_tutorial.github.io/">SurfQuakeCore</a>
+        -
+        <a href="https://armada.defensa.gob.es/ArmadaPortal/page/Portal/ArmadaEspannola/cienciaobservatorio/prefLang-es/02InfoGeneral" target="_blank">Spanish Navy Observatory (ROA)</a>
+
+        -
+        2024-02-29
+      </div>
+
+      <div class="page">
+        <h2>Event Summary</h2>
+        <table class="table">
+          <tbody>
+            <tr>
+              <th scope="row">Event ID:</th>
+              <td>
+                <a href="https://projectisp.github.io/ISP_tutorial.github.io//e6453f28-17d7-4c31-ab86-98bfc26eef28" title="Go to event page" target="_new">
+                  e6453f28-17d7-4c31-ab86-98bfc26eef28
+                  &nbsp;<i class="fas fa-external-link-alt"></i>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Longitude:</th>
+              <td>   1.462 °E</td>
+            </tr>
+            <tr>
+              <th scope="row">Latitude:</th>
+              <td> 42.500 °N</td>
+            </tr>
+            <tr>
+              <th scope="row">Depth:</th>
+              <td>  5.3 km</td>
+            </tr>
+            <tr>
+              <th scope="row">Origin Time:</th>
+              <td>2022-02-01T02:03:00.276594Z</td>
+            </tr>
+            <tr>
+              <th scope="row">Moment Magnitude:</th>
+              <td>3.58 [- 0.10, + 0.10]</td>
+            </tr>
+            <tr>
+              <th scope="row">Corner Frequency:</th>
+              <td>2.392 [- 0.836, + 1.286] Hz</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="line" id="traces"></div>
+      <div class="page">
+        <h2>Traces</h2>
+        <div class="item" data-src="e6453f28-17d7-4c31-ab86-98bfc26eef28.traces.png">
+          <img class="trace_plot" src="e6453f28-17d7-4c31-ab86-98bfc26eef28.traces.png"/>
+        </div>
+      </div>
+
+      <div class="line" id="spectra"></div>
+      <div class="page">
+        <h2>Spectra</h2>
+        <div class="item" data-src="e6453f28-17d7-4c31-ab86-98bfc26eef28.ssp.png">
+          <img class="spectral_plot" src="e6453f28-17d7-4c31-ab86-98bfc26eef28.ssp.png"/>
+        </div>
+      </div>
+
+      <div class="page">
+        <div class="line" id="inversion_info"></div>
+        <h2>Inversion Information</h2>
+        <table class="table">
+          <tbody>
+            <tr>
+              <th scope="row">Algorithm:</th>
+              <td>
+                Truncated Newton
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Weighting:</th>
+              <td>
+                Noise weighting
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">t-star-0:</th>
+              <td>
+                0.045 s
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Invert t-star-0:</th>
+              <td>
+                False
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">t-star-0 variability:</th>
+              <td>
+                10.0 %
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">t-star min, max:</th>
+              <td>
+                [0.0, 0.1] s
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">fc min, max:</th>
+              <td>
+                -
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Qo min, max:</th>
+              <td>
+                -
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="page">
+        <div class="line" id="summary_spectral_parameters"></div>
+        <h2>Summary Spectral Parameters</h2>
+        <h6>
+          Note: the highlighted column indicates the reference parameters used
+          for <a href="#event_summary">Event Summary</a> and
+          <a href="#moment_magnitude">Map Plots</a>.
+        </h6>
+        <table class="table summary">
+          <colgroup>
+            <col>
+            <col >
+            <col class="highlighted_column">
+            <col >
+          </colgroup>
+          <thead>
+            <tr>
+              <th></th>
+              <th scope="col">Mean<div class="th_subtitle">(1 sigma)</div></th>
+              <th scope="col">Weighted Mean<div class="th_subtitle">(1 sigma)</div></th>
+              <th scope="col">Percentiles<div class="th_subtitle">(50%, [15.9%, 84.1%])</div></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Mw</th>
+              <td>3.60<br>&#177;0.11</td>
+              <td>3.58<br>&#177;0.10</td>
+              <td>3.58<br>-0.07<br>+0.12</td>
+            </tr>
+            <tr>
+              <th scope="row">Seismic Moment (N&#183;m)</th>
+              <td>3.170e+14<br>-9.937e+13<br>+1.447e+14</td>
+              <td>2.932e+14<br>-8.584e+13<br>+1.214e+14</td>
+              <td>2.936e+14<br>-6.245e+13<br>+1.610e+14</td>
+            </tr>
+            <tr>
+              <th scope="row">Corner Frequency (Hz)</th>
+              <td>3.218<br>-2.072<br>+5.817</td>
+              <td>2.392<br>-0.836<br>+1.286</td>
+              <td>2.688<br>-0.931<br>+7.442</td>
+            </tr>
+            <tr>
+              <th scope="row">t-star (s)</th>
+              <td>0.037<br>&#177;0.033</td>
+              <td>0.023<br>&#177;0.026</td>
+              <td>0.033<br>-0.033<br>+0.043</td>
+            </tr>
+            <tr>
+              <th scope="row">Qo</th>
+              <td>212.0<br>&#177;137.4</td>
+              <td>83.8<br>&#177;54.3</td>
+              <td>188.0<br>-100.8<br>+151.0</td>
+            </tr>
+            <tr>
+              <th scope="row">Source Radius (m)</th>
+              <td>288.432<br>-154.356<br>+332.060</td>
+              <td>503.006<br>-106.679<br>+135.394</td>
+              <td>454.707<br>-330.055<br>+106.238</td>
+            </tr>
+            <tr>
+              <th scope="row">Brune Stress Drop (MPa)</th>
+              <td>1.064e+00<br>-9.476e-01<br>+8.677e+00</td>
+              <td>7.931e-01<br>-4.208e-01<br>+8.962e-01</td>
+              <td>9.058e-01<br>-6.058e-01<br>+2.061e+01</td>
+            </tr>
+            <tr>
+              <th scope="row">Radiated Energy (N&#183;m)</th>
+              <td>3.034e+09<br>-2.644e+09<br>+2.058e+10</td>
+              <td></td>
+              <td>1.393e+09<br>-6.077e+08<br>+6.117e+10</td>
+            </tr>
+            <tr>
+              <th scope="row">Ml</th>
+              <td>3.49<br>&#177;0.21</td>
+              <td></td>
+              <td>3.45<br>-0.18<br>+0.20</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="page">
+        <div class="line" id="box_plots"></div>
+        <h2>Spectral Parameter Box Plots</h2>
+        <div class="item" data-src="e6453f28-17d7-4c31-ab86-98bfc26eef28.boxplot.png">
+          <img class="box_plot" src="e6453f28-17d7-4c31-ab86-98bfc26eef28.boxplot.png"/>
+        </div>
+      </div>
+
+      <div class="page">
+        <div class="line" id="stacked_spectra"></div>
+        <h2>Stacked Spectra</h2>
+        <div class="item" data-src="e6453f28-17d7-4c31-ab86-98bfc26eef28.stacked_spectra.png">
+          <img class="stacked_spectra" src="e6453f28-17d7-4c31-ab86-98bfc26eef28.stacked_spectra.png"/>
+        </div>
+      </div>
+
+      <div class="page">
+        <div class="line" id="station_parameters"></div>
+        <h2>Station Parameters</h2>
+        <h6>Note: outliers are greyed out</h6>
+        <div class="table_wrapper">
+          <table class="table stations" id="station_table">
+            <thead>
+              <tr>
+                <th class="station_id" onclick="sortTable(0)" scope="col">
+                  <nobr><i class="fas fa-sort dontprint_inline"></i>&nbsp;Station</nobr>
+                </th>
+                <th onclick="sortTable(1)" scope="col">
+                  <nobr><i class="fas fa-sort dontprint_inline"></i>&nbsp;Type</nobr>
+                </th>
+                <th onclick="sortTable(2, numeric=true)" scope="col">
+                  <nobr><i class="fas fa-sort dontprint_inline"></i>&nbsp;Mw</nobr>
+                </th>
+                <th onclick="sortTable(3, numeric=true)" scope="col">
+                  <nobr><i class="fas fa-sort dontprint_inline"></i>&nbsp;Corner</nobr>
+                    <br/>Frequency<br/>(Hz)
+                </th>
+                <th onclick="sortTable(4, numeric=true)" scope="col">
+                  <nobr><i class="fas fa-sort dontprint_inline"></i>&nbsp;t-star</nobr><br/>(s)
+                </th>
+                <th onclick="sortTable(5, numeric=true)" scope="col">
+                  <nobr><i class="fas fa-sort dontprint_inline"></i>&nbsp;Qo</nobr>
+                </th>
+                <th onclick="sortTable(6, numeric=true)" scope="col">
+                  <nobr><i class="fas fa-sort dontprint_inline"></i>&nbsp;Seismic</nobr>
+                    <br/>Moment<br/>(N&#183;m)
+                </th>
+                <th onclick="sortTable(7, numeric=true)" scope="col">
+                  <nobr><i class="fas fa-sort dontprint_inline"></i>&nbsp;Brune</nobr>
+                    <br/>stress<br/>drop<br/>(MPa)
+                </th>
+                <th onclick="sortTable(8, numeric=true)" scope="col">
+                  <nobr><i class="fas fa-sort dontprint_inline"></i>&nbsp;Source</nobr>
+                    <br/>radius<br/>(m)
+                </th>
+                <th onclick="sortTable(9, numeric=true)" scope="col">
+                  <nobr><i class="fas fa-sort dontprint_inline"></i>&nbsp;Radiated</nobr>
+                    <br/>Energy<br/>(N&#183;m)
+                </th>
+                <th onclick="sortTable(10, numeric=true)" scope="col">
+                  <nobr><i class="fas fa-sort dontprint_inline"></i>&nbsp;Hypocentral</nobr>
+                    <br/>Distance<br/>(km)
+                </th>
+                <th onclick="sortTable(11, numeric=true)" scope="col">
+                  <nobr><i class="fas fa-sort dontprint_inline"></i>&nbsp;Azimuth</nobr><br/>(°)
+                </th>
+                <th onclick="sortTable(12, numeric=true)" scope="col">
+                  <nobr><i class="fas fa-sort"></i>&nbsp;Ml</nobr>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+              <td class="station_id">CA.CEST..HHH</td>
+              <td>broadb</td>
+              <td><nobr>3.653</nobr><br/><nobr>&#177;0.055</nobr></td>
+              <td><nobr>9.157</nobr><br/><nobr>&#177;11.080</nobr></td>
+              <td><nobr>0.086</nobr><br/><nobr>&#177;0.048</nobr></td>
+              <td><nobr>57.1</nobr><br/><nobr>-20.4</nobr><br/><nobr>+71.0</nobr></td>
+              <td><nobr>3.791e+14</nobr><br/><nobr>-6.536e+13</nobr><br/><nobr>+7.898e+13</nobr></td>
+              <td><nobr>5.751e+01</nobr><br/><nobr>-5.747e+01</nobr><br/><nobr>+6.925e+02</nobr></td>
+              <td><nobr>142.346</nobr><br/><nobr>-77.937</nobr><br/><nobr>+1487.718</nobr></td>
+              <td><nobr>1.682e+11</nobr></td>
+              <td><nobr>21.321</nobr></td>
+              <td><nobr>302.687</nobr></td>
+              <td><nobr>3.411</nobr></td>
+            </tr>
+            <tr>
+              <td class="station_id">CA.CORG..HHH</td>
+              <td>broadb</td>
+              <td><nobr>3.579</nobr><br/><nobr>&#177;0.031</nobr></td>
+              <td><nobr>2.509</nobr><br/><nobr>&#177;0.589</nobr></td>
+              <td><nobr>0.041</nobr><br/><nobr>&#177;0.018</nobr></td>
+              <td><nobr>255.8</nobr><br/><nobr>-79.5</nobr><br/><nobr>+209.8</nobr></td>
+              <td><nobr>2.936e+14</nobr><br/><nobr>-3.011e+13</nobr><br/><nobr>+3.355e+13</nobr></td>
+              <td><nobr>9.162e-01</nobr><br/><nobr>-5.480e-01</nobr><br/><nobr>+1.007e+00</nobr></td>
+              <td><nobr>519.503</nobr><br/><nobr>-98.838</nobr><br/><nobr>+159.547</nobr></td>
+              <td><nobr>2.078e+09</nobr></td>
+              <td><nobr>32.974</nobr></td>
+              <td><nobr>201.725</nobr></td>
+              <td><nobr>3.281</nobr></td>
+            </tr>
+            <tr>
+              <td class="station_id">CA.CSOR..HHH</td>
+              <td>broadb</td>
+              <td><nobr>3.779</nobr><br/><nobr>&#177;0.054</nobr></td>
+              <td><nobr>13.905</nobr><br/><nobr>&#177;24.308</nobr></td>
+              <td><nobr>0.073</nobr><br/><nobr>&#177;0.039</nobr></td>
+              <td><nobr>120.2</nobr><br/><nobr>-41.7</nobr><br/><nobr>+136.4</nobr></td>
+              <td><nobr>5.866e+14</nobr><br/><nobr>-1.002e+14</nobr><br/><nobr>+1.209e+14</nobr></td>
+              <td><span style="color:#979A9A"><nobr>3.116e+02</nobr></span><br/><span style="color:#979A9A"><nobr>-3.116e+02</nobr><br/><nobr>+7.488e+03</nobr></span></td>
+              <td><nobr>93.735</nobr><br/><nobr>-59.627</nobr><br/><nobr>+1536.330</nobr></td>
+              <td><span style="color:#979A9A"><nobr>1.396e+12</nobr></span></td>
+              <td><nobr>31.171</nobr></td>
+              <td><nobr>242.804</nobr></td>
+              <td><nobr>3.886</nobr></td>
+            </tr>
+            <tr>
+              <td class="station_id">FR.CARF.00.HHH</td>
+              <td>broadb</td>
+              <td><nobr>3.534</nobr><br/><nobr>&#177;0.075</nobr></td>
+              <td><nobr>2.058</nobr><br/><nobr>&#177;0.881</nobr></td>
+              <td><nobr>0.000</nobr><br/><nobr>&#177;0.032</nobr></td>
+              <td><span style="color:#979A9A"><nobr>inf</nobr></span><br/><span style="color:#979A9A"><nobr>-inf</nobr><br/><nobr>+-inf</nobr></span></td>
+              <td><nobr>2.521e+14</nobr><br/><nobr>-5.784e+13</nobr><br/><nobr>+7.507e+13</nobr></td>
+              <td><nobr>4.340e-01</nobr><br/><nobr>-3.714e-01</nobr><br/><nobr>+1.206e+00</nobr></td>
+              <td><nobr>633.356</nobr><br/><nobr>-189.791</nobr><br/><nobr>+473.673</nobr></td>
+              <td><nobr>8.997e+08</nobr></td>
+              <td><nobr>58.241</nobr></td>
+              <td><nobr>65.460</nobr></td>
+              <td><nobr>3.495</nobr></td>
+            </tr>
+            <tr>
+              <td class="station_id">FR.FNEB.00.HHH</td>
+              <td>broadb</td>
+              <td><span style="color:#979A9A"><nobr>4.075</nobr></span><br/><span style="color:#979A9A"><nobr>&#177;0.298</nobr></span></td>
+              <td><nobr>0.589</nobr><br/><nobr>&#177;0.367</nobr></td>
+              <td><nobr>0.000</nobr><br/><nobr>&#177;0.016</nobr></td>
+              <td><span style="color:#979A9A"><nobr>inf</nobr></span><br/><span style="color:#979A9A"><nobr>-inf</nobr><br/><nobr>+-inf</nobr></span></td>
+              <td><span style="color:#979A9A"><nobr>1.630e+15</nobr></span><br/><span style="color:#979A9A"><nobr>-1.047e+15</nobr><br/><nobr>+2.928e+15</nobr></span></td>
+              <td><nobr>6.575e-02</nobr><br/><nobr>-6.449e-02</nobr><br/><nobr>+7.214e-01</nobr></td>
+              <td><span style="color:#979A9A"><nobr>2213.516</nobr></span><br/><span style="color:#979A9A"><nobr>-850.256</nobr><br/><nobr>+3668.692</nobr></span></td>
+              <td><nobr>5.867e+08</nobr></td>
+              <td><nobr>69.465</nobr></td>
+              <td><nobr>49.506</nobr></td>
+              <td><nobr>3.591</nobr></td>
+            </tr>
+            <tr>
+              <td class="station_id">FR.GENF.00.HHH</td>
+              <td>broadb</td>
+              <td><nobr>3.460</nobr><br/><nobr>&#177;0.037</nobr></td>
+              <td><nobr>2.866</nobr><br/><nobr>&#177;1.018</nobr></td>
+              <td><nobr>0.025</nobr><br/><nobr>&#177;0.028</nobr></td>
+              <td><nobr>414.9</nobr><br/><nobr>-219.7</nobr><br/><nobr>+9828.5</nobr></td>
+              <td><nobr>1.946e+14</nobr><br/><nobr>-2.347e+13</nobr><br/><nobr>+2.669e+13</nobr></td>
+              <td><nobr>9.058e-01</nobr><br/><nobr>-6.923e-01</nobr><br/><nobr>+1.658e+00</nobr></td>
+              <td><nobr>454.707</nobr><br/><nobr>-119.190</nobr><br/><nobr>+250.530</nobr></td>
+              <td><nobr>1.393e+09</nobr></td>
+              <td><nobr>37.529</nobr></td>
+              <td><nobr>14.121</nobr></td>
+              <td><nobr>3.253</nobr></td>
+            </tr>
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="dontprint">
+        <div class="line" id="files"></div>
+        <h2>Files</h2>
+        <table class="table">
+          <tbody>
+            <tr>
+              <th scope="row">Configuration:</th>
+              <td>
+                <a href="e6453f28-17d7-4c31-ab86-98bfc26eef28.ssp.conf" type="text/plain">
+                  e6453f28-17d7-4c31-ab86-98bfc26eef28.ssp.conf
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Output:</th>
+              <td>
+                <a href="e6453f28-17d7-4c31-ab86-98bfc26eef28.ssp.yaml" type="application/x-yaml">
+                  e6453f28-17d7-4c31-ab86-98bfc26eef28.ssp.yaml
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Log:</th>
+              <td>
+                <a href="e6453f28-17d7-4c31-ab86-98bfc26eef28.ssp.log" type="text/plain">
+                  e6453f28-17d7-4c31-ab86-98bfc26eef28.ssp.log
+                </a>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+          $("#sidebar").mCustomScrollbar({
+              theme: "minimal"
+          });
+
+          $('#sidebarCollapse').on('click', function () {
+              $('#sidebar, #sidebarCollapse, #content').toggleClass('active');
+              $('.collapse.in').toggleClass('in');
+              $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+          });
+      });
+      // Smooth scrolling
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+      });
+
+      //lightGallery
+      lightGallery(document.getElementById('content'), {
+        selector: '.item',
+        plugins: [lgZoom],
+      });
+    </script>
+    <script>
+      function sortTable(n, numeric=false) {
+        var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+        table = document.getElementById("station_table");
+        switching = true;
+        // Set the sorting direction to ascending:
+        dir = "asc";
+        /* Make a loop that will continue until
+        no switching has been done: */
+        while (switching) {
+          // Start by saying: no switching is done:
+          switching = false;
+          rows = table.rows;
+          /* Loop through all table rows (except the
+          first, which contains table headers): */
+          for (i = 1; i < (rows.length - 1); i++) {
+            // Start by saying there should be no switching:
+            shouldSwitch = false;
+            /* Get the two elements you want to compare,
+            one from current row and one from the next: */
+            x = rows[i].getElementsByTagName("TD")[n];
+            y = rows[i + 1].getElementsByTagName("TD")[n];
+            xvalue = x.innerHTML.toLowerCase();
+            yvalue = y.innerHTML.toLowerCase();
+            if (numeric) {
+              // split with respect to "<br>", then strip all remaining tags
+              xvalue = xvalue.split("<br>")[0].replace(/<\/?[^>]+(>|$)/g, "");
+              yvalue = yvalue.split("<br>")[0].replace(/<\/?[^>]+(>|$)/g, "");
+              if (xvalue == "nan") {
+                xvalue = -1e99;
+              }
+              if (yvalue == "nan") {
+                yvalue = -1e99;
+              }
+              xvalue = Number(xvalue);
+              yvalue = Number(yvalue);
+            }
+            /* Check if the two rows should switch place,
+            based on the direction, asc or desc: */
+            if (dir == "asc") {
+              if (xvalue > yvalue) {
+                // If so, mark as a switch and break the loop:
+                shouldSwitch = true;
+                break;
+              }
+            } else if (dir == "desc") {
+              if (xvalue < yvalue) {
+                // If so, mark as a switch and break the loop:
+                shouldSwitch = true;
+                break;
+              }
+            }
+          }
+          if (shouldSwitch) {
+            /* If a switch has been marked, make the switch
+            and mark that a switch has been done: */
+            rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+            switching = true;
+            // Each time a switch is done, increase this count by 1:
+            switchcount ++;
+          } else {
+            /* If no switching has been done AND the direction is "asc",
+            set the direction to "desc" and run the while loop again. */
+            if (switchcount == 0 && dir == "asc") {
+              dir = "desc";
+              switching = true;
+            }
+          }
+        }
+      }
+      </script>
+  </body>
+</html>

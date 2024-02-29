@@ -1,0 +1,1643 @@
+2024-02-29 14:41:22,880 source_spec          DEBUG    source_spec START
+2024-02-29 14:41:22,880 source_spec          DEBUG    SourceSpec version: 1.7
+2024-02-29 14:41:22,886 source_spec          DEBUG    Platform: Darwin 21.2.0 x86_64
+2024-02-29 14:41:22,887 source_spec          DEBUG    Python version: None
+2024-02-29 14:41:22,887 source_spec          DEBUG    ObsPy version: None
+2024-02-29 14:41:22,887 source_spec          DEBUG    NumPy version: None
+2024-02-29 14:41:22,887 source_spec          DEBUG    SciPy version: None
+2024-02-29 14:41:22,887 source_spec          DEBUG    Matplotlib version: None
+2024-02-29 14:41:22,887 source_spec          DEBUG    Running arguments:
+2024-02-29 14:41:22,887 source_spec          DEBUG    /Users/admin/Documents/iMacROA/SurfQuakeCore/venv/bin/surfquake -i /Volumes/LaCie/all_andorra/mini_test/inputs/metadata/inv_all.xml -p /Volumes/LaCie/all_andorra/mini_test/project/project_sh.pkl -c /Volumes/LaCie/all_andorra/mini_test/inputs/configs/source_spec_narrow.conf -l /Volumes/LaCie/all_andorra/mini_test/outputs_sh/nll/all_loc -o /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source
+2024-02-29 14:41:22,887 ssp_read_station_metadata INFO     Reading station metadata...
+2024-02-29 14:41:22,888 ssp_read_station_metadata INFO     Reading station metadata from file: /Volumes/LaCie/all_andorra/mini_test/inputs/metadata/inv_all.xml
+2024-02-29 14:41:23,749 ssp_read_station_metadata INFO     Reading station metadata: done
+2024-02-29 14:41:23,754 ssp_read_traces      INFO     Reading traces...
+2024-02-29 14:41:25,871 ssp_read_traces      INFO     Reading traces: done
+2024-02-29 14:41:25,873 ssp_read_traces      INFO     Vp_hypo: 6.00 km/s, Vs_hypo: 3.50 km/s
+2024-02-29 14:41:25,882 ssp_process_traces_mod INFO     Processing traces...
+2024-02-29 14:41:25,908 ssp_wave_arrival_mod INFO     CA.ARBS..HH1: no P pick found
+2024-02-29 14:41:25,908 ssp_wave_arrival_mod INFO     CA.ARBS..HH1: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:41:25,925 ssp_wave_arrival_mod INFO     CA.ARBS..HH1: no S pick found
+2024-02-29 14:41:25,926 ssp_wave_arrival_mod INFO     CA.ARBS..HH1: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:41:25,977 ssp_process_traces_mod INFO     CA.ARBS..HH1 broadb: clipping score: 83.0%
+2024-02-29 14:41:25,977 ssp_process_traces_mod WARNING  CA.ARBS..HH1 broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:41:26,174 ssp_process_traces_mod INFO     CA.ARBS..HH1 broadb: S/N: 1.9
+2024-02-29 14:41:26,188 ssp_wave_arrival_mod INFO     CA.ARBS..HH2: no P pick found
+2024-02-29 14:41:26,188 ssp_wave_arrival_mod INFO     CA.ARBS..HH2: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:41:26,204 ssp_wave_arrival_mod INFO     CA.ARBS..HH2: no S pick found
+2024-02-29 14:41:26,204 ssp_wave_arrival_mod INFO     CA.ARBS..HH2: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:41:26,246 ssp_process_traces_mod INFO     CA.ARBS..HH2 broadb: clipping score: 71.2%
+2024-02-29 14:41:26,246 ssp_process_traces_mod WARNING  CA.ARBS..HH2 broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:41:26,432 ssp_process_traces_mod INFO     CA.ARBS..HH2 broadb: S/N: 1.7
+2024-02-29 14:41:26,446 ssp_wave_arrival_mod INFO     CA.ARBS..HHZ: no P pick found
+2024-02-29 14:41:26,446 ssp_wave_arrival_mod INFO     CA.ARBS..HHZ: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:41:26,461 ssp_wave_arrival_mod INFO     CA.ARBS..HHZ: no S pick found
+2024-02-29 14:41:26,462 ssp_wave_arrival_mod INFO     CA.ARBS..HHZ: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:41:26,503 ssp_process_traces_mod INFO     CA.ARBS..HHZ broadb: clipping score: 91.2%
+2024-02-29 14:41:26,503 ssp_process_traces_mod WARNING  CA.ARBS..HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:41:26,685 ssp_read_station_metadata INFO     Reading station metadata...
+2024-02-29 14:41:26,685 ssp_read_station_metadata INFO     Reading station metadata from file: /Volumes/LaCie/all_andorra/mini_test/inputs/metadata/inv_all.xml
+2024-02-29 14:41:26,954 ssp_read_station_metadata INFO     Reading station metadata: done
+2024-02-29 14:41:26,963 ssp_read_traces      INFO     Reading traces...
+2024-02-29 14:41:27,096 ssp_read_traces      INFO     Reading traces: done
+2024-02-29 14:41:27,096 ssp_read_traces      INFO     Vp_hypo: 6.00 km/s, Vs_hypo: 3.50 km/s
+2024-02-29 14:41:27,105 ssp_process_traces_mod INFO     Processing traces...
+2024-02-29 14:41:27,120 ssp_wave_arrival_mod INFO     CA.ARBS..HH1: found P pick
+2024-02-29 14:41:27,123 ssp_wave_arrival_mod INFO     CA.ARBS..HH1: found S pick
+2024-02-29 14:41:27,124 ssp_process_traces_mod WARNING  CA.ARBS..HH1: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:41:27,162 ssp_process_traces_mod INFO     CA.ARBS..HH1 broadb: clipping score: 1.0%
+2024-02-29 14:41:27,348 ssp_process_traces_mod INFO     CA.ARBS..HH1 broadb: S/N: 539.0
+2024-02-29 14:41:27,352 ssp_wave_arrival_mod INFO     CA.ARBS..HH2: found P pick
+2024-02-29 14:41:27,355 ssp_wave_arrival_mod INFO     CA.ARBS..HH2: found S pick
+2024-02-29 14:41:27,355 ssp_process_traces_mod WARNING  CA.ARBS..HH2: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:41:27,395 ssp_process_traces_mod INFO     CA.ARBS..HH2 broadb: clipping score: 0.4%
+2024-02-29 14:41:27,582 ssp_process_traces_mod INFO     CA.ARBS..HH2 broadb: S/N: 177.9
+2024-02-29 14:41:27,586 ssp_wave_arrival_mod INFO     CA.ARBS..HHZ: found P pick
+2024-02-29 14:41:27,589 ssp_wave_arrival_mod INFO     CA.ARBS..HHZ: found S pick
+2024-02-29 14:41:27,589 ssp_process_traces_mod WARNING  CA.ARBS..HHZ: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:41:27,628 ssp_process_traces_mod INFO     CA.ARBS..HHZ broadb: clipping score: 5.4%
+2024-02-29 14:41:27,813 ssp_process_traces_mod INFO     CA.ARBS..HHZ broadb: S/N: 380.1
+2024-02-29 14:41:27,817 ssp_wave_arrival_mod INFO     CA.CEST..HHE: found P pick
+2024-02-29 14:41:27,821 ssp_wave_arrival_mod INFO     CA.CEST..HHE: found S pick
+2024-02-29 14:41:27,821 ssp_process_traces_mod WARNING  CA.CEST..HHE: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:41:27,860 ssp_process_traces_mod INFO     CA.CEST..HHE broadb: clipping score: 0.4%
+2024-02-29 14:41:28,046 ssp_process_traces_mod INFO     CA.CEST..HHE broadb: S/N: 383.3
+2024-02-29 14:41:28,050 ssp_wave_arrival_mod INFO     CA.CEST..HHN: found P pick
+2024-02-29 14:41:28,053 ssp_wave_arrival_mod INFO     CA.CEST..HHN: found S pick
+2024-02-29 14:41:28,053 ssp_process_traces_mod WARNING  CA.CEST..HHN: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:41:28,093 ssp_process_traces_mod INFO     CA.CEST..HHN broadb: clipping score: 0.3%
+2024-02-29 14:41:28,278 ssp_process_traces_mod INFO     CA.CEST..HHN broadb: S/N: 299.6
+2024-02-29 14:41:28,282 ssp_wave_arrival_mod INFO     CA.CEST..HHZ: found P pick
+2024-02-29 14:41:28,285 ssp_wave_arrival_mod INFO     CA.CEST..HHZ: found S pick
+2024-02-29 14:41:28,285 ssp_process_traces_mod WARNING  CA.CEST..HHZ: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:41:28,324 ssp_process_traces_mod INFO     CA.CEST..HHZ broadb: clipping score: 0.3%
+2024-02-29 14:41:28,508 ssp_process_traces_mod INFO     CA.CEST..HHZ broadb: S/N: 435.5
+2024-02-29 14:41:28,512 ssp_wave_arrival_mod INFO     CA.CORG..HHE: found P pick
+2024-02-29 14:41:28,516 ssp_wave_arrival_mod INFO     CA.CORG..HHE: found S pick
+2024-02-29 14:41:28,557 ssp_process_traces_mod INFO     CA.CORG..HHE broadb: clipping score: 0.4%
+2024-02-29 14:41:28,745 ssp_process_traces_mod INFO     CA.CORG..HHE broadb: S/N: 1028.5
+2024-02-29 14:41:28,749 ssp_wave_arrival_mod INFO     CA.CORG..HHN: found P pick
+2024-02-29 14:41:28,753 ssp_wave_arrival_mod INFO     CA.CORG..HHN: found S pick
+2024-02-29 14:41:28,794 ssp_process_traces_mod INFO     CA.CORG..HHN broadb: clipping score: 0.3%
+2024-02-29 14:41:28,979 ssp_process_traces_mod INFO     CA.CORG..HHN broadb: S/N: 547.7
+2024-02-29 14:41:28,983 ssp_wave_arrival_mod INFO     CA.CORG..HHZ: found P pick
+2024-02-29 14:41:28,987 ssp_wave_arrival_mod INFO     CA.CORG..HHZ: found S pick
+2024-02-29 14:41:29,027 ssp_process_traces_mod INFO     CA.CORG..HHZ broadb: clipping score: 0.9%
+2024-02-29 14:41:29,215 ssp_process_traces_mod INFO     CA.CORG..HHZ broadb: S/N: 469.0
+2024-02-29 14:41:29,219 ssp_wave_arrival_mod INFO     CA.CSOR..HHE: found P pick
+2024-02-29 14:41:29,223 ssp_wave_arrival_mod INFO     CA.CSOR..HHE: found S pick
+2024-02-29 14:41:29,265 ssp_process_traces_mod INFO     CA.CSOR..HHE broadb: clipping score: 0.4%
+2024-02-29 14:41:29,451 ssp_process_traces_mod INFO     CA.CSOR..HHE broadb: S/N: 453.8
+2024-02-29 14:41:29,455 ssp_wave_arrival_mod INFO     CA.CSOR..HHN: found P pick
+2024-02-29 14:41:29,459 ssp_wave_arrival_mod INFO     CA.CSOR..HHN: found S pick
+2024-02-29 14:41:29,500 ssp_process_traces_mod INFO     CA.CSOR..HHN broadb: clipping score: 0.2%
+2024-02-29 14:41:29,686 ssp_process_traces_mod INFO     CA.CSOR..HHN broadb: S/N: 907.6
+2024-02-29 14:41:29,690 ssp_wave_arrival_mod INFO     CA.CSOR..HHZ: found P pick
+2024-02-29 14:41:29,693 ssp_wave_arrival_mod INFO     CA.CSOR..HHZ: found S pick
+2024-02-29 14:41:29,735 ssp_process_traces_mod INFO     CA.CSOR..HHZ broadb: clipping score: 0.4%
+2024-02-29 14:41:29,920 ssp_process_traces_mod INFO     CA.CSOR..HHZ broadb: S/N: 265.5
+2024-02-29 14:41:29,924 ssp_wave_arrival_mod INFO     FR.CARF.00.HHE: found P pick
+2024-02-29 14:41:29,927 ssp_wave_arrival_mod INFO     FR.CARF.00.HHE: found S pick
+2024-02-29 14:41:29,952 ssp_process_traces_mod INFO     FR.CARF.00.HHE broadb: clipping score: 0.2%
+2024-02-29 14:41:30,120 ssp_process_traces_mod INFO     FR.CARF.00.HHE broadb: S/N: 867.4
+2024-02-29 14:41:30,124 ssp_wave_arrival_mod INFO     FR.CARF.00.HHN: found P pick
+2024-02-29 14:41:30,127 ssp_wave_arrival_mod INFO     FR.CARF.00.HHN: found S pick
+2024-02-29 14:41:30,151 ssp_process_traces_mod INFO     FR.CARF.00.HHN broadb: clipping score: 0.9%
+2024-02-29 14:41:30,319 ssp_process_traces_mod INFO     FR.CARF.00.HHN broadb: S/N: 862.1
+2024-02-29 14:41:30,322 ssp_wave_arrival_mod INFO     FR.CARF.00.HHZ: found P pick
+2024-02-29 14:41:30,326 ssp_wave_arrival_mod INFO     FR.CARF.00.HHZ: found S pick
+2024-02-29 14:41:30,350 ssp_process_traces_mod INFO     FR.CARF.00.HHZ broadb: clipping score: 0.2%
+2024-02-29 14:41:30,521 ssp_process_traces_mod INFO     FR.CARF.00.HHZ broadb: S/N: 586.2
+2024-02-29 14:41:30,533 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHE: found P pick
+2024-02-29 14:41:30,536 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHE: found S pick
+2024-02-29 14:41:30,589 ssp_process_traces_mod INFO     FR.FNEB.00.HHE broadb: clipping score: 0.2%
+2024-02-29 14:41:30,774 ssp_process_traces_mod INFO     FR.FNEB.00.HHE broadb: S/N: 504.7
+2024-02-29 14:41:30,787 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHN: found P pick
+2024-02-29 14:41:30,790 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHN: found S pick
+2024-02-29 14:41:30,843 ssp_process_traces_mod INFO     FR.FNEB.00.HHN broadb: clipping score: 0.8%
+2024-02-29 14:41:31,030 ssp_process_traces_mod INFO     FR.FNEB.00.HHN broadb: S/N: 493.3
+2024-02-29 14:41:31,043 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHZ: found P pick
+2024-02-29 14:41:31,046 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHZ: found S pick
+2024-02-29 14:41:31,099 ssp_process_traces_mod INFO     FR.FNEB.00.HHZ broadb: clipping score: 0.5%
+2024-02-29 14:41:31,334 ssp_process_traces_mod INFO     FR.FNEB.00.HHZ broadb: S/N: 316.6
+2024-02-29 14:41:31,338 ssp_wave_arrival_mod INFO     FR.GENF.00.HH1: found P pick
+2024-02-29 14:41:31,341 ssp_wave_arrival_mod INFO     FR.GENF.00.HH1: found S pick
+2024-02-29 14:41:31,368 ssp_process_traces_mod INFO     FR.GENF.00.HH1 broadb: clipping score: 0.1%
+2024-02-29 14:41:31,549 ssp_process_traces_mod INFO     FR.GENF.00.HH1 broadb: S/N: 209.7
+2024-02-29 14:41:31,553 ssp_wave_arrival_mod INFO     FR.GENF.00.HH2: found P pick
+2024-02-29 14:41:31,556 ssp_wave_arrival_mod INFO     FR.GENF.00.HH2: found S pick
+2024-02-29 14:41:31,582 ssp_process_traces_mod INFO     FR.GENF.00.HH2 broadb: clipping score: 0.1%
+2024-02-29 14:41:31,763 ssp_process_traces_mod INFO     FR.GENF.00.HH2 broadb: S/N: 439.4
+2024-02-29 14:41:31,767 ssp_wave_arrival_mod INFO     FR.GENF.00.HHZ: found P pick
+2024-02-29 14:41:31,770 ssp_wave_arrival_mod INFO     FR.GENF.00.HHZ: found S pick
+2024-02-29 14:41:31,796 ssp_process_traces_mod INFO     FR.GENF.00.HHZ broadb: clipping score: 0.3%
+2024-02-29 14:41:31,977 ssp_process_traces_mod INFO     FR.GENF.00.HHZ broadb: S/N: 278.5
+2024-02-29 14:41:31,980 ssp_wave_arrival_mod INFO     FR.PAND.00.HHE: found P pick
+2024-02-29 14:41:31,984 ssp_wave_arrival_mod INFO     FR.PAND.00.HHE: found S pick
+2024-02-29 14:41:31,984 ssp_process_traces_mod WARNING  FR.PAND.00.HHE: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:41:32,008 ssp_process_traces_mod INFO     FR.PAND.00.HHE broadb: clipping score: 0.2%
+2024-02-29 14:41:32,184 ssp_process_traces_mod INFO     FR.PAND.00.HHE broadb: S/N: 272.1
+2024-02-29 14:41:32,188 ssp_wave_arrival_mod INFO     FR.PAND.00.HHN: found P pick
+2024-02-29 14:41:32,192 ssp_wave_arrival_mod INFO     FR.PAND.00.HHN: found S pick
+2024-02-29 14:41:32,192 ssp_process_traces_mod WARNING  FR.PAND.00.HHN: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:41:32,217 ssp_process_traces_mod INFO     FR.PAND.00.HHN broadb: clipping score: 0.1%
+2024-02-29 14:41:32,391 ssp_process_traces_mod INFO     FR.PAND.00.HHN broadb: S/N: 140.4
+2024-02-29 14:41:32,394 ssp_wave_arrival_mod INFO     FR.PAND.00.HHZ: found P pick
+2024-02-29 14:41:32,398 ssp_wave_arrival_mod INFO     FR.PAND.00.HHZ: found S pick
+2024-02-29 14:41:32,398 ssp_process_traces_mod WARNING  FR.PAND.00.HHZ: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:41:32,421 ssp_process_traces_mod INFO     FR.PAND.00.HHZ broadb: clipping score: 0.1%
+2024-02-29 14:41:32,596 ssp_process_traces_mod INFO     FR.PAND.00.HHZ broadb: S/N: 218.4
+2024-02-29 14:41:32,600 ssp_wave_arrival_mod INFO     FR.SALF.00.HHE: found P pick
+2024-02-29 14:41:32,604 ssp_wave_arrival_mod INFO     FR.SALF.00.HHE: found S pick
+2024-02-29 14:41:32,659 ssp_process_traces_mod INFO     FR.SALF.00.HHE broadb: clipping score: 0.4%
+2024-02-29 14:41:32,842 ssp_process_traces_mod INFO     FR.SALF.00.HHE broadb: S/N: 728.1
+2024-02-29 14:41:32,847 ssp_wave_arrival_mod INFO     FR.SALF.00.HHN: found P pick
+2024-02-29 14:41:32,851 ssp_wave_arrival_mod INFO     FR.SALF.00.HHN: found S pick
+2024-02-29 14:41:32,904 ssp_process_traces_mod INFO     FR.SALF.00.HHN broadb: clipping score: 0.2%
+2024-02-29 14:41:33,091 ssp_process_traces_mod INFO     FR.SALF.00.HHN broadb: S/N: 1830.3
+2024-02-29 14:41:33,096 ssp_wave_arrival_mod INFO     FR.SALF.00.HHZ: found P pick
+2024-02-29 14:41:33,099 ssp_wave_arrival_mod INFO     FR.SALF.00.HHZ: found S pick
+2024-02-29 14:41:33,153 ssp_process_traces_mod INFO     FR.SALF.00.HHZ broadb: clipping score: 0.1%
+2024-02-29 14:41:33,341 ssp_process_traces_mod INFO     FR.SALF.00.HHZ broadb: S/N: 1086.6
+2024-02-29 14:41:33,344 ssp_wave_arrival_mod INFO     FR.VALC.00.HHE: found P pick
+2024-02-29 14:41:33,348 ssp_wave_arrival_mod INFO     FR.VALC.00.HHE: found S pick
+2024-02-29 14:41:33,374 ssp_process_traces_mod INFO     FR.VALC.00.HHE broadb: clipping score: 0.3%
+2024-02-29 14:41:33,552 ssp_process_traces_mod INFO     FR.VALC.00.HHE broadb: S/N: 776.3
+2024-02-29 14:41:33,556 ssp_wave_arrival_mod INFO     FR.VALC.00.HHN: found P pick
+2024-02-29 14:41:33,559 ssp_wave_arrival_mod INFO     FR.VALC.00.HHN: found S pick
+2024-02-29 14:41:33,585 ssp_process_traces_mod INFO     FR.VALC.00.HHN broadb: clipping score: 0.3%
+2024-02-29 14:41:33,769 ssp_process_traces_mod INFO     FR.VALC.00.HHN broadb: S/N: 1100.7
+2024-02-29 14:41:33,772 ssp_wave_arrival_mod INFO     FR.VALC.00.HHZ: found P pick
+2024-02-29 14:41:33,776 ssp_wave_arrival_mod INFO     FR.VALC.00.HHZ: found S pick
+2024-02-29 14:41:33,803 ssp_process_traces_mod INFO     FR.VALC.00.HHZ broadb: clipping score: 0.9%
+2024-02-29 14:41:33,980 ssp_process_traces_mod INFO     FR.VALC.00.HHZ broadb: S/N: 682.7
+2024-02-29 14:41:33,981 ssp_process_traces_mod INFO     Processing traces: done
+2024-02-29 14:41:33,981 ssp_build_spectra    INFO     Building spectra...
+2024-02-29 14:41:34,807 ssp_build_spectra    INFO     CA.ARBS..HH1: Vs_hypo: 3.50 km/s, Vs_station: 3.50 km/s
+2024-02-29 14:41:34,810 ssp_build_spectra    INFO     CA.ARBS..HH1: spectral S/N: 7697.92
+2024-02-29 14:41:34,811 ssp_build_spectra    INFO     CA.ARBS..HH2: Vs_hypo: 3.50 km/s, Vs_station: 3.50 km/s
+2024-02-29 14:41:34,813 ssp_build_spectra    INFO     CA.ARBS..HH2: spectral S/N: 7294.40
+2024-02-29 14:41:34,814 ssp_build_spectra    INFO     CA.ARBS..HHZ: Vs_hypo: 3.50 km/s, Vs_station: 3.50 km/s
+2024-02-29 14:41:34,817 ssp_build_spectra    INFO     CA.ARBS..HHZ: spectral S/N: 5733.77
+2024-02-29 14:41:34,817 ssp_build_spectra    INFO     CA.CEST..HHE: Vs_hypo: 3.50 km/s, Vs_station: 3.50 km/s
+2024-02-29 14:41:34,820 ssp_build_spectra    INFO     CA.CEST..HHE: spectral S/N: 20644.68
+2024-02-29 14:41:34,821 ssp_build_spectra    INFO     CA.CEST..HHN: Vs_hypo: 3.50 km/s, Vs_station: 3.50 km/s
+2024-02-29 14:41:34,823 ssp_build_spectra    INFO     CA.CEST..HHN: spectral S/N: 16912.57
+2024-02-29 14:41:34,824 ssp_build_spectra    INFO     CA.CEST..HHZ: Vs_hypo: 3.50 km/s, Vs_station: 3.50 km/s
+2024-02-29 14:41:34,826 ssp_build_spectra    INFO     CA.CEST..HHZ: spectral S/N: 10390.37
+2024-02-29 14:41:34,827 ssp_build_spectra    INFO     CA.CORG..HHE: Vs_hypo: 3.50 km/s, Vs_station: 3.50 km/s
+2024-02-29 14:41:34,829 ssp_build_spectra    INFO     CA.CORG..HHE: spectral S/N: 15856.24
+2024-02-29 14:41:34,830 ssp_build_spectra    INFO     CA.CORG..HHN: Vs_hypo: 3.50 km/s, Vs_station: 3.50 km/s
+2024-02-29 14:41:34,833 ssp_build_spectra    INFO     CA.CORG..HHN: spectral S/N: 14613.19
+2024-02-29 14:41:34,834 ssp_build_spectra    INFO     CA.CORG..HHZ: Vs_hypo: 3.50 km/s, Vs_station: 3.50 km/s
+2024-02-29 14:41:34,836 ssp_build_spectra    INFO     CA.CORG..HHZ: spectral S/N: 13156.62
+2024-02-29 14:41:34,837 ssp_build_spectra    INFO     CA.CSOR..HHE: Vs_hypo: 3.50 km/s, Vs_station: 3.50 km/s
+2024-02-29 14:41:34,840 ssp_build_spectra    INFO     CA.CSOR..HHE: spectral S/N: 32154.63
+2024-02-29 14:41:34,840 ssp_build_spectra    INFO     CA.CSOR..HHN: Vs_hypo: 3.50 km/s, Vs_station: 3.50 km/s
+2024-02-29 14:41:34,843 ssp_build_spectra    INFO     CA.CSOR..HHN: spectral S/N: 43081.64
+2024-02-29 14:41:34,844 ssp_build_spectra    INFO     CA.CSOR..HHZ: Vs_hypo: 3.50 km/s, Vs_station: 3.50 km/s
+2024-02-29 14:41:34,846 ssp_build_spectra    INFO     CA.CSOR..HHZ: spectral S/N: 32078.39
+2024-02-29 14:41:34,847 ssp_build_spectra    INFO     FR.CARF.00.HHE: Vs_hypo: 3.50 km/s, Vs_station: 3.50 km/s
+2024-02-29 14:41:34,849 ssp_build_spectra    INFO     FR.CARF.00.HHE: spectral S/N: 6590.13
+2024-02-29 14:41:34,850 ssp_build_spectra    INFO     FR.CARF.00.HHN: Vs_hypo: 3.50 km/s, Vs_station: 3.50 km/s
+2024-02-29 14:41:34,852 ssp_build_spectra    INFO     FR.CARF.00.HHN: spectral S/N: 3385.00
+2024-02-29 14:41:34,853 ssp_build_spectra    INFO     FR.CARF.00.HHZ: Vs_hypo: 3.50 km/s, Vs_station: 3.50 km/s
+2024-02-29 14:41:34,856 ssp_build_spectra    INFO     FR.CARF.00.HHZ: spectral S/N: 4478.59
+2024-02-29 14:41:34,856 ssp_build_spectra    INFO     FR.FNEB.00.HHE: Vs_hypo: 3.50 km/s, Vs_station: 3.50 km/s
+2024-02-29 14:41:34,859 ssp_build_spectra    INFO     FR.FNEB.00.HHE: spectral S/N: 1368.57
+2024-02-29 14:41:34,860 ssp_build_spectra    INFO     FR.FNEB.00.HHN: Vs_hypo: 3.50 km/s, Vs_station: 3.50 km/s
+2024-02-29 14:41:34,863 ssp_build_spectra    INFO     FR.FNEB.00.HHN: spectral S/N: 999.73
+2024-02-29 14:41:34,864 ssp_build_spectra    INFO     FR.FNEB.00.HHZ: Vs_hypo: 3.50 km/s, Vs_station: 3.50 km/s
+2024-02-29 14:41:34,867 ssp_build_spectra    INFO     FR.FNEB.00.HHZ: spectral S/N: 975.48
+2024-02-29 14:41:34,867 ssp_build_spectra    INFO     FR.GENF.00.HH1: Vs_hypo: 3.50 km/s, Vs_station: 3.50 km/s
+2024-02-29 14:41:34,870 ssp_build_spectra    INFO     FR.GENF.00.HH1: spectral S/N: 5310.10
+2024-02-29 14:41:34,871 ssp_build_spectra    INFO     FR.GENF.00.HH2: Vs_hypo: 3.50 km/s, Vs_station: 3.50 km/s
+2024-02-29 14:41:34,873 ssp_build_spectra    INFO     FR.GENF.00.HH2: spectral S/N: 6116.41
+2024-02-29 14:41:34,874 ssp_build_spectra    INFO     FR.GENF.00.HHZ: Vs_hypo: 3.50 km/s, Vs_station: 3.50 km/s
+2024-02-29 14:41:34,876 ssp_build_spectra    INFO     FR.GENF.00.HHZ: spectral S/N: 3976.46
+2024-02-29 14:41:34,877 ssp_build_spectra    INFO     FR.PAND.00.HHE: Vs_hypo: 3.50 km/s, Vs_station: 3.50 km/s
+2024-02-29 14:41:34,880 ssp_build_spectra    INFO     FR.PAND.00.HHE: spectral S/N: 32210.82
+2024-02-29 14:41:34,881 ssp_build_spectra    INFO     FR.PAND.00.HHN: Vs_hypo: 3.50 km/s, Vs_station: 3.50 km/s
+2024-02-29 14:41:34,883 ssp_build_spectra    INFO     FR.PAND.00.HHN: spectral S/N: 23436.23
+2024-02-29 14:41:34,884 ssp_build_spectra    INFO     FR.PAND.00.HHZ: Vs_hypo: 3.50 km/s, Vs_station: 3.50 km/s
+2024-02-29 14:41:34,886 ssp_build_spectra    INFO     FR.PAND.00.HHZ: spectral S/N: 41773.30
+2024-02-29 14:41:34,887 ssp_build_spectra    INFO     FR.SALF.00.HHE: Vs_hypo: 3.50 km/s, Vs_station: 3.50 km/s
+2024-02-29 14:41:34,890 ssp_build_spectra    INFO     FR.SALF.00.HHE: spectral S/N: 23161.78
+2024-02-29 14:41:34,890 ssp_build_spectra    INFO     FR.SALF.00.HHN: Vs_hypo: 3.50 km/s, Vs_station: 3.50 km/s
+2024-02-29 14:41:34,893 ssp_build_spectra    INFO     FR.SALF.00.HHN: spectral S/N: 24369.71
+2024-02-29 14:41:34,893 ssp_build_spectra    INFO     FR.SALF.00.HHZ: Vs_hypo: 3.50 km/s, Vs_station: 3.50 km/s
+2024-02-29 14:41:34,896 ssp_build_spectra    INFO     FR.SALF.00.HHZ: spectral S/N: 26701.55
+2024-02-29 14:41:34,897 ssp_build_spectra    INFO     FR.VALC.00.HHE: Vs_hypo: 3.50 km/s, Vs_station: 3.50 km/s
+2024-02-29 14:41:34,900 ssp_build_spectra    INFO     FR.VALC.00.HHE: spectral S/N: 1163.89
+2024-02-29 14:41:34,901 ssp_build_spectra    INFO     FR.VALC.00.HHN: Vs_hypo: 3.50 km/s, Vs_station: 3.50 km/s
+2024-02-29 14:41:34,903 ssp_build_spectra    INFO     FR.VALC.00.HHN: spectral S/N: 1508.30
+2024-02-29 14:41:34,904 ssp_build_spectra    INFO     FR.VALC.00.HHZ: Vs_hypo: 3.50 km/s, Vs_station: 3.50 km/s
+2024-02-29 14:41:34,906 ssp_build_spectra    INFO     FR.VALC.00.HHZ: spectral S/N: 1807.78
+2024-02-29 14:41:34,925 ssp_build_spectra    INFO     Building spectra: done
+2024-02-29 14:41:39,873 ssp_plot_traces      INFO     Trace plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_e88e6855507e4ba297014b04680cba87/e6453f28-17d7-4c31-ab86-98bfc26eef28.traces.png
+2024-02-29 14:41:39,881 ssp_inversion        INFO     Inverting spectra...
+2024-02-29 14:41:39,881 ssp_inversion        INFO     Using noise weighting for inversion.
+2024-02-29 14:41:39,881 ssp_inversion        INFO     Using truncated Newton algorithm for inversion.
+2024-02-29 14:41:39,883 ssp_inversion        WARNING  CA.ARBS..HHH broadb: unable to find a frequency range to compute Mw_0. This is possibly due to an uncommon spectrum (e.g., a resonance).
+2024-02-29 14:41:39,883 ssp_inversion        INFO     CA.CEST..HHH broadb: initial values: Mw_0: 3.4466; fc_0: 4.6012; t_star_0: 0.045
+2024-02-29 14:41:39,883 ssp_inversion        INFO     CA.CEST..HHH broadb: bounds: Mw: 2.9127, 3.9674; fc: 0.4601, 46.0122; t_star: 0.0, 0.1
+2024-02-29 14:41:39,916 ssp_inversion        INFO     CA.CEST..HHH broadb: optimal values: Mw: 3.6525; fc: 9.1565; t_star: 0.0862
+2024-02-29 14:41:39,916 ssp_inversion        INFO     CA.CEST..HHH broadb: misfit: 0.040
+2024-02-29 14:41:39,917 ssp_inversion        INFO     CA.CORG..HHH broadb: initial values: Mw_0: 3.3688; fc_0: 3.8271; t_star_0: 0.045
+2024-02-29 14:41:39,917 ssp_inversion        INFO     CA.CORG..HHH broadb: bounds: Mw: 2.8238, 3.8391; fc: 0.3827, 38.2713; t_star: 0.0, 0.1
+2024-02-29 14:41:39,942 ssp_inversion        INFO     CA.CORG..HHH broadb: optimal values: Mw: 3.5785; fc: 2.5089; t_star: 0.0409
+2024-02-29 14:41:39,942 ssp_inversion        INFO     CA.CORG..HHH broadb: misfit: 0.056
+2024-02-29 14:41:39,943 ssp_inversion        INFO     CA.CSOR..HHH broadb: initial values: Mw_0: 3.5849; fc_0: 5.5319; t_star_0: 0.045
+2024-02-29 14:41:39,944 ssp_inversion        INFO     CA.CSOR..HHH broadb: bounds: Mw: 3.0745, 4.1123; fc: 0.5532, 55.3188; t_star: 0.0, 0.1
+2024-02-29 14:41:39,956 ssp_inversion        INFO     CA.CSOR..HHH broadb: optimal values: Mw: 3.7789; fc: 13.9052; t_star: 0.0729
+2024-02-29 14:41:39,956 ssp_inversion        INFO     CA.CSOR..HHH broadb: misfit: 0.054
+2024-02-29 14:41:39,957 ssp_inversion        INFO     FR.CARF.00.HHH broadb: initial values: Mw_0: 3.4055; fc_0: 2.9032; t_star_0: 0.045
+2024-02-29 14:41:39,957 ssp_inversion        INFO     FR.CARF.00.HHH broadb: bounds: Mw: 2.8581, 3.9518; fc: 0.2903, 29.0317; t_star: 0.0, 0.1
+2024-02-29 14:41:39,977 ssp_inversion        INFO     FR.CARF.00.HHH broadb: optimal values: Mw: 3.5343; fc: 2.0579; t_star: 0.0000
+2024-02-29 14:41:39,977 ssp_inversion        INFO     FR.CARF.00.HHH broadb: misfit: 0.117
+2024-02-29 14:41:39,978 ssp_inversion        INFO     FR.FNEB.00.HHH broadb: initial values: Mw_0: 3.6282; fc_0: 1.6706; t_star_0: 0.045
+2024-02-29 14:41:39,978 ssp_inversion        INFO     FR.FNEB.00.HHH broadb: bounds: Mw: 3.2237, 4.0748; fc: 0.1671, 16.706; t_star: 0.0, 0.1
+2024-02-29 14:41:39,991 ssp_inversion        INFO     FR.FNEB.00.HHH broadb: optimal values: Mw: 4.0748; fc: 0.5888; t_star: 0.0000
+2024-02-29 14:41:39,991 ssp_inversion        INFO     FR.FNEB.00.HHH broadb: misfit: 0.093
+2024-02-29 14:41:39,992 ssp_inversion        INFO     FR.GENF.00.HHH broadb: initial values: Mw_0: 3.2963; fc_0: 3.8271; t_star_0: 0.045
+2024-02-29 14:41:39,992 ssp_inversion        INFO     FR.GENF.00.HHH broadb: bounds: Mw: 2.8695, 3.7575; fc: 0.3827, 38.2713; t_star: 0.0, 0.1
+2024-02-29 14:41:40,019 ssp_inversion        INFO     FR.GENF.00.HHH broadb: optimal values: Mw: 3.4595; fc: 2.8665; t_star: 0.0247
+2024-02-29 14:41:40,019 ssp_inversion        INFO     FR.GENF.00.HHH broadb: misfit: 0.074
+2024-02-29 14:41:40,021 ssp_inversion        INFO     FR.PAND.00.HHH broadb: initial values: Mw_0: 3.5551; fc_0: 6.6508; t_star_0: 0.045
+2024-02-29 14:41:40,021 ssp_inversion        INFO     FR.PAND.00.HHH broadb: bounds: Mw: 2.9026, 4.1646; fc: 0.6651, 66.5078; t_star: 0.0, 0.1
+2024-02-29 14:41:40,039 ssp_inversion        INFO     FR.PAND.00.HHH broadb: optimal values: Mw: 3.8365; fc: 66.5078; t_star: 0.0788
+2024-02-29 14:41:40,039 ssp_inversion        INFO     FR.PAND.00.HHH broadb: misfit: 0.150
+2024-02-29 14:41:40,039 ssp_inversion        WARNING  FR.PAND.00.HHH broadb: optimal fc within 0.1% of fc_max: 66.508 ~= 66.508: ignoring inversion results
+2024-02-29 14:41:40,039 ssp_inversion        INFO     FR.SALF.00.HHH broadb: initial values: Mw_0: 3.314; fc_0: 3.8271; t_star_0: 0.045
+2024-02-29 14:41:40,039 ssp_inversion        INFO     FR.SALF.00.HHH broadb: bounds: Mw: 2.8417, 3.7548; fc: 0.3827, 38.2713; t_star: 0.0, 0.1
+2024-02-29 14:41:40,057 ssp_inversion        INFO     FR.SALF.00.HHH broadb: optimal values: Mw: 3.4228; fc: 38.2713; t_star: 0.0699
+2024-02-29 14:41:40,057 ssp_inversion        INFO     FR.SALF.00.HHH broadb: misfit: 0.071
+2024-02-29 14:41:40,057 ssp_inversion        WARNING  FR.SALF.00.HHH broadb: optimal fc within 0.1% of fc_max: 38.271 ~= 38.271: ignoring inversion results
+2024-02-29 14:41:40,057 ssp_inversion        INFO     FR.VALC.00.HHH broadb: initial values: Mw_0: 3.218; fc_0: 2.4148; t_star_0: 0.045
+2024-02-29 14:41:40,058 ssp_inversion        INFO     FR.VALC.00.HHH broadb: bounds: Mw: 2.6966, 3.6335; fc: 0.2415, 24.1475; t_star: 0.0, 0.1
+2024-02-29 14:41:40,077 ssp_inversion        INFO     FR.VALC.00.HHH broadb: optimal values: Mw: 3.2844; fc: 24.1475; t_star: 0.0507
+2024-02-29 14:41:40,077 ssp_inversion        INFO     FR.VALC.00.HHH broadb: misfit: 0.079
+2024-02-29 14:41:40,077 ssp_inversion        WARNING  FR.VALC.00.HHH broadb: optimal fc within 0.1% of fc_max: 24.148 ~= 24.148: ignoring inversion results
+2024-02-29 14:41:40,077 ssp_inversion        INFO     Inverting spectra: done
+2024-02-29 14:41:40,077 ssp_radiated_energy  INFO     Computing radiated energy...
+2024-02-29 14:41:40,078 ssp_radiated_energy  INFO     Computing radiated energy: done
+2024-02-29 14:41:40,078 ssp_local_magnitude  INFO     Computing local magnitude...
+2024-02-29 14:41:40,349 ssp_local_magnitude  INFO     CA.CEST..HHE broadb: Ml 3.3
+2024-02-29 14:41:40,582 ssp_local_magnitude  INFO     CA.CEST..HHN broadb: Ml 3.5
+2024-02-29 14:41:40,815 ssp_local_magnitude  INFO     CA.CORG..HHE broadb: Ml 3.1
+2024-02-29 14:41:41,049 ssp_local_magnitude  INFO     CA.CORG..HHN broadb: Ml 3.4
+2024-02-29 14:41:41,284 ssp_local_magnitude  INFO     CA.CSOR..HHE broadb: Ml 3.8
+2024-02-29 14:41:41,519 ssp_local_magnitude  INFO     CA.CSOR..HHN broadb: Ml 4.0
+2024-02-29 14:41:41,724 ssp_local_magnitude  INFO     FR.CARF.00.HHE broadb: Ml 3.6
+2024-02-29 14:41:41,929 ssp_local_magnitude  INFO     FR.CARF.00.HHN broadb: Ml 3.4
+2024-02-29 14:41:42,171 ssp_local_magnitude  INFO     FR.FNEB.00.HHE broadb: Ml 3.6
+2024-02-29 14:41:42,412 ssp_local_magnitude  INFO     FR.FNEB.00.HHN broadb: Ml 3.5
+2024-02-29 14:41:42,629 ssp_local_magnitude  INFO     FR.GENF.00.HH1 broadb: Ml 3.2
+2024-02-29 14:41:42,856 ssp_local_magnitude  INFO     FR.GENF.00.HH2 broadb: Ml 3.3
+2024-02-29 14:41:42,926 ssp_summary_statistics INFO     params_mean: {'Mw': 3.6007514381428236, 'fc': 3.217569973229151, 't_star': 0.03744884662053798}
+2024-02-29 14:41:42,926 ssp_summary_statistics INFO     params_mean_weighted: {'Mw': 3.5781464838593653, 'fc': 2.392253452710551, 't_star': 0.02305396652292804}
+2024-02-29 14:41:42,926 ssp_summary_statistics INFO     params_percentiles: {'Mw': 3.5785161692567615, 'fc': 2.6876996425420305, 't_star': 0.032797701142713305}
+2024-02-29 14:41:42,927 tzlocal              DEBUG    /etc/localtime found
+2024-02-29 14:41:42,929 tzlocal              DEBUG    1 found:
+ {'/etc/localtime is a symlink to': 'Europe/Madrid'}
+2024-02-29 14:41:42,931 ssp_output           INFO     Output written to file: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_e88e6855507e4ba297014b04680cba87/e6453f28-17d7-4c31-ab86-98bfc26eef28.ssp.out
+2024-02-29 14:41:42,932 ssp_output           INFO     Output written to file: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_e88e6855507e4ba297014b04680cba87/e6453f28-17d7-4c31-ab86-98bfc26eef28.ssp.yaml
+2024-02-29 14:41:42,942 ssp_qml_output       WARNING  Unable to find evid "e6453f28-17d7-4c31-ab86-98bfc26eef28" in QuakeML file. QuakeML output will not be written.
+2024-02-29 14:41:42,948 ssp_residuals        INFO     Spectral residuals saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_e88e6855507e4ba297014b04680cba87/e6453f28-17d7-4c31-ab86-98bfc26eef28-residuals.pickle
+2024-02-29 14:41:50,221 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_e88e6855507e4ba297014b04680cba87/e6453f28-17d7-4c31-ab86-98bfc26eef28.ssp.png
+2024-02-29 14:42:00,019 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_e88e6855507e4ba297014b04680cba87/e6453f28-17d7-4c31-ab86-98bfc26eef28.sspweight.00.png
+2024-02-29 14:42:00,030 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_e88e6855507e4ba297014b04680cba87/e6453f28-17d7-4c31-ab86-98bfc26eef28.sspweight.01.png
+2024-02-29 14:42:01,075 ssp_plot_stacked_spectra INFO     Stacked spectra plot saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_e88e6855507e4ba297014b04680cba87/e6453f28-17d7-4c31-ab86-98bfc26eef28.stacked_spectra.png
+2024-02-29 14:42:03,898 ssp_plot_params_stats INFO     Parameters box plot saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_e88e6855507e4ba297014b04680cba87/e6453f28-17d7-4c31-ab86-98bfc26eef28.boxplot.png
+2024-02-29 14:42:03,915 ssp_html_report      INFO     HTML report written to file: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_e88e6855507e4ba297014b04680cba87/index.html
+2024-02-29 14:42:04,049 ssp_read_station_metadata INFO     Reading station metadata...
+2024-02-29 14:42:04,049 ssp_read_station_metadata INFO     Reading station metadata from file: /Volumes/LaCie/all_andorra/mini_test/inputs/metadata/inv_all.xml
+2024-02-29 14:42:04,272 ssp_read_station_metadata INFO     Reading station metadata: done
+2024-02-29 14:42:04,278 ssp_read_traces      INFO     Reading traces...
+2024-02-29 14:42:04,957 ssp_read_traces      INFO     Reading traces: done
+2024-02-29 14:42:04,958 ssp_read_traces      INFO     Vp_hypo: 6.00 km/s, Vs_hypo: 3.50 km/s
+2024-02-29 14:42:04,967 ssp_process_traces_mod INFO     Processing traces...
+2024-02-29 14:42:04,981 ssp_wave_arrival_mod INFO     CA.ARBS..HH1: found P pick
+2024-02-29 14:42:04,984 ssp_wave_arrival_mod INFO     CA.ARBS..HH1: found S pick
+2024-02-29 14:42:04,984 ssp_process_traces_mod WARNING  CA.ARBS..HH1: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:42:05,023 ssp_process_traces_mod INFO     CA.ARBS..HH1 broadb: clipping score: 86.5%
+2024-02-29 14:42:05,023 ssp_process_traces_mod WARNING  CA.ARBS..HH1 broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:42:05,210 ssp_process_traces_mod INFO     CA.ARBS..HH1 broadb: S/N: 1.9
+2024-02-29 14:42:05,214 ssp_wave_arrival_mod INFO     CA.ARBS..HH2: found P pick
+2024-02-29 14:42:05,217 ssp_wave_arrival_mod INFO     CA.ARBS..HH2: found S pick
+2024-02-29 14:42:05,217 ssp_process_traces_mod WARNING  CA.ARBS..HH2: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:42:05,257 ssp_process_traces_mod INFO     CA.ARBS..HH2 broadb: clipping score: 86.6%
+2024-02-29 14:42:05,257 ssp_process_traces_mod WARNING  CA.ARBS..HH2 broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:42:05,442 ssp_process_traces_mod INFO     CA.ARBS..HH2 broadb: S/N: 2.2
+2024-02-29 14:42:05,445 ssp_wave_arrival_mod INFO     CA.ARBS..HHZ: found P pick
+2024-02-29 14:42:05,448 ssp_wave_arrival_mod INFO     CA.ARBS..HHZ: found S pick
+2024-02-29 14:42:05,448 ssp_process_traces_mod WARNING  CA.ARBS..HHZ: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:42:05,487 ssp_process_traces_mod INFO     CA.ARBS..HHZ broadb: clipping score: 85.6%
+2024-02-29 14:42:05,487 ssp_process_traces_mod WARNING  CA.ARBS..HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:42:05,671 ssp_process_traces_mod INFO     CA.ARBS..HHZ broadb: S/N: 1.9
+2024-02-29 14:42:05,675 ssp_wave_arrival_mod INFO     CA.CEST..HHE: found P pick
+2024-02-29 14:42:05,678 ssp_wave_arrival_mod INFO     CA.CEST..HHE: found S pick
+2024-02-29 14:42:05,717 ssp_process_traces_mod INFO     CA.CEST..HHE broadb: clipping score: 89.8%
+2024-02-29 14:42:05,718 ssp_process_traces_mod WARNING  CA.CEST..HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:42:05,906 ssp_process_traces_mod INFO     CA.CEST..HHE broadb: S/N: 1.0
+2024-02-29 14:42:05,909 ssp_wave_arrival_mod INFO     CA.CEST..HHN: found P pick
+2024-02-29 14:42:05,912 ssp_wave_arrival_mod INFO     CA.CEST..HHN: found S pick
+2024-02-29 14:42:05,951 ssp_process_traces_mod INFO     CA.CEST..HHN broadb: clipping score: 87.9%
+2024-02-29 14:42:05,951 ssp_process_traces_mod WARNING  CA.CEST..HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:42:06,136 ssp_process_traces_mod INFO     CA.CEST..HHN broadb: S/N: 2.3
+2024-02-29 14:42:06,140 ssp_wave_arrival_mod INFO     CA.CEST..HHZ: found P pick
+2024-02-29 14:42:06,143 ssp_wave_arrival_mod INFO     CA.CEST..HHZ: found S pick
+2024-02-29 14:42:06,182 ssp_process_traces_mod INFO     CA.CEST..HHZ broadb: clipping score: 89.6%
+2024-02-29 14:42:06,182 ssp_process_traces_mod WARNING  CA.CEST..HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:42:06,368 ssp_process_traces_mod INFO     CA.CEST..HHZ broadb: S/N: 1.8
+2024-02-29 14:42:06,372 ssp_wave_arrival_mod INFO     CA.CORG..HHE: no P pick found
+2024-02-29 14:42:06,372 ssp_wave_arrival_mod INFO     CA.CORG..HHE: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:42:06,375 ssp_wave_arrival_mod INFO     CA.CORG..HHE: found S pick
+2024-02-29 14:42:06,416 ssp_process_traces_mod INFO     CA.CORG..HHE broadb: clipping score: 87.5%
+2024-02-29 14:42:06,416 ssp_process_traces_mod WARNING  CA.CORG..HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:42:06,599 ssp_process_traces_mod INFO     CA.CORG..HHE broadb: S/N: 0.8
+2024-02-29 14:42:06,603 ssp_wave_arrival_mod INFO     CA.CORG..HHN: no P pick found
+2024-02-29 14:42:06,603 ssp_wave_arrival_mod INFO     CA.CORG..HHN: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:42:06,607 ssp_wave_arrival_mod INFO     CA.CORG..HHN: found S pick
+2024-02-29 14:42:06,647 ssp_process_traces_mod INFO     CA.CORG..HHN broadb: clipping score: 78.7%
+2024-02-29 14:42:06,647 ssp_process_traces_mod WARNING  CA.CORG..HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:42:06,831 ssp_process_traces_mod INFO     CA.CORG..HHN broadb: S/N: 2.0
+2024-02-29 14:42:06,835 ssp_wave_arrival_mod INFO     CA.CORG..HHZ: no P pick found
+2024-02-29 14:42:06,835 ssp_wave_arrival_mod INFO     CA.CORG..HHZ: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:42:06,838 ssp_wave_arrival_mod INFO     CA.CORG..HHZ: found S pick
+2024-02-29 14:42:06,879 ssp_process_traces_mod INFO     CA.CORG..HHZ broadb: clipping score: 87.8%
+2024-02-29 14:42:06,880 ssp_process_traces_mod WARNING  CA.CORG..HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:42:07,069 ssp_process_traces_mod INFO     CA.CORG..HHZ broadb: S/N: 2.0
+2024-02-29 14:42:07,073 ssp_wave_arrival_mod INFO     CA.CSOR..HHE: found P pick
+2024-02-29 14:42:07,076 ssp_wave_arrival_mod INFO     CA.CSOR..HHE: found S pick
+2024-02-29 14:42:07,117 ssp_process_traces_mod INFO     CA.CSOR..HHE broadb: clipping score: 90.9%
+2024-02-29 14:42:07,118 ssp_process_traces_mod WARNING  CA.CSOR..HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:42:07,307 ssp_process_traces_mod INFO     CA.CSOR..HHE broadb: S/N: 1.8
+2024-02-29 14:42:07,311 ssp_wave_arrival_mod INFO     CA.CSOR..HHN: found P pick
+2024-02-29 14:42:07,315 ssp_wave_arrival_mod INFO     CA.CSOR..HHN: found S pick
+2024-02-29 14:42:07,356 ssp_process_traces_mod INFO     CA.CSOR..HHN broadb: clipping score: 87.9%
+2024-02-29 14:42:07,357 ssp_process_traces_mod WARNING  CA.CSOR..HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:42:07,542 ssp_process_traces_mod INFO     CA.CSOR..HHN broadb: S/N: 3.8
+2024-02-29 14:42:07,546 ssp_wave_arrival_mod INFO     CA.CSOR..HHZ: found P pick
+2024-02-29 14:42:07,550 ssp_wave_arrival_mod INFO     CA.CSOR..HHZ: found S pick
+2024-02-29 14:42:07,591 ssp_process_traces_mod INFO     CA.CSOR..HHZ broadb: clipping score: 84.1%
+2024-02-29 14:42:07,591 ssp_process_traces_mod WARNING  CA.CSOR..HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:42:07,784 ssp_process_traces_mod INFO     CA.CSOR..HHZ broadb: S/N: 4.6
+2024-02-29 14:42:07,788 ssp_wave_arrival_mod INFO     FR.CARF.00.HHE: no P pick found
+2024-02-29 14:42:07,788 ssp_wave_arrival_mod INFO     FR.CARF.00.HHE: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:42:07,792 ssp_wave_arrival_mod INFO     FR.CARF.00.HHE: no S pick found
+2024-02-29 14:42:07,792 ssp_wave_arrival_mod INFO     FR.CARF.00.HHE: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:42:07,817 ssp_process_traces_mod INFO     FR.CARF.00.HHE broadb: clipping score: 83.1%
+2024-02-29 14:42:07,817 ssp_process_traces_mod WARNING  FR.CARF.00.HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:42:07,991 ssp_process_traces_mod INFO     FR.CARF.00.HHE broadb: S/N: 1.2
+2024-02-29 14:42:07,995 ssp_wave_arrival_mod INFO     FR.CARF.00.HHN: no P pick found
+2024-02-29 14:42:07,995 ssp_wave_arrival_mod INFO     FR.CARF.00.HHN: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:42:07,998 ssp_wave_arrival_mod INFO     FR.CARF.00.HHN: no S pick found
+2024-02-29 14:42:07,998 ssp_wave_arrival_mod INFO     FR.CARF.00.HHN: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:42:08,022 ssp_process_traces_mod INFO     FR.CARF.00.HHN broadb: clipping score: 74.3%
+2024-02-29 14:42:08,022 ssp_process_traces_mod WARNING  FR.CARF.00.HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:42:08,191 ssp_process_traces_mod INFO     FR.CARF.00.HHN broadb: S/N: 1.1
+2024-02-29 14:42:08,195 ssp_wave_arrival_mod INFO     FR.CARF.00.HHZ: no P pick found
+2024-02-29 14:42:08,195 ssp_wave_arrival_mod INFO     FR.CARF.00.HHZ: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:42:08,199 ssp_wave_arrival_mod INFO     FR.CARF.00.HHZ: no S pick found
+2024-02-29 14:42:08,199 ssp_wave_arrival_mod INFO     FR.CARF.00.HHZ: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:42:08,223 ssp_process_traces_mod INFO     FR.CARF.00.HHZ broadb: clipping score: 88.8%
+2024-02-29 14:42:08,223 ssp_process_traces_mod WARNING  FR.CARF.00.HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:42:08,393 ssp_process_traces_mod INFO     FR.CARF.00.HHZ broadb: S/N: 1.6
+2024-02-29 14:42:08,409 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHE: no P pick found
+2024-02-29 14:42:08,409 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHE: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:42:08,426 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHE: no S pick found
+2024-02-29 14:42:08,426 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHE: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:42:08,479 ssp_process_traces_mod INFO     FR.FNEB.00.HHE broadb: clipping score: 32.6%
+2024-02-29 14:42:08,480 ssp_process_traces_mod WARNING  FR.FNEB.00.HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:42:08,666 ssp_process_traces_mod INFO     FR.FNEB.00.HHE broadb: S/N: 1.1
+2024-02-29 14:42:08,682 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHN: no P pick found
+2024-02-29 14:42:08,683 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHN: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:42:08,699 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHN: no S pick found
+2024-02-29 14:42:08,699 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHN: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:42:08,753 ssp_process_traces_mod INFO     FR.FNEB.00.HHN broadb: clipping score: 34.3%
+2024-02-29 14:42:08,753 ssp_process_traces_mod WARNING  FR.FNEB.00.HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:42:08,946 ssp_process_traces_mod INFO     FR.FNEB.00.HHN broadb: S/N: 1.1
+2024-02-29 14:42:08,963 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHZ: no P pick found
+2024-02-29 14:42:08,963 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHZ: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:42:08,979 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHZ: no S pick found
+2024-02-29 14:42:08,980 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHZ: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:42:09,032 ssp_process_traces_mod INFO     FR.FNEB.00.HHZ broadb: clipping score: 73.9%
+2024-02-29 14:42:09,033 ssp_process_traces_mod WARNING  FR.FNEB.00.HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:42:09,220 ssp_process_traces_mod INFO     FR.FNEB.00.HHZ broadb: S/N: 1.1
+2024-02-29 14:42:09,224 ssp_wave_arrival_mod INFO     FR.GENF.00.HH1: found P pick
+2024-02-29 14:42:09,227 ssp_wave_arrival_mod INFO     FR.GENF.00.HH1: found S pick
+2024-02-29 14:42:09,252 ssp_process_traces_mod INFO     FR.GENF.00.HH1 broadb: clipping score: 59.5%
+2024-02-29 14:42:09,253 ssp_process_traces_mod WARNING  FR.GENF.00.HH1 broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:42:09,439 ssp_process_traces_mod INFO     FR.GENF.00.HH1 broadb: S/N: 1.5
+2024-02-29 14:42:09,444 ssp_wave_arrival_mod INFO     FR.GENF.00.HH2: found P pick
+2024-02-29 14:42:09,447 ssp_wave_arrival_mod INFO     FR.GENF.00.HH2: found S pick
+2024-02-29 14:42:09,474 ssp_process_traces_mod INFO     FR.GENF.00.HH2 broadb: clipping score: 88.5%
+2024-02-29 14:42:09,474 ssp_process_traces_mod WARNING  FR.GENF.00.HH2 broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:42:09,659 ssp_process_traces_mod INFO     FR.GENF.00.HH2 broadb: S/N: 1.5
+2024-02-29 14:42:09,663 ssp_wave_arrival_mod INFO     FR.GENF.00.HHZ: found P pick
+2024-02-29 14:42:09,666 ssp_wave_arrival_mod INFO     FR.GENF.00.HHZ: found S pick
+2024-02-29 14:42:09,692 ssp_process_traces_mod INFO     FR.GENF.00.HHZ broadb: clipping score: 88.5%
+2024-02-29 14:42:09,692 ssp_process_traces_mod WARNING  FR.GENF.00.HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:42:09,878 ssp_process_traces_mod INFO     FR.GENF.00.HHZ broadb: S/N: 1.3
+2024-02-29 14:42:09,882 ssp_wave_arrival_mod INFO     FR.PAND.00.HHE: found P pick
+2024-02-29 14:42:09,886 ssp_wave_arrival_mod INFO     FR.PAND.00.HHE: found S pick
+2024-02-29 14:42:09,886 ssp_process_traces_mod WARNING  FR.PAND.00.HHE: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:42:09,911 ssp_process_traces_mod INFO     FR.PAND.00.HHE broadb: clipping score: 0.4%
+2024-02-29 14:42:10,093 ssp_process_traces_mod INFO     FR.PAND.00.HHE broadb: S/N: 8.8
+2024-02-29 14:42:10,097 ssp_wave_arrival_mod INFO     FR.PAND.00.HHN: found P pick
+2024-02-29 14:42:10,100 ssp_wave_arrival_mod INFO     FR.PAND.00.HHN: found S pick
+2024-02-29 14:42:10,100 ssp_process_traces_mod WARNING  FR.PAND.00.HHN: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:42:10,124 ssp_process_traces_mod INFO     FR.PAND.00.HHN broadb: clipping score: 0.7%
+2024-02-29 14:42:10,295 ssp_process_traces_mod INFO     FR.PAND.00.HHN broadb: S/N: 8.9
+2024-02-29 14:42:10,298 ssp_wave_arrival_mod INFO     FR.PAND.00.HHZ: found P pick
+2024-02-29 14:42:10,302 ssp_wave_arrival_mod INFO     FR.PAND.00.HHZ: found S pick
+2024-02-29 14:42:10,302 ssp_process_traces_mod WARNING  FR.PAND.00.HHZ: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:42:10,324 ssp_process_traces_mod INFO     FR.PAND.00.HHZ broadb: clipping score: 1.2%
+2024-02-29 14:42:10,496 ssp_process_traces_mod INFO     FR.PAND.00.HHZ broadb: S/N: 9.1
+2024-02-29 14:42:10,500 ssp_wave_arrival_mod INFO     FR.SALF.00.HHE: found P pick
+2024-02-29 14:42:10,503 ssp_wave_arrival_mod INFO     FR.SALF.00.HHE: found S pick
+2024-02-29 14:42:10,555 ssp_process_traces_mod INFO     FR.SALF.00.HHE broadb: clipping score: 59.0%
+2024-02-29 14:42:10,555 ssp_process_traces_mod WARNING  FR.SALF.00.HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:42:10,743 ssp_process_traces_mod INFO     FR.SALF.00.HHE broadb: S/N: 1.7
+2024-02-29 14:42:10,747 ssp_wave_arrival_mod INFO     FR.SALF.00.HHN: found P pick
+2024-02-29 14:42:10,750 ssp_wave_arrival_mod INFO     FR.SALF.00.HHN: found S pick
+2024-02-29 14:42:10,803 ssp_process_traces_mod INFO     FR.SALF.00.HHN broadb: clipping score: 87.8%
+2024-02-29 14:42:10,803 ssp_process_traces_mod WARNING  FR.SALF.00.HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:42:10,991 ssp_process_traces_mod INFO     FR.SALF.00.HHN broadb: S/N: 1.8
+2024-02-29 14:42:10,995 ssp_wave_arrival_mod INFO     FR.SALF.00.HHZ: found P pick
+2024-02-29 14:42:10,999 ssp_wave_arrival_mod INFO     FR.SALF.00.HHZ: found S pick
+2024-02-29 14:42:11,052 ssp_process_traces_mod INFO     FR.SALF.00.HHZ broadb: clipping score: 82.1%
+2024-02-29 14:42:11,052 ssp_process_traces_mod WARNING  FR.SALF.00.HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:42:11,246 ssp_process_traces_mod INFO     FR.SALF.00.HHZ broadb: S/N: 1.6
+2024-02-29 14:42:11,250 ssp_wave_arrival_mod INFO     FR.VALC.00.HHE: no P pick found
+2024-02-29 14:42:11,250 ssp_wave_arrival_mod INFO     FR.VALC.00.HHE: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:42:11,255 ssp_wave_arrival_mod INFO     FR.VALC.00.HHE: no S pick found
+2024-02-29 14:42:11,255 ssp_wave_arrival_mod INFO     FR.VALC.00.HHE: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:42:11,281 ssp_process_traces_mod INFO     FR.VALC.00.HHE broadb: clipping score: 82.5%
+2024-02-29 14:42:11,281 ssp_process_traces_mod WARNING  FR.VALC.00.HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:42:11,465 ssp_process_traces_mod INFO     FR.VALC.00.HHE broadb: S/N: 1.2
+2024-02-29 14:42:11,470 ssp_wave_arrival_mod INFO     FR.VALC.00.HHN: no P pick found
+2024-02-29 14:42:11,470 ssp_wave_arrival_mod INFO     FR.VALC.00.HHN: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:42:11,473 ssp_wave_arrival_mod INFO     FR.VALC.00.HHN: no S pick found
+2024-02-29 14:42:11,474 ssp_wave_arrival_mod INFO     FR.VALC.00.HHN: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:42:11,500 ssp_process_traces_mod INFO     FR.VALC.00.HHN broadb: clipping score: 79.4%
+2024-02-29 14:42:11,500 ssp_process_traces_mod WARNING  FR.VALC.00.HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:42:11,681 ssp_process_traces_mod INFO     FR.VALC.00.HHN broadb: S/N: 1.2
+2024-02-29 14:42:11,685 ssp_wave_arrival_mod INFO     FR.VALC.00.HHZ: no P pick found
+2024-02-29 14:42:11,685 ssp_wave_arrival_mod INFO     FR.VALC.00.HHZ: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:42:11,688 ssp_wave_arrival_mod INFO     FR.VALC.00.HHZ: no S pick found
+2024-02-29 14:42:11,688 ssp_wave_arrival_mod INFO     FR.VALC.00.HHZ: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:42:11,713 ssp_process_traces_mod INFO     FR.VALC.00.HHZ broadb: clipping score: 77.9%
+2024-02-29 14:42:11,714 ssp_process_traces_mod WARNING  FR.VALC.00.HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:42:11,915 ssp_process_traces_mod INFO     FR.VALC.00.HHZ broadb: S/N: 1.3
+2024-02-29 14:42:11,915 ssp_process_traces_mod INFO     Processing traces: done
+2024-02-29 14:42:11,915 ssp_build_spectra    INFO     Building spectra...
+2024-02-29 14:42:11,966 ssp_build_spectra    INFO     FR.PAND.00.HHE: spectral S/N: 19.10
+2024-02-29 14:42:11,971 ssp_build_spectra    INFO     FR.PAND.00.HHN: spectral S/N: 21.49
+2024-02-29 14:42:11,975 ssp_build_spectra    INFO     FR.PAND.00.HHZ: spectral S/N: 22.58
+2024-02-29 14:42:11,977 ssp_build_spectra    INFO     Building spectra: done
+2024-02-29 14:42:17,912 ssp_plot_traces      INFO     Trace plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_3f62a80185354e6caa81de8d9d4b99bb/56464279-fb2b-4b16-9d49-6706338c2f83.traces.png
+2024-02-29 14:42:17,939 ssp_inversion        INFO     Inverting spectra...
+2024-02-29 14:42:17,939 ssp_inversion        INFO     Using noise weighting for inversion.
+2024-02-29 14:42:17,940 ssp_inversion        INFO     Using truncated Newton algorithm for inversion.
+2024-02-29 14:42:17,940 ssp_inversion        INFO     FR.PAND.00.HHH broadb: initial values: Mw_0: 1.1651; fc_0: 6.6508; t_star_0: 0.045
+2024-02-29 14:42:17,941 ssp_inversion        INFO     FR.PAND.00.HHH broadb: bounds: Mw: 0.9608, 1.3675; fc: 0.6651, 66.5078; t_star: 0.0, 0.1
+2024-02-29 14:42:17,955 ssp_inversion        INFO     FR.PAND.00.HHH broadb: optimal values: Mw: 1.3675; fc: 66.5078; t_star: 0.0346
+2024-02-29 14:42:17,955 ssp_inversion        INFO     FR.PAND.00.HHH broadb: misfit: 0.115
+2024-02-29 14:42:17,955 ssp_inversion        WARNING  FR.PAND.00.HHH broadb: optimal fc within 0.1% of fc_max: 66.508 ~= 66.508: ignoring inversion results
+2024-02-29 14:42:17,956 ssp_inversion        INFO     Inverting spectra: done
+2024-02-29 14:42:17,956 ssp_radiated_energy  INFO     Computing radiated energy...
+2024-02-29 14:42:17,956 ssp_radiated_energy  INFO     Computing radiated energy: done
+2024-02-29 14:42:17,956 ssp_local_magnitude  INFO     Computing local magnitude...
+2024-02-29 14:42:17,956 ssp_summary_statistics INFO     No source parameter calculated
+2024-02-29 14:42:17,994 ssp_read_station_metadata INFO     Reading station metadata...
+2024-02-29 14:42:17,994 ssp_read_station_metadata INFO     Reading station metadata from file: /Volumes/LaCie/all_andorra/mini_test/inputs/metadata/inv_all.xml
+2024-02-29 14:42:18,211 ssp_read_station_metadata INFO     Reading station metadata: done
+2024-02-29 14:42:18,219 ssp_read_traces      INFO     Reading traces...
+2024-02-29 14:42:18,753 ssp_read_traces      INFO     Reading traces: done
+2024-02-29 14:42:18,754 ssp_read_traces      INFO     Vp_hypo: 6.00 km/s, Vs_hypo: 3.50 km/s
+2024-02-29 14:42:18,763 ssp_process_traces_mod INFO     Processing traces...
+2024-02-29 14:42:18,777 ssp_wave_arrival_mod INFO     CA.ARBS..HH1: found P pick
+2024-02-29 14:42:18,781 ssp_wave_arrival_mod INFO     CA.ARBS..HH1: found S pick
+2024-02-29 14:42:18,781 ssp_process_traces_mod WARNING  CA.ARBS..HH1: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:42:18,822 ssp_process_traces_mod INFO     CA.ARBS..HH1 broadb: clipping score: 0.4%
+2024-02-29 14:42:19,014 ssp_process_traces_mod INFO     CA.ARBS..HH1 broadb: S/N: 27.0
+2024-02-29 14:42:19,018 ssp_wave_arrival_mod INFO     CA.ARBS..HH2: found P pick
+2024-02-29 14:42:19,021 ssp_wave_arrival_mod INFO     CA.ARBS..HH2: found S pick
+2024-02-29 14:42:19,022 ssp_process_traces_mod WARNING  CA.ARBS..HH2: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:42:19,061 ssp_process_traces_mod INFO     CA.ARBS..HH2 broadb: clipping score: 0.8%
+2024-02-29 14:42:19,247 ssp_process_traces_mod INFO     CA.ARBS..HH2 broadb: S/N: 29.9
+2024-02-29 14:42:19,251 ssp_wave_arrival_mod INFO     CA.ARBS..HHZ: found P pick
+2024-02-29 14:42:19,254 ssp_wave_arrival_mod INFO     CA.ARBS..HHZ: found S pick
+2024-02-29 14:42:19,255 ssp_process_traces_mod WARNING  CA.ARBS..HHZ: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:42:19,294 ssp_process_traces_mod INFO     CA.ARBS..HHZ broadb: clipping score: 7.2%
+2024-02-29 14:42:19,481 ssp_process_traces_mod INFO     CA.ARBS..HHZ broadb: S/N: 36.3
+2024-02-29 14:42:19,485 ssp_wave_arrival_mod INFO     CA.CEST..HHE: found P pick
+2024-02-29 14:42:19,489 ssp_wave_arrival_mod INFO     CA.CEST..HHE: found S pick
+2024-02-29 14:42:19,530 ssp_process_traces_mod INFO     CA.CEST..HHE broadb: clipping score: 0.5%
+2024-02-29 14:42:19,716 ssp_process_traces_mod INFO     CA.CEST..HHE broadb: S/N: 78.5
+2024-02-29 14:42:19,720 ssp_wave_arrival_mod INFO     CA.CEST..HHN: found P pick
+2024-02-29 14:42:19,723 ssp_wave_arrival_mod INFO     CA.CEST..HHN: found S pick
+2024-02-29 14:42:19,763 ssp_process_traces_mod INFO     CA.CEST..HHN broadb: clipping score: 0.5%
+2024-02-29 14:42:19,948 ssp_process_traces_mod INFO     CA.CEST..HHN broadb: S/N: 97.9
+2024-02-29 14:42:19,952 ssp_wave_arrival_mod INFO     CA.CEST..HHZ: found P pick
+2024-02-29 14:42:19,956 ssp_wave_arrival_mod INFO     CA.CEST..HHZ: found S pick
+2024-02-29 14:42:19,997 ssp_process_traces_mod INFO     CA.CEST..HHZ broadb: clipping score: 0.2%
+2024-02-29 14:42:20,183 ssp_process_traces_mod INFO     CA.CEST..HHZ broadb: S/N: 96.4
+2024-02-29 14:42:20,187 ssp_wave_arrival_mod INFO     CA.CORG..HHE: found P pick
+2024-02-29 14:42:20,191 ssp_wave_arrival_mod INFO     CA.CORG..HHE: found S pick
+2024-02-29 14:42:20,231 ssp_process_traces_mod INFO     CA.CORG..HHE broadb: clipping score: 21.2%
+2024-02-29 14:42:20,231 ssp_process_traces_mod WARNING  CA.CORG..HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:42:20,416 ssp_process_traces_mod INFO     CA.CORG..HHE broadb: S/N: 18.3
+2024-02-29 14:42:20,420 ssp_wave_arrival_mod INFO     CA.CORG..HHN: found P pick
+2024-02-29 14:42:20,423 ssp_wave_arrival_mod INFO     CA.CORG..HHN: found S pick
+2024-02-29 14:42:20,464 ssp_process_traces_mod INFO     CA.CORG..HHN broadb: clipping score: 18.7%
+2024-02-29 14:42:20,464 ssp_process_traces_mod WARNING  CA.CORG..HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:42:20,647 ssp_process_traces_mod INFO     CA.CORG..HHN broadb: S/N: 25.4
+2024-02-29 14:42:20,651 ssp_wave_arrival_mod INFO     CA.CORG..HHZ: found P pick
+2024-02-29 14:42:20,654 ssp_wave_arrival_mod INFO     CA.CORG..HHZ: found S pick
+2024-02-29 14:42:20,695 ssp_process_traces_mod INFO     CA.CORG..HHZ broadb: clipping score: 58.9%
+2024-02-29 14:42:20,695 ssp_process_traces_mod WARNING  CA.CORG..HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:42:20,878 ssp_process_traces_mod INFO     CA.CORG..HHZ broadb: S/N: 15.3
+2024-02-29 14:42:20,882 ssp_wave_arrival_mod INFO     CA.CSOR..HHE: found P pick
+2024-02-29 14:42:20,886 ssp_wave_arrival_mod INFO     CA.CSOR..HHE: found S pick
+2024-02-29 14:42:20,926 ssp_process_traces_mod INFO     CA.CSOR..HHE broadb: clipping score: 0.2%
+2024-02-29 14:42:21,114 ssp_process_traces_mod INFO     CA.CSOR..HHE broadb: S/N: 48.8
+2024-02-29 14:42:21,118 ssp_wave_arrival_mod INFO     CA.CSOR..HHN: found P pick
+2024-02-29 14:42:21,121 ssp_wave_arrival_mod INFO     CA.CSOR..HHN: found S pick
+2024-02-29 14:42:21,164 ssp_process_traces_mod INFO     CA.CSOR..HHN broadb: clipping score: 0.3%
+2024-02-29 14:42:21,353 ssp_process_traces_mod INFO     CA.CSOR..HHN broadb: S/N: 52.7
+2024-02-29 14:42:21,358 ssp_wave_arrival_mod INFO     CA.CSOR..HHZ: found P pick
+2024-02-29 14:42:21,362 ssp_wave_arrival_mod INFO     CA.CSOR..HHZ: found S pick
+2024-02-29 14:42:21,404 ssp_process_traces_mod INFO     CA.CSOR..HHZ broadb: clipping score: 3.5%
+2024-02-29 14:42:21,595 ssp_process_traces_mod INFO     CA.CSOR..HHZ broadb: S/N: 30.2
+2024-02-29 14:42:21,599 ssp_wave_arrival_mod INFO     FR.CARF.00.HHE: found P pick
+2024-02-29 14:42:21,602 ssp_wave_arrival_mod INFO     FR.CARF.00.HHE: found S pick
+2024-02-29 14:42:21,626 ssp_process_traces_mod INFO     FR.CARF.00.HHE broadb: clipping score: 0.5%
+2024-02-29 14:42:21,797 ssp_process_traces_mod INFO     FR.CARF.00.HHE broadb: S/N: 22.2
+2024-02-29 14:42:21,800 ssp_wave_arrival_mod INFO     FR.CARF.00.HHN: found P pick
+2024-02-29 14:42:21,803 ssp_wave_arrival_mod INFO     FR.CARF.00.HHN: found S pick
+2024-02-29 14:42:21,827 ssp_process_traces_mod INFO     FR.CARF.00.HHN broadb: clipping score: 4.5%
+2024-02-29 14:42:21,999 ssp_process_traces_mod INFO     FR.CARF.00.HHN broadb: S/N: 12.7
+2024-02-29 14:42:22,003 ssp_wave_arrival_mod INFO     FR.CARF.00.HHZ: found P pick
+2024-02-29 14:42:22,006 ssp_wave_arrival_mod INFO     FR.CARF.00.HHZ: found S pick
+2024-02-29 14:42:22,030 ssp_process_traces_mod INFO     FR.CARF.00.HHZ broadb: clipping score: 8.4%
+2024-02-29 14:42:22,198 ssp_process_traces_mod INFO     FR.CARF.00.HHZ broadb: S/N: 7.4
+2024-02-29 14:42:22,201 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHE: found P pick
+2024-02-29 14:42:22,205 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHE: found S pick
+2024-02-29 14:42:22,257 ssp_process_traces_mod INFO     FR.FNEB.00.HHE broadb: clipping score: 3.5%
+2024-02-29 14:42:22,438 ssp_process_traces_mod INFO     FR.FNEB.00.HHE broadb: S/N: 6.5
+2024-02-29 14:42:22,441 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHN: found P pick
+2024-02-29 14:42:22,445 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHN: found S pick
+2024-02-29 14:42:22,496 ssp_process_traces_mod INFO     FR.FNEB.00.HHN broadb: clipping score: 74.8%
+2024-02-29 14:42:22,497 ssp_process_traces_mod WARNING  FR.FNEB.00.HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:42:22,682 ssp_process_traces_mod INFO     FR.FNEB.00.HHN broadb: S/N: 6.5
+2024-02-29 14:42:22,686 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHZ: found P pick
+2024-02-29 14:42:22,690 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHZ: found S pick
+2024-02-29 14:42:22,743 ssp_process_traces_mod INFO     FR.FNEB.00.HHZ broadb: clipping score: 53.7%
+2024-02-29 14:42:22,743 ssp_process_traces_mod WARNING  FR.FNEB.00.HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:42:22,951 ssp_process_traces_mod INFO     FR.FNEB.00.HHZ broadb: S/N: 2.7
+2024-02-29 14:42:22,955 ssp_wave_arrival_mod INFO     FR.GENF.00.HH1: found P pick
+2024-02-29 14:42:22,959 ssp_wave_arrival_mod INFO     FR.GENF.00.HH1: found S pick
+2024-02-29 14:42:22,985 ssp_process_traces_mod INFO     FR.GENF.00.HH1 broadb: clipping score: 0.2%
+2024-02-29 14:42:23,166 ssp_process_traces_mod INFO     FR.GENF.00.HH1 broadb: S/N: 20.0
+2024-02-29 14:42:23,171 ssp_wave_arrival_mod INFO     FR.GENF.00.HH2: found P pick
+2024-02-29 14:42:23,174 ssp_wave_arrival_mod INFO     FR.GENF.00.HH2: found S pick
+2024-02-29 14:42:23,201 ssp_process_traces_mod INFO     FR.GENF.00.HH2 broadb: clipping score: 0.1%
+2024-02-29 14:42:23,383 ssp_process_traces_mod INFO     FR.GENF.00.HH2 broadb: S/N: 38.3
+2024-02-29 14:42:23,387 ssp_wave_arrival_mod INFO     FR.GENF.00.HHZ: found P pick
+2024-02-29 14:42:23,392 ssp_wave_arrival_mod INFO     FR.GENF.00.HHZ: found S pick
+2024-02-29 14:42:23,418 ssp_process_traces_mod INFO     FR.GENF.00.HHZ broadb: clipping score: 0.2%
+2024-02-29 14:42:23,596 ssp_process_traces_mod INFO     FR.GENF.00.HHZ broadb: S/N: 16.8
+2024-02-29 14:42:23,599 ssp_wave_arrival_mod INFO     FR.PAND.00.HHE: found P pick
+2024-02-29 14:42:23,602 ssp_wave_arrival_mod INFO     FR.PAND.00.HHE: found S pick
+2024-02-29 14:42:23,603 ssp_process_traces_mod WARNING  FR.PAND.00.HHE: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:42:23,626 ssp_process_traces_mod INFO     FR.PAND.00.HHE broadb: clipping score: 0.1%
+2024-02-29 14:42:23,795 ssp_process_traces_mod INFO     FR.PAND.00.HHE broadb: S/N: 458.2
+2024-02-29 14:42:23,798 ssp_wave_arrival_mod INFO     FR.PAND.00.HHN: found P pick
+2024-02-29 14:42:23,801 ssp_wave_arrival_mod INFO     FR.PAND.00.HHN: found S pick
+2024-02-29 14:42:23,802 ssp_process_traces_mod WARNING  FR.PAND.00.HHN: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:42:23,825 ssp_process_traces_mod INFO     FR.PAND.00.HHN broadb: clipping score: 0.3%
+2024-02-29 14:42:23,998 ssp_process_traces_mod INFO     FR.PAND.00.HHN broadb: S/N: 217.6
+2024-02-29 14:42:24,001 ssp_wave_arrival_mod INFO     FR.PAND.00.HHZ: found P pick
+2024-02-29 14:42:24,004 ssp_wave_arrival_mod INFO     FR.PAND.00.HHZ: found S pick
+2024-02-29 14:42:24,004 ssp_process_traces_mod WARNING  FR.PAND.00.HHZ: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:42:24,027 ssp_process_traces_mod INFO     FR.PAND.00.HHZ broadb: clipping score: 0.1%
+2024-02-29 14:42:24,198 ssp_process_traces_mod INFO     FR.PAND.00.HHZ broadb: S/N: 321.7
+2024-02-29 14:42:24,202 ssp_wave_arrival_mod INFO     FR.SALF.00.HHE: found P pick
+2024-02-29 14:42:24,205 ssp_wave_arrival_mod INFO     FR.SALF.00.HHE: found S pick
+2024-02-29 14:42:24,258 ssp_process_traces_mod INFO     FR.SALF.00.HHE broadb: clipping score: 0.3%
+2024-02-29 14:42:24,441 ssp_process_traces_mod INFO     FR.SALF.00.HHE broadb: S/N: 25.9
+2024-02-29 14:42:24,445 ssp_wave_arrival_mod INFO     FR.SALF.00.HHN: found P pick
+2024-02-29 14:42:24,449 ssp_wave_arrival_mod INFO     FR.SALF.00.HHN: found S pick
+2024-02-29 14:42:24,502 ssp_process_traces_mod INFO     FR.SALF.00.HHN broadb: clipping score: 0.1%
+2024-02-29 14:42:24,685 ssp_process_traces_mod INFO     FR.SALF.00.HHN broadb: S/N: 26.9
+2024-02-29 14:42:24,689 ssp_wave_arrival_mod INFO     FR.SALF.00.HHZ: found P pick
+2024-02-29 14:42:24,693 ssp_wave_arrival_mod INFO     FR.SALF.00.HHZ: found S pick
+2024-02-29 14:42:24,746 ssp_process_traces_mod INFO     FR.SALF.00.HHZ broadb: clipping score: 1.1%
+2024-02-29 14:42:24,930 ssp_process_traces_mod INFO     FR.SALF.00.HHZ broadb: S/N: 26.1
+2024-02-29 14:42:24,933 ssp_wave_arrival_mod INFO     FR.VALC.00.HHE: found P pick
+2024-02-29 14:42:24,937 ssp_wave_arrival_mod INFO     FR.VALC.00.HHE: found S pick
+2024-02-29 14:42:24,962 ssp_process_traces_mod INFO     FR.VALC.00.HHE broadb: clipping score: 1.8%
+2024-02-29 14:42:25,159 ssp_process_traces_mod INFO     FR.VALC.00.HHE broadb: S/N: 13.5
+2024-02-29 14:42:25,163 ssp_wave_arrival_mod INFO     FR.VALC.00.HHN: found P pick
+2024-02-29 14:42:25,166 ssp_wave_arrival_mod INFO     FR.VALC.00.HHN: found S pick
+2024-02-29 14:42:25,192 ssp_process_traces_mod INFO     FR.VALC.00.HHN broadb: clipping score: 1.4%
+2024-02-29 14:42:25,372 ssp_process_traces_mod INFO     FR.VALC.00.HHN broadb: S/N: 23.6
+2024-02-29 14:42:25,375 ssp_wave_arrival_mod INFO     FR.VALC.00.HHZ: found P pick
+2024-02-29 14:42:25,378 ssp_wave_arrival_mod INFO     FR.VALC.00.HHZ: found S pick
+2024-02-29 14:42:25,404 ssp_process_traces_mod INFO     FR.VALC.00.HHZ broadb: clipping score: 0.8%
+2024-02-29 14:42:25,581 ssp_process_traces_mod INFO     FR.VALC.00.HHZ broadb: S/N: 14.7
+2024-02-29 14:42:25,582 ssp_process_traces_mod INFO     Processing traces: done
+2024-02-29 14:42:25,582 ssp_build_spectra    INFO     Building spectra...
+2024-02-29 14:42:26,158 ssp_build_spectra    INFO     CA.ARBS..HH1: spectral S/N: 47.69
+2024-02-29 14:42:26,162 ssp_build_spectra    INFO     CA.ARBS..HH2: spectral S/N: 59.64
+2024-02-29 14:42:26,166 ssp_build_spectra    INFO     CA.ARBS..HHZ: spectral S/N: 64.33
+2024-02-29 14:42:26,169 ssp_build_spectra    INFO     CA.CEST..HHE: spectral S/N: 264.59
+2024-02-29 14:42:26,172 ssp_build_spectra    INFO     CA.CEST..HHN: spectral S/N: 337.10
+2024-02-29 14:42:26,176 ssp_build_spectra    INFO     CA.CEST..HHZ: spectral S/N: 110.32
+2024-02-29 14:42:26,179 ssp_build_spectra    INFO     CA.CSOR..HHE: spectral S/N: 318.82
+2024-02-29 14:42:26,183 ssp_build_spectra    INFO     CA.CSOR..HHN: spectral S/N: 296.27
+2024-02-29 14:42:26,186 ssp_build_spectra    INFO     CA.CSOR..HHZ: spectral S/N: 327.55
+2024-02-29 14:42:26,189 ssp_build_spectra    INFO     FR.CARF.00.HHE: spectral S/N: 50.01
+2024-02-29 14:42:26,192 ssp_build_spectra    INFO     FR.CARF.00.HHN: spectral S/N: 25.49
+2024-02-29 14:42:26,196 ssp_build_spectra    INFO     FR.CARF.00.HHZ: spectral S/N: 47.68
+2024-02-29 14:42:26,199 ssp_build_spectra    INFO     FR.FNEB.00.HHE: spectral S/N: 27.27
+2024-02-29 14:42:26,203 ssp_build_spectra    INFO     FR.GENF.00.HH1: spectral S/N: 71.78
+2024-02-29 14:42:26,206 ssp_build_spectra    INFO     FR.GENF.00.HH2: spectral S/N: 79.34
+2024-02-29 14:42:26,209 ssp_build_spectra    INFO     FR.GENF.00.HHZ: spectral S/N: 51.71
+2024-02-29 14:42:26,212 ssp_build_spectra    INFO     FR.PAND.00.HHE: spectral S/N: 694.80
+2024-02-29 14:42:26,215 ssp_build_spectra    INFO     FR.PAND.00.HHN: spectral S/N: 645.74
+2024-02-29 14:42:26,219 ssp_build_spectra    INFO     FR.PAND.00.HHZ: spectral S/N: 579.71
+2024-02-29 14:42:26,222 ssp_build_spectra    INFO     FR.SALF.00.HHE: spectral S/N: 136.92
+2024-02-29 14:42:26,225 ssp_build_spectra    INFO     FR.SALF.00.HHN: spectral S/N: 112.27
+2024-02-29 14:42:26,229 ssp_build_spectra    INFO     FR.SALF.00.HHZ: spectral S/N: 114.62
+2024-02-29 14:42:26,232 ssp_build_spectra    INFO     FR.VALC.00.HHE: spectral S/N: 20.53
+2024-02-29 14:42:26,235 ssp_build_spectra    INFO     FR.VALC.00.HHN: spectral S/N: 25.69
+2024-02-29 14:42:26,239 ssp_build_spectra    INFO     FR.VALC.00.HHZ: spectral S/N: 24.71
+2024-02-29 14:42:26,255 ssp_build_spectra    INFO     Building spectra: done
+2024-02-29 14:42:30,939 ssp_plot_traces      INFO     Trace plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_cecaf2390815495683219b8f872250ad/cab30f75-5c83-4d2e-9593-392e731b323f.traces.png
+2024-02-29 14:42:30,959 ssp_inversion        INFO     Inverting spectra...
+2024-02-29 14:42:30,959 ssp_inversion        INFO     Using noise weighting for inversion.
+2024-02-29 14:42:30,959 ssp_inversion        INFO     Using truncated Newton algorithm for inversion.
+2024-02-29 14:42:30,961 ssp_inversion        INFO     CA.ARBS..HHH broadb: initial values: Mw_0: 1.9278; fc_0: 1.8318; t_star_0: 0.045
+2024-02-29 14:42:30,961 ssp_inversion        INFO     CA.ARBS..HHH broadb: bounds: Mw: 1.7207, 2.1377; fc: 0.1832, 18.3178; t_star: 0.0, 0.1
+2024-02-29 14:42:30,981 ssp_inversion        INFO     CA.ARBS..HHH broadb: optimal values: Mw: 1.9756; fc: 18.3178; t_star: 0.0744
+2024-02-29 14:42:30,981 ssp_inversion        INFO     CA.ARBS..HHH broadb: misfit: 0.049
+2024-02-29 14:42:30,981 ssp_inversion        WARNING  CA.ARBS..HHH broadb: optimal fc within 0.1% of fc_max: 18.318 ~= 18.318: ignoring inversion results
+2024-02-29 14:42:30,981 ssp_inversion        INFO     CA.CEST..HHH broadb: initial values: Mw_0: 1.9451; fc_0: 5.0451; t_star_0: 0.045
+2024-02-29 14:42:30,981 ssp_inversion        INFO     CA.CEST..HHH broadb: bounds: Mw: 1.6785, 2.266; fc: 0.5045, 50.4514; t_star: 0.0, 0.1
+2024-02-29 14:42:31,000 ssp_inversion        INFO     CA.CEST..HHH broadb: optimal values: Mw: 1.9723; fc: 7.6226; t_star: 0.0000
+2024-02-29 14:42:31,000 ssp_inversion        INFO     CA.CEST..HHH broadb: misfit: 0.051
+2024-02-29 14:42:31,001 ssp_inversion        INFO     CA.CSOR..HHH broadb: initial values: Mw_0: 2.0177; fc_0: 4.1964; t_star_0: 0.045
+2024-02-29 14:42:31,002 ssp_inversion        INFO     CA.CSOR..HHH broadb: bounds: Mw: 1.7369, 2.295; fc: 0.4196, 41.9636; t_star: 0.0, 0.1
+2024-02-29 14:42:31,028 ssp_inversion        INFO     CA.CSOR..HHH broadb: optimal values: Mw: 2.0935; fc: 10.0938; t_star: 0.0171
+2024-02-29 14:42:31,029 ssp_inversion        INFO     CA.CSOR..HHH broadb: misfit: 0.054
+2024-02-29 14:42:31,030 ssp_inversion        INFO     FR.CARF.00.HHH broadb: initial values: Mw_0: 1.7567; fc_0: 7.2924; t_star_0: 0.045
+2024-02-29 14:42:31,030 ssp_inversion        INFO     FR.CARF.00.HHH broadb: bounds: Mw: 1.5307, 1.9994; fc: 0.7292, 72.9244; t_star: 0.0, 0.1
+2024-02-29 14:42:31,044 ssp_inversion        INFO     FR.CARF.00.HHH broadb: optimal values: Mw: 1.8103; fc: 72.9244; t_star: 0.0041
+2024-02-29 14:42:31,044 ssp_inversion        INFO     FR.CARF.00.HHH broadb: misfit: 0.073
+2024-02-29 14:42:31,044 ssp_inversion        WARNING  FR.CARF.00.HHH broadb: optimal fc within 0.1% of fc_max: 72.924 ~= 72.924: ignoring inversion results
+2024-02-29 14:42:31,045 ssp_inversion        INFO     FR.FNEB.00.HHH broadb: initial values: Mw_0: 1.6381; fc_0: 6.6508; t_star_0: 0.045
+2024-02-29 14:42:31,045 ssp_inversion        INFO     FR.FNEB.00.HHH broadb: bounds: Mw: 1.3299, 2.2048; fc: 0.6651, 66.5078; t_star: 0.0, 0.1
+2024-02-29 14:42:31,059 ssp_inversion        INFO     FR.FNEB.00.HHH broadb: optimal values: Mw: 1.8000; fc: 66.5078; t_star: 0.0477
+2024-02-29 14:42:31,059 ssp_inversion        INFO     FR.FNEB.00.HHH broadb: misfit: 0.118
+2024-02-29 14:42:31,059 ssp_inversion        WARNING  FR.FNEB.00.HHH broadb: optimal fc within 0.1% of fc_max: 66.508 ~= 66.508: ignoring inversion results
+2024-02-29 14:42:31,059 ssp_inversion        INFO     FR.GENF.00.HHH broadb: initial values: Mw_0: 1.746; fc_0: 3.8271; t_star_0: 0.045
+2024-02-29 14:42:31,060 ssp_inversion        INFO     FR.GENF.00.HHH broadb: bounds: Mw: 1.5439, 1.9649; fc: 0.3827, 38.2713; t_star: 0.0, 0.1
+2024-02-29 14:42:31,087 ssp_inversion        INFO     FR.GENF.00.HHH broadb: optimal values: Mw: 1.8316; fc: 6.4361; t_star: 0.0133
+2024-02-29 14:42:31,087 ssp_inversion        INFO     FR.GENF.00.HHH broadb: misfit: 0.054
+2024-02-29 14:42:31,088 ssp_inversion        INFO     FR.PAND.00.HHH broadb: initial values: Mw_0: 2.0797; fc_0: 6.0656; t_star_0: 0.045
+2024-02-29 14:42:31,088 ssp_inversion        INFO     FR.PAND.00.HHH broadb: bounds: Mw: 1.7866, 2.4371; fc: 0.6066, 60.6559; t_star: 0.0, 0.1
+2024-02-29 14:42:31,115 ssp_inversion        INFO     FR.PAND.00.HHH broadb: optimal values: Mw: 2.1066; fc: 48.2125; t_star: 0.0101
+2024-02-29 14:42:31,115 ssp_inversion        INFO     FR.PAND.00.HHH broadb: misfit: 0.059
+2024-02-29 14:42:31,116 ssp_inversion        INFO     FR.SALF.00.HHH broadb: initial values: Mw_0: 1.5662; fc_0: 6.0656; t_star_0: 0.045
+2024-02-29 14:42:31,116 ssp_inversion        INFO     FR.SALF.00.HHH broadb: bounds: Mw: 1.3297, 1.8928; fc: 0.6066, 60.6559; t_star: 0.0, 0.1
+2024-02-29 14:42:31,142 ssp_inversion        INFO     FR.SALF.00.HHH broadb: optimal values: Mw: 1.7114; fc: 60.6559; t_star: 0.0425
+2024-02-29 14:42:31,143 ssp_inversion        INFO     FR.SALF.00.HHH broadb: misfit: 0.061
+2024-02-29 14:42:31,143 ssp_inversion        WARNING  FR.SALF.00.HHH broadb: optimal fc within 0.1% of fc_max: 60.656 ~= 60.656: ignoring inversion results
+2024-02-29 14:42:31,143 ssp_inversion        INFO     FR.VALC.00.HHH broadb: initial values: Mw_0: 1.8304; fc_0: 4.1964; t_star_0: 0.045
+2024-02-29 14:42:31,143 ssp_inversion        INFO     FR.VALC.00.HHH broadb: bounds: Mw: 1.537, 2.1251; fc: 0.4196, 41.9636; t_star: 0.0, 0.1
+2024-02-29 14:42:31,159 ssp_inversion        INFO     FR.VALC.00.HHH broadb: optimal values: Mw: 1.8297; fc: 41.9636; t_star: 0.0000
+2024-02-29 14:42:31,159 ssp_inversion        INFO     FR.VALC.00.HHH broadb: misfit: 0.062
+2024-02-29 14:42:31,160 ssp_inversion        WARNING  FR.VALC.00.HHH broadb: optimal fc within 0.1% of fc_max: 41.964 ~= 41.964: ignoring inversion results
+2024-02-29 14:42:31,160 ssp_inversion        INFO     Inverting spectra: done
+2024-02-29 14:42:31,160 ssp_radiated_energy  INFO     Computing radiated energy...
+2024-02-29 14:42:31,161 ssp_radiated_energy  INFO     Computing radiated energy: done
+2024-02-29 14:42:31,161 ssp_local_magnitude  INFO     Computing local magnitude...
+2024-02-29 14:42:31,413 ssp_local_magnitude  INFO     CA.CEST..HHE broadb: Ml 0.5
+2024-02-29 14:42:31,650 ssp_local_magnitude  INFO     CA.CEST..HHN broadb: Ml 0.4
+2024-02-29 14:42:31,888 ssp_local_magnitude  INFO     CA.CSOR..HHE broadb: Ml 1.5
+2024-02-29 14:42:32,128 ssp_local_magnitude  INFO     CA.CSOR..HHN broadb: Ml 1.4
+2024-02-29 14:42:32,346 ssp_local_magnitude  INFO     FR.GENF.00.HH1 broadb: Ml 1.0
+2024-02-29 14:42:32,560 ssp_local_magnitude  INFO     FR.GENF.00.HH2 broadb: Ml 0.4
+2024-02-29 14:42:32,768 ssp_local_magnitude  INFO     FR.PAND.00.HHE broadb: Ml 2.0
+2024-02-29 14:42:32,976 ssp_local_magnitude  INFO     FR.PAND.00.HHN broadb: Ml 1.7
+2024-02-29 14:42:33,000 ssp_summary_statistics INFO     params_mean: {'Mw': 2.0010259848564744, 'fc': 7.9115190235154484, 't_star': 0.010110551100280234}
+2024-02-29 14:42:33,000 ssp_summary_statistics INFO     params_mean_weighted: {'Mw': 2.0474409165167944, 'fc': 7.946646706502142, 't_star': 0.010736942465331134}
+2024-02-29 14:42:33,000 ssp_summary_statistics INFO     params_percentiles: {'Mw': 2.032914582580743, 'fc': 7.622568164795261, 't_star': 0.01169420659707203}
+2024-02-29 14:42:33,001 ssp_output           INFO     Output written to file: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_cecaf2390815495683219b8f872250ad/cab30f75-5c83-4d2e-9593-392e731b323f.ssp.out
+2024-02-29 14:42:33,003 ssp_output           INFO     Output written to file: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_cecaf2390815495683219b8f872250ad/cab30f75-5c83-4d2e-9593-392e731b323f.ssp.yaml
+2024-02-29 14:42:33,012 ssp_qml_output       WARNING  Unable to find evid "cab30f75-5c83-4d2e-9593-392e731b323f" in QuakeML file. QuakeML output will not be written.
+2024-02-29 14:42:33,016 ssp_residuals        INFO     Spectral residuals saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_cecaf2390815495683219b8f872250ad/cab30f75-5c83-4d2e-9593-392e731b323f-residuals.pickle
+2024-02-29 14:42:48,365 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_cecaf2390815495683219b8f872250ad/cab30f75-5c83-4d2e-9593-392e731b323f.ssp.00.png
+2024-02-29 14:42:48,392 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_cecaf2390815495683219b8f872250ad/cab30f75-5c83-4d2e-9593-392e731b323f.ssp.01.png
+2024-02-29 14:42:48,392 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_cecaf2390815495683219b8f872250ad/cab30f75-5c83-4d2e-9593-392e731b323f.ssp.02.png
+2024-02-29 14:43:05,202 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_cecaf2390815495683219b8f872250ad/cab30f75-5c83-4d2e-9593-392e731b323f.sspweight.00.png
+2024-02-29 14:43:05,202 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_cecaf2390815495683219b8f872250ad/cab30f75-5c83-4d2e-9593-392e731b323f.sspweight.01.png
+2024-02-29 14:43:05,202 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_cecaf2390815495683219b8f872250ad/cab30f75-5c83-4d2e-9593-392e731b323f.sspweight.02.png
+2024-02-29 14:43:05,202 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_cecaf2390815495683219b8f872250ad/cab30f75-5c83-4d2e-9593-392e731b323f.sspweight.03.png
+2024-02-29 14:43:06,262 ssp_plot_stacked_spectra INFO     Stacked spectra plot saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_cecaf2390815495683219b8f872250ad/cab30f75-5c83-4d2e-9593-392e731b323f.stacked_spectra.png
+2024-02-29 14:43:09,071 ssp_plot_params_stats INFO     Parameters box plot saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_cecaf2390815495683219b8f872250ad/cab30f75-5c83-4d2e-9593-392e731b323f.boxplot.png
+2024-02-29 14:43:09,078 ssp_html_report      INFO     HTML report written to file: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_cecaf2390815495683219b8f872250ad/index.html
+2024-02-29 14:43:09,289 ssp_read_station_metadata INFO     Reading station metadata...
+2024-02-29 14:43:09,289 ssp_read_station_metadata INFO     Reading station metadata from file: /Volumes/LaCie/all_andorra/mini_test/inputs/metadata/inv_all.xml
+2024-02-29 14:43:09,555 ssp_read_station_metadata INFO     Reading station metadata: done
+2024-02-29 14:43:09,560 ssp_read_traces      INFO     Reading traces...
+2024-02-29 14:43:10,431 ssp_read_traces      INFO     Reading traces: done
+2024-02-29 14:43:10,431 ssp_read_traces      INFO     Vp_hypo: 6.00 km/s, Vs_hypo: 3.50 km/s
+2024-02-29 14:43:10,440 ssp_process_traces_mod INFO     Processing traces...
+2024-02-29 14:43:10,441 ssp_wave_arrival_mod INFO     CA.ARBS..HH1: no P pick found
+2024-02-29 14:43:10,441 ssp_wave_arrival_mod INFO     CA.ARBS..HH1: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:43:10,445 ssp_wave_arrival_mod INFO     CA.ARBS..HH1: found S pick
+2024-02-29 14:43:10,486 ssp_process_traces_mod INFO     CA.ARBS..HH1 broadb: clipping score: 69.1%
+2024-02-29 14:43:10,486 ssp_process_traces_mod WARNING  CA.ARBS..HH1 broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:43:10,676 ssp_process_traces_mod INFO     CA.ARBS..HH1 broadb: S/N: 2.2
+2024-02-29 14:43:10,677 ssp_wave_arrival_mod INFO     CA.ARBS..HH2: no P pick found
+2024-02-29 14:43:10,677 ssp_wave_arrival_mod INFO     CA.ARBS..HH2: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:43:10,681 ssp_wave_arrival_mod INFO     CA.ARBS..HH2: found S pick
+2024-02-29 14:43:10,721 ssp_process_traces_mod INFO     CA.ARBS..HH2 broadb: clipping score: 87.7%
+2024-02-29 14:43:10,722 ssp_process_traces_mod WARNING  CA.ARBS..HH2 broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:43:10,907 ssp_process_traces_mod INFO     CA.ARBS..HH2 broadb: S/N: 2.7
+2024-02-29 14:43:10,908 ssp_wave_arrival_mod INFO     CA.ARBS..HHZ: no P pick found
+2024-02-29 14:43:10,908 ssp_wave_arrival_mod INFO     CA.ARBS..HHZ: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:43:10,912 ssp_wave_arrival_mod INFO     CA.ARBS..HHZ: found S pick
+2024-02-29 14:43:10,951 ssp_process_traces_mod INFO     CA.ARBS..HHZ broadb: clipping score: 91.1%
+2024-02-29 14:43:10,951 ssp_process_traces_mod WARNING  CA.ARBS..HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:43:11,135 ssp_process_traces_mod INFO     CA.ARBS..HHZ broadb: S/N: 1.8
+2024-02-29 14:43:11,140 ssp_wave_arrival_mod INFO     CA.CEST..HHE: found P pick
+2024-02-29 14:43:11,143 ssp_wave_arrival_mod INFO     CA.CEST..HHE: found S pick
+2024-02-29 14:43:11,183 ssp_process_traces_mod INFO     CA.CEST..HHE broadb: clipping score: 82.5%
+2024-02-29 14:43:11,183 ssp_process_traces_mod WARNING  CA.CEST..HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:43:11,369 ssp_process_traces_mod INFO     CA.CEST..HHE broadb: S/N: 1.8
+2024-02-29 14:43:11,373 ssp_wave_arrival_mod INFO     CA.CEST..HHN: found P pick
+2024-02-29 14:43:11,377 ssp_wave_arrival_mod INFO     CA.CEST..HHN: found S pick
+2024-02-29 14:43:11,416 ssp_process_traces_mod INFO     CA.CEST..HHN broadb: clipping score: 68.4%
+2024-02-29 14:43:11,417 ssp_process_traces_mod WARNING  CA.CEST..HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:43:11,607 ssp_process_traces_mod INFO     CA.CEST..HHN broadb: S/N: 6.1
+2024-02-29 14:43:11,611 ssp_wave_arrival_mod INFO     CA.CEST..HHZ: found P pick
+2024-02-29 14:43:11,615 ssp_wave_arrival_mod INFO     CA.CEST..HHZ: found S pick
+2024-02-29 14:43:11,654 ssp_process_traces_mod INFO     CA.CEST..HHZ broadb: clipping score: 78.4%
+2024-02-29 14:43:11,654 ssp_process_traces_mod WARNING  CA.CEST..HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:43:11,839 ssp_process_traces_mod INFO     CA.CEST..HHZ broadb: S/N: 2.7
+2024-02-29 14:43:11,843 ssp_wave_arrival_mod INFO     CA.CORG..HHE: no P pick found
+2024-02-29 14:43:11,843 ssp_wave_arrival_mod INFO     CA.CORG..HHE: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:43:11,847 ssp_wave_arrival_mod INFO     CA.CORG..HHE: no S pick found
+2024-02-29 14:43:11,847 ssp_wave_arrival_mod INFO     CA.CORG..HHE: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:43:11,887 ssp_process_traces_mod INFO     CA.CORG..HHE broadb: clipping score: 89.6%
+2024-02-29 14:43:11,888 ssp_process_traces_mod WARNING  CA.CORG..HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:43:12,072 ssp_process_traces_mod INFO     CA.CORG..HHE broadb: S/N: 1.1
+2024-02-29 14:43:12,076 ssp_wave_arrival_mod INFO     CA.CORG..HHN: no P pick found
+2024-02-29 14:43:12,076 ssp_wave_arrival_mod INFO     CA.CORG..HHN: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:43:12,080 ssp_wave_arrival_mod INFO     CA.CORG..HHN: no S pick found
+2024-02-29 14:43:12,080 ssp_wave_arrival_mod INFO     CA.CORG..HHN: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:43:12,120 ssp_process_traces_mod INFO     CA.CORG..HHN broadb: clipping score: 61.3%
+2024-02-29 14:43:12,120 ssp_process_traces_mod WARNING  CA.CORG..HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:43:12,304 ssp_process_traces_mod INFO     CA.CORG..HHN broadb: S/N: 1.7
+2024-02-29 14:43:12,308 ssp_wave_arrival_mod INFO     CA.CORG..HHZ: no P pick found
+2024-02-29 14:43:12,308 ssp_wave_arrival_mod INFO     CA.CORG..HHZ: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:43:12,312 ssp_wave_arrival_mod INFO     CA.CORG..HHZ: no S pick found
+2024-02-29 14:43:12,312 ssp_wave_arrival_mod INFO     CA.CORG..HHZ: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:43:12,352 ssp_process_traces_mod INFO     CA.CORG..HHZ broadb: clipping score: 90.4%
+2024-02-29 14:43:12,352 ssp_process_traces_mod WARNING  CA.CORG..HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:43:12,535 ssp_process_traces_mod INFO     CA.CORG..HHZ broadb: S/N: 1.0
+2024-02-29 14:43:12,539 ssp_wave_arrival_mod INFO     CA.CSOR..HHE: found P pick
+2024-02-29 14:43:12,543 ssp_wave_arrival_mod INFO     CA.CSOR..HHE: found S pick
+2024-02-29 14:43:12,583 ssp_process_traces_mod INFO     CA.CSOR..HHE broadb: clipping score: 92.6%
+2024-02-29 14:43:12,583 ssp_process_traces_mod WARNING  CA.CSOR..HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:43:12,769 ssp_process_traces_mod INFO     CA.CSOR..HHE broadb: S/N: 2.9
+2024-02-29 14:43:12,774 ssp_wave_arrival_mod INFO     CA.CSOR..HHN: found P pick
+2024-02-29 14:43:12,777 ssp_wave_arrival_mod INFO     CA.CSOR..HHN: found S pick
+2024-02-29 14:43:12,818 ssp_process_traces_mod INFO     CA.CSOR..HHN broadb: clipping score: 80.8%
+2024-02-29 14:43:12,818 ssp_process_traces_mod WARNING  CA.CSOR..HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:43:13,003 ssp_process_traces_mod INFO     CA.CSOR..HHN broadb: S/N: 2.9
+2024-02-29 14:43:13,007 ssp_wave_arrival_mod INFO     CA.CSOR..HHZ: found P pick
+2024-02-29 14:43:13,011 ssp_wave_arrival_mod INFO     CA.CSOR..HHZ: found S pick
+2024-02-29 14:43:13,052 ssp_process_traces_mod INFO     CA.CSOR..HHZ broadb: clipping score: 87.7%
+2024-02-29 14:43:13,052 ssp_process_traces_mod WARNING  CA.CSOR..HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:43:13,238 ssp_process_traces_mod INFO     CA.CSOR..HHZ broadb: S/N: 2.4
+2024-02-29 14:43:13,243 ssp_wave_arrival_mod INFO     FR.CARF.00.HHE: no P pick found
+2024-02-29 14:43:13,243 ssp_wave_arrival_mod INFO     FR.CARF.00.HHE: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:43:13,246 ssp_wave_arrival_mod INFO     FR.CARF.00.HHE: no S pick found
+2024-02-29 14:43:13,246 ssp_wave_arrival_mod INFO     FR.CARF.00.HHE: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:43:13,270 ssp_process_traces_mod INFO     FR.CARF.00.HHE broadb: clipping score: 71.5%
+2024-02-29 14:43:13,271 ssp_process_traces_mod WARNING  FR.CARF.00.HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:43:13,439 ssp_process_traces_mod INFO     FR.CARF.00.HHE broadb: S/N: 1.0
+2024-02-29 14:43:13,443 ssp_wave_arrival_mod INFO     FR.CARF.00.HHN: no P pick found
+2024-02-29 14:43:13,443 ssp_wave_arrival_mod INFO     FR.CARF.00.HHN: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:43:13,447 ssp_wave_arrival_mod INFO     FR.CARF.00.HHN: no S pick found
+2024-02-29 14:43:13,447 ssp_wave_arrival_mod INFO     FR.CARF.00.HHN: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:43:13,471 ssp_process_traces_mod INFO     FR.CARF.00.HHN broadb: clipping score: 71.4%
+2024-02-29 14:43:13,471 ssp_process_traces_mod WARNING  FR.CARF.00.HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:43:13,639 ssp_process_traces_mod INFO     FR.CARF.00.HHN broadb: S/N: 1.1
+2024-02-29 14:43:13,643 ssp_wave_arrival_mod INFO     FR.CARF.00.HHZ: no P pick found
+2024-02-29 14:43:13,643 ssp_wave_arrival_mod INFO     FR.CARF.00.HHZ: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:43:13,647 ssp_wave_arrival_mod INFO     FR.CARF.00.HHZ: no S pick found
+2024-02-29 14:43:13,647 ssp_wave_arrival_mod INFO     FR.CARF.00.HHZ: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:43:13,671 ssp_process_traces_mod INFO     FR.CARF.00.HHZ broadb: clipping score: 71.1%
+2024-02-29 14:43:13,671 ssp_process_traces_mod WARNING  FR.CARF.00.HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:43:13,839 ssp_process_traces_mod INFO     FR.CARF.00.HHZ broadb: S/N: 1.5
+2024-02-29 14:43:13,843 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHE: no P pick found
+2024-02-29 14:43:13,843 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHE: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:43:13,846 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHE: no S pick found
+2024-02-29 14:43:13,846 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHE: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:43:13,898 ssp_process_traces_mod INFO     FR.FNEB.00.HHE broadb: clipping score: 0.6%
+2024-02-29 14:43:14,080 ssp_process_traces_mod INFO     FR.FNEB.00.HHE broadb: S/N: 1.0
+2024-02-29 14:43:14,085 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHN: no P pick found
+2024-02-29 14:43:14,085 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHN: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:43:14,088 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHN: no S pick found
+2024-02-29 14:43:14,088 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHN: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:43:14,140 ssp_process_traces_mod INFO     FR.FNEB.00.HHN broadb: clipping score: 15.4%
+2024-02-29 14:43:14,140 ssp_process_traces_mod WARNING  FR.FNEB.00.HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:43:14,325 ssp_process_traces_mod INFO     FR.FNEB.00.HHN broadb: S/N: 0.8
+2024-02-29 14:43:14,329 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHZ: no P pick found
+2024-02-29 14:43:14,329 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHZ: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:43:14,333 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHZ: no S pick found
+2024-02-29 14:43:14,333 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHZ: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:43:14,384 ssp_process_traces_mod INFO     FR.FNEB.00.HHZ broadb: clipping score: 82.3%
+2024-02-29 14:43:14,385 ssp_process_traces_mod WARNING  FR.FNEB.00.HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:43:14,568 ssp_process_traces_mod INFO     FR.FNEB.00.HHZ broadb: S/N: 1.1
+2024-02-29 14:43:14,572 ssp_wave_arrival_mod INFO     FR.GENF.00.HH1: no P pick found
+2024-02-29 14:43:14,572 ssp_wave_arrival_mod INFO     FR.GENF.00.HH1: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:43:14,576 ssp_wave_arrival_mod INFO     FR.GENF.00.HH1: found S pick
+2024-02-29 14:43:14,601 ssp_process_traces_mod INFO     FR.GENF.00.HH1 broadb: clipping score: 88.0%
+2024-02-29 14:43:14,601 ssp_process_traces_mod WARNING  FR.GENF.00.HH1 broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:43:14,778 ssp_process_traces_mod INFO     FR.GENF.00.HH1 broadb: S/N: 1.5
+2024-02-29 14:43:14,782 ssp_wave_arrival_mod INFO     FR.GENF.00.HH2: no P pick found
+2024-02-29 14:43:14,782 ssp_wave_arrival_mod INFO     FR.GENF.00.HH2: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:43:14,785 ssp_wave_arrival_mod INFO     FR.GENF.00.HH2: found S pick
+2024-02-29 14:43:14,811 ssp_process_traces_mod INFO     FR.GENF.00.HH2 broadb: clipping score: 79.1%
+2024-02-29 14:43:14,811 ssp_process_traces_mod WARNING  FR.GENF.00.HH2 broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:43:14,987 ssp_process_traces_mod INFO     FR.GENF.00.HH2 broadb: S/N: 3.2
+2024-02-29 14:43:14,991 ssp_wave_arrival_mod INFO     FR.GENF.00.HHZ: no P pick found
+2024-02-29 14:43:14,991 ssp_wave_arrival_mod INFO     FR.GENF.00.HHZ: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:43:14,995 ssp_wave_arrival_mod INFO     FR.GENF.00.HHZ: found S pick
+2024-02-29 14:43:15,020 ssp_process_traces_mod INFO     FR.GENF.00.HHZ broadb: clipping score: 92.6%
+2024-02-29 14:43:15,020 ssp_process_traces_mod WARNING  FR.GENF.00.HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:43:15,196 ssp_process_traces_mod INFO     FR.GENF.00.HHZ broadb: S/N: 1.8
+2024-02-29 14:43:15,197 ssp_wave_arrival_mod INFO     FR.PAND.00.HHE: found P pick
+2024-02-29 14:43:15,201 ssp_wave_arrival_mod INFO     FR.PAND.00.HHE: found S pick
+2024-02-29 14:43:15,201 ssp_process_traces_mod WARNING  FR.PAND.00.HHE: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:43:15,201 ssp_process_traces_mod WARNING  FR.PAND.00.HHE: noise window ends after P-wave arrival
+2024-02-29 14:43:15,223 ssp_process_traces_mod INFO     FR.PAND.00.HHE broadb: clipping score: 0.6%
+2024-02-29 14:43:15,392 ssp_process_traces_mod INFO     FR.PAND.00.HHE broadb: S/N: 12.2
+2024-02-29 14:43:15,393 ssp_wave_arrival_mod INFO     FR.PAND.00.HHN: found P pick
+2024-02-29 14:43:15,397 ssp_wave_arrival_mod INFO     FR.PAND.00.HHN: found S pick
+2024-02-29 14:43:15,397 ssp_process_traces_mod WARNING  FR.PAND.00.HHN: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:43:15,397 ssp_process_traces_mod WARNING  FR.PAND.00.HHN: noise window ends after P-wave arrival
+2024-02-29 14:43:15,420 ssp_process_traces_mod INFO     FR.PAND.00.HHN broadb: clipping score: 2.0%
+2024-02-29 14:43:15,589 ssp_process_traces_mod INFO     FR.PAND.00.HHN broadb: S/N: 5.0
+2024-02-29 14:43:15,590 ssp_wave_arrival_mod INFO     FR.PAND.00.HHZ: found P pick
+2024-02-29 14:43:15,594 ssp_wave_arrival_mod INFO     FR.PAND.00.HHZ: found S pick
+2024-02-29 14:43:15,594 ssp_process_traces_mod WARNING  FR.PAND.00.HHZ: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:43:15,594 ssp_process_traces_mod WARNING  FR.PAND.00.HHZ: noise window ends after P-wave arrival
+2024-02-29 14:43:15,617 ssp_process_traces_mod INFO     FR.PAND.00.HHZ broadb: clipping score: 1.1%
+2024-02-29 14:43:15,785 ssp_process_traces_mod INFO     FR.PAND.00.HHZ broadb: S/N: 6.5
+2024-02-29 14:43:15,790 ssp_wave_arrival_mod INFO     FR.SALF.00.HHE: found P pick
+2024-02-29 14:43:15,793 ssp_wave_arrival_mod WARNING  FR.SALF.00.HHE: measured S pick time - theoretical time = -4.4 s
+2024-02-29 14:43:15,793 ssp_wave_arrival_mod INFO     FR.SALF.00.HHE: no S pick found
+2024-02-29 14:43:15,793 ssp_wave_arrival_mod INFO     FR.SALF.00.HHE: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:43:15,845 ssp_process_traces_mod INFO     FR.SALF.00.HHE broadb: clipping score: 8.7%
+2024-02-29 14:43:16,027 ssp_process_traces_mod INFO     FR.SALF.00.HHE broadb: S/N: 1.7
+2024-02-29 14:43:16,031 ssp_wave_arrival_mod INFO     FR.SALF.00.HHN: found P pick
+2024-02-29 14:43:16,035 ssp_wave_arrival_mod WARNING  FR.SALF.00.HHN: measured S pick time - theoretical time = -4.4 s
+2024-02-29 14:43:16,035 ssp_wave_arrival_mod INFO     FR.SALF.00.HHN: no S pick found
+2024-02-29 14:43:16,035 ssp_wave_arrival_mod INFO     FR.SALF.00.HHN: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:43:16,087 ssp_process_traces_mod INFO     FR.SALF.00.HHN broadb: clipping score: 43.7%
+2024-02-29 14:43:16,088 ssp_process_traces_mod WARNING  FR.SALF.00.HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:43:16,273 ssp_process_traces_mod INFO     FR.SALF.00.HHN broadb: S/N: 3.8
+2024-02-29 14:43:16,277 ssp_wave_arrival_mod INFO     FR.SALF.00.HHZ: found P pick
+2024-02-29 14:43:16,281 ssp_wave_arrival_mod WARNING  FR.SALF.00.HHZ: measured S pick time - theoretical time = -4.4 s
+2024-02-29 14:43:16,281 ssp_wave_arrival_mod INFO     FR.SALF.00.HHZ: no S pick found
+2024-02-29 14:43:16,281 ssp_wave_arrival_mod INFO     FR.SALF.00.HHZ: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:43:16,333 ssp_process_traces_mod INFO     FR.SALF.00.HHZ broadb: clipping score: 76.8%
+2024-02-29 14:43:16,333 ssp_process_traces_mod WARNING  FR.SALF.00.HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:43:16,519 ssp_process_traces_mod INFO     FR.SALF.00.HHZ broadb: S/N: 2.6
+2024-02-29 14:43:16,523 ssp_wave_arrival_mod INFO     FR.VALC.00.HHE: no P pick found
+2024-02-29 14:43:16,523 ssp_wave_arrival_mod INFO     FR.VALC.00.HHE: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:43:16,527 ssp_wave_arrival_mod INFO     FR.VALC.00.HHE: no S pick found
+2024-02-29 14:43:16,527 ssp_wave_arrival_mod INFO     FR.VALC.00.HHE: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:43:16,552 ssp_process_traces_mod INFO     FR.VALC.00.HHE broadb: clipping score: 83.5%
+2024-02-29 14:43:16,552 ssp_process_traces_mod WARNING  FR.VALC.00.HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:43:16,729 ssp_process_traces_mod INFO     FR.VALC.00.HHE broadb: S/N: 1.4
+2024-02-29 14:43:16,733 ssp_wave_arrival_mod INFO     FR.VALC.00.HHN: no P pick found
+2024-02-29 14:43:16,733 ssp_wave_arrival_mod INFO     FR.VALC.00.HHN: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:43:16,737 ssp_wave_arrival_mod INFO     FR.VALC.00.HHN: no S pick found
+2024-02-29 14:43:16,737 ssp_wave_arrival_mod INFO     FR.VALC.00.HHN: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:43:16,762 ssp_process_traces_mod INFO     FR.VALC.00.HHN broadb: clipping score: 73.7%
+2024-02-29 14:43:16,762 ssp_process_traces_mod WARNING  FR.VALC.00.HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:43:16,937 ssp_process_traces_mod INFO     FR.VALC.00.HHN broadb: S/N: 1.1
+2024-02-29 14:43:16,942 ssp_wave_arrival_mod INFO     FR.VALC.00.HHZ: no P pick found
+2024-02-29 14:43:16,942 ssp_wave_arrival_mod INFO     FR.VALC.00.HHZ: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:43:16,945 ssp_wave_arrival_mod INFO     FR.VALC.00.HHZ: no S pick found
+2024-02-29 14:43:16,945 ssp_wave_arrival_mod INFO     FR.VALC.00.HHZ: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:43:16,971 ssp_process_traces_mod INFO     FR.VALC.00.HHZ broadb: clipping score: 52.8%
+2024-02-29 14:43:16,971 ssp_process_traces_mod WARNING  FR.VALC.00.HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:43:17,148 ssp_process_traces_mod INFO     FR.VALC.00.HHZ broadb: S/N: 1.5
+2024-02-29 14:43:17,149 ssp_process_traces_mod INFO     Processing traces: done
+2024-02-29 14:43:17,149 ssp_build_spectra    INFO     Building spectra...
+2024-02-29 14:43:17,196 ssp_build_spectra    WARNING  FR.PAND.00.HH: truncating signal window to noise length!
+2024-02-29 14:43:17,210 ssp_build_spectra    WARNING  FR.PAND.00.HH: truncating signal window to noise length!
+2024-02-29 14:43:17,224 ssp_build_spectra    WARNING  FR.PAND.00.HH: truncating signal window to noise length!
+2024-02-29 14:43:17,263 ssp_build_spectra    INFO     FR.FNEB.00.HHE: spectral S/N: 1.05
+2024-02-29 14:43:17,266 ssp_build_spectra    INFO     FR.PAND.00.HHE: spectral S/N: 20.95
+2024-02-29 14:43:17,269 ssp_build_spectra    INFO     FR.PAND.00.HHN: spectral S/N: 18.17
+2024-02-29 14:43:17,272 ssp_build_spectra    INFO     FR.PAND.00.HHZ: spectral S/N: 18.31
+2024-02-29 14:43:17,275 ssp_build_spectra    INFO     FR.SALF.00.HHE: spectral S/N: 3.84
+2024-02-29 14:43:17,280 ssp_build_spectra    INFO     Building spectra: done
+2024-02-29 14:43:22,921 ssp_plot_traces      INFO     Trace plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_1221e427f3eb452bbd5f0ba5acf7fd0f/8b976612-1d8a-4188-8033-b427c2a07b14.traces.png
+2024-02-29 14:43:22,921 ssp_inversion        INFO     Inverting spectra...
+2024-02-29 14:43:22,921 ssp_inversion        INFO     Using noise weighting for inversion.
+2024-02-29 14:43:22,921 ssp_inversion        INFO     Using truncated Newton algorithm for inversion.
+2024-02-29 14:43:22,922 ssp_inversion        INFO     FR.FNEB.00.HHH broadb: initial values: Mw_0: 1.1688; fc_0: 4.6012; t_star_0: 0.045
+2024-02-29 14:43:22,922 ssp_inversion        INFO     FR.FNEB.00.HHH broadb: bounds: Mw: 0.6395, 2.0789; fc: 0.4601, 46.0122; t_star: 0.0, 0.1
+2024-02-29 14:43:22,934 ssp_inversion        INFO     FR.FNEB.00.HHH broadb: optimal values: Mw: 2.0789; fc: 0.9741; t_star: 0.0669
+2024-02-29 14:43:22,934 ssp_inversion        INFO     FR.FNEB.00.HHH broadb: misfit: 0.109
+2024-02-29 14:43:22,936 ssp_inversion        WARNING  FR.PAND.00.HHH broadb: unable to find a frequency range to compute Mw_0. This is possibly due to an uncommon spectrum (e.g., a resonance).
+2024-02-29 14:43:22,936 ssp_inversion        INFO     FR.SALF.00.HHH broadb: initial values: Mw_0: 0.3068; fc_0: 6.6508; t_star_0: 0.045
+2024-02-29 14:43:22,936 ssp_inversion        INFO     FR.SALF.00.HHH broadb: bounds: Mw: 0.2248, 0.3919; fc: 0.6651, 66.5078; t_star: 0.0, 0.1
+2024-02-29 14:43:22,946 ssp_inversion        INFO     FR.SALF.00.HHH broadb: optimal values: Mw: 0.3919; fc: 7.8129; t_star: 0.0000
+2024-02-29 14:43:22,946 ssp_inversion        INFO     FR.SALF.00.HHH broadb: misfit: 0.323
+2024-02-29 14:43:22,947 ssp_inversion        INFO     Inverting spectra: done
+2024-02-29 14:43:22,947 ssp_radiated_energy  INFO     Computing radiated energy...
+2024-02-29 14:43:22,948 ssp_radiated_energy  INFO     Computing radiated energy: done
+2024-02-29 14:43:22,948 ssp_local_magnitude  INFO     Computing local magnitude...
+2024-02-29 14:43:23,203 ssp_local_magnitude  INFO     FR.FNEB.00.HHE broadb: Ml 0.8
+2024-02-29 14:43:23,446 ssp_local_magnitude  INFO     FR.FNEB.00.HHN broadb: Ml 0.7
+2024-02-29 14:43:23,689 ssp_local_magnitude  INFO     FR.SALF.00.HHE broadb: Ml 0.1
+2024-02-29 14:43:23,930 ssp_local_magnitude  INFO     FR.SALF.00.HHN broadb: Ml 0.2
+2024-02-29 14:43:23,953 ssp_summary_statistics INFO     params_mean: {'Mw': 1.2354031176168636, 'fc': 2.7587594454164743, 't_star': 0.033457305124945436}
+2024-02-29 14:43:23,953 ssp_summary_statistics INFO     params_mean_weighted: {'Mw': 1.9467779445798654, 'fc': 1.1588023303757133, 't_star': 0.06663166024424508}
+2024-02-29 14:43:23,953 ssp_summary_statistics INFO     params_percentiles: {'Mw': 1.2354031176168636, 'fc': 4.393525408490733, 't_star': 0.033457305124945436}
+2024-02-29 14:43:23,954 ssp_output           INFO     Output written to file: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_1221e427f3eb452bbd5f0ba5acf7fd0f/8b976612-1d8a-4188-8033-b427c2a07b14.ssp.out
+2024-02-29 14:43:23,955 ssp_output           INFO     Output written to file: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_1221e427f3eb452bbd5f0ba5acf7fd0f/8b976612-1d8a-4188-8033-b427c2a07b14.ssp.yaml
+2024-02-29 14:43:23,960 ssp_qml_output       WARNING  Unable to find evid "8b976612-1d8a-4188-8033-b427c2a07b14" in QuakeML file. QuakeML output will not be written.
+2024-02-29 14:43:23,961 ssp_residuals        INFO     Spectral residuals saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_1221e427f3eb452bbd5f0ba5acf7fd0f/8b976612-1d8a-4188-8033-b427c2a07b14-residuals.pickle
+2024-02-29 14:43:43,355 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_1221e427f3eb452bbd5f0ba5acf7fd0f/8b976612-1d8a-4188-8033-b427c2a07b14.ssp.00.png
+2024-02-29 14:43:43,379 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_1221e427f3eb452bbd5f0ba5acf7fd0f/8b976612-1d8a-4188-8033-b427c2a07b14.ssp.01.png
+2024-02-29 14:43:43,379 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_1221e427f3eb452bbd5f0ba5acf7fd0f/8b976612-1d8a-4188-8033-b427c2a07b14.ssp.02.png
+2024-02-29 14:43:43,379 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_1221e427f3eb452bbd5f0ba5acf7fd0f/8b976612-1d8a-4188-8033-b427c2a07b14.ssp.03.png
+2024-02-29 14:43:43,379 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_1221e427f3eb452bbd5f0ba5acf7fd0f/8b976612-1d8a-4188-8033-b427c2a07b14.ssp.04.png
+2024-02-29 14:44:04,548 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_1221e427f3eb452bbd5f0ba5acf7fd0f/8b976612-1d8a-4188-8033-b427c2a07b14.sspweight.00.png
+2024-02-29 14:44:04,548 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_1221e427f3eb452bbd5f0ba5acf7fd0f/8b976612-1d8a-4188-8033-b427c2a07b14.sspweight.01.png
+2024-02-29 14:44:04,548 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_1221e427f3eb452bbd5f0ba5acf7fd0f/8b976612-1d8a-4188-8033-b427c2a07b14.sspweight.02.png
+2024-02-29 14:44:04,548 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_1221e427f3eb452bbd5f0ba5acf7fd0f/8b976612-1d8a-4188-8033-b427c2a07b14.sspweight.03.png
+2024-02-29 14:44:04,548 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_1221e427f3eb452bbd5f0ba5acf7fd0f/8b976612-1d8a-4188-8033-b427c2a07b14.sspweight.04.png
+2024-02-29 14:44:04,548 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_1221e427f3eb452bbd5f0ba5acf7fd0f/8b976612-1d8a-4188-8033-b427c2a07b14.sspweight.05.png
+2024-02-29 14:44:05,614 ssp_plot_stacked_spectra INFO     Stacked spectra plot saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_1221e427f3eb452bbd5f0ba5acf7fd0f/8b976612-1d8a-4188-8033-b427c2a07b14.stacked_spectra.png
+2024-02-29 14:44:08,004 ssp_plot_params_stats INFO     Parameters box plot saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_1221e427f3eb452bbd5f0ba5acf7fd0f/8b976612-1d8a-4188-8033-b427c2a07b14.boxplot.png
+2024-02-29 14:44:08,015 ssp_html_report      INFO     HTML report written to file: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_1221e427f3eb452bbd5f0ba5acf7fd0f/index.html
+2024-02-29 14:44:08,229 ssp_read_station_metadata INFO     Reading station metadata...
+2024-02-29 14:44:08,230 ssp_read_station_metadata INFO     Reading station metadata from file: /Volumes/LaCie/all_andorra/mini_test/inputs/metadata/inv_all.xml
+2024-02-29 14:44:08,895 ssp_read_station_metadata INFO     Reading station metadata: done
+2024-02-29 14:44:08,902 ssp_read_traces      INFO     Reading traces...
+2024-02-29 14:44:09,483 ssp_read_traces      INFO     Reading traces: done
+2024-02-29 14:44:09,483 ssp_read_traces      INFO     Vp_hypo: 6.00 km/s, Vs_hypo: 3.50 km/s
+2024-02-29 14:44:09,492 ssp_process_traces_mod INFO     Processing traces...
+2024-02-29 14:44:09,506 ssp_wave_arrival_mod INFO     CA.ARBS..HH1: found P pick
+2024-02-29 14:44:09,510 ssp_wave_arrival_mod INFO     CA.ARBS..HH1: found S pick
+2024-02-29 14:44:09,510 ssp_process_traces_mod WARNING  CA.ARBS..HH1: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:44:09,550 ssp_process_traces_mod INFO     CA.ARBS..HH1 broadb: clipping score: 19.8%
+2024-02-29 14:44:09,550 ssp_process_traces_mod WARNING  CA.ARBS..HH1 broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:44:09,736 ssp_process_traces_mod INFO     CA.ARBS..HH1 broadb: S/N: 5.3
+2024-02-29 14:44:09,739 ssp_wave_arrival_mod INFO     CA.ARBS..HH2: found P pick
+2024-02-29 14:44:09,743 ssp_wave_arrival_mod INFO     CA.ARBS..HH2: found S pick
+2024-02-29 14:44:09,743 ssp_process_traces_mod WARNING  CA.ARBS..HH2: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:44:09,782 ssp_process_traces_mod INFO     CA.ARBS..HH2 broadb: clipping score: 64.6%
+2024-02-29 14:44:09,782 ssp_process_traces_mod WARNING  CA.ARBS..HH2 broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:44:09,966 ssp_process_traces_mod INFO     CA.ARBS..HH2 broadb: S/N: 5.9
+2024-02-29 14:44:09,970 ssp_wave_arrival_mod INFO     CA.ARBS..HHZ: found P pick
+2024-02-29 14:44:09,974 ssp_wave_arrival_mod INFO     CA.ARBS..HHZ: found S pick
+2024-02-29 14:44:09,974 ssp_process_traces_mod WARNING  CA.ARBS..HHZ: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:44:10,013 ssp_process_traces_mod INFO     CA.ARBS..HHZ broadb: clipping score: 85.4%
+2024-02-29 14:44:10,014 ssp_process_traces_mod WARNING  CA.ARBS..HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:44:10,198 ssp_process_traces_mod INFO     CA.ARBS..HHZ broadb: S/N: 6.4
+2024-02-29 14:44:10,202 ssp_wave_arrival_mod INFO     CA.CEST..HHE: found P pick
+2024-02-29 14:44:10,205 ssp_wave_arrival_mod INFO     CA.CEST..HHE: found S pick
+2024-02-29 14:44:10,245 ssp_process_traces_mod INFO     CA.CEST..HHE broadb: clipping score: 71.4%
+2024-02-29 14:44:10,245 ssp_process_traces_mod WARNING  CA.CEST..HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:44:10,432 ssp_process_traces_mod INFO     CA.CEST..HHE broadb: S/N: 7.6
+2024-02-29 14:44:10,436 ssp_wave_arrival_mod INFO     CA.CEST..HHN: found P pick
+2024-02-29 14:44:10,439 ssp_wave_arrival_mod INFO     CA.CEST..HHN: found S pick
+2024-02-29 14:44:10,479 ssp_process_traces_mod INFO     CA.CEST..HHN broadb: clipping score: 13.9%
+2024-02-29 14:44:10,479 ssp_process_traces_mod WARNING  CA.CEST..HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:44:10,663 ssp_process_traces_mod INFO     CA.CEST..HHN broadb: S/N: 3.8
+2024-02-29 14:44:10,666 ssp_wave_arrival_mod INFO     CA.CEST..HHZ: found P pick
+2024-02-29 14:44:10,670 ssp_wave_arrival_mod INFO     CA.CEST..HHZ: found S pick
+2024-02-29 14:44:10,709 ssp_process_traces_mod INFO     CA.CEST..HHZ broadb: clipping score: 48.2%
+2024-02-29 14:44:10,709 ssp_process_traces_mod WARNING  CA.CEST..HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:44:10,892 ssp_process_traces_mod INFO     CA.CEST..HHZ broadb: S/N: 5.8
+2024-02-29 14:44:10,896 ssp_wave_arrival_mod INFO     CA.CORG..HHE: found P pick
+2024-02-29 14:44:10,899 ssp_wave_arrival_mod INFO     CA.CORG..HHE: found S pick
+2024-02-29 14:44:10,939 ssp_process_traces_mod INFO     CA.CORG..HHE broadb: clipping score: 80.4%
+2024-02-29 14:44:10,939 ssp_process_traces_mod WARNING  CA.CORG..HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:44:11,124 ssp_process_traces_mod INFO     CA.CORG..HHE broadb: S/N: 2.9
+2024-02-29 14:44:11,127 ssp_wave_arrival_mod INFO     CA.CORG..HHN: found P pick
+2024-02-29 14:44:11,131 ssp_wave_arrival_mod INFO     CA.CORG..HHN: found S pick
+2024-02-29 14:44:11,171 ssp_process_traces_mod INFO     CA.CORG..HHN broadb: clipping score: 78.1%
+2024-02-29 14:44:11,172 ssp_process_traces_mod WARNING  CA.CORG..HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:44:11,362 ssp_process_traces_mod INFO     CA.CORG..HHN broadb: S/N: 2.2
+2024-02-29 14:44:11,366 ssp_wave_arrival_mod INFO     CA.CORG..HHZ: found P pick
+2024-02-29 14:44:11,370 ssp_wave_arrival_mod INFO     CA.CORG..HHZ: found S pick
+2024-02-29 14:44:11,411 ssp_process_traces_mod INFO     CA.CORG..HHZ broadb: clipping score: 82.9%
+2024-02-29 14:44:11,411 ssp_process_traces_mod WARNING  CA.CORG..HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:44:11,600 ssp_process_traces_mod INFO     CA.CORG..HHZ broadb: S/N: 3.1
+2024-02-29 14:44:11,604 ssp_wave_arrival_mod INFO     CA.CSOR..HHE: found P pick
+2024-02-29 14:44:11,607 ssp_wave_arrival_mod INFO     CA.CSOR..HHE: found S pick
+2024-02-29 14:44:11,648 ssp_process_traces_mod INFO     CA.CSOR..HHE broadb: clipping score: 45.1%
+2024-02-29 14:44:11,649 ssp_process_traces_mod WARNING  CA.CSOR..HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:44:11,850 ssp_process_traces_mod INFO     CA.CSOR..HHE broadb: S/N: 5.9
+2024-02-29 14:44:11,854 ssp_wave_arrival_mod INFO     CA.CSOR..HHN: found P pick
+2024-02-29 14:44:11,858 ssp_wave_arrival_mod INFO     CA.CSOR..HHN: found S pick
+2024-02-29 14:44:11,900 ssp_process_traces_mod INFO     CA.CSOR..HHN broadb: clipping score: 38.1%
+2024-02-29 14:44:11,901 ssp_process_traces_mod WARNING  CA.CSOR..HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:44:12,090 ssp_process_traces_mod INFO     CA.CSOR..HHN broadb: S/N: 7.3
+2024-02-29 14:44:12,094 ssp_wave_arrival_mod INFO     CA.CSOR..HHZ: found P pick
+2024-02-29 14:44:12,098 ssp_wave_arrival_mod INFO     CA.CSOR..HHZ: found S pick
+2024-02-29 14:44:12,140 ssp_process_traces_mod INFO     CA.CSOR..HHZ broadb: clipping score: 61.7%
+2024-02-29 14:44:12,140 ssp_process_traces_mod WARNING  CA.CSOR..HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:44:12,347 ssp_process_traces_mod INFO     CA.CSOR..HHZ broadb: S/N: 3.9
+2024-02-29 14:44:12,351 ssp_wave_arrival_mod INFO     FR.CARF.00.HHE: no P pick found
+2024-02-29 14:44:12,351 ssp_wave_arrival_mod INFO     FR.CARF.00.HHE: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:44:12,355 ssp_wave_arrival_mod INFO     FR.CARF.00.HHE: found S pick
+2024-02-29 14:44:12,381 ssp_process_traces_mod INFO     FR.CARF.00.HHE broadb: clipping score: 60.7%
+2024-02-29 14:44:12,381 ssp_process_traces_mod WARNING  FR.CARF.00.HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:44:12,698 ssp_process_traces_mod INFO     FR.CARF.00.HHE broadb: S/N: 1.3
+2024-02-29 14:44:12,703 ssp_wave_arrival_mod INFO     FR.CARF.00.HHN: no P pick found
+2024-02-29 14:44:12,703 ssp_wave_arrival_mod INFO     FR.CARF.00.HHN: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:44:12,706 ssp_wave_arrival_mod INFO     FR.CARF.00.HHN: found S pick
+2024-02-29 14:44:12,732 ssp_process_traces_mod INFO     FR.CARF.00.HHN broadb: clipping score: 68.3%
+2024-02-29 14:44:12,732 ssp_process_traces_mod WARNING  FR.CARF.00.HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:44:12,908 ssp_process_traces_mod INFO     FR.CARF.00.HHN broadb: S/N: 1.8
+2024-02-29 14:44:12,912 ssp_wave_arrival_mod INFO     FR.CARF.00.HHZ: no P pick found
+2024-02-29 14:44:12,912 ssp_wave_arrival_mod INFO     FR.CARF.00.HHZ: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:44:12,916 ssp_wave_arrival_mod INFO     FR.CARF.00.HHZ: found S pick
+2024-02-29 14:44:12,941 ssp_process_traces_mod INFO     FR.CARF.00.HHZ broadb: clipping score: 71.9%
+2024-02-29 14:44:12,941 ssp_process_traces_mod WARNING  FR.CARF.00.HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:44:13,113 ssp_process_traces_mod INFO     FR.CARF.00.HHZ broadb: S/N: 2.0
+2024-02-29 14:44:13,127 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHE: no P pick found
+2024-02-29 14:44:13,127 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHE: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:44:13,140 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHE: no S pick found
+2024-02-29 14:44:13,140 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHE: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:44:13,194 ssp_process_traces_mod INFO     FR.FNEB.00.HHE broadb: clipping score: 52.9%
+2024-02-29 14:44:13,194 ssp_process_traces_mod WARNING  FR.FNEB.00.HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:44:13,377 ssp_process_traces_mod INFO     FR.FNEB.00.HHE broadb: S/N: 2.8
+2024-02-29 14:44:13,390 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHN: no P pick found
+2024-02-29 14:44:13,390 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHN: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:44:13,403 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHN: no S pick found
+2024-02-29 14:44:13,403 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHN: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:44:13,457 ssp_process_traces_mod INFO     FR.FNEB.00.HHN broadb: clipping score: 67.9%
+2024-02-29 14:44:13,458 ssp_process_traces_mod WARNING  FR.FNEB.00.HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:44:13,642 ssp_process_traces_mod INFO     FR.FNEB.00.HHN broadb: S/N: 1.3
+2024-02-29 14:44:13,655 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHZ: no P pick found
+2024-02-29 14:44:13,655 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHZ: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:44:13,668 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHZ: no S pick found
+2024-02-29 14:44:13,668 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHZ: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:44:13,721 ssp_process_traces_mod INFO     FR.FNEB.00.HHZ broadb: clipping score: 85.8%
+2024-02-29 14:44:13,721 ssp_process_traces_mod WARNING  FR.FNEB.00.HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:44:13,906 ssp_process_traces_mod INFO     FR.FNEB.00.HHZ broadb: S/N: 1.3
+2024-02-29 14:44:13,910 ssp_wave_arrival_mod INFO     FR.GENF.00.HH1: found P pick
+2024-02-29 14:44:13,914 ssp_wave_arrival_mod INFO     FR.GENF.00.HH1: found S pick
+2024-02-29 14:44:13,940 ssp_process_traces_mod INFO     FR.GENF.00.HH1 broadb: clipping score: 44.9%
+2024-02-29 14:44:13,940 ssp_process_traces_mod WARNING  FR.GENF.00.HH1 broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:44:14,116 ssp_process_traces_mod INFO     FR.GENF.00.HH1 broadb: S/N: 6.4
+2024-02-29 14:44:14,120 ssp_wave_arrival_mod INFO     FR.GENF.00.HH2: found P pick
+2024-02-29 14:44:14,123 ssp_wave_arrival_mod INFO     FR.GENF.00.HH2: found S pick
+2024-02-29 14:44:14,148 ssp_process_traces_mod INFO     FR.GENF.00.HH2 broadb: clipping score: 69.8%
+2024-02-29 14:44:14,148 ssp_process_traces_mod WARNING  FR.GENF.00.HH2 broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:44:14,327 ssp_process_traces_mod INFO     FR.GENF.00.HH2 broadb: S/N: 4.7
+2024-02-29 14:44:14,331 ssp_wave_arrival_mod INFO     FR.GENF.00.HHZ: found P pick
+2024-02-29 14:44:14,334 ssp_wave_arrival_mod INFO     FR.GENF.00.HHZ: found S pick
+2024-02-29 14:44:14,360 ssp_process_traces_mod INFO     FR.GENF.00.HHZ broadb: clipping score: 90.5%
+2024-02-29 14:44:14,360 ssp_process_traces_mod WARNING  FR.GENF.00.HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:44:14,535 ssp_process_traces_mod INFO     FR.GENF.00.HHZ broadb: S/N: 5.2
+2024-02-29 14:44:14,539 ssp_wave_arrival_mod INFO     FR.PAND.00.HHE: found P pick
+2024-02-29 14:44:14,542 ssp_wave_arrival_mod INFO     FR.PAND.00.HHE: found S pick
+2024-02-29 14:44:14,542 ssp_process_traces_mod WARNING  FR.PAND.00.HHE: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:44:14,566 ssp_process_traces_mod INFO     FR.PAND.00.HHE broadb: clipping score: 0.2%
+2024-02-29 14:44:14,735 ssp_process_traces_mod INFO     FR.PAND.00.HHE broadb: S/N: 17.1
+2024-02-29 14:44:14,739 ssp_wave_arrival_mod INFO     FR.PAND.00.HHN: found P pick
+2024-02-29 14:44:14,742 ssp_wave_arrival_mod INFO     FR.PAND.00.HHN: found S pick
+2024-02-29 14:44:14,742 ssp_process_traces_mod WARNING  FR.PAND.00.HHN: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:44:14,765 ssp_process_traces_mod INFO     FR.PAND.00.HHN broadb: clipping score: 0.5%
+2024-02-29 14:44:14,934 ssp_process_traces_mod INFO     FR.PAND.00.HHN broadb: S/N: 13.3
+2024-02-29 14:44:14,938 ssp_wave_arrival_mod INFO     FR.PAND.00.HHZ: found P pick
+2024-02-29 14:44:14,941 ssp_wave_arrival_mod INFO     FR.PAND.00.HHZ: found S pick
+2024-02-29 14:44:14,941 ssp_process_traces_mod WARNING  FR.PAND.00.HHZ: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:44:14,964 ssp_process_traces_mod INFO     FR.PAND.00.HHZ broadb: clipping score: 0.1%
+2024-02-29 14:44:15,132 ssp_process_traces_mod INFO     FR.PAND.00.HHZ broadb: S/N: 23.2
+2024-02-29 14:44:15,136 ssp_wave_arrival_mod INFO     FR.SALF.00.HHE: found P pick
+2024-02-29 14:44:15,140 ssp_wave_arrival_mod INFO     FR.SALF.00.HHE: found S pick
+2024-02-29 14:44:15,193 ssp_process_traces_mod INFO     FR.SALF.00.HHE broadb: clipping score: 4.5%
+2024-02-29 14:44:15,380 ssp_process_traces_mod INFO     FR.SALF.00.HHE broadb: S/N: 3.5
+2024-02-29 14:44:15,384 ssp_wave_arrival_mod INFO     FR.SALF.00.HHN: found P pick
+2024-02-29 14:44:15,388 ssp_wave_arrival_mod INFO     FR.SALF.00.HHN: found S pick
+2024-02-29 14:44:15,441 ssp_process_traces_mod INFO     FR.SALF.00.HHN broadb: clipping score: 0.2%
+2024-02-29 14:44:15,632 ssp_process_traces_mod INFO     FR.SALF.00.HHN broadb: S/N: 5.2
+2024-02-29 14:44:15,636 ssp_wave_arrival_mod INFO     FR.SALF.00.HHZ: found P pick
+2024-02-29 14:44:15,640 ssp_wave_arrival_mod INFO     FR.SALF.00.HHZ: found S pick
+2024-02-29 14:44:15,694 ssp_process_traces_mod INFO     FR.SALF.00.HHZ broadb: clipping score: 43.3%
+2024-02-29 14:44:15,694 ssp_process_traces_mod WARNING  FR.SALF.00.HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:44:15,880 ssp_process_traces_mod INFO     FR.SALF.00.HHZ broadb: S/N: 4.4
+2024-02-29 14:44:15,884 ssp_wave_arrival_mod INFO     FR.VALC.00.HHE: no P pick found
+2024-02-29 14:44:15,884 ssp_wave_arrival_mod INFO     FR.VALC.00.HHE: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:44:15,888 ssp_wave_arrival_mod INFO     FR.VALC.00.HHE: no S pick found
+2024-02-29 14:44:15,888 ssp_wave_arrival_mod INFO     FR.VALC.00.HHE: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:44:15,914 ssp_process_traces_mod INFO     FR.VALC.00.HHE broadb: clipping score: 30.0%
+2024-02-29 14:44:15,914 ssp_process_traces_mod WARNING  FR.VALC.00.HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:44:16,096 ssp_process_traces_mod INFO     FR.VALC.00.HHE broadb: S/N: 1.4
+2024-02-29 14:44:16,100 ssp_wave_arrival_mod INFO     FR.VALC.00.HHN: no P pick found
+2024-02-29 14:44:16,100 ssp_wave_arrival_mod INFO     FR.VALC.00.HHN: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:44:16,104 ssp_wave_arrival_mod INFO     FR.VALC.00.HHN: no S pick found
+2024-02-29 14:44:16,104 ssp_wave_arrival_mod INFO     FR.VALC.00.HHN: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:44:16,130 ssp_process_traces_mod INFO     FR.VALC.00.HHN broadb: clipping score: 39.2%
+2024-02-29 14:44:16,130 ssp_process_traces_mod WARNING  FR.VALC.00.HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:44:16,307 ssp_process_traces_mod INFO     FR.VALC.00.HHN broadb: S/N: 1.8
+2024-02-29 14:44:16,311 ssp_wave_arrival_mod INFO     FR.VALC.00.HHZ: no P pick found
+2024-02-29 14:44:16,311 ssp_wave_arrival_mod INFO     FR.VALC.00.HHZ: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:44:16,314 ssp_wave_arrival_mod INFO     FR.VALC.00.HHZ: no S pick found
+2024-02-29 14:44:16,314 ssp_wave_arrival_mod INFO     FR.VALC.00.HHZ: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:44:16,341 ssp_process_traces_mod INFO     FR.VALC.00.HHZ broadb: clipping score: 62.1%
+2024-02-29 14:44:16,341 ssp_process_traces_mod WARNING  FR.VALC.00.HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:44:16,521 ssp_process_traces_mod INFO     FR.VALC.00.HHZ broadb: S/N: 1.4
+2024-02-29 14:44:16,522 ssp_process_traces_mod INFO     Processing traces: done
+2024-02-29 14:44:16,522 ssp_build_spectra    INFO     Building spectra...
+2024-02-29 14:44:16,636 ssp_build_spectra    INFO     FR.PAND.00.HHE: spectral S/N: 28.15
+2024-02-29 14:44:16,639 ssp_build_spectra    INFO     FR.PAND.00.HHN: spectral S/N: 50.23
+2024-02-29 14:44:16,643 ssp_build_spectra    INFO     FR.PAND.00.HHZ: spectral S/N: 58.64
+2024-02-29 14:44:16,646 ssp_build_spectra    INFO     FR.SALF.00.HHE: spectral S/N: 14.81
+2024-02-29 14:44:16,649 ssp_build_spectra    INFO     FR.SALF.00.HHN: spectral S/N: 20.12
+2024-02-29 14:44:16,652 ssp_build_spectra    INFO     Building spectra: done
+2024-02-29 14:44:21,879 ssp_plot_traces      INFO     Trace plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_54b9afecf96a4a7886e573bd8abebc70/5e1f3e3c-34ca-4957-9048-dc008d426298.traces.png
+2024-02-29 14:44:21,887 ssp_inversion        INFO     Inverting spectra...
+2024-02-29 14:44:21,887 ssp_inversion        INFO     Using noise weighting for inversion.
+2024-02-29 14:44:21,887 ssp_inversion        INFO     Using truncated Newton algorithm for inversion.
+2024-02-29 14:44:21,888 ssp_inversion        INFO     FR.PAND.00.HHH broadb: initial values: Mw_0: 1.3361; fc_0: 2.6477; t_star_0: 0.045
+2024-02-29 14:44:21,888 ssp_inversion        INFO     FR.PAND.00.HHH broadb: bounds: Mw: 1.1589, 1.5403; fc: 0.2648, 26.4773; t_star: 0.0, 0.1
+2024-02-29 14:44:21,914 ssp_inversion        INFO     FR.PAND.00.HHH broadb: optimal values: Mw: 1.4484; fc: 20.7053; t_star: 0.0371
+2024-02-29 14:44:21,914 ssp_inversion        INFO     FR.PAND.00.HHH broadb: misfit: 0.063
+2024-02-29 14:44:21,915 ssp_inversion        WARNING  FR.SALF.00.HHH broadb: unable to find a frequency range to compute Mw_0. This is possibly due to an uncommon spectrum (e.g., a resonance).
+2024-02-29 14:44:21,916 ssp_inversion        INFO     Inverting spectra: done
+2024-02-29 14:44:21,916 ssp_radiated_energy  INFO     Computing radiated energy...
+2024-02-29 14:44:21,916 ssp_radiated_energy  INFO     Computing radiated energy: done
+2024-02-29 14:44:21,916 ssp_local_magnitude  INFO     Computing local magnitude...
+2024-02-29 14:44:22,149 ssp_local_magnitude  INFO     FR.PAND.00.HHE broadb: Ml 0.0
+2024-02-29 14:44:22,365 ssp_local_magnitude  INFO     FR.PAND.00.HHN broadb: Ml 0.9
+2024-02-29 14:44:22,388 ssp_summary_statistics INFO     params_mean: {'Mw': 1.4483865106504634, 'fc': 20.70529438112208, 't_star': 0.037135913292617034}
+2024-02-29 14:44:22,388 ssp_summary_statistics INFO     params_mean_weighted: {'Mw': 1.4483865106504634, 'fc': 20.70529438112208, 't_star': 0.037135913292617034}
+2024-02-29 14:44:22,388 ssp_summary_statistics INFO     params_percentiles: {'Mw': 1.4483865106504634, 'fc': 20.705294381122084, 't_star': 0.037135913292617034}
+2024-02-29 14:44:22,399 ssp_output           INFO     Output written to file: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_54b9afecf96a4a7886e573bd8abebc70/5e1f3e3c-34ca-4957-9048-dc008d426298.ssp.out
+2024-02-29 14:44:22,400 ssp_output           INFO     Output written to file: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_54b9afecf96a4a7886e573bd8abebc70/5e1f3e3c-34ca-4957-9048-dc008d426298.ssp.yaml
+2024-02-29 14:44:22,409 ssp_qml_output       WARNING  Unable to find evid "5e1f3e3c-34ca-4957-9048-dc008d426298" in QuakeML file. QuakeML output will not be written.
+2024-02-29 14:44:22,410 ssp_residuals        INFO     Spectral residuals saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_54b9afecf96a4a7886e573bd8abebc70/5e1f3e3c-34ca-4957-9048-dc008d426298-residuals.pickle
+2024-02-29 14:44:47,768 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_54b9afecf96a4a7886e573bd8abebc70/5e1f3e3c-34ca-4957-9048-dc008d426298.ssp.00.png
+2024-02-29 14:44:47,779 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_54b9afecf96a4a7886e573bd8abebc70/5e1f3e3c-34ca-4957-9048-dc008d426298.ssp.01.png
+2024-02-29 14:44:47,779 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_54b9afecf96a4a7886e573bd8abebc70/5e1f3e3c-34ca-4957-9048-dc008d426298.ssp.02.png
+2024-02-29 14:44:47,779 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_54b9afecf96a4a7886e573bd8abebc70/5e1f3e3c-34ca-4957-9048-dc008d426298.ssp.03.png
+2024-02-29 14:44:47,779 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_54b9afecf96a4a7886e573bd8abebc70/5e1f3e3c-34ca-4957-9048-dc008d426298.ssp.04.png
+2024-02-29 14:44:47,779 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_54b9afecf96a4a7886e573bd8abebc70/5e1f3e3c-34ca-4957-9048-dc008d426298.ssp.05.png
+2024-02-29 14:44:47,779 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_54b9afecf96a4a7886e573bd8abebc70/5e1f3e3c-34ca-4957-9048-dc008d426298.ssp.06.png
+2024-02-29 14:45:14,360 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_54b9afecf96a4a7886e573bd8abebc70/5e1f3e3c-34ca-4957-9048-dc008d426298.sspweight.00.png
+2024-02-29 14:45:14,459 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_54b9afecf96a4a7886e573bd8abebc70/5e1f3e3c-34ca-4957-9048-dc008d426298.sspweight.01.png
+2024-02-29 14:45:14,459 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_54b9afecf96a4a7886e573bd8abebc70/5e1f3e3c-34ca-4957-9048-dc008d426298.sspweight.02.png
+2024-02-29 14:45:14,459 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_54b9afecf96a4a7886e573bd8abebc70/5e1f3e3c-34ca-4957-9048-dc008d426298.sspweight.03.png
+2024-02-29 14:45:14,459 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_54b9afecf96a4a7886e573bd8abebc70/5e1f3e3c-34ca-4957-9048-dc008d426298.sspweight.04.png
+2024-02-29 14:45:14,459 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_54b9afecf96a4a7886e573bd8abebc70/5e1f3e3c-34ca-4957-9048-dc008d426298.sspweight.05.png
+2024-02-29 14:45:14,459 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_54b9afecf96a4a7886e573bd8abebc70/5e1f3e3c-34ca-4957-9048-dc008d426298.sspweight.06.png
+2024-02-29 14:45:14,459 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_54b9afecf96a4a7886e573bd8abebc70/5e1f3e3c-34ca-4957-9048-dc008d426298.sspweight.07.png
+2024-02-29 14:45:15,341 ssp_plot_stacked_spectra INFO     Stacked spectra plot saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_54b9afecf96a4a7886e573bd8abebc70/5e1f3e3c-34ca-4957-9048-dc008d426298.stacked_spectra.png
+2024-02-29 14:45:17,619 ssp_plot_params_stats INFO     Parameters box plot saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_54b9afecf96a4a7886e573bd8abebc70/5e1f3e3c-34ca-4957-9048-dc008d426298.boxplot.png
+2024-02-29 14:45:17,630 ssp_html_report      INFO     HTML report written to file: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_54b9afecf96a4a7886e573bd8abebc70/index.html
+2024-02-29 14:45:18,367 ssp_read_station_metadata INFO     Reading station metadata...
+2024-02-29 14:45:18,367 ssp_read_station_metadata INFO     Reading station metadata from file: /Volumes/LaCie/all_andorra/mini_test/inputs/metadata/inv_all.xml
+2024-02-29 14:45:18,649 ssp_read_station_metadata INFO     Reading station metadata: done
+2024-02-29 14:45:18,655 ssp_read_traces      INFO     Reading traces...
+2024-02-29 14:45:19,627 ssp_read_traces      INFO     Reading traces: done
+2024-02-29 14:45:19,627 ssp_read_traces      INFO     Vp_hypo: 6.00 km/s, Vs_hypo: 3.50 km/s
+2024-02-29 14:45:19,636 ssp_process_traces_mod INFO     Processing traces...
+2024-02-29 14:45:19,650 ssp_wave_arrival_mod INFO     CA.ARBS..HH1: found P pick
+2024-02-29 14:45:19,653 ssp_wave_arrival_mod INFO     CA.ARBS..HH1: found S pick
+2024-02-29 14:45:19,653 ssp_process_traces_mod WARNING  CA.ARBS..HH1: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:45:19,693 ssp_process_traces_mod INFO     CA.ARBS..HH1 broadb: clipping score: 73.7%
+2024-02-29 14:45:19,693 ssp_process_traces_mod WARNING  CA.ARBS..HH1 broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:19,790 ssp_process_traces_mod INFO     CA.ARBS..HH1 broadb: S/N: 3.8
+2024-02-29 14:45:19,794 ssp_wave_arrival_mod INFO     CA.ARBS..HH2: found P pick
+2024-02-29 14:45:19,798 ssp_wave_arrival_mod INFO     CA.ARBS..HH2: found S pick
+2024-02-29 14:45:19,798 ssp_process_traces_mod WARNING  CA.ARBS..HH2: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:45:19,842 ssp_process_traces_mod INFO     CA.ARBS..HH2 broadb: clipping score: 4.8%
+2024-02-29 14:45:19,938 ssp_process_traces_mod INFO     CA.ARBS..HH2 broadb: S/N: 4.3
+2024-02-29 14:45:19,942 ssp_wave_arrival_mod INFO     CA.ARBS..HHZ: found P pick
+2024-02-29 14:45:19,945 ssp_wave_arrival_mod INFO     CA.ARBS..HHZ: found S pick
+2024-02-29 14:45:19,945 ssp_process_traces_mod WARNING  CA.ARBS..HHZ: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:45:19,983 ssp_process_traces_mod INFO     CA.ARBS..HHZ broadb: clipping score: 84.2%
+2024-02-29 14:45:19,983 ssp_process_traces_mod WARNING  CA.ARBS..HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:20,078 ssp_process_traces_mod INFO     CA.ARBS..HHZ broadb: S/N: 4.7
+2024-02-29 14:45:20,082 ssp_wave_arrival_mod INFO     CA.CEST..HHE: found P pick
+2024-02-29 14:45:20,086 ssp_wave_arrival_mod INFO     CA.CEST..HHE: found S pick
+2024-02-29 14:45:20,124 ssp_process_traces_mod INFO     CA.CEST..HHE broadb: clipping score: 47.5%
+2024-02-29 14:45:20,124 ssp_process_traces_mod WARNING  CA.CEST..HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:20,221 ssp_process_traces_mod INFO     CA.CEST..HHE broadb: S/N: 4.5
+2024-02-29 14:45:20,225 ssp_wave_arrival_mod INFO     CA.CEST..HHN: found P pick
+2024-02-29 14:45:20,228 ssp_wave_arrival_mod INFO     CA.CEST..HHN: found S pick
+2024-02-29 14:45:20,267 ssp_process_traces_mod INFO     CA.CEST..HHN broadb: clipping score: 2.5%
+2024-02-29 14:45:20,362 ssp_process_traces_mod INFO     CA.CEST..HHN broadb: S/N: 7.0
+2024-02-29 14:45:20,366 ssp_wave_arrival_mod INFO     CA.CEST..HHZ: found P pick
+2024-02-29 14:45:20,370 ssp_wave_arrival_mod INFO     CA.CEST..HHZ: found S pick
+2024-02-29 14:45:20,407 ssp_process_traces_mod INFO     CA.CEST..HHZ broadb: clipping score: 84.1%
+2024-02-29 14:45:20,408 ssp_process_traces_mod WARNING  CA.CEST..HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:20,503 ssp_process_traces_mod INFO     CA.CEST..HHZ broadb: S/N: 5.5
+2024-02-29 14:45:20,508 ssp_wave_arrival_mod INFO     CA.CORG..HHE: found P pick
+2024-02-29 14:45:20,511 ssp_wave_arrival_mod INFO     CA.CORG..HHE: found S pick
+2024-02-29 14:45:20,551 ssp_process_traces_mod INFO     CA.CORG..HHE broadb: clipping score: 61.8%
+2024-02-29 14:45:20,551 ssp_process_traces_mod WARNING  CA.CORG..HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:20,645 ssp_process_traces_mod INFO     CA.CORG..HHE broadb: S/N: 3.1
+2024-02-29 14:45:20,649 ssp_wave_arrival_mod INFO     CA.CORG..HHN: found P pick
+2024-02-29 14:45:20,653 ssp_wave_arrival_mod INFO     CA.CORG..HHN: found S pick
+2024-02-29 14:45:20,692 ssp_process_traces_mod INFO     CA.CORG..HHN broadb: clipping score: 75.7%
+2024-02-29 14:45:20,692 ssp_process_traces_mod WARNING  CA.CORG..HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:20,786 ssp_process_traces_mod INFO     CA.CORG..HHN broadb: S/N: 1.9
+2024-02-29 14:45:20,790 ssp_wave_arrival_mod INFO     CA.CORG..HHZ: found P pick
+2024-02-29 14:45:20,794 ssp_wave_arrival_mod INFO     CA.CORG..HHZ: found S pick
+2024-02-29 14:45:20,833 ssp_process_traces_mod INFO     CA.CORG..HHZ broadb: clipping score: 83.5%
+2024-02-29 14:45:20,834 ssp_process_traces_mod WARNING  CA.CORG..HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:20,928 ssp_process_traces_mod INFO     CA.CORG..HHZ broadb: S/N: 2.7
+2024-02-29 14:45:20,932 ssp_wave_arrival_mod INFO     CA.CSOR..HHE: found P pick
+2024-02-29 14:45:20,935 ssp_wave_arrival_mod INFO     CA.CSOR..HHE: found S pick
+2024-02-29 14:45:20,975 ssp_process_traces_mod INFO     CA.CSOR..HHE broadb: clipping score: 77.1%
+2024-02-29 14:45:20,975 ssp_process_traces_mod WARNING  CA.CSOR..HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:21,070 ssp_process_traces_mod INFO     CA.CSOR..HHE broadb: S/N: 3.6
+2024-02-29 14:45:21,074 ssp_wave_arrival_mod INFO     CA.CSOR..HHN: found P pick
+2024-02-29 14:45:21,078 ssp_wave_arrival_mod INFO     CA.CSOR..HHN: found S pick
+2024-02-29 14:45:21,117 ssp_process_traces_mod INFO     CA.CSOR..HHN broadb: clipping score: 81.1%
+2024-02-29 14:45:21,117 ssp_process_traces_mod WARNING  CA.CSOR..HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:21,213 ssp_process_traces_mod INFO     CA.CSOR..HHN broadb: S/N: 6.3
+2024-02-29 14:45:21,217 ssp_wave_arrival_mod INFO     CA.CSOR..HHZ: found P pick
+2024-02-29 14:45:21,221 ssp_wave_arrival_mod INFO     CA.CSOR..HHZ: found S pick
+2024-02-29 14:45:21,260 ssp_process_traces_mod INFO     CA.CSOR..HHZ broadb: clipping score: 83.1%
+2024-02-29 14:45:21,260 ssp_process_traces_mod WARNING  CA.CSOR..HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:21,356 ssp_process_traces_mod INFO     CA.CSOR..HHZ broadb: S/N: 5.3
+2024-02-29 14:45:21,360 ssp_wave_arrival_mod INFO     FR.CARF.00.HHE: no P pick found
+2024-02-29 14:45:21,360 ssp_wave_arrival_mod INFO     FR.CARF.00.HHE: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:45:21,364 ssp_wave_arrival_mod INFO     FR.CARF.00.HHE: found S pick
+2024-02-29 14:45:21,387 ssp_process_traces_mod INFO     FR.CARF.00.HHE broadb: clipping score: 85.4%
+2024-02-29 14:45:21,387 ssp_process_traces_mod WARNING  FR.CARF.00.HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:21,470 ssp_process_traces_mod INFO     FR.CARF.00.HHE broadb: S/N: 2.0
+2024-02-29 14:45:21,474 ssp_wave_arrival_mod INFO     FR.CARF.00.HHN: no P pick found
+2024-02-29 14:45:21,474 ssp_wave_arrival_mod INFO     FR.CARF.00.HHN: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:45:21,478 ssp_wave_arrival_mod INFO     FR.CARF.00.HHN: found S pick
+2024-02-29 14:45:21,500 ssp_process_traces_mod INFO     FR.CARF.00.HHN broadb: clipping score: 51.9%
+2024-02-29 14:45:21,500 ssp_process_traces_mod WARNING  FR.CARF.00.HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:21,583 ssp_process_traces_mod INFO     FR.CARF.00.HHN broadb: S/N: 1.7
+2024-02-29 14:45:21,587 ssp_wave_arrival_mod INFO     FR.CARF.00.HHZ: no P pick found
+2024-02-29 14:45:21,587 ssp_wave_arrival_mod INFO     FR.CARF.00.HHZ: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:45:21,591 ssp_wave_arrival_mod INFO     FR.CARF.00.HHZ: found S pick
+2024-02-29 14:45:21,614 ssp_process_traces_mod INFO     FR.CARF.00.HHZ broadb: clipping score: 64.4%
+2024-02-29 14:45:21,614 ssp_process_traces_mod WARNING  FR.CARF.00.HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:21,697 ssp_process_traces_mod INFO     FR.CARF.00.HHZ broadb: S/N: 1.7
+2024-02-29 14:45:21,714 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHE: no P pick found
+2024-02-29 14:45:21,714 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHE: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:45:21,727 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHE: no S pick found
+2024-02-29 14:45:21,727 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHE: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:45:21,779 ssp_process_traces_mod INFO     FR.FNEB.00.HHE broadb: clipping score: 56.2%
+2024-02-29 14:45:21,779 ssp_process_traces_mod WARNING  FR.FNEB.00.HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:21,875 ssp_process_traces_mod INFO     FR.FNEB.00.HHE broadb: S/N: 1.4
+2024-02-29 14:45:21,891 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHN: no P pick found
+2024-02-29 14:45:21,891 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHN: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:45:21,904 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHN: no S pick found
+2024-02-29 14:45:21,905 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHN: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:45:21,956 ssp_process_traces_mod INFO     FR.FNEB.00.HHN broadb: clipping score: 80.4%
+2024-02-29 14:45:21,956 ssp_process_traces_mod WARNING  FR.FNEB.00.HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:22,053 ssp_process_traces_mod INFO     FR.FNEB.00.HHN broadb: S/N: 0.9
+2024-02-29 14:45:22,069 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHZ: no P pick found
+2024-02-29 14:45:22,069 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHZ: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:45:22,082 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHZ: no S pick found
+2024-02-29 14:45:22,082 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHZ: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:45:22,134 ssp_process_traces_mod INFO     FR.FNEB.00.HHZ broadb: clipping score: 72.3%
+2024-02-29 14:45:22,134 ssp_process_traces_mod WARNING  FR.FNEB.00.HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:22,230 ssp_process_traces_mod INFO     FR.FNEB.00.HHZ broadb: S/N: 0.9
+2024-02-29 14:45:22,235 ssp_wave_arrival_mod INFO     FR.GENF.00.HH1: found P pick
+2024-02-29 14:45:22,238 ssp_wave_arrival_mod INFO     FR.GENF.00.HH1: found S pick
+2024-02-29 14:45:22,262 ssp_process_traces_mod INFO     FR.GENF.00.HH1 broadb: clipping score: 77.1%
+2024-02-29 14:45:22,262 ssp_process_traces_mod WARNING  FR.GENF.00.HH1 broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:22,349 ssp_process_traces_mod INFO     FR.GENF.00.HH1 broadb: S/N: 2.7
+2024-02-29 14:45:22,353 ssp_wave_arrival_mod INFO     FR.GENF.00.HH2: found P pick
+2024-02-29 14:45:22,356 ssp_wave_arrival_mod INFO     FR.GENF.00.HH2: found S pick
+2024-02-29 14:45:22,380 ssp_process_traces_mod INFO     FR.GENF.00.HH2 broadb: clipping score: 2.5%
+2024-02-29 14:45:22,466 ssp_process_traces_mod INFO     FR.GENF.00.HH2 broadb: S/N: 4.8
+2024-02-29 14:45:22,471 ssp_wave_arrival_mod INFO     FR.GENF.00.HHZ: found P pick
+2024-02-29 14:45:22,474 ssp_wave_arrival_mod INFO     FR.GENF.00.HHZ: found S pick
+2024-02-29 14:45:22,498 ssp_process_traces_mod INFO     FR.GENF.00.HHZ broadb: clipping score: 51.5%
+2024-02-29 14:45:22,499 ssp_process_traces_mod WARNING  FR.GENF.00.HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:22,585 ssp_process_traces_mod INFO     FR.GENF.00.HHZ broadb: S/N: 4.2
+2024-02-29 14:45:22,588 ssp_wave_arrival_mod INFO     FR.PAND.00.HHE: found P pick
+2024-02-29 14:45:22,591 ssp_wave_arrival_mod INFO     FR.PAND.00.HHE: found S pick
+2024-02-29 14:45:22,592 ssp_process_traces_mod WARNING  FR.PAND.00.HHE: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:45:22,614 ssp_process_traces_mod INFO     FR.PAND.00.HHE broadb: clipping score: 0.1%
+2024-02-29 14:45:22,697 ssp_process_traces_mod INFO     FR.PAND.00.HHE broadb: S/N: 31.8
+2024-02-29 14:45:22,700 ssp_wave_arrival_mod INFO     FR.PAND.00.HHN: found P pick
+2024-02-29 14:45:22,703 ssp_wave_arrival_mod INFO     FR.PAND.00.HHN: found S pick
+2024-02-29 14:45:22,703 ssp_process_traces_mod WARNING  FR.PAND.00.HHN: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:45:22,726 ssp_process_traces_mod INFO     FR.PAND.00.HHN broadb: clipping score: 0.8%
+2024-02-29 14:45:22,809 ssp_process_traces_mod INFO     FR.PAND.00.HHN broadb: S/N: 29.6
+2024-02-29 14:45:22,819 ssp_wave_arrival_mod INFO     FR.PAND.00.HHZ: found P pick
+2024-02-29 14:45:22,827 ssp_wave_arrival_mod INFO     FR.PAND.00.HHZ: found S pick
+2024-02-29 14:45:22,828 ssp_process_traces_mod WARNING  FR.PAND.00.HHZ: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:45:22,863 ssp_process_traces_mod INFO     FR.PAND.00.HHZ broadb: clipping score: 0.2%
+2024-02-29 14:45:22,946 ssp_process_traces_mod INFO     FR.PAND.00.HHZ broadb: S/N: 18.7
+2024-02-29 14:45:22,950 ssp_wave_arrival_mod INFO     FR.SALF.00.HHE: found P pick
+2024-02-29 14:45:22,954 ssp_wave_arrival_mod INFO     FR.SALF.00.HHE: found S pick
+2024-02-29 14:45:23,005 ssp_process_traces_mod INFO     FR.SALF.00.HHE broadb: clipping score: 1.3%
+2024-02-29 14:45:23,102 ssp_process_traces_mod INFO     FR.SALF.00.HHE broadb: S/N: 4.4
+2024-02-29 14:45:23,106 ssp_wave_arrival_mod INFO     FR.SALF.00.HHN: found P pick
+2024-02-29 14:45:23,110 ssp_wave_arrival_mod INFO     FR.SALF.00.HHN: found S pick
+2024-02-29 14:45:23,161 ssp_process_traces_mod INFO     FR.SALF.00.HHN broadb: clipping score: 0.2%
+2024-02-29 14:45:23,258 ssp_process_traces_mod INFO     FR.SALF.00.HHN broadb: S/N: 4.8
+2024-02-29 14:45:23,263 ssp_wave_arrival_mod INFO     FR.SALF.00.HHZ: found P pick
+2024-02-29 14:45:23,266 ssp_wave_arrival_mod INFO     FR.SALF.00.HHZ: found S pick
+2024-02-29 14:45:23,318 ssp_process_traces_mod INFO     FR.SALF.00.HHZ broadb: clipping score: 77.4%
+2024-02-29 14:45:23,319 ssp_process_traces_mod WARNING  FR.SALF.00.HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:23,416 ssp_process_traces_mod INFO     FR.SALF.00.HHZ broadb: S/N: 3.4
+2024-02-29 14:45:23,421 ssp_wave_arrival_mod INFO     FR.VALC.00.HHE: no P pick found
+2024-02-29 14:45:23,421 ssp_wave_arrival_mod INFO     FR.VALC.00.HHE: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:45:23,424 ssp_wave_arrival_mod INFO     FR.VALC.00.HHE: found S pick
+2024-02-29 14:45:23,449 ssp_process_traces_mod INFO     FR.VALC.00.HHE broadb: clipping score: 63.6%
+2024-02-29 14:45:23,449 ssp_process_traces_mod WARNING  FR.VALC.00.HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:23,537 ssp_process_traces_mod INFO     FR.VALC.00.HHE broadb: S/N: 1.8
+2024-02-29 14:45:23,541 ssp_wave_arrival_mod INFO     FR.VALC.00.HHN: no P pick found
+2024-02-29 14:45:23,541 ssp_wave_arrival_mod INFO     FR.VALC.00.HHN: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:45:23,545 ssp_wave_arrival_mod INFO     FR.VALC.00.HHN: found S pick
+2024-02-29 14:45:23,571 ssp_process_traces_mod INFO     FR.VALC.00.HHN broadb: clipping score: 50.2%
+2024-02-29 14:45:23,571 ssp_process_traces_mod WARNING  FR.VALC.00.HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:23,657 ssp_process_traces_mod INFO     FR.VALC.00.HHN broadb: S/N: 2.0
+2024-02-29 14:45:23,661 ssp_wave_arrival_mod INFO     FR.VALC.00.HHZ: no P pick found
+2024-02-29 14:45:23,662 ssp_wave_arrival_mod INFO     FR.VALC.00.HHZ: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:45:23,665 ssp_wave_arrival_mod INFO     FR.VALC.00.HHZ: found S pick
+2024-02-29 14:45:23,690 ssp_process_traces_mod INFO     FR.VALC.00.HHZ broadb: clipping score: 67.9%
+2024-02-29 14:45:23,690 ssp_process_traces_mod WARNING  FR.VALC.00.HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:23,776 ssp_process_traces_mod INFO     FR.VALC.00.HHZ broadb: S/N: 1.4
+2024-02-29 14:45:23,776 ssp_process_traces_mod INFO     Processing traces: done
+2024-02-29 14:45:23,777 ssp_build_spectra    INFO     Building spectra...
+2024-02-29 14:45:23,977 ssp_build_spectra    INFO     CA.ARBS..HH2: spectral S/N: 6.66
+2024-02-29 14:45:23,980 ssp_build_spectra    INFO     CA.CEST..HHN: spectral S/N: 13.93
+2024-02-29 14:45:23,983 ssp_build_spectra    INFO     FR.GENF.00.HH2: spectral S/N: 9.40
+2024-02-29 14:45:23,987 ssp_build_spectra    INFO     FR.PAND.00.HHE: spectral S/N: 130.09
+2024-02-29 14:45:23,990 ssp_build_spectra    INFO     FR.PAND.00.HHN: spectral S/N: 83.85
+2024-02-29 14:45:23,993 ssp_build_spectra    INFO     FR.PAND.00.HHZ: spectral S/N: 72.50
+2024-02-29 14:45:23,997 ssp_build_spectra    INFO     FR.SALF.00.HHE: spectral S/N: 19.08
+2024-02-29 14:45:24,001 ssp_build_spectra    INFO     FR.SALF.00.HHN: spectral S/N: 17.46
+2024-02-29 14:45:24,009 ssp_build_spectra    INFO     Building spectra: done
+2024-02-29 14:45:29,252 ssp_plot_traces      INFO     Trace plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_02952463e81447ba90e4c8c40ba43783/faa72d11-3ba2-402c-8969-c8a1b9d36df5.traces.png
+2024-02-29 14:45:29,268 ssp_inversion        INFO     Inverting spectra...
+2024-02-29 14:45:29,268 ssp_inversion        INFO     Using noise weighting for inversion.
+2024-02-29 14:45:29,269 ssp_inversion        INFO     Using truncated Newton algorithm for inversion.
+2024-02-29 14:45:29,270 ssp_inversion        INFO     CA.ARBS..HHH broadb: initial values: Mw_0: 1.1982; fc_0: 6.0656; t_star_0: 0.045
+2024-02-29 14:45:29,270 ssp_inversion        INFO     CA.ARBS..HHH broadb: bounds: Mw: 0.9528, 1.4678; fc: 0.6066, 60.6559; t_star: 0.0, 0.1
+2024-02-29 14:45:29,296 ssp_inversion        INFO     CA.ARBS..HHH broadb: optimal values: Mw: 1.3820; fc: 60.6559; t_star: 0.0609
+2024-02-29 14:45:29,296 ssp_inversion        INFO     CA.ARBS..HHH broadb: misfit: 0.050
+2024-02-29 14:45:29,296 ssp_inversion        WARNING  CA.ARBS..HHH broadb: optimal fc within 0.1% of fc_max: 60.656 ~= 60.656: ignoring inversion results
+2024-02-29 14:45:29,296 ssp_inversion        WARNING  CA.CEST..HHH broadb: unable to find a frequency range to compute Mw_0. This is possibly due to an uncommon spectrum (e.g., a resonance).
+2024-02-29 14:45:29,297 ssp_inversion        INFO     FR.GENF.00.HHH broadb: initial values: Mw_0: 1.1332; fc_0: 3.8271; t_star_0: 0.045
+2024-02-29 14:45:29,297 ssp_inversion        INFO     FR.GENF.00.HHH broadb: bounds: Mw: 0.9707, 1.3292; fc: 0.3827, 38.2713; t_star: 0.0, 0.1
+2024-02-29 14:45:29,319 ssp_inversion        INFO     FR.GENF.00.HHH broadb: optimal values: Mw: 1.3292; fc: 38.2713; t_star: 0.0625
+2024-02-29 14:45:29,319 ssp_inversion        INFO     FR.GENF.00.HHH broadb: misfit: 0.106
+2024-02-29 14:45:29,319 ssp_inversion        WARNING  FR.GENF.00.HHH broadb: optimal fc within 0.1% of fc_max: 38.271 ~= 38.271: ignoring inversion results
+2024-02-29 14:45:29,320 ssp_inversion        INFO     FR.PAND.00.HHH broadb: initial values: Mw_0: 1.5418; fc_0: 6.6508; t_star_0: 0.045
+2024-02-29 14:45:29,320 ssp_inversion        INFO     FR.PAND.00.HHH broadb: bounds: Mw: 1.3239, 1.7651; fc: 0.6651, 66.5078; t_star: 0.0, 0.1
+2024-02-29 14:45:29,346 ssp_inversion        INFO     FR.PAND.00.HHH broadb: optimal values: Mw: 1.5885; fc: 66.5078; t_star: 0.0120
+2024-02-29 14:45:29,346 ssp_inversion        INFO     FR.PAND.00.HHH broadb: misfit: 0.033
+2024-02-29 14:45:29,347 ssp_inversion        WARNING  FR.PAND.00.HHH broadb: optimal fc within 0.1% of fc_max: 66.508 ~= 66.508: ignoring inversion results
+2024-02-29 14:45:29,347 ssp_inversion        WARNING  FR.SALF.00.HHH broadb: unable to find a frequency range to compute Mw_0. This is possibly due to an uncommon spectrum (e.g., a resonance).
+2024-02-29 14:45:29,347 ssp_inversion        INFO     Inverting spectra: done
+2024-02-29 14:45:29,347 ssp_radiated_energy  INFO     Computing radiated energy...
+2024-02-29 14:45:29,347 ssp_radiated_energy  INFO     Computing radiated energy: done
+2024-02-29 14:45:29,347 ssp_local_magnitude  INFO     Computing local magnitude...
+2024-02-29 14:45:29,348 ssp_summary_statistics INFO     No source parameter calculated
+2024-02-29 14:45:29,783 ssp_read_station_metadata INFO     Reading station metadata...
+2024-02-29 14:45:29,784 ssp_read_station_metadata INFO     Reading station metadata from file: /Volumes/LaCie/all_andorra/mini_test/inputs/metadata/inv_all.xml
+2024-02-29 14:45:30,020 ssp_read_station_metadata INFO     Reading station metadata: done
+2024-02-29 14:45:30,024 ssp_read_traces      INFO     Reading traces...
+2024-02-29 14:45:30,281 ssp_read_traces      INFO     Reading traces: done
+2024-02-29 14:45:30,281 ssp_read_traces      INFO     Vp_hypo: 6.00 km/s, Vs_hypo: 3.50 km/s
+2024-02-29 14:45:30,291 ssp_process_traces_mod INFO     Processing traces...
+2024-02-29 14:45:30,293 ssp_wave_arrival_mod INFO     CA.ARBS..HH1: no P pick found
+2024-02-29 14:45:30,293 ssp_wave_arrival_mod INFO     CA.ARBS..HH1: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:45:30,298 ssp_wave_arrival_mod INFO     CA.ARBS..HH1: no S pick found
+2024-02-29 14:45:30,298 ssp_wave_arrival_mod INFO     CA.ARBS..HH1: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:45:30,298 ssp_process_traces_mod WARNING  CA.ARBS..HH1: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:45:30,367 ssp_process_traces_mod INFO     CA.ARBS..HH1 broadb: clipping score: 66.6%
+2024-02-29 14:45:30,368 ssp_process_traces_mod WARNING  CA.ARBS..HH1 broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:30,441 ssp_process_traces_mod INFO     CA.ARBS..HH1 broadb: S/N: 1.0
+2024-02-29 14:45:30,443 ssp_wave_arrival_mod INFO     CA.ARBS..HH2: no P pick found
+2024-02-29 14:45:30,443 ssp_wave_arrival_mod INFO     CA.ARBS..HH2: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:45:30,447 ssp_wave_arrival_mod INFO     CA.ARBS..HH2: no S pick found
+2024-02-29 14:45:30,447 ssp_wave_arrival_mod INFO     CA.ARBS..HH2: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:45:30,447 ssp_process_traces_mod WARNING  CA.ARBS..HH2: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:45:30,490 ssp_process_traces_mod INFO     CA.ARBS..HH2 broadb: clipping score: 82.8%
+2024-02-29 14:45:30,490 ssp_process_traces_mod WARNING  CA.ARBS..HH2 broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:30,552 ssp_process_traces_mod INFO     CA.ARBS..HH2 broadb: S/N: 0.9
+2024-02-29 14:45:30,554 ssp_wave_arrival_mod INFO     CA.ARBS..HHZ: no P pick found
+2024-02-29 14:45:30,554 ssp_wave_arrival_mod INFO     CA.ARBS..HHZ: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:45:30,558 ssp_wave_arrival_mod INFO     CA.ARBS..HHZ: no S pick found
+2024-02-29 14:45:30,558 ssp_wave_arrival_mod INFO     CA.ARBS..HHZ: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:45:30,558 ssp_process_traces_mod WARNING  CA.ARBS..HHZ: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:45:30,600 ssp_process_traces_mod INFO     CA.ARBS..HHZ broadb: clipping score: 83.0%
+2024-02-29 14:45:30,600 ssp_process_traces_mod WARNING  CA.ARBS..HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:30,662 ssp_process_traces_mod INFO     CA.ARBS..HHZ broadb: S/N: 0.9
+2024-02-29 14:45:30,667 ssp_wave_arrival_mod INFO     CA.CEST..HHE: found P pick
+2024-02-29 14:45:30,671 ssp_wave_arrival_mod INFO     CA.CEST..HHE: found S pick
+2024-02-29 14:45:30,713 ssp_process_traces_mod INFO     CA.CEST..HHE broadb: clipping score: 79.5%
+2024-02-29 14:45:30,713 ssp_process_traces_mod WARNING  CA.CEST..HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:30,774 ssp_process_traces_mod INFO     CA.CEST..HHE broadb: S/N: 1.5
+2024-02-29 14:45:30,778 ssp_wave_arrival_mod INFO     CA.CEST..HHN: found P pick
+2024-02-29 14:45:30,783 ssp_wave_arrival_mod INFO     CA.CEST..HHN: found S pick
+2024-02-29 14:45:31,019 ssp_process_traces_mod INFO     CA.CEST..HHN broadb: clipping score: 78.2%
+2024-02-29 14:45:31,019 ssp_process_traces_mod WARNING  CA.CEST..HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:31,115 ssp_process_traces_mod INFO     CA.CEST..HHN broadb: S/N: 1.1
+2024-02-29 14:45:31,122 ssp_wave_arrival_mod INFO     CA.CEST..HHZ: found P pick
+2024-02-29 14:45:31,126 ssp_wave_arrival_mod INFO     CA.CEST..HHZ: found S pick
+2024-02-29 14:45:31,201 ssp_process_traces_mod INFO     CA.CEST..HHZ broadb: clipping score: 86.7%
+2024-02-29 14:45:31,202 ssp_process_traces_mod WARNING  CA.CEST..HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:31,275 ssp_process_traces_mod INFO     CA.CEST..HHZ broadb: S/N: 1.6
+2024-02-29 14:45:31,280 ssp_wave_arrival_mod INFO     CA.CORG..HHE: no P pick found
+2024-02-29 14:45:31,280 ssp_wave_arrival_mod INFO     CA.CORG..HHE: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:45:31,284 ssp_wave_arrival_mod INFO     CA.CORG..HHE: no S pick found
+2024-02-29 14:45:31,284 ssp_wave_arrival_mod INFO     CA.CORG..HHE: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:45:31,329 ssp_process_traces_mod INFO     CA.CORG..HHE broadb: clipping score: 81.8%
+2024-02-29 14:45:31,329 ssp_process_traces_mod WARNING  CA.CORG..HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:31,390 ssp_process_traces_mod INFO     CA.CORG..HHE broadb: S/N: 1.5
+2024-02-29 14:45:31,395 ssp_wave_arrival_mod INFO     CA.CORG..HHN: no P pick found
+2024-02-29 14:45:31,395 ssp_wave_arrival_mod INFO     CA.CORG..HHN: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:45:31,399 ssp_wave_arrival_mod INFO     CA.CORG..HHN: no S pick found
+2024-02-29 14:45:31,399 ssp_wave_arrival_mod INFO     CA.CORG..HHN: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:45:31,440 ssp_process_traces_mod INFO     CA.CORG..HHN broadb: clipping score: 69.3%
+2024-02-29 14:45:31,440 ssp_process_traces_mod WARNING  CA.CORG..HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:31,500 ssp_process_traces_mod INFO     CA.CORG..HHN broadb: S/N: 0.8
+2024-02-29 14:45:31,505 ssp_wave_arrival_mod INFO     CA.CORG..HHZ: no P pick found
+2024-02-29 14:45:31,505 ssp_wave_arrival_mod INFO     CA.CORG..HHZ: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:45:31,509 ssp_wave_arrival_mod INFO     CA.CORG..HHZ: no S pick found
+2024-02-29 14:45:31,509 ssp_wave_arrival_mod INFO     CA.CORG..HHZ: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:45:31,568 ssp_process_traces_mod INFO     CA.CORG..HHZ broadb: clipping score: 94.2%
+2024-02-29 14:45:31,569 ssp_process_traces_mod WARNING  CA.CORG..HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:31,630 ssp_process_traces_mod INFO     CA.CORG..HHZ broadb: S/N: 1.1
+2024-02-29 14:45:31,634 ssp_wave_arrival_mod INFO     CA.CSOR..HHE: no P pick found
+2024-02-29 14:45:31,634 ssp_wave_arrival_mod INFO     CA.CSOR..HHE: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:45:31,638 ssp_wave_arrival_mod INFO     CA.CSOR..HHE: no S pick found
+2024-02-29 14:45:31,638 ssp_wave_arrival_mod INFO     CA.CSOR..HHE: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:45:31,679 ssp_process_traces_mod INFO     CA.CSOR..HHE broadb: clipping score: 80.8%
+2024-02-29 14:45:31,679 ssp_process_traces_mod WARNING  CA.CSOR..HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:31,741 ssp_process_traces_mod INFO     CA.CSOR..HHE broadb: S/N: 1.7
+2024-02-29 14:45:31,745 ssp_wave_arrival_mod INFO     CA.CSOR..HHN: no P pick found
+2024-02-29 14:45:31,745 ssp_wave_arrival_mod INFO     CA.CSOR..HHN: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:45:31,749 ssp_wave_arrival_mod INFO     CA.CSOR..HHN: no S pick found
+2024-02-29 14:45:31,749 ssp_wave_arrival_mod INFO     CA.CSOR..HHN: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:45:31,790 ssp_process_traces_mod INFO     CA.CSOR..HHN broadb: clipping score: 59.7%
+2024-02-29 14:45:31,790 ssp_process_traces_mod WARNING  CA.CSOR..HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:31,850 ssp_process_traces_mod INFO     CA.CSOR..HHN broadb: S/N: 1.6
+2024-02-29 14:45:31,855 ssp_wave_arrival_mod INFO     CA.CSOR..HHZ: no P pick found
+2024-02-29 14:45:31,855 ssp_wave_arrival_mod INFO     CA.CSOR..HHZ: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:45:31,859 ssp_wave_arrival_mod INFO     CA.CSOR..HHZ: no S pick found
+2024-02-29 14:45:31,859 ssp_wave_arrival_mod INFO     CA.CSOR..HHZ: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:45:31,898 ssp_process_traces_mod INFO     CA.CSOR..HHZ broadb: clipping score: 86.3%
+2024-02-29 14:45:31,898 ssp_process_traces_mod WARNING  CA.CSOR..HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:31,959 ssp_process_traces_mod INFO     CA.CSOR..HHZ broadb: S/N: 1.7
+2024-02-29 14:45:31,963 ssp_wave_arrival_mod INFO     FR.CARF.00.HHE: no P pick found
+2024-02-29 14:45:31,963 ssp_wave_arrival_mod INFO     FR.CARF.00.HHE: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:45:31,967 ssp_wave_arrival_mod INFO     FR.CARF.00.HHE: no S pick found
+2024-02-29 14:45:31,967 ssp_wave_arrival_mod INFO     FR.CARF.00.HHE: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:45:31,990 ssp_process_traces_mod INFO     FR.CARF.00.HHE broadb: clipping score: 87.1%
+2024-02-29 14:45:31,991 ssp_process_traces_mod WARNING  FR.CARF.00.HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:32,040 ssp_process_traces_mod INFO     FR.CARF.00.HHE broadb: S/N: 0.8
+2024-02-29 14:45:32,045 ssp_wave_arrival_mod INFO     FR.CARF.00.HHN: no P pick found
+2024-02-29 14:45:32,045 ssp_wave_arrival_mod INFO     FR.CARF.00.HHN: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:45:32,048 ssp_wave_arrival_mod INFO     FR.CARF.00.HHN: no S pick found
+2024-02-29 14:45:32,048 ssp_wave_arrival_mod INFO     FR.CARF.00.HHN: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:45:32,073 ssp_process_traces_mod INFO     FR.CARF.00.HHN broadb: clipping score: 86.6%
+2024-02-29 14:45:32,073 ssp_process_traces_mod WARNING  FR.CARF.00.HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:32,124 ssp_process_traces_mod INFO     FR.CARF.00.HHN broadb: S/N: 1.3
+2024-02-29 14:45:32,129 ssp_wave_arrival_mod INFO     FR.CARF.00.HHZ: no P pick found
+2024-02-29 14:45:32,129 ssp_wave_arrival_mod INFO     FR.CARF.00.HHZ: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:45:32,133 ssp_wave_arrival_mod INFO     FR.CARF.00.HHZ: no S pick found
+2024-02-29 14:45:32,133 ssp_wave_arrival_mod INFO     FR.CARF.00.HHZ: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:45:32,159 ssp_process_traces_mod INFO     FR.CARF.00.HHZ broadb: clipping score: 88.6%
+2024-02-29 14:45:32,159 ssp_process_traces_mod WARNING  FR.CARF.00.HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:32,211 ssp_process_traces_mod INFO     FR.CARF.00.HHZ broadb: S/N: 0.9
+2024-02-29 14:45:32,226 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHE: no P pick found
+2024-02-29 14:45:32,226 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHE: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:45:32,244 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHE: no S pick found
+2024-02-29 14:45:32,244 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHE: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:45:32,300 ssp_process_traces_mod INFO     FR.FNEB.00.HHE broadb: clipping score: 40.1%
+2024-02-29 14:45:32,300 ssp_process_traces_mod WARNING  FR.FNEB.00.HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:32,367 ssp_process_traces_mod INFO     FR.FNEB.00.HHE broadb: S/N: 0.9
+2024-02-29 14:45:32,381 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHN: no P pick found
+2024-02-29 14:45:32,381 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHN: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:45:32,397 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHN: no S pick found
+2024-02-29 14:45:32,397 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHN: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:45:32,452 ssp_process_traces_mod INFO     FR.FNEB.00.HHN broadb: clipping score: 74.9%
+2024-02-29 14:45:32,452 ssp_process_traces_mod WARNING  FR.FNEB.00.HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:32,517 ssp_process_traces_mod INFO     FR.FNEB.00.HHN broadb: S/N: 1.2
+2024-02-29 14:45:32,530 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHZ: no P pick found
+2024-02-29 14:45:32,530 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHZ: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:45:32,547 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHZ: no S pick found
+2024-02-29 14:45:32,547 ssp_wave_arrival_mod INFO     FR.FNEB.00.HHZ: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:45:32,690 ssp_process_traces_mod INFO     FR.FNEB.00.HHZ broadb: clipping score: 91.9%
+2024-02-29 14:45:32,691 ssp_process_traces_mod WARNING  FR.FNEB.00.HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:32,784 ssp_process_traces_mod INFO     FR.FNEB.00.HHZ broadb: S/N: 1.9
+2024-02-29 14:45:32,789 ssp_wave_arrival_mod INFO     FR.GENF.00.HH1: no P pick found
+2024-02-29 14:45:32,789 ssp_wave_arrival_mod INFO     FR.GENF.00.HH1: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:45:32,792 ssp_wave_arrival_mod INFO     FR.GENF.00.HH1: no S pick found
+2024-02-29 14:45:32,793 ssp_wave_arrival_mod INFO     FR.GENF.00.HH1: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:45:32,819 ssp_process_traces_mod INFO     FR.GENF.00.HH1 broadb: clipping score: 79.9%
+2024-02-29 14:45:32,819 ssp_process_traces_mod WARNING  FR.GENF.00.HH1 broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:32,872 ssp_process_traces_mod INFO     FR.GENF.00.HH1 broadb: S/N: 1.1
+2024-02-29 14:45:32,876 ssp_wave_arrival_mod INFO     FR.GENF.00.HH2: no P pick found
+2024-02-29 14:45:32,876 ssp_wave_arrival_mod INFO     FR.GENF.00.HH2: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:45:32,880 ssp_wave_arrival_mod INFO     FR.GENF.00.HH2: no S pick found
+2024-02-29 14:45:32,880 ssp_wave_arrival_mod INFO     FR.GENF.00.HH2: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:45:32,906 ssp_process_traces_mod INFO     FR.GENF.00.HH2 broadb: clipping score: 80.5%
+2024-02-29 14:45:32,906 ssp_process_traces_mod WARNING  FR.GENF.00.HH2 broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:32,959 ssp_process_traces_mod INFO     FR.GENF.00.HH2 broadb: S/N: 1.4
+2024-02-29 14:45:32,963 ssp_wave_arrival_mod INFO     FR.GENF.00.HHZ: no P pick found
+2024-02-29 14:45:32,963 ssp_wave_arrival_mod INFO     FR.GENF.00.HHZ: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:45:32,968 ssp_wave_arrival_mod INFO     FR.GENF.00.HHZ: no S pick found
+2024-02-29 14:45:32,968 ssp_wave_arrival_mod INFO     FR.GENF.00.HHZ: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:45:32,994 ssp_process_traces_mod INFO     FR.GENF.00.HHZ broadb: clipping score: 82.1%
+2024-02-29 14:45:32,994 ssp_process_traces_mod WARNING  FR.GENF.00.HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:33,048 ssp_process_traces_mod INFO     FR.GENF.00.HHZ broadb: S/N: 0.7
+2024-02-29 14:45:33,053 ssp_wave_arrival_mod INFO     FR.PAND.00.HHE: found P pick
+2024-02-29 14:45:33,057 ssp_wave_arrival_mod INFO     FR.PAND.00.HHE: found S pick
+2024-02-29 14:45:33,057 ssp_process_traces_mod WARNING  FR.PAND.00.HHE: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:45:33,081 ssp_process_traces_mod INFO     FR.PAND.00.HHE broadb: clipping score: 72.1%
+2024-02-29 14:45:33,081 ssp_process_traces_mod WARNING  FR.PAND.00.HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:33,132 ssp_process_traces_mod INFO     FR.PAND.00.HHE broadb: S/N: 2.8
+2024-02-29 14:45:33,137 ssp_wave_arrival_mod INFO     FR.PAND.00.HHN: found P pick
+2024-02-29 14:45:33,141 ssp_wave_arrival_mod INFO     FR.PAND.00.HHN: found S pick
+2024-02-29 14:45:33,141 ssp_process_traces_mod WARNING  FR.PAND.00.HHN: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:45:33,164 ssp_process_traces_mod INFO     FR.PAND.00.HHN broadb: clipping score: 84.0%
+2024-02-29 14:45:33,165 ssp_process_traces_mod WARNING  FR.PAND.00.HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:33,215 ssp_process_traces_mod INFO     FR.PAND.00.HHN broadb: S/N: 3.2
+2024-02-29 14:45:33,219 ssp_wave_arrival_mod INFO     FR.PAND.00.HHZ: found P pick
+2024-02-29 14:45:33,224 ssp_wave_arrival_mod INFO     FR.PAND.00.HHZ: found S pick
+2024-02-29 14:45:33,224 ssp_process_traces_mod WARNING  FR.PAND.00.HHZ: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2024-02-29 14:45:33,247 ssp_process_traces_mod INFO     FR.PAND.00.HHZ broadb: clipping score: 80.4%
+2024-02-29 14:45:33,247 ssp_process_traces_mod WARNING  FR.PAND.00.HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:33,297 ssp_process_traces_mod INFO     FR.PAND.00.HHZ broadb: S/N: 3.1
+2024-02-29 14:45:33,301 ssp_wave_arrival_mod INFO     FR.SALF.00.HHE: found P pick
+2024-02-29 14:45:33,305 ssp_wave_arrival_mod INFO     FR.SALF.00.HHE: found S pick
+2024-02-29 14:45:33,357 ssp_process_traces_mod INFO     FR.SALF.00.HHE broadb: clipping score: 83.6%
+2024-02-29 14:45:33,357 ssp_process_traces_mod WARNING  FR.SALF.00.HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:33,421 ssp_process_traces_mod INFO     FR.SALF.00.HHE broadb: S/N: 1.3
+2024-02-29 14:45:33,425 ssp_wave_arrival_mod INFO     FR.SALF.00.HHN: found P pick
+2024-02-29 14:45:33,429 ssp_wave_arrival_mod INFO     FR.SALF.00.HHN: found S pick
+2024-02-29 14:45:33,480 ssp_process_traces_mod INFO     FR.SALF.00.HHN broadb: clipping score: 65.1%
+2024-02-29 14:45:33,480 ssp_process_traces_mod WARNING  FR.SALF.00.HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:33,545 ssp_process_traces_mod INFO     FR.SALF.00.HHN broadb: S/N: 0.9
+2024-02-29 14:45:33,549 ssp_wave_arrival_mod INFO     FR.SALF.00.HHZ: found P pick
+2024-02-29 14:45:33,553 ssp_wave_arrival_mod INFO     FR.SALF.00.HHZ: found S pick
+2024-02-29 14:45:33,605 ssp_process_traces_mod INFO     FR.SALF.00.HHZ broadb: clipping score: 86.2%
+2024-02-29 14:45:33,605 ssp_process_traces_mod WARNING  FR.SALF.00.HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:33,913 ssp_process_traces_mod INFO     FR.SALF.00.HHZ broadb: S/N: 0.9
+2024-02-29 14:45:33,917 ssp_wave_arrival_mod INFO     FR.VALC.00.HHE: no P pick found
+2024-02-29 14:45:33,917 ssp_wave_arrival_mod INFO     FR.VALC.00.HHE: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:45:33,921 ssp_wave_arrival_mod INFO     FR.VALC.00.HHE: no S pick found
+2024-02-29 14:45:33,921 ssp_wave_arrival_mod INFO     FR.VALC.00.HHE: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:45:33,945 ssp_process_traces_mod INFO     FR.VALC.00.HHE broadb: clipping score: 90.3%
+2024-02-29 14:45:33,945 ssp_process_traces_mod WARNING  FR.VALC.00.HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:33,996 ssp_process_traces_mod INFO     FR.VALC.00.HHE broadb: S/N: 1.0
+2024-02-29 14:45:34,000 ssp_wave_arrival_mod INFO     FR.VALC.00.HHN: no P pick found
+2024-02-29 14:45:34,000 ssp_wave_arrival_mod INFO     FR.VALC.00.HHN: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:45:34,004 ssp_wave_arrival_mod INFO     FR.VALC.00.HHN: no S pick found
+2024-02-29 14:45:34,004 ssp_wave_arrival_mod INFO     FR.VALC.00.HHN: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:45:34,029 ssp_process_traces_mod INFO     FR.VALC.00.HHN broadb: clipping score: 81.2%
+2024-02-29 14:45:34,029 ssp_process_traces_mod WARNING  FR.VALC.00.HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:34,081 ssp_process_traces_mod INFO     FR.VALC.00.HHN broadb: S/N: 1.0
+2024-02-29 14:45:34,085 ssp_wave_arrival_mod INFO     FR.VALC.00.HHZ: no P pick found
+2024-02-29 14:45:34,085 ssp_wave_arrival_mod INFO     FR.VALC.00.HHZ: using theoretical P pick from global velocity model (iasp91)
+2024-02-29 14:45:34,089 ssp_wave_arrival_mod INFO     FR.VALC.00.HHZ: no S pick found
+2024-02-29 14:45:34,089 ssp_wave_arrival_mod INFO     FR.VALC.00.HHZ: using theoretical S pick from global velocity model (iasp91)
+2024-02-29 14:45:34,112 ssp_process_traces_mod INFO     FR.VALC.00.HHZ broadb: clipping score: 86.4%
+2024-02-29 14:45:34,113 ssp_process_traces_mod WARNING  FR.VALC.00.HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2024-02-29 14:45:34,164 ssp_process_traces_mod INFO     FR.VALC.00.HHZ broadb: S/N: 1.1
+2024-02-29 14:45:34,164 ssp_process_traces_mod INFO     Processing traces: done
+2024-02-29 14:45:34,164 ssp_build_spectra    INFO     Building spectra...
+2024-02-29 14:45:34,164 ssp_build_spectra    ERROR    No spectra left! Exiting.
+2024-02-29 14:45:34,164 ssp_build_spectra    INFO     Building spectra: done
+2024-02-29 14:45:40,331 ssp_plot_traces      INFO     Trace plots saved to: /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source/no_evid_b3ba38f31c6f475a9466a30d909d629a/4b948369-8817-4c49-8954-645d7873b72d.traces.png
+2024-02-29 14:45:40,331 ssp_inversion        INFO     Inverting spectra...
+2024-02-29 14:45:40,331 ssp_inversion        INFO     Using noise weighting for inversion.
+2024-02-29 14:45:40,332 ssp_inversion        INFO     Using truncated Newton algorithm for inversion.
+2024-02-29 14:45:40,332 ssp_inversion        INFO     Inverting spectra: done
+2024-02-29 14:45:40,332 ssp_radiated_energy  INFO     Computing radiated energy...
+2024-02-29 14:45:40,332 ssp_radiated_energy  INFO     Computing radiated energy: done
+2024-02-29 14:45:40,332 ssp_local_magnitude  INFO     Computing local magnitude...
+2024-02-29 14:45:40,332 ssp_summary_statistics INFO     No source parameter calculated

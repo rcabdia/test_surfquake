@@ -1,0 +1,49 @@
+*** Note: this file is deprecated and might not contain all the output information. ***
+*** It will be removed in future versions of SourceSpec. ***
+*** Please look at the YAML file in this directory. ***
+e6453f28-17d7-4c31-ab86-98bfc26eef28 lon    1.462 lat  42.500 depth   5.3 km orig_time 2022-02-01T02:03:00.276594Z
+
+*** Station source parameters ***
+*** Note: outliers are prepended by a star (*) symbol ***
+   CA.CEST..HHH broadb	  Mw  3.653   fc  9.157   t_star  0.086   Qo    57.1   Mo 3.791e+14   bsd 5.751e+01   ra  142.346   hyp_dist  21.321   az 302.687   Er 1.682e+11 
+            --- errmin	  Mw  0.055   fc 11.080   t_star  0.048   Qo    20.4   Mo 6.536e+13   bsd 5.747e+01   ra   77.937   hyp_dist     nan   az     nan   Er       nan 
+            --- errmax	  Mw  0.055   fc 11.080   t_star  0.048   Qo    71.0   Mo 7.898e+13   bsd 6.925e+02   ra 1487.718   hyp_dist     nan   az     nan   Er       nan 
+   CA.CORG..HHH broadb	  Mw  3.579   fc  2.509   t_star  0.041   Qo   255.8   Mo 2.936e+14   bsd 9.162e-01   ra  519.503   hyp_dist  32.974   az 201.725   Er 2.078e+09 
+            --- errmin	  Mw  0.031   fc  0.589   t_star  0.018   Qo    79.5   Mo 3.011e+13   bsd 5.480e-01   ra   98.838   hyp_dist     nan   az     nan   Er       nan 
+            --- errmax	  Mw  0.031   fc  0.589   t_star  0.018   Qo   209.8   Mo 3.355e+13   bsd 1.007e+00   ra  159.547   hyp_dist     nan   az     nan   Er       nan 
+   CA.CSOR..HHH broadb	  Mw  3.779   fc 13.905   t_star  0.073   Qo   120.2   Mo 5.866e+14  *bsd 3.116e+02   ra   93.735   hyp_dist  31.171   az 242.804  *Er 1.396e+12 
+            --- errmin	  Mw  0.054   fc 24.308   t_star  0.039   Qo    41.7   Mo 1.002e+14  *bsd 3.116e+02   ra   59.627   hyp_dist     nan   az     nan  *Er       nan 
+            --- errmax	  Mw  0.054   fc 24.308   t_star  0.039   Qo   136.4   Mo 1.209e+14  *bsd 7.488e+03   ra 1536.330   hyp_dist     nan   az     nan  *Er       nan 
+ FR.CARF.00.HHH broadb	  Mw  3.534   fc  2.058   t_star  0.000  *Qo     inf   Mo 2.521e+14   bsd 4.340e-01   ra  633.356   hyp_dist  58.241   az  65.460   Er 8.997e+08 
+            --- errmin	  Mw  0.075   fc  0.881   t_star  0.032  *Qo     inf   Mo 5.784e+13   bsd 3.714e-01   ra  189.791   hyp_dist     nan   az     nan   Er       nan 
+            --- errmax	  Mw  0.075   fc  0.881   t_star  0.032  *Qo    -inf   Mo 7.507e+13   bsd 1.206e+00   ra  473.673   hyp_dist     nan   az     nan   Er       nan 
+ FR.FNEB.00.HHH broadb	 *Mw  4.075   fc  0.589   t_star  0.000  *Qo     inf  *Mo 1.630e+15   bsd 6.575e-02  *ra 2213.516   hyp_dist  69.465   az  49.506   Er 5.867e+08 
+            --- errmin	 *Mw  0.298   fc  0.367   t_star  0.016  *Qo     inf  *Mo 1.047e+15   bsd 6.449e-02  *ra  850.256   hyp_dist     nan   az     nan   Er       nan 
+            --- errmax	 *Mw  0.298   fc  0.367   t_star  0.016  *Qo    -inf  *Mo 2.928e+15   bsd 7.214e-01  *ra 3668.692   hyp_dist     nan   az     nan   Er       nan 
+ FR.GENF.00.HHH broadb	  Mw  3.460   fc  2.866   t_star  0.025   Qo   414.9   Mo 1.946e+14   bsd 9.058e-01   ra  454.707   hyp_dist  37.529   az  14.121   Er 1.393e+09 
+            --- errmin	  Mw  0.037   fc  1.018   t_star  0.028   Qo   219.7   Mo 2.347e+13   bsd 6.923e-01   ra  119.190   hyp_dist     nan   az     nan   Er       nan 
+            --- errmax	  Mw  0.037   fc  1.018   t_star  0.028   Qo  9828.5   Mo 2.669e+13   bsd 1.658e+00   ra  250.530   hyp_dist     nan   az     nan   Er       nan 
+
+*** Average source parameters ***
+*** Note: averages computed after removing outliers ****
+Mw: 3.60 +/- 0.11
+Mw (weighted): 3.58 +/- 0.10
+Mo: 3.170e+14 /- 9.937e+13 /+ 1.447e+14 N·m
+Mo (weighted): 2.932e+14 /- 8.584e+13 /+ 1.214e+14 N·m
+fc: 3.218 /- 2.072 /+ 5.817 Hz
+fc (weighted): 2.392 /- 0.836 /+ 1.286 Hz
+t_star: 0.037 +/- 0.033 s
+t_star (weighted): 0.023 +/- 0.026 s
+Qo: 212.0 +/- 137.4
+Qo (weighted): 83.8 +/- 54.3
+Source radius: 288.432 /- 154.356 /+ 332.060 m
+Source radius (weighted): 503.006 /- 106.679 /+ 135.394 m
+Brune stress drop: 1.064e+00 /- 9.476e-01 /+ 8.677e+00 MPa
+Brune stress drop (weighted): 7.931e-01 /- 4.208e-01 /+ 8.962e-01 MPa
+Ml: 3.486 +/- 0.213
+Er: 3.034e+09 /- 2.644e+09 /+ 2.058e+10 N·m
+
+*** SourceSpec: 1.7
+*** Run completed on: 2024-02-29 14:41:42.926763 CET
+*** Author: SurfQuakeCore <https://projectisp.github.io/ISP_tutorial.github.io/>
+*** Agency: Spanish Navy Observatory (ROA) - https://armada.defensa.gob.es/ArmadaPortal/page/Portal/ArmadaEspannola/cienciaobservatorio/prefLang-es/02InfoGeneral

@@ -1,7 +1,7 @@
 CONTROL 1 54321
 TRANS SIMPLE 41.00 0.00 0.00
 LOCSIG surfQuake
-LOCFILES /Volumes/LaCie/all_andorra/mini_test/outputs/real/output_directory/nll_input.txt NLLOC_OBS /Volumes/LaCie/all_andorra/mini_test/outputs/nll/time/layer /Volumes/LaCie/all_andorra/mini_test/outputs/nll/loc/location
+LOCFILES /Volumes/LaCie/all_andorra/mini_test/outputs_sh/real/output_directory/nll_input.txt NLLOC_OBS /Volumes/LaCie/all_andorra/mini_test/outputs_sh/nll/time/layer /Volumes/LaCie/all_andorra/mini_test/outputs_sh/nll/loc/location
 LOCHYPOUT SAVE_NLLOC_ALL
 LOCSEARCH  OCT 100 10 1 0.01 25000 5000 0 1
 LOCGRID  391 391 48 5 5 -2.0 1.0 1.0 1.0 PROB_DENSITY  SAVE
@@ -9,3 +9,26 @@ LOCGAU 0.2 0.0
 LOCMETH GAU_ANALYTIC 9999.0 4 -1 -1 1.68 6 5 0
 LOCQUAL2ERR 1.5 2.0 2.5 3.0 99999.9
 LOCANGLES ANGLES_YES 5
+
+#Total Phase Corrections (CalcResidual + InputDelay)  RMS_Max: 1000000000000000019884624838656.000000  NRdgs_Min: -1  Gap_Max: 1000000000000000019884624838656.000000  P_Res_Max: 1000000000000000019884624838656.000000  S_Res_Max: 1000000000000000019884624838656.000000  Ell_Len3_Max: 1000000000000000019884624838656.000000  Hypo_Depth_Min: -1000000000000000019884624838656.000000  Hypo_Depth_Max: 1000000000000000019884624838656.000000  Hypo_Dist_Max: 1000000000000000019884624838656.000000
+#         ID      Phase   Nres      TotCorr      StdDev
+LOCDELAY  ARBS P 5        0.164068     0.088723    
+LOCDELAY  ARBS S 6        0.880836     0.624141    
+LOCDELAY  CARF P 2        0.109332     0.027728    
+LOCDELAY  CARF S 4        0.897674     0.140768    
+LOCDELAY  CEST P 8        -0.937047    0.637528    
+LOCDELAY  CEST S 8        -0.788732    0.364034    
+LOCDELAY  CORG P 5        0.274112     0.146876    
+LOCDELAY  CORG S 6        1.307690     0.073853    
+LOCDELAY  CSOR P 6        -0.333768    0.238237    
+LOCDELAY  CSOR S 7        0.226048     0.327390    
+LOCDELAY  FNEB P 2        0.296136     0.034629    
+LOCDELAY  FNEB S 2        1.398048     0.124836    
+LOCDELAY  GENF P 5        -0.155859    0.104504    
+LOCDELAY  GENF S 7        0.300238     0.880283    
+LOCDELAY  PAND P 7        -0.180427    0.614854    
+LOCDELAY  PAND S 8        0.085627     0.309653    
+LOCDELAY  SALF P 8        -0.409281    0.396217    
+LOCDELAY  SALF S 8        -1.361686    0.865015    
+LOCDELAY  VALC P 2        0.047784     0.057132    
+LOCDELAY  VALC S 3        1.580729     0.195123    

@@ -1,7 +1,7 @@
 #Type parameters
 CONTROL 1 54321
 TRANS SIMPLE 41.00 0.00 0.00
-GTFILES /Volumes/LaCie/all_andorra/mini_test/outputs/nll/model/layer /Volumes/LaCie/all_andorra/mini_test/outputs/nll/time/layer S
+GTFILES /Volumes/LaCie/all_andorra/mini_test/outputs_sh/nll/model/layer /Volumes/LaCie/all_andorra/mini_test/outputs_sh/nll/time/layer S
 GTMODE GRID2D ANGLES_YES
 GT_PLFD  1.0e-3  1
 GTSRCE ARBS LATLON 42.434492 1.533754 0.000 2.145
