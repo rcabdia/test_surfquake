@@ -1,0 +1,34 @@
+*** Note: this file is deprecated and might not contain all the output information. ***
+*** It will be removed in future versions of SourceSpec. ***
+*** Please look at the YAML file in this directory. ***
+6301e230-dc36-48d8-bd16-e2d33096b3e9 lon    0.743 lat  42.673 depth   0.2 km orig_time 2022-02-01T01:35:16.515166Z
+
+*** Station source parameters ***
+*** Note: outliers are prepended by a star (*) symbol ***
+ FR.SALF.00.HHH broadb	  Mw  1.315   fc 19.431   t_star  0.000  *Qo     inf   Mo 1.183e+11   bsd 1.715e-01   ra   67.079   hyp_dist  37.722   az  75.101   Er 1.529e+05 
+            --- errmin	  Mw  0.114   fc 94.978   t_star  0.067  *Qo     inf   Mo 3.852e+10   bsd 1.715e-01   ra   55.687   hyp_dist     nan   az     nan   Er       nan 
+            --- errmax	  Mw  0.114   fc 94.978   t_star  0.067  *Qo    -inf   Mo 5.711e+10   bsd 5.174e+01   ra 1562.986   hyp_dist     nan   az     nan   Er       nan 
+
+*** Average source parameters ***
+*** Note: averages computed after removing outliers ****
+Mw: 1.32 +/- 0.00
+Mw (weighted): 1.32 +/- 0.00
+Mo: 1.183e+11 +/- 0.000e+00 N·m
+Mo (weighted): 1.183e+11 +/- 0.000e+00 N·m
+fc: 19.431 +/- 0.000 Hz
+fc (weighted): 19.431 +/- 0.000 Hz
+t_star: 0.000 +/- 0.000 s
+t_star (weighted): 0.000 +/- 0.000 s
+Qo: nan /- nan /+ nan
+Qo (weighted): nan /- nan /+ nan
+Source radius: 67.079 +/- 0.000 m
+Source radius (weighted): 67.079 +/- 0.000 m
+Brune stress drop: 1.715e-01 +/- 0.000e+00 MPa
+Brune stress drop (weighted): 1.715e-01 +/- 0.000e+00 MPa
+Ml: 0.255 +/- 0.000
+Er: 1.529e+05 +/- 0.000e+00 N·m
+
+*** SourceSpec: 1.7
+*** Run completed on: 2024-02-24 13:44:10.663783 CET
+*** Author: SurfQuakeCore <https://projectisp.github.io/ISP_tutorial.github.io/>
+*** Agency: Spanish Navy Observatory (ROA) - https://armada.defensa.gob.es/ArmadaPortal/page/Portal/ArmadaEspannola/cienciaobservatorio/prefLang-es/02InfoGeneral

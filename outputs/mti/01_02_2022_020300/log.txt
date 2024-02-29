@@ -1,0 +1,69 @@
+
+Hypocenter location:
+  Agency: 
+  Origin time: 2022-02-01 02:03:00
+  Lat   42.527   Lon    1.442   Depth 5.8 km
+Station coordinates: /var/folders/gj/jqdffl4j0694fbnkzr8x231h0000gn/T/tmpdliyqbjb/stations.txt
+Crustal model(s): /Volumes/LaCie/surfquake_test/working_directory/earth_models/Iberia.dat
+
+Sampling frequencies:
+  Data sampling: 100.0 Hz, 100.0 Hz, 100.0 Hz, 100.0 Hz, 100.0 Hz, 100.0 Hz, 100.0 Hz, 100.0 Hz, 100.0 Hz
+  Common sampling: 100.0
+  Decimation factor:  50 x
+  Sampling used:   2.0 Hz
+
+Grid parameters:
+  number of points:  729
+  horizontal step:   851 m
+  vertical step:   851 m
+  grid radius:  3.665 km
+  minimal depth:  2.135 km
+  maximal depth:  9.465 km
+Estimated rupture length:  0.665 km
+
+Grid-search over time:
+  min = -1.00 s (-100 samples)
+  max =  1.27 s (127 samples)
+  step = 0.04 s (  4 samples)
+
+Green's function calculation:
+  npts:  256
+  tl: 128.00
+  freq:  129
+  npts for inversion:  139
+  source time function: triangle in velocity, length = 2.0 s
+
+Components used in inversion and their weights
+station     	   	 Z 	 N 	 E 	dist	azimuth	fmin	fmax
+            	   	   	   	   	(km)    	(deg)	(Hz)	(Hz)
+ FR:PAND    	HH 	1.0	1.0	1.0	   9    	 92	0.02	0.25
+ CA:ARBS    	HH 	1.0	---	---	  13    	144	0.02	0.25
+ CA:CSOR    	HH 	1.0	1.0	1.0	  31    	236	0.02	0.25
+ FR:SALF    	HH 	1.0	1.0	1.0	  33    	321	0.02	0.25
+ FR:GENF    	HH 	1.0	---	---	  35    	 18	0.02	0.25
+ CA:CORG    	HH 	1.0	1.0	1.0	  35    	197	0.02	0.25
+ FR:VALC    	HH 	1.0	1.0	1.0	  52    	107	0.02	0.25
+ FR:CARF    	HH 	1.0	1.0	1.0	  58    	 69	0.02	0.25
+ FR:FNEB    	HH 	1.0	1.0	1.0	  69    	 52	0.02	0.25
+
+Creating covariance matrix
+Inversion of deviatoric part of moment tensor (5 components)
+
+Centroid location:
+  Centroid time: 2022-02-01 02:03:00
+  Lat   42.519   Lon    1.432   Depth   5.8 km
+  ( -851 m to the north and  -851 m to the east with respect to epicenter)
+  time:  0.68 s before origin time
+
+  VR:   22 %
+  CN:    3
+  MT [ Mrr    Mtt    Mpp    Mrt    Mrp    Mtp  ]:
+     [-1.82   0.74   1.08  -1.17   0.10  -1.68 ] * 1e+14
+
+Scalar Moment: M0 =  2.77e+14 Nm (Mw = 3.6)
+  DC component:  72 %  CLVD component:  28 %   ISOtropic component: -0 %
+  Fault plane 1: strike =  115, dip =  61 , slip-rake = -119
+  Fault plane 2: strike =  344, dip =  41 , slip-rake = -49
+
+Uncertainty evaluation: plotted 400 mechanism of 400 requested.
+Standard deviation :: dc: 0.04, clvd: 0.04, iso: 0.00, Mw: 0.05, t: 0.02, x: 0.00, y: 0.00, z: 0.12

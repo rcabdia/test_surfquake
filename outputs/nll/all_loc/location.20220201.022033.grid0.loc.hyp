@@ -1,0 +1,26 @@
+NLLOC "/Volumes/LaCie/all_andorra/mini_test/outputs/nll/loc/location.20220201.022033.grid0" "LOCATED" "Location completed."
+PUBLIC_ID None
+SIGNATURE "surfQuake   obs:/Volumes/LaCie/all_andorra/mini_test/outputs/real/output_directory/nll_input.txt   NLLoc:v7.00.13(17Jan2022)   run:24Feb2024 11h02m16"
+COMMENT ""
+GRID  391 391 48  5 5 -2  1 1 1 PROB_DENSITY
+SEARCH OCTREE nInitial 1000 nEvaluated 25000 smallestNodeSide 0.030469/0.304688/0.367188 oct_tree_integral 3.728113e+01 scatter_volume 3.677690e+01
+HYPOCENTER  x 113.057 y 150.184 z -1.81641  OT 30.4701  ix -1 iy -1 iz -1 MAXIMUM_LIKELIHOOD
+GEOGRAPHIC  OT 2022 02 01  02 20 30.470074  Lat 42.350632 Long 1.375776 Depth -1.816406
+QUALITY  Pmax 4.69151e-42 MFmin 6.16969 MFmax 18.0405 RMS 1.23849 Nphs 5 Gap 303.979 Dist 23.5917 Mamp -9.90 0 Mdur -9.90 0
+VPVSRATIO  VpVsRatio 0.5  Npair 2  Diff 0.14
+STATISTICS  ExpectX 113.245277 Y 150.121136 Z 0.447698  CovXX 0.797214 XY 0.0652867 XZ 0.269172 YY 3.04074 YZ 0.106421 ZZ 3.47858 EllAz1  271.382 Dip1  5.61811 Len1  1.64776 Az2  180.08 Dip2  13.0073 Len2  3.26303 Len3  3.530564e+00
+STAT_GEOG  ExpectLat 42.350070 Long 1.378050 Depth 0.447698
+TRANSFORM  SIMPLE LatOrig 41.000000  LongOrig 0.000000  RotCW 0.000000
+QML_OriginQuality  assocPhCt 5  usedPhCt 5  assocStaCt -1  usedStaCt 3  depthPhCt -1  stdErr 1.23849  azGap 303.979  secAzGap 305.201  gtLevel -  minDist 23.5917 maxDist 48.1593 medDist 29.4778
+QML_OriginUncertainty  horUnc -1  minHorUnc 1.35249  maxHorUnc 2.64539  azMaxHorUnc 1.66543
+QML_ConfidenceEllipsoid  semiMajorAxisLength 3.53056  semiMinorAxisLength 1.64776  semiIntermediateAxisLength 3.26303  majorAxisPlunge -75.792  majorAxisAzimuth 204.245  majorAxisRotation 333.686
+FOCALMECH  Hyp  42.350632 1.375776 -1.816406 Mech  0 0 0 mf  0 nObs -1
+PHASE ID Ins Cmp On Pha  FM Date     HrMn   Sec     Err  ErrMag    Coda      Amp       Per  >   TTpred    Res       Weight    StaLoc(X  Y         Z)        SDist    SAzim  RAz  RDip RQual    Tcorr 
+PAND   ?    ?    ? P      ? 20220201 0220   34.0900 GAU  2.00e-02 -1.00e+00  2.35e+09 -1.00e+00 >    3.8683   -0.2484    0.9974  126.7037  169.4279   -1.8400   23.5917  35.34  35.3  90.1  9     0.0000
+PAND   ?    ?    ? S      ? 20220201 0220   37.0900 GAU  7.50e-03 -1.00e+00  2.69e+09 -1.00e+00 >    6.4988    0.1211    1.0060  126.7037  169.4279   -1.8400   23.5917  35.34  35.3  90.1  9     0.0000
+CEST   ?    ?    ? P      ? 20220201 0220   33.5000 GAU  2.00e-02 -1.00e+00  6.31e+06 -1.00e+00 >    4.8349   -1.8050    0.9974  102.6474  177.7621   -1.3250   29.4778 339.32 339.3  88.6  9     0.0000
+SALF   ?    ?    ? P      ? 20220201 0220   40.4500 GAU  2.00e-02 -1.00e+00  9.63e+08 -1.00e+00 >    7.8985    2.0814    0.9974   97.0142  195.5921   -0.9030   48.1593 340.54 340.5  88.3  9     0.0000
+SALF   ?    ?    ? S      ? 20220201 0220   43.5900 GAU  1.50e-02 -1.00e+00  9.63e+08 -1.00e+00 >   13.2695   -0.1496    1.0018   97.0142  195.5921   -0.9030   48.1593 340.54 340.5  88.3  9     0.0000
+END_PHASE
+END_NLLOC
+

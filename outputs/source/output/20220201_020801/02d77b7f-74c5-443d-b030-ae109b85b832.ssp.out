@@ -1,0 +1,10 @@
+*** Note: this file is deprecated and might not contain all the output information. ***
+*** It will be removed in future versions of SourceSpec. ***
+*** Please look at the YAML file in this directory. ***
+02d77b7f-74c5-443d-b030-ae109b85b832 lon    1.435 lat  42.534 depth   0.0 km orig_time 2022-02-01T02:08:00.057653Z
+
+*** Station source parameters ***
+*** Note: outliers are prepended by a star (*) symbol ***
+
+*** Average source parameters ***
+*** Note: averages computed after removing outliers ****

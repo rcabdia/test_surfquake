@@ -1,0 +1,137 @@
+# SourceSpec output in YAML format
+
+# Information on the SourceSpec run
+run_info:
+  SourceSpec_version: 1.7
+  run_completed: 2024-02-24 13:46:05.749591 CET
+  author_name: SurfQuakeCore
+  author_email: https://projectisp.github.io/ISP_tutorial.github.io/
+  agency_full_name: Spanish Navy Observatory
+  agency_short_name: ROA
+  agency_url: https://armada.defensa.gob.es/ArmadaPortal/page/Portal/ArmadaEspannola/cienciaobservatorio/prefLang-es/02InfoGeneral
+
+# Information on the event
+event_info:
+  event_id: a21ace4e-e246-4f83-bb41-64e93ac17410
+  longitude: 1.513242
+  latitude: 42.525657
+  depth_in_km: 0.0
+  origin_time: 2022-02-01T02:15:50.539514Z
+
+# Information on the inversion procedure
+inversion_info:
+  algorithm: TNC
+  weighting: noise
+  t_star_0: 0.045
+  invert_t_star_0: False
+  t_star_0_variability: 0.1
+  t_star_min_max: [0.0, 0.1]
+  fc_min_max: null
+  Qo_min_max: null
+
+# Summary spectral parameters, computed using different statistics
+summary_spectral_parameters:
+  reference_statistics: weighted_mean
+  Mw:
+    name: moment magnitude
+    mean:
+      {value: 2.08, uncertainty: 0.00, confidence_level: 68.27, nobs: 1}
+    weighted_mean:
+      {value: 2.08, uncertainty: 0.00, confidence_level: 68.27, nobs: 1}
+    percentiles:
+      {value: 2.08, uncertainty: 0.00, confidence_level: 68.2, lower_percentage: 15.9, mid_percentage: 50.0, upper_percentage: 84.1, nobs: 1}
+  Mo:
+    name: seismic moment
+    units: N·m
+    mean:
+      {value: 1.674e+12, uncertainty: 0.000e+00, confidence_level: 68.27, nobs: 1}
+    weighted_mean:
+      {value: 1.674e+12, uncertainty: 0.000e+00, confidence_level: 68.27, nobs: 1}
+    percentiles:
+      {value: 1.674e+12, uncertainty: 0.000e+00, confidence_level: 68.2, lower_percentage: 15.9, mid_percentage: 50.0, upper_percentage: 84.1, nobs: 1}
+  fc:
+    name: corner frequency
+    units: Hz
+    mean:
+      {value: 0.965, uncertainty: 0.000, confidence_level: 68.27, nobs: 1}
+    weighted_mean:
+      {value: 0.965, uncertainty: 0.000, confidence_level: 68.27, nobs: 1}
+    percentiles:
+      {value: 0.965, uncertainty: 0.000, confidence_level: 68.2, lower_percentage: 15.9, mid_percentage: 50.0, upper_percentage: 84.1, nobs: 1}
+  t_star:
+    name: t-star
+    units: s
+    mean:
+      {value: 0.100, uncertainty: 0.000, confidence_level: 68.27, nobs: 1}
+    weighted_mean:
+      {value: 0.100, uncertainty: 0.000, confidence_level: 68.27, nobs: 1}
+    percentiles:
+      {value: 0.100, uncertainty: 0.000, confidence_level: 68.2, lower_percentage: 15.9, mid_percentage: 50.0, upper_percentage: 84.1, nobs: 1}
+  radius:
+    name: source radius
+    units: m
+    mean:
+      {value: 1350.992, uncertainty: 0.000, confidence_level: 68.27, nobs: 1}
+    weighted_mean:
+      {value: 1350.992, uncertainty: 0.000, confidence_level: 68.27, nobs: 1}
+    percentiles:
+      {value: 1350.992, uncertainty: 0.000, confidence_level: 68.2, lower_percentage: 15.9, mid_percentage: 50.0, upper_percentage: 84.1, nobs: 1}
+  bsd:
+    name: Brune stress drop
+    units: MPa
+    mean:
+      {value: 2.970e-04, uncertainty: 0.000e+00, confidence_level: 68.27, nobs: 1}
+    weighted_mean:
+      {value: 2.970e-04, uncertainty: 0.000e+00, confidence_level: 68.27, nobs: 1}
+    percentiles:
+      {value: 2.970e-04, uncertainty: 0.000e+00, confidence_level: 68.2, lower_percentage: 15.9, mid_percentage: 50.0, upper_percentage: 84.1, nobs: 1}
+  Qo:
+    name: quality factor
+    mean:
+      {value: 191.0, uncertainty: 0.0, confidence_level: 68.27, nobs: 1}
+    weighted_mean:
+      {value: 191.0, uncertainty: 0.0, confidence_level: 68.27, nobs: 1}
+    percentiles:
+      {value: 191.0, uncertainty: 0.0, confidence_level: 68.2, lower_percentage: 15.9, mid_percentage: 50.0, upper_percentage: 84.1, nobs: 1}
+  Er:
+    name: radiated energy
+    units: N·m
+    mean:
+      {value: 6.393e+02, uncertainty: 0.000e+00, confidence_level: 68.27, nobs: 1}
+    percentiles:
+      {value: 6.393e+02, uncertainty: 0.000e+00, confidence_level: 68.2, lower_percentage: 15.9, mid_percentage: 50.0, upper_percentage: 84.1, nobs: 1}
+  Ml:
+    name: local magnitude
+    mean:
+      {value: 0.81, uncertainty: 0.00, confidence_level: 68.27, nobs: 1}
+    percentiles:
+      {value: 0.81, uncertainty: 0.00, confidence_level: 68.2, lower_percentage: 15.9, mid_percentage: 50.0, upper_percentage: 84.1, nobs: 1}
+
+# Parameters describing each station and spectral measurements
+# performed at that station
+station_parameters:
+  FR.FNEB.00.HHH:
+    instrument_type: broadb
+    latitude: 42.9031
+    longitude: 2.1064
+    hypo_dist_in_km: 64.1822825897918
+    epi_dist_in_km: 64.1794780162311
+    azimuth: 49.00775217514015
+    Mw:
+      {value: 2.08, uncertainty: 0.28, confidence_level: 68.2, outlier: False}
+    fc:
+      {value: 0.965, uncertainty: 1.057, confidence_level: 68.2, outlier: False}
+    t_star:
+      {value: 0.100, uncertainty: 0.082, confidence_level: 68.2, outlier: False}
+    Mo:
+      {value: 1.674e+12, lower_uncertainty: 1.043e+12, upper_uncertainty: 2.766e+12, confidence_level: 68.2, outlier: False}
+    radius:
+      {value: 1350.992, lower_uncertainty: 706.182, upper_uncertainty: 279.073, confidence_level: 68.2, outlier: False}
+    bsd:
+      {value: 2.970e-04, lower_uncertainty: 2.332e-04, upper_uncertainty: 6.948e-03, confidence_level: 68.2, outlier: False}
+    Qo:
+      {value: 191.0, lower_uncertainty: 86.3, upper_uncertainty: 896.4, confidence_level: 68.2, outlier: False}
+    Er:
+      {value: 6.393e+02, outlier: False}
+    Ml:
+      {value: 0.81, outlier: False}
