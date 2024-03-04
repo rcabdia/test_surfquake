@@ -16,6 +16,9 @@ surfquake locate -i /Volumes/LaCie/all_andorra/mini_test/inputs/metadata/inv_all
 # surfquake source -i [inventory file path] - p [path to project file] -c [path to source_config_file] -l [path to nll hyp files] -o [path to output folder]
 surfquake source -i /Volumes/LaCie/all_andorra/mini_test/inputs/metadata/inv_all.xml -p /Volumes/LaCie/all_andorra/mini_test/project/project_sh.pkl -c /Volumes/LaCie/all_andorra/mini_test/inputs/configs/source_spec_narrow.conf -l /Volumes/LaCie/all_andorra/mini_test/outputs_sh/nll/all_loc -o /Volumes/LaCie/all_andorra/mini_test/outputs_sh/source_short
 
+# surfquake buildmticonfig -c [catalog_file_path] -t [mti_config_template] -o [output_folder] -s [if starttime] -e [if endtime] -l [if lat_min] -a [ if lat_max] -d [if lon_min] -k [if lon_max] -w [if depth_min] -f [depth_max] -g [if mag_min] -p [if mag_max]
+surfquake buildmticonfig --catalog_file_path /mti_config_test/catalog_obj.pkl --mti_config_template /mti_confis_test/template.ini --output_folder /mti_confis_test --starttime "30/09/2021, 00:00:00.0" --endtime "30/09/2022, 00:00:00.0" --lat_min 38.0 --lat_max 44.0 --lon_min -2.0 --lon_max 4.0 --depth_min -3.0 --depth_max 50 --mag_min 3.0 --mag_max 4.0
+
 # surfquake mti -i [inventory_file_path] -p [path_to_project] -c [path to mti_config_file.ini] -o [output_path]  -s [if save plots]
 surfquake mti -i /Volumes/LaCie/all_andorra/mini_test/inputs/metadata/inv_all.xml -p /Volumes/LaCie/all_andorra/mini_test/project/project_sh.pkl -c /Volumes/LaCie/all_andorra/mini_test/inputs/configs/mti_config_mini_test.ini -o /Volumes/LaCie/all_andorra/mini_test/outputs_sh/mti  -s
 
