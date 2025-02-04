@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>surfQuake MTI</title>
+<link rel="stylesheet" href="../../../inputs/configs_mti/html/style.css" />
+<link rel="stylesheet" href="../../../inputs/configs_mti/html/css/lightbox.min.css" />
+</head>
+<body>
+<h1>surfQuake MTI</h1>
+<dl>  <dt>Method</dt>
+  <dd>Waveform inversion for <strong>deviatoric part of</strong> moment tensor (5 components)<br />
+    with the <strong>data covariance matrix</strong> based on real noise<br />
+    with <strong>crosscovariance</strong> between components.</dd>
+  <dt>Reference</dt>
+  <dd>Vackář, Gallovič, Burjánek, Zahradník, and Clinton. Bayesian ISOLA: new tool for automated centroid moment tensor inversion, <em>in preparation</em>, <a href="http://geo.mff.cuni.cz/~vackar/papers/isola-obspy.pdf">PDF</a></dd>
+</dl>
+
+<h2>Hypocenter location</h2>
+
+<dl>
+<dt>Agency</dt>
+<dd></dd>
+<dt>Origin time</dt>
+<dd>2021-01-26 21:44:18</dd>
+<dt>Latitude</dt>
+<dd>  37.176° N</dd>
+<dt>Longitude</dt>
+<dd>  -3.733° E</dd>
+<dt>Depth</dt>
+<dd>1.0 km</dd>
+<dt>Magnitude</dt>
+<dd>4.3</dd>
+</dl>
+
+
+<h2>Results</h2>
+
+<div class="thumb tright">
+<a href="centroid.png" data-lightbox="MT" data-title="moment tensor best solution">
+	<img alt="MT" src="centroid.png" width="199" height="200" class="thumbimage" />
+</a>
+<div class="thumbcaption">
+	moment tensor best solution
+</div>
+</div>
+<div class="thumb tright">
+<a href="uncertainty_MT.png" data-lightbox="MT" data-title="moment tensor uncertainty">
+	<img alt="MT" src="uncertainty_MT.png" width="199" height="200" class="thumbimage" />
+</a>
+<div class="thumbcaption">
+	moment tensor uncertainty
+</div>
+</div>
+
+<div class="thumb tright">
+<a href="uncertainty_MT_DC.png" data-lightbox="MT" data-title="moment tensor DC-part uncertainty">
+	<img alt="MT" src="uncertainty_MT_DC.png" width="199" height="200" class="thumbimage" />
+</a>
+<div class="thumbcaption">
+	DC-part uncertainty
+</div>
+</div>
+<h3>Centroid location</h3>
+
+<table>
+	<tr>
+	<th></th>
+	<th>absolute</th>
+	<th>relative</th>
+	</tr>
+	<tr>
+	<th>Time</th>
+	<td>2021-01-26 21:44:19</td>
+	<td> 1.08 s after origin time</td>
+	</tr>
+	<tr>
+	<th>Latitude</th>
+	<td>  37.213° N</td>
+	<td> 4135 m north of the epicenter</td>
+	</tr>
+	<tr>
+	<th>Longitude</th>
+	<td>   3.752° W</td>
+	<td> 1654 m west of the epicenter</td>
+	</tr>
+	<tr>
+	<th>Depth</th>
+	<td>  4.3 km</td>
+	<td>  3.3 km deeper than location</td>
+	</tr>
+</table>
+
+<p class="warning">Warning: the solution lies on the edge of the grid!</p>
+
+<h3>Moment tensor and its quality</h3>
+
+
+<table>
+  <tr><th colspan="2" class="center">Centroid position</th></tr>
+  <tr><th>depth</th>	<td>4.3 km</td></tr>
+  <tr><th colspan="2" class="center">Seismic moment</th></tr>
+  <tr><th>scalar seismic moment M<sub>0</sub></th>	<td>5.65e+14 Nm</td></tr>
+  <tr><th>moment magnitude M<sub>w</sub></th>	<td>3.8</td></tr>
+  <tr><th colspan="2" class="center">Moment tensor components</th></tr>
+  <tr><th>M<sub>rr</sub></th>			<td>-5.47 * 1e+14</td></tr>
+  <tr><th>M<sub>&theta;&theta;</sub></th>	<td> 3.08 * 1e+14</td></tr>
+  <tr><th>M<sub>&#981;&#981;</sub></th>		<td> 2.40 * 1e+14</td></tr>
+  <tr><th>M<sub>r&theta;</sub></th>		<td>-1.12 * 1e+14</td></tr>
+  <tr><th>M<sub>r&#981;</sub></th>		<td>-0.16 * 1e+14</td></tr>
+  <tr><th>M<sub>&theta;&#981;</sub></th>	<td>-2.47 * 1e+14</td></tr>
+  <tr><th colspan="2" class="center">Moment tensor decomposition</th></tr>
+  <tr><th>DC</th>	<td> 87 %</td></tr>
+  <tr><th>CLVD</th>	<td>-13 %</td></tr>
+
+  <tr><th>strike</th>	<td>319 / 123</td></tr>
+  <tr><th>dip</th>  	<td> 42 /  50</td></tr>
+  <tr><th>rake</th>	<td>-78 / -101</td></tr>
+  <tr><th colspan="2" class="center">Quality measures</th></tr>
+  <tr><th>condition number</th>	<td> 2</td></tr>
+  <tr><th>variance reduction</th>	<td>21 %</td></tr>
+</table>
+
+
+<h3>Histograms&mdash;uncertainty of MT parameters</h3>
+
+<div class="thumb tleft">
+  <a href="uncertainty_comp-1-DC.png" data-lightbox="histogram" data-title="DC-part uncertainty">
+    <img alt="" src="uncertainty_comp-1-DC.png" height="80" class="thumbimage" />
+  </a>
+  <div class="thumbcaption">
+    DC-part
+  </div>
+</div>
+
+<div class="thumb tleft">
+  <a href="uncertainty_comp-2-CLVD.png" data-lightbox="histogram" data-title="CLVD-part uncertainty">
+    <img alt="" src="uncertainty_comp-2-CLVD.png" height="80" class="thumbimage" />
+  </a>
+  <div class="thumbcaption">
+    CLVD-part
+  </div>
+</div>
+
+<div class="thumb tleft">
+  <a href="uncertainty_mech-0-Mw.png" data-lightbox="histogram" data-title="moment magnitude uncertainty">
+    <img alt="" src="uncertainty_mech-0-Mw.png" height="80" class="thumbimage" />
+  </a>
+  <div class="thumbcaption">
+    moment magnitude
+  </div>
+</div>
+
+
+
+<h3>Histograms&mdash;uncertainty of centroid position and time</h3>
+
+
+<div class="thumb tleft">
+  <a href="uncertainty_place-depth.png" data-lightbox="histogram" data-title="centroid depth uncertainty">
+    <img alt="" src="uncertainty_place-depth.png" height="80" class="thumbimage" />
+  </a>
+  <div class="thumbcaption">
+    centroid depth
+  </div>
+</div>
+
+
+<div class="thumb tleft">
+  <a href="uncertainty_place-EW.png" data-lightbox="histogram" data-title="centroid position east-west uncertainty">
+    <img alt="" src="uncertainty_place-EW.png" height="80" class="thumbimage" />
+  </a>
+  <div class="thumbcaption">
+    position east-west
+  </div>
+</div>
+
+<div class="thumb tleft">
+  <a href="uncertainty_place-NS.png" data-lightbox="histogram" data-title="centroid position north-south uncertainty">
+    <img alt="" src="uncertainty_place-NS.png" height="80" class="thumbimage" />
+  </a>
+  <div class="thumbcaption">
+    position north-south
+  </div>
+</div>
+
+
+<div class="thumb tleft">
+  <a href="uncertainty_time-shift.png" data-lightbox="histogram" data-title="centroid time uncertainty">
+    <img alt="" src="uncertainty_time-shift.png" height="80" class="thumbimage" />
+  </a>
+  <div class="thumbcaption">
+    centroid time
+  </div>
+</div>
+
+
+<h2>Data used</h2>
+
+
+<div class="thumb tright">
+  <a href="stations.png" data-lightbox="stations">
+    <img alt="" src="stations.png" width="200" class="thumbimage" />
+  </a>
+  <div class="thumbcaption">
+    stations used
+  </div>
+</div>
+
+
+<h3>Components used in inversion and their weights</h3>
+
+<table>
+  <tr><th colspan="2">station</th>	<th colspan="3">component</th>		<th><abbr title="epicentral distance">distance *</abbr></th>	<th>azimuth</th>	<th>fmin</th>	<th>fmax</th></tr>
+  <tr><th>code</th>	<th>channel</th>	<th>Z</th>	<th>N</th>	<th>E</th>	<th>(km)</th>	<th>(deg)</th>	<th>(Hz)</th>	<th>(Hz)</th></tr>
+<tr><td> ES:EQTA    </td>	<td>HH </td>	<td>1.0</td>	<td>1.0</td>	<td>1.0</td>	<td>  26    </td>	<td> 83</td>	<td>0.04</td>	<td>0.08</td></tr>
+<tr><td> ES:EGOR    </td>	<td>HH </td>	<td>1.0</td>	<td>1.0</td>	<td>1.0</td>	<td>  34    </td>	<td>258</td>	<td>0.04</td>	<td>0.08</td></tr>
+<tr><td> ES:ELGU    </td>	<td>HH </td>	<td>1.0</td>	<td>1.0</td>	<td>1.0</td>	<td>  35    </td>	<td>164</td>	<td>0.04</td>	<td>0.08</td></tr>
+<tr><td> ES:EBER    </td>	<td>HH </td>	<td>1.0</td>	<td>1.0</td>	<td>1.0</td>	<td>  81    </td>	<td>112</td>	<td>0.04</td>	<td>0.08</td></tr>
+<tr><td> ES:EMIJ    </td>	<td>HH </td>	<td>1.0</td>	<td>1.0</td>	<td>1.0</td>	<td> 115    </td>	<td>234</td>	<td>0.04</td>	<td>0.08</td></tr>
+<tr><td> ES:EADA    </td>	<td>HH </td>	<td>1.0</td>	<td>1.0</td>	<td>1.0</td>	<td> 133    </td>	<td>326</td>	<td>0.04</td>	<td>0.08</td></tr>
+<tr><td> ES:EALB    </td>	<td>HH </td>	<td>---</td>	<td>---</td>	<td>1.0</td>	<td> 151    </td>	<td>155</td>	<td>0.04</td>	<td>0.08</td></tr>
+<tr><td> ES:ECAB    </td>	<td>HH </td>	<td>1.0</td>	<td>1.0</td>	<td>1.0</td>	<td> 179    </td>	<td>304</td>	<td>0.04</td>	<td>0.08</td></tr>
+<tr><td> ES:ELOR    </td>	<td>HH </td>	<td>1.0</td>	<td>1.0</td>	<td>1.0</td>	<td> 183    </td>	<td> 73</td>	<td>0.04</td>	<td>0.08</td></tr>
+<tr><td> ES:ESPR    </td>	<td>HH </td>	<td>1.0</td>	<td>1.0</td>	<td>1.0</td>	<td> 192    </td>	<td>260</td>	<td>0.04</td>	<td>0.08</td></tr>
+</table>
+
+<h3>Data source</h3>
+<p>
+Station coordinates: /var/folders/gj/jqdffl4j0694fbnkzr8x231h0000gn/T/tmp6a8hzhj8/stations.txt<br />
+</p>
+
+
+<div class="thumb tleft">
+  <a href="seismo_cova.png" data-lightbox="seismo" data-title="waveform fit: filtered by C<sub>D</sub>">
+    <img alt="" src="seismo_cova.png" height="150" class="thumbimage" />
+  </a>
+  <div class="thumbcaption">
+    waveform fit <br />(filtered)
+  </div>
+</div>
+
+<div class="thumb tleft">
+  <a href="seismo_sharey.png" data-lightbox="seismo" data-title="waveform fit: original data">
+    <img alt="" src="seismo_sharey.png" height="150" class="thumbimage" />
+  </a>
+  <div class="thumbcaption">
+    waveform fit <br />(non-filtered)
+  </div>
+</div>
+
+<div class="thumb tleft">
+  <a href="spectra.png" data-lightbox="spectra" data-title="waveform spectra">
+    <img alt="" src="spectra.png" height="150" class="thumbimage" />
+  </a>
+  <div class="thumbcaption">
+    waveform spectra<br />&nbsp;
+  </div>
+</div>
+
+<div class="thumb tleft">
+  <a href="noise.png" data-lightbox="noise" data-title="before-event noise">
+    <img alt="" src="noise.png" height="150" class="thumbimage" />
+  </a>
+  <div class="thumbcaption">
+    before-event noise<br />&nbsp;
+  </div>
+</div>
+
+<div class="thumb tleft">
+  <a href="covariance_matrix.png" data-lightbox="Cd" data-title="data covariance matrix">
+    <img alt="" src="covariance_matrix.png" height="150" class="thumbimage" />
+  </a>
+  <div class="thumbcaption">
+    data covariance matrix<br />&nbsp;
+  </div>
+</div>
+
+
+
+<h2>Stability and uncertainty of the solution</h2>
+
+<h3>Posterior probability density function (PPD)</h3>
+
+
+<div class="thumb tleft">
+  <a href="map_sum_top.png" data-lightbox="PPD">
+    <img alt="" src="map_sum_top.png" height="150" class="thumbimage" />
+  </a>
+  <div class="thumbcaption">
+    PPD: top view
+  </div>
+</div>
+
+<div class="thumb tleft">
+  <a href="map_sum_N-S.png" data-lightbox="PPD">
+    <img alt="" src="map_sum_N-S.png" height="150" class="thumbimage" />
+  </a>
+  <div class="thumbcaption">
+    PPD: north-south view
+  </div>
+</div>
+
+<div class="thumb tleft">
+  <a href="map_sum_W-E.png" data-lightbox="PPD">
+    <img alt="" src="map_sum_W-E.png" height="150" class="thumbimage" />
+  </a>
+  <div class="thumbcaption">
+    PPD: west-east view
+  </div>
+</div>
+
+
+<h3>Stability in space (top view)</h3>
+
+<div class="thumb tleft">
+  <a href="map_01000.png" data-lightbox="map">
+    <img alt="" src="map_01000.png" height="100" class="thumbimage" />
+  </a>
+  <a href="map_01827.png" data-lightbox="map">
+    <img alt="" src="map_01827.png" height="100" class="thumbimage" />
+  </a>
+  <a href="map_02654.png" data-lightbox="map">
+    <img alt="" src="map_02654.png" height="100" class="thumbimage" />
+  </a>
+  <a href="map_03481.png" data-lightbox="map">
+    <img alt="" src="map_03481.png" height="100" class="thumbimage" />
+  </a>
+  <a href="map_04308.png" data-lightbox="map">
+    <img alt="" src="map_04308.png" height="100" class="thumbimage" />
+  </a>
+  <a href="map_05135.png" data-lightbox="map">
+    <img alt="" src="map_05135.png" height="100" class="thumbimage" />
+  </a>
+  <div class="thumbcaption">
+    click to compare different depths
+  </div>
+</div>
+
+
+<h3>Stability in space (side view)</h3>
+
+<div class="thumb tleft">
+  <a href="slice_N-S.png" data-lightbox="slice">
+    <img alt="" src="slice_N-S.png" height="150" class="thumbimage" />
+  </a>
+  <a href="slice_W-E.png" data-lightbox="slice">
+    <img alt="" src="slice_W-E.png" height="150" class="thumbimage" />
+  </a>
+  <a href="slice_NW-SE.png" data-lightbox="slice">
+    <img alt="" src="slice_NW-SE.png" height="150" class="thumbimage" />
+  </a>
+  <a href="slice_SW-NE.png" data-lightbox="slice">
+    <img alt="" src="slice_SW-NE.png" height="150" class="thumbimage" />
+  </a>
+  <div class="thumbcaption">
+    click to compare different points of view
+  </div>
+</div>
+
+
+<h2>Calculation parameters</h2>
+
+<h3>Grid-search over space</h3>
+<dl>
+  <dt>number of points</dt>
+  <dd> 726</dd>
+  <dt>horizontal step</dt>
+  <dd>  827 m</dd>
+  <dt>vertical step</dt>
+  <dd>  827 m</dd>
+  <dt>grid radius</dt>
+  <dd> 4.488 km</dd>
+  <dt>minimal depth</dt>
+  <dd> 1.000 km</dd>
+  <dt>maximal depth</dt>
+  <dd> 5.488 km</dd>
+  <dt>rupture length (estimated)</dt>
+  <dd> 1.488 km</dd>
+</dl>
+
+<h3>Grid-search over time</h3>
+<dl>
+  <dt>min</dt>
+  <dd>-1.00 s (-96 samples)</dd>
+  <dt>max</dt>
+  <dd> 1.60 s (160 samples)</dd>
+  <dt>step</dt>
+  <dd>0.12 s ( 12 samples)</dd>
+</dl>
+
+<h3>Green's function calculation</h3>
+<dl>
+  <dt>Crustal model</dt>
+  <dd>/Volumes/LaCie/test_surfquake/Granada/inputs/model_mti/Iberia.dat</dd>
+  <dt>npts</dt>
+  <dd> 128</dd>
+  <dt>tl</dt>
+  <dd>199.68</dd>
+  <dt>freq</dt>
+  <dd>  65</dd>
+  <dt>npts for inversion</dt>
+  <dd> 124</dd>
+  <dt>source time function</dt>
+  <dd>triangle in velocity, length = 2.0 s</dd>
+</dl>
+
+<h3>Sampling frequencies</h3>
+<dl>
+  <dt>Data sampling</dt>
+  <dd>100.0 Hz, 100.0 Hz, 100.0 Hz, 100.0 Hz, 100.0 Hz, 100.0 Hz, 100.0 Hz, 100.0 Hz, 100.0 Hz, 100.0 Hz</dd>
+  <dt>Common sampling</dt>
+  <dd>100.0 Hz</dd>
+  <dt>Decimation factor</dt>
+  <dd>156 x</dd>
+  <dt>Sampling used</dt>
+  <dd>  0.6 Hz</dd>
+</dl>
+
+<script src="../../../inputs/configs_mti/html/js/lightbox-plus-jquery.min.js"></script>
+<script>
+lightbox.option({
+'resizeDuration': 0
+})
+</script>
+</body>
+</html>

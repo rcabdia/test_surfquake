@@ -1,0 +1,1558 @@
+2025-02-03 14:23:04,254 source_spec          DEBUG    source_spec START
+2025-02-03 14:23:04,254 source_spec          DEBUG    SourceSpec version: 1.7
+2025-02-03 14:23:04,261 source_spec          DEBUG    Platform: Darwin 21.2.0 x86_64
+2025-02-03 14:23:04,262 source_spec          DEBUG    Python version: None
+2025-02-03 14:23:04,262 source_spec          DEBUG    ObsPy version: None
+2025-02-03 14:23:04,262 source_spec          DEBUG    NumPy version: None
+2025-02-03 14:23:04,262 source_spec          DEBUG    SciPy version: None
+2025-02-03 14:23:04,262 source_spec          DEBUG    Matplotlib version: None
+2025-02-03 14:23:04,262 source_spec          DEBUG    Running arguments:
+2025-02-03 14:23:04,262 source_spec          DEBUG    /Users/admin/opt/anaconda3/envs/isp/bin/surfquake -i /Volumes/LaCie/test_surfquake/Granada/inputs/metadata/ES_network.xml -p /Volumes/LaCie/test_surfquake/Granada/project/project_sh.pkl -c /Volumes/LaCie/test_surfquake/Granada/inputs/configs/source_spec.conf -l /Volumes/LaCie/test_surfquake/Granada/outputs/nll/all_loc -o /Volumes/LaCie/test_surfquake/Granada/source
+2025-02-03 14:23:04,263 ssp_read_station_metadata INFO     Reading station metadata...
+2025-02-03 14:23:04,263 ssp_read_station_metadata INFO     Reading station metadata from file: /Volumes/LaCie/test_surfquake/Granada/inputs/metadata/ES_network.xml
+2025-02-03 14:23:11,318 ssp_read_station_metadata INFO     Reading station metadata: done
+2025-02-03 14:23:11,329 ssp_read_traces      INFO     Reading traces...
+2025-02-03 14:23:13,463 ssp_read_traces      INFO     Reading traces: done
+2025-02-03 14:23:13,465 ssp_read_traces      INFO     Vp_hypo: 5.00 km/s, Vs_hypo: 2.90 km/s
+2025-02-03 14:23:13,527 ssp_process_traces_mod INFO     Processing traces...
+2025-02-03 14:23:13,557 ssp_wave_arrival_mod INFO     ES.E0802..HHE: found P pick
+2025-02-03 14:23:13,582 ssp_wave_arrival_mod INFO     ES.E0802..HHE: found S pick
+2025-02-03 14:23:13,631 ssp_process_traces_mod INFO     ES.E0802..HHE broadb: clipping score: 0.8%
+2025-02-03 14:23:13,833 ssp_process_traces_mod INFO     ES.E0802..HHE broadb: S/N: 17.0
+2025-02-03 14:23:13,853 ssp_wave_arrival_mod INFO     ES.E0802..HHN: found P pick
+2025-02-03 14:23:13,878 ssp_wave_arrival_mod INFO     ES.E0802..HHN: found S pick
+2025-02-03 14:23:13,900 ssp_process_traces_mod INFO     ES.E0802..HHN broadb: clipping score: 1.9%
+2025-02-03 14:23:14,080 ssp_process_traces_mod INFO     ES.E0802..HHN broadb: S/N: 35.2
+2025-02-03 14:23:14,099 ssp_wave_arrival_mod INFO     ES.E0802..HHZ: found P pick
+2025-02-03 14:23:14,124 ssp_wave_arrival_mod INFO     ES.E0802..HHZ: found S pick
+2025-02-03 14:23:14,147 ssp_process_traces_mod INFO     ES.E0802..HHZ broadb: clipping score: 0.4%
+2025-02-03 14:23:14,326 ssp_process_traces_mod INFO     ES.E0802..HHZ broadb: S/N: 1.4
+2025-02-03 14:23:14,351 ssp_wave_arrival_mod INFO     ES.EADA..HHE: found P pick
+2025-02-03 14:23:14,375 ssp_wave_arrival_mod INFO     ES.EADA..HHE: found S pick
+2025-02-03 14:23:14,442 ssp_process_traces_mod INFO     ES.EADA..HHE broadb: clipping score: 0.1%
+2025-02-03 14:23:14,647 ssp_process_traces_mod INFO     ES.EADA..HHE broadb: S/N: 52.0
+2025-02-03 14:23:14,672 ssp_wave_arrival_mod INFO     ES.EADA..HHN: found P pick
+2025-02-03 14:23:14,698 ssp_wave_arrival_mod INFO     ES.EADA..HHN: found S pick
+2025-02-03 14:23:14,764 ssp_process_traces_mod INFO     ES.EADA..HHN broadb: clipping score: 0.6%
+2025-02-03 14:23:14,969 ssp_process_traces_mod INFO     ES.EADA..HHN broadb: S/N: 52.1
+2025-02-03 14:23:14,994 ssp_wave_arrival_mod INFO     ES.EADA..HHZ: found P pick
+2025-02-03 14:23:15,018 ssp_wave_arrival_mod INFO     ES.EADA..HHZ: found S pick
+2025-02-03 14:23:15,085 ssp_process_traces_mod INFO     ES.EADA..HHZ broadb: clipping score: 0.2%
+2025-02-03 14:23:15,289 ssp_process_traces_mod INFO     ES.EADA..HHZ broadb: S/N: 38.6
+2025-02-03 14:23:15,312 ssp_wave_arrival_mod INFO     ES.EALB..HHE: found P pick
+2025-02-03 14:23:15,341 ssp_wave_arrival_mod INFO     ES.EALB..HHE: found S pick
+2025-02-03 14:23:15,423 ssp_process_traces_mod INFO     ES.EALB..HHE broadb: clipping score: 1.0%
+2025-02-03 14:23:15,637 ssp_process_traces_mod INFO     ES.EALB..HHE broadb: S/N: 8.7
+2025-02-03 14:23:15,660 ssp_wave_arrival_mod INFO     ES.EALB..HHN: found P pick
+2025-02-03 14:23:15,690 ssp_wave_arrival_mod INFO     ES.EALB..HHN: found S pick
+2025-02-03 14:23:15,772 ssp_process_traces_mod INFO     ES.EALB..HHN broadb: clipping score: 2.3%
+2025-02-03 14:23:15,984 ssp_process_traces_mod INFO     ES.EALB..HHN broadb: S/N: 1.8
+2025-02-03 14:23:16,007 ssp_wave_arrival_mod INFO     ES.EALB..HHZ: found P pick
+2025-02-03 14:23:16,037 ssp_wave_arrival_mod INFO     ES.EALB..HHZ: found S pick
+2025-02-03 14:23:16,119 ssp_process_traces_mod INFO     ES.EALB..HHZ broadb: clipping score: 1.9%
+2025-02-03 14:23:16,333 ssp_process_traces_mod INFO     ES.EALB..HHZ broadb: S/N: 0.8
+2025-02-03 14:23:16,333 ssp_process_traces_mod WARNING  ES.EALB..HHZ broadb: S/N smaller than 1: skipping trace
+2025-02-03 14:23:16,352 ssp_wave_arrival_mod INFO     ES.EBER..HHE: found P pick
+2025-02-03 14:23:16,366 ssp_wave_arrival_mod INFO     ES.EBER..HHE: no S pick found
+2025-02-03 14:23:16,366 ssp_wave_arrival_mod INFO     ES.EBER..HHE: using theoretical S pick from global velocity model (iasp91)
+2025-02-03 14:23:16,457 ssp_process_traces_mod INFO     ES.EBER..HHE broadb: clipping score: 1.3%
+2025-02-03 14:23:16,631 ssp_process_traces_mod INFO     ES.EBER..HHE broadb: S/N: 29.6
+2025-02-03 14:23:16,651 ssp_wave_arrival_mod INFO     ES.EBER..HHN: found P pick
+2025-02-03 14:23:16,665 ssp_wave_arrival_mod INFO     ES.EBER..HHN: no S pick found
+2025-02-03 14:23:16,665 ssp_wave_arrival_mod INFO     ES.EBER..HHN: using theoretical S pick from global velocity model (iasp91)
+2025-02-03 14:23:16,756 ssp_process_traces_mod INFO     ES.EBER..HHN broadb: clipping score: 0.7%
+2025-02-03 14:23:16,929 ssp_process_traces_mod INFO     ES.EBER..HHN broadb: S/N: 45.7
+2025-02-03 14:23:16,949 ssp_wave_arrival_mod INFO     ES.EBER..HHZ: found P pick
+2025-02-03 14:23:16,963 ssp_wave_arrival_mod INFO     ES.EBER..HHZ: no S pick found
+2025-02-03 14:23:16,963 ssp_wave_arrival_mod INFO     ES.EBER..HHZ: using theoretical S pick from global velocity model (iasp91)
+2025-02-03 14:23:17,055 ssp_process_traces_mod INFO     ES.EBER..HHZ broadb: clipping score: 0.9%
+2025-02-03 14:23:17,227 ssp_process_traces_mod INFO     ES.EBER..HHZ broadb: S/N: 44.6
+2025-02-03 14:23:17,252 ssp_wave_arrival_mod INFO     ES.ECAB..HHE: found P pick
+2025-02-03 14:23:17,284 ssp_wave_arrival_mod INFO     ES.ECAB..HHE: found S pick
+2025-02-03 14:23:17,347 ssp_process_traces_mod INFO     ES.ECAB..HHE broadb: clipping score: 0.5%
+2025-02-03 14:23:17,558 ssp_process_traces_mod INFO     ES.ECAB..HHE broadb: S/N: 55.7
+2025-02-03 14:23:17,584 ssp_wave_arrival_mod INFO     ES.ECAB..HHN: found P pick
+2025-02-03 14:23:17,630 ssp_wave_arrival_mod INFO     ES.ECAB..HHN: found S pick
+2025-02-03 14:23:17,692 ssp_process_traces_mod INFO     ES.ECAB..HHN broadb: clipping score: 0.3%
+2025-02-03 14:23:17,897 ssp_process_traces_mod INFO     ES.ECAB..HHN broadb: S/N: 71.5
+2025-02-03 14:23:17,922 ssp_wave_arrival_mod INFO     ES.ECAB..HHZ: found P pick
+2025-02-03 14:23:17,954 ssp_wave_arrival_mod INFO     ES.ECAB..HHZ: found S pick
+2025-02-03 14:23:18,015 ssp_process_traces_mod INFO     ES.ECAB..HHZ broadb: clipping score: 0.4%
+2025-02-03 14:23:18,221 ssp_process_traces_mod INFO     ES.ECAB..HHZ broadb: S/N: 61.1
+2025-02-03 14:23:18,224 ssp_wave_arrival_mod INFO     ES.EGOR..HHE: found P pick
+2025-02-03 14:23:18,228 ssp_wave_arrival_mod INFO     ES.EGOR..HHE: found S pick
+2025-02-03 14:23:18,260 ssp_process_traces_mod INFO     ES.EGOR..HHE broadb: clipping score: 1.1%
+2025-02-03 14:23:18,449 ssp_process_traces_mod INFO     ES.EGOR..HHE broadb: S/N: 57.0
+2025-02-03 14:23:18,452 ssp_wave_arrival_mod INFO     ES.EGOR..HHN: found P pick
+2025-02-03 14:23:18,455 ssp_wave_arrival_mod INFO     ES.EGOR..HHN: found S pick
+2025-02-03 14:23:18,488 ssp_process_traces_mod INFO     ES.EGOR..HHN broadb: clipping score: 0.9%
+2025-02-03 14:23:18,676 ssp_process_traces_mod INFO     ES.EGOR..HHN broadb: S/N: 1.0
+2025-02-03 14:23:18,680 ssp_wave_arrival_mod INFO     ES.EGOR..HHZ: found P pick
+2025-02-03 14:23:18,683 ssp_wave_arrival_mod INFO     ES.EGOR..HHZ: found S pick
+2025-02-03 14:23:18,716 ssp_process_traces_mod INFO     ES.EGOR..HHZ broadb: clipping score: 0.4%
+2025-02-03 14:23:18,905 ssp_process_traces_mod INFO     ES.EGOR..HHZ broadb: S/N: 683.3
+2025-02-03 14:23:18,909 ssp_wave_arrival_mod INFO     ES.ELGU..HHE: found P pick
+2025-02-03 14:23:18,912 ssp_wave_arrival_mod INFO     ES.ELGU..HHE: found S pick
+2025-02-03 14:23:18,944 ssp_process_traces_mod INFO     ES.ELGU..HHE broadb: clipping score: 0.3%
+2025-02-03 14:23:19,132 ssp_process_traces_mod INFO     ES.ELGU..HHE broadb: S/N: 9.1
+2025-02-03 14:23:19,136 ssp_wave_arrival_mod INFO     ES.ELGU..HHN: found P pick
+2025-02-03 14:23:19,139 ssp_wave_arrival_mod INFO     ES.ELGU..HHN: found S pick
+2025-02-03 14:23:19,172 ssp_process_traces_mod INFO     ES.ELGU..HHN broadb: clipping score: 1.7%
+2025-02-03 14:23:19,360 ssp_process_traces_mod INFO     ES.ELGU..HHN broadb: S/N: 10.4
+2025-02-03 14:23:19,364 ssp_wave_arrival_mod INFO     ES.ELGU..HHZ: found P pick
+2025-02-03 14:23:19,367 ssp_wave_arrival_mod INFO     ES.ELGU..HHZ: found S pick
+2025-02-03 14:23:19,400 ssp_process_traces_mod INFO     ES.ELGU..HHZ broadb: clipping score: 0.2%
+2025-02-03 14:23:19,589 ssp_process_traces_mod INFO     ES.ELGU..HHZ broadb: S/N: 413.6
+2025-02-03 14:23:19,613 ssp_wave_arrival_mod INFO     ES.ELOR.00.HHE: found P pick
+2025-02-03 14:23:19,643 ssp_wave_arrival_mod INFO     ES.ELOR.00.HHE: found S pick
+2025-02-03 14:23:19,690 ssp_process_traces_mod INFO     ES.ELOR.00.HHE broadb: clipping score: 0.9%
+2025-02-03 14:23:19,883 ssp_process_traces_mod INFO     ES.ELOR.00.HHE broadb: S/N: 10.4
+2025-02-03 14:23:19,908 ssp_wave_arrival_mod INFO     ES.ELOR.00.HHN: found P pick
+2025-02-03 14:23:19,937 ssp_wave_arrival_mod INFO     ES.ELOR.00.HHN: found S pick
+2025-02-03 14:23:19,984 ssp_process_traces_mod INFO     ES.ELOR.00.HHN broadb: clipping score: 1.5%
+2025-02-03 14:23:20,178 ssp_process_traces_mod INFO     ES.ELOR.00.HHN broadb: S/N: 13.0
+2025-02-03 14:23:20,202 ssp_wave_arrival_mod INFO     ES.ELOR.00.HHZ: found P pick
+2025-02-03 14:23:20,232 ssp_wave_arrival_mod INFO     ES.ELOR.00.HHZ: found S pick
+2025-02-03 14:23:20,279 ssp_process_traces_mod INFO     ES.ELOR.00.HHZ broadb: clipping score: 4.2%
+2025-02-03 14:23:20,473 ssp_process_traces_mod INFO     ES.ELOR.00.HHZ broadb: S/N: 9.6
+2025-02-03 14:23:20,493 ssp_wave_arrival_mod INFO     ES.EMIJ..HHE: found P pick
+2025-02-03 14:23:20,518 ssp_wave_arrival_mod INFO     ES.EMIJ..HHE: found S pick
+2025-02-03 14:23:20,587 ssp_process_traces_mod INFO     ES.EMIJ..HHE broadb: clipping score: 0.5%
+2025-02-03 14:23:20,792 ssp_process_traces_mod INFO     ES.EMIJ..HHE broadb: S/N: 64.4
+2025-02-03 14:23:20,811 ssp_wave_arrival_mod INFO     ES.EMIJ..HHN: found P pick
+2025-02-03 14:23:20,835 ssp_wave_arrival_mod INFO     ES.EMIJ..HHN: found S pick
+2025-02-03 14:23:20,901 ssp_process_traces_mod INFO     ES.EMIJ..HHN broadb: clipping score: 1.7%
+2025-02-03 14:23:21,104 ssp_process_traces_mod INFO     ES.EMIJ..HHN broadb: S/N: 78.9
+2025-02-03 14:23:21,124 ssp_wave_arrival_mod INFO     ES.EMIJ..HHZ: found P pick
+2025-02-03 14:23:21,148 ssp_wave_arrival_mod INFO     ES.EMIJ..HHZ: found S pick
+2025-02-03 14:23:21,215 ssp_process_traces_mod INFO     ES.EMIJ..HHZ broadb: clipping score: 0.6%
+2025-02-03 14:23:21,419 ssp_process_traces_mod INFO     ES.EMIJ..HHZ broadb: S/N: 68.0
+2025-02-03 14:23:21,450 ssp_wave_arrival_mod INFO     ES.EMIN..HHN: found P pick
+2025-02-03 14:23:21,478 ssp_wave_arrival_mod INFO     ES.EMIN..HHN: found S pick
+2025-02-03 14:23:21,547 ssp_process_traces_mod INFO     ES.EMIN..HHN broadb: clipping score: 0.7%
+2025-02-03 14:23:21,704 ssp_process_traces_mod INFO     ES.EMIN..HHN broadb: S/N: 10.5
+2025-02-03 14:23:21,735 ssp_wave_arrival_mod INFO     ES.EMIN..HHZ: found P pick
+2025-02-03 14:23:21,763 ssp_wave_arrival_mod INFO     ES.EMIN..HHZ: found S pick
+2025-02-03 14:23:21,831 ssp_process_traces_mod INFO     ES.EMIN..HHZ broadb: clipping score: 0.9%
+2025-02-03 14:23:21,989 ssp_process_traces_mod INFO     ES.EMIN..HHZ broadb: S/N: 18.6
+2025-02-03 14:23:22,012 ssp_wave_arrival_mod INFO     ES.EMLI..HHN: no P pick found
+2025-02-03 14:23:22,012 ssp_wave_arrival_mod INFO     ES.EMLI..HHN: using theoretical P pick from global velocity model (iasp91)
+2025-02-03 14:23:22,044 ssp_wave_arrival_mod INFO     ES.EMLI..HHN: no S pick found
+2025-02-03 14:23:22,044 ssp_wave_arrival_mod INFO     ES.EMLI..HHN: using theoretical S pick from global velocity model (iasp91)
+2025-02-03 14:23:22,226 ssp_process_traces_mod INFO     ES.EMLI..HHN broadb: clipping score: 0.3%
+2025-02-03 14:23:22,488 ssp_process_traces_mod INFO     ES.EMLI..HHN broadb: S/N: 1.8
+2025-02-03 14:23:22,516 ssp_wave_arrival_mod INFO     ES.EMUR..HHE: found P pick
+2025-02-03 14:23:22,547 ssp_wave_arrival_mod INFO     ES.EMUR..HHE: no S pick found
+2025-02-03 14:23:22,548 ssp_wave_arrival_mod INFO     ES.EMUR..HHE: using theoretical S pick from global velocity model (iasp91)
+2025-02-03 14:23:22,642 ssp_process_traces_mod INFO     ES.EMUR..HHE broadb: clipping score: 7.4%
+2025-02-03 14:23:22,816 ssp_process_traces_mod INFO     ES.EMUR..HHE broadb: S/N: 9.6
+2025-02-03 14:23:22,845 ssp_wave_arrival_mod INFO     ES.EMUR..HHN: found P pick
+2025-02-03 14:23:22,879 ssp_wave_arrival_mod INFO     ES.EMUR..HHN: no S pick found
+2025-02-03 14:23:22,880 ssp_wave_arrival_mod INFO     ES.EMUR..HHN: using theoretical S pick from global velocity model (iasp91)
+2025-02-03 14:23:23,047 ssp_process_traces_mod INFO     ES.EMUR..HHN broadb: clipping score: 9.2%
+2025-02-03 14:23:23,221 ssp_process_traces_mod INFO     ES.EMUR..HHN broadb: S/N: 6.9
+2025-02-03 14:23:23,250 ssp_wave_arrival_mod INFO     ES.EMUR..HHZ: found P pick
+2025-02-03 14:23:23,282 ssp_wave_arrival_mod INFO     ES.EMUR..HHZ: no S pick found
+2025-02-03 14:23:23,282 ssp_wave_arrival_mod INFO     ES.EMUR..HHZ: using theoretical S pick from global velocity model (iasp91)
+2025-02-03 14:23:23,380 ssp_process_traces_mod INFO     ES.EMUR..HHZ broadb: clipping score: 0.9%
+2025-02-03 14:23:23,555 ssp_process_traces_mod INFO     ES.EMUR..HHZ broadb: S/N: 6.3
+2025-02-03 14:23:23,580 ssp_wave_arrival_mod INFO     ES.ENIJ..HHZ: found P pick
+2025-02-03 14:23:23,604 ssp_wave_arrival_mod INFO     ES.ENIJ..HHZ: found S pick
+2025-02-03 14:23:23,676 ssp_process_traces_mod INFO     ES.ENIJ..HHZ broadb: clipping score: 2.0%
+2025-02-03 14:23:23,836 ssp_process_traces_mod INFO     ES.ENIJ..HHZ broadb: S/N: 18.0
+2025-02-03 14:23:23,840 ssp_wave_arrival_mod INFO     ES.EQTA..HHE: found P pick
+2025-02-03 14:23:23,843 ssp_wave_arrival_mod INFO     ES.EQTA..HHE: found S pick
+2025-02-03 14:23:23,919 ssp_process_traces_mod INFO     ES.EQTA..HHE broadb: clipping score: 0.5%
+2025-02-03 14:23:24,086 ssp_process_traces_mod INFO     ES.EQTA..HHE broadb: S/N: 1101.6
+2025-02-03 14:23:24,089 ssp_wave_arrival_mod INFO     ES.EQTA..HHN: found P pick
+2025-02-03 14:23:24,092 ssp_wave_arrival_mod INFO     ES.EQTA..HHN: found S pick
+2025-02-03 14:23:24,170 ssp_process_traces_mod INFO     ES.EQTA..HHN broadb: clipping score: 3.7%
+2025-02-03 14:23:24,335 ssp_process_traces_mod INFO     ES.EQTA..HHN broadb: S/N: 89.2
+2025-02-03 14:23:24,339 ssp_wave_arrival_mod INFO     ES.EQTA..HHZ: found P pick
+2025-02-03 14:23:24,342 ssp_wave_arrival_mod INFO     ES.EQTA..HHZ: found S pick
+2025-02-03 14:23:24,418 ssp_process_traces_mod INFO     ES.EQTA..HHZ broadb: clipping score: 0.4%
+2025-02-03 14:23:24,582 ssp_process_traces_mod INFO     ES.EQTA..HHZ broadb: S/N: 626.8
+2025-02-03 14:23:24,606 ssp_wave_arrival_mod INFO     ES.ESPR..HHE: found P pick
+2025-02-03 14:23:24,640 ssp_wave_arrival_mod INFO     ES.ESPR..HHE: found S pick
+2025-02-03 14:23:24,757 ssp_process_traces_mod INFO     ES.ESPR..HHE broadb: clipping score: 0.3%
+2025-02-03 14:23:24,941 ssp_process_traces_mod INFO     ES.ESPR..HHE broadb: S/N: 35.6
+2025-02-03 14:23:24,966 ssp_wave_arrival_mod INFO     ES.ESPR..HHN: found P pick
+2025-02-03 14:23:25,000 ssp_wave_arrival_mod INFO     ES.ESPR..HHN: found S pick
+2025-02-03 14:23:25,194 ssp_process_traces_mod INFO     ES.ESPR..HHN broadb: clipping score: 0.4%
+2025-02-03 14:23:25,378 ssp_process_traces_mod INFO     ES.ESPR..HHN broadb: S/N: 56.6
+2025-02-03 14:23:25,403 ssp_wave_arrival_mod INFO     ES.ESPR..HHZ: found P pick
+2025-02-03 14:23:25,438 ssp_wave_arrival_mod INFO     ES.ESPR..HHZ: found S pick
+2025-02-03 14:23:25,562 ssp_process_traces_mod INFO     ES.ESPR..HHZ broadb: clipping score: 0.9%
+2025-02-03 14:23:25,751 ssp_process_traces_mod INFO     ES.ESPR..HHZ broadb: S/N: 25.6
+2025-02-03 14:23:25,791 ssp_wave_arrival_mod INFO     ES.ETOB..HHE: found P pick
+2025-02-03 14:23:25,823 ssp_wave_arrival_mod INFO     ES.ETOB..HHE: found S pick
+2025-02-03 14:23:25,894 ssp_process_traces_mod INFO     ES.ETOB..HHE broadb: clipping score: 1.2%
+2025-02-03 14:23:26,105 ssp_process_traces_mod INFO     ES.ETOB..HHE broadb: S/N: 8.5
+2025-02-03 14:23:26,134 ssp_wave_arrival_mod INFO     ES.ETOB..HHN: found P pick
+2025-02-03 14:23:26,165 ssp_wave_arrival_mod INFO     ES.ETOB..HHN: found S pick
+2025-02-03 14:23:26,237 ssp_process_traces_mod INFO     ES.ETOB..HHN broadb: clipping score: 0.2%
+2025-02-03 14:23:26,446 ssp_process_traces_mod INFO     ES.ETOB..HHN broadb: S/N: 5.1
+2025-02-03 14:23:26,475 ssp_wave_arrival_mod INFO     ES.ETOB..HHZ: found P pick
+2025-02-03 14:23:26,507 ssp_wave_arrival_mod INFO     ES.ETOB..HHZ: found S pick
+2025-02-03 14:23:26,578 ssp_process_traces_mod INFO     ES.ETOB..HHZ broadb: clipping score: 1.4%
+2025-02-03 14:23:26,786 ssp_process_traces_mod INFO     ES.ETOB..HHZ broadb: S/N: 9.5
+2025-02-03 14:23:26,811 ssp_wave_arrival_mod INFO     ES.EZAR..HHE: found P pick
+2025-02-03 14:23:26,843 ssp_wave_arrival_mod INFO     ES.EZAR..HHE: found S pick
+2025-02-03 14:23:26,879 ssp_process_traces_mod INFO     ES.EZAR..HHE broadb: clipping score: 10.4%
+2025-02-03 14:23:26,880 ssp_process_traces_mod WARNING  ES.EZAR..HHE broadb: Trace is clipped or significantly distorted: skipping trace
+2025-02-03 14:23:27,071 ssp_process_traces_mod INFO     ES.EZAR..HHE broadb: S/N: 15.8
+2025-02-03 14:23:27,096 ssp_wave_arrival_mod INFO     ES.EZAR..HHN: found P pick
+2025-02-03 14:23:27,129 ssp_wave_arrival_mod INFO     ES.EZAR..HHN: found S pick
+2025-02-03 14:23:27,164 ssp_process_traces_mod INFO     ES.EZAR..HHN broadb: clipping score: 4.9%
+2025-02-03 14:23:27,357 ssp_process_traces_mod INFO     ES.EZAR..HHN broadb: S/N: 64.5
+2025-02-03 14:23:27,381 ssp_wave_arrival_mod INFO     ES.EZAR..HHZ: found P pick
+2025-02-03 14:23:27,413 ssp_wave_arrival_mod INFO     ES.EZAR..HHZ: found S pick
+2025-02-03 14:23:27,450 ssp_process_traces_mod INFO     ES.EZAR..HHZ broadb: clipping score: 5.1%
+2025-02-03 14:23:27,641 ssp_process_traces_mod INFO     ES.EZAR..HHZ broadb: S/N: 29.7
+2025-02-03 14:23:27,666 ssp_wave_arrival_mod INFO     ES.TLOR..HHE: found P pick
+2025-02-03 14:23:27,698 ssp_wave_arrival_mod INFO     ES.TLOR..HHE: found S pick
+2025-02-03 14:23:27,735 ssp_process_traces_mod INFO     ES.TLOR..HHE broadb: clipping score: 4.9%
+2025-02-03 14:23:27,930 ssp_process_traces_mod INFO     ES.TLOR..HHE broadb: S/N: 3.2
+2025-02-03 14:23:27,955 ssp_wave_arrival_mod INFO     ES.TLOR..HHN: found P pick
+2025-02-03 14:23:27,987 ssp_wave_arrival_mod INFO     ES.TLOR..HHN: found S pick
+2025-02-03 14:23:28,023 ssp_process_traces_mod INFO     ES.TLOR..HHN broadb: clipping score: 1.3%
+2025-02-03 14:23:28,211 ssp_process_traces_mod INFO     ES.TLOR..HHN broadb: S/N: 18.3
+2025-02-03 14:23:28,236 ssp_wave_arrival_mod INFO     ES.TLOR..HHZ: found P pick
+2025-02-03 14:23:28,268 ssp_wave_arrival_mod INFO     ES.TLOR..HHZ: found S pick
+2025-02-03 14:23:28,305 ssp_process_traces_mod INFO     ES.TLOR..HHZ broadb: clipping score: 3.4%
+2025-02-03 14:23:28,498 ssp_process_traces_mod INFO     ES.TLOR..HHZ broadb: S/N: 5.0
+2025-02-03 14:23:28,501 ssp_wave_arrival_mod INFO     ES.UMV15..EHE: found P pick
+2025-02-03 14:23:28,504 ssp_wave_arrival_mod INFO     ES.UMV15..EHE: found S pick
+2025-02-03 14:23:28,504 ssp_process_traces_mod WARNING  ES.UMV15..EHE: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2025-02-03 14:23:28,524 ssp_process_traces_mod INFO     ES.UMV15..EHE shortp: clipping score: 3.1%
+2025-02-03 14:23:28,706 ssp_process_traces_mod INFO     ES.UMV15..EHE shortp: S/N: 2.5
+2025-02-03 14:23:28,709 ssp_wave_arrival_mod INFO     ES.UMV15..EHN: found P pick
+2025-02-03 14:23:28,712 ssp_wave_arrival_mod INFO     ES.UMV15..EHN: found S pick
+2025-02-03 14:23:28,712 ssp_process_traces_mod WARNING  ES.UMV15..EHN: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2025-02-03 14:23:28,732 ssp_process_traces_mod INFO     ES.UMV15..EHN shortp: clipping score: 0.8%
+2025-02-03 14:23:28,913 ssp_process_traces_mod INFO     ES.UMV15..EHN shortp: S/N: 183.7
+2025-02-03 14:23:28,916 ssp_wave_arrival_mod INFO     ES.UMV15..EHZ: found P pick
+2025-02-03 14:23:28,919 ssp_wave_arrival_mod INFO     ES.UMV15..EHZ: found S pick
+2025-02-03 14:23:28,919 ssp_process_traces_mod WARNING  ES.UMV15..EHZ: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2025-02-03 14:23:28,939 ssp_process_traces_mod INFO     ES.UMV15..EHZ shortp: clipping score: 0.6%
+2025-02-03 14:23:29,120 ssp_process_traces_mod INFO     ES.UMV15..EHZ shortp: S/N: 93.5
+2025-02-03 14:23:29,120 ssp_process_traces_mod INFO     Processing traces: done
+2025-02-03 14:23:29,120 ssp_build_spectra    INFO     Building spectra...
+2025-02-03 14:23:31,301 ssp_build_spectra    INFO     ES.E0802..HHE: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,304 ssp_build_spectra    INFO     ES.E0802..HHE: spectral S/N: 156.86
+2025-02-03 14:23:31,305 ssp_build_spectra    INFO     ES.E0802..HHN: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,307 ssp_build_spectra    INFO     ES.E0802..HHN: spectral S/N: 166.24
+2025-02-03 14:23:31,308 ssp_build_spectra    INFO     ES.E0802..HHZ: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,310 ssp_build_spectra    INFO     ES.E0802..HHZ: spectral S/N: 91.71
+2025-02-03 14:23:31,311 ssp_build_spectra    INFO     ES.EADA..HHE: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,313 ssp_build_spectra    INFO     ES.EADA..HHE: spectral S/N: 2222.52
+2025-02-03 14:23:31,314 ssp_build_spectra    INFO     ES.EADA..HHN: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,316 ssp_build_spectra    INFO     ES.EADA..HHN: spectral S/N: 1867.97
+2025-02-03 14:23:31,317 ssp_build_spectra    INFO     ES.EADA..HHZ: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,319 ssp_build_spectra    INFO     ES.EADA..HHZ: spectral S/N: 1705.34
+2025-02-03 14:23:31,320 ssp_build_spectra    INFO     ES.EALB..HHE: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,323 ssp_build_spectra    INFO     ES.EALB..HHE: spectral S/N: 14.27
+2025-02-03 14:23:31,323 ssp_build_spectra    INFO     ES.EALB..HHN: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,326 ssp_build_spectra    INFO     ES.EALB..HHN: spectral S/N: 8.06
+2025-02-03 14:23:31,326 ssp_build_spectra    WARNING  ES.EALB..HHN: spectral S/N smaller than 10.00: ignoring spectrum
+2025-02-03 14:23:31,326 ssp_build_spectra    INFO     ES.EBER..HHE: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,329 ssp_build_spectra    INFO     ES.EBER..HHE: spectral S/N: 548.23
+2025-02-03 14:23:31,330 ssp_build_spectra    INFO     ES.EBER..HHN: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,332 ssp_build_spectra    INFO     ES.EBER..HHN: spectral S/N: 535.22
+2025-02-03 14:23:31,333 ssp_build_spectra    INFO     ES.EBER..HHZ: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,335 ssp_build_spectra    INFO     ES.EBER..HHZ: spectral S/N: 643.35
+2025-02-03 14:23:31,336 ssp_build_spectra    INFO     ES.ECAB..HHE: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,339 ssp_build_spectra    INFO     ES.ECAB..HHE: spectral S/N: 1305.01
+2025-02-03 14:23:31,339 ssp_build_spectra    INFO     ES.ECAB..HHN: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,342 ssp_build_spectra    INFO     ES.ECAB..HHN: spectral S/N: 1135.41
+2025-02-03 14:23:31,343 ssp_build_spectra    INFO     ES.ECAB..HHZ: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,345 ssp_build_spectra    INFO     ES.ECAB..HHZ: spectral S/N: 1260.10
+2025-02-03 14:23:31,346 ssp_build_spectra    INFO     ES.EGOR..HHE: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,349 ssp_build_spectra    INFO     ES.EGOR..HHE: spectral S/N: 9309.17
+2025-02-03 14:23:31,349 ssp_build_spectra    INFO     ES.EGOR..HHN: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,352 ssp_build_spectra    INFO     ES.EGOR..HHN: spectral S/N: 268.92
+2025-02-03 14:23:31,353 ssp_build_spectra    INFO     ES.EGOR..HHZ: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,355 ssp_build_spectra    INFO     ES.EGOR..HHZ: spectral S/N: 13303.16
+2025-02-03 14:23:31,356 ssp_build_spectra    INFO     ES.ELGU..HHE: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,358 ssp_build_spectra    INFO     ES.ELGU..HHE: spectral S/N: 4893.37
+2025-02-03 14:23:31,359 ssp_build_spectra    INFO     ES.ELGU..HHN: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,362 ssp_build_spectra    INFO     ES.ELGU..HHN: spectral S/N: 6336.26
+2025-02-03 14:23:31,362 ssp_build_spectra    INFO     ES.ELGU..HHZ: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,365 ssp_build_spectra    INFO     ES.ELGU..HHZ: spectral S/N: 9022.90
+2025-02-03 14:23:31,365 ssp_build_spectra    INFO     ES.ELOR.00.HHE: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,368 ssp_build_spectra    INFO     ES.ELOR.00.HHE: spectral S/N: 35.18
+2025-02-03 14:23:31,368 ssp_build_spectra    INFO     ES.ELOR.00.HHN: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,371 ssp_build_spectra    INFO     ES.ELOR.00.HHN: spectral S/N: 27.66
+2025-02-03 14:23:31,372 ssp_build_spectra    INFO     ES.ELOR.00.HHZ: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,375 ssp_build_spectra    INFO     ES.ELOR.00.HHZ: spectral S/N: 22.41
+2025-02-03 14:23:31,375 ssp_build_spectra    INFO     ES.EMIJ..HHE: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,378 ssp_build_spectra    INFO     ES.EMIJ..HHE: spectral S/N: 630.81
+2025-02-03 14:23:31,379 ssp_build_spectra    INFO     ES.EMIJ..HHN: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,382 ssp_build_spectra    INFO     ES.EMIJ..HHN: spectral S/N: 786.35
+2025-02-03 14:23:31,382 ssp_build_spectra    INFO     ES.EMIJ..HHZ: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,385 ssp_build_spectra    INFO     ES.EMIJ..HHZ: spectral S/N: 594.88
+2025-02-03 14:23:31,385 ssp_build_spectra    INFO     ES.EMIN..HHN: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,388 ssp_build_spectra    INFO     ES.EMIN..HHN: spectral S/N: 135.07
+2025-02-03 14:23:31,388 ssp_build_spectra    INFO     ES.EMIN..HHZ: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,391 ssp_build_spectra    INFO     ES.EMIN..HHZ: spectral S/N: 121.90
+2025-02-03 14:23:31,392 ssp_build_spectra    INFO     ES.EMLI..HHN: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,394 ssp_build_spectra    INFO     ES.EMLI..HHN: spectral S/N: 3.91
+2025-02-03 14:23:31,394 ssp_build_spectra    WARNING  ES.EMLI..HHN: spectral S/N smaller than 10.00: ignoring spectrum
+2025-02-03 14:23:31,395 ssp_build_spectra    INFO     ES.EMUR..HHE: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,398 ssp_build_spectra    INFO     ES.EMUR..HHE: spectral S/N: 24.68
+2025-02-03 14:23:31,398 ssp_build_spectra    INFO     ES.EMUR..HHN: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,401 ssp_build_spectra    INFO     ES.EMUR..HHN: spectral S/N: 24.45
+2025-02-03 14:23:31,401 ssp_build_spectra    INFO     ES.EMUR..HHZ: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,404 ssp_build_spectra    INFO     ES.EMUR..HHZ: spectral S/N: 22.94
+2025-02-03 14:23:31,404 ssp_build_spectra    INFO     ES.ENIJ..HHZ: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,407 ssp_build_spectra    INFO     ES.ENIJ..HHZ: spectral S/N: 34.78
+2025-02-03 14:23:31,407 ssp_build_spectra    INFO     ES.EQTA..HHE: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,410 ssp_build_spectra    INFO     ES.EQTA..HHE: spectral S/N: 17049.07
+2025-02-03 14:23:31,411 ssp_build_spectra    INFO     ES.EQTA..HHN: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,413 ssp_build_spectra    INFO     ES.EQTA..HHN: spectral S/N: 17462.44
+2025-02-03 14:23:31,414 ssp_build_spectra    INFO     ES.EQTA..HHZ: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,416 ssp_build_spectra    INFO     ES.EQTA..HHZ: spectral S/N: 17666.77
+2025-02-03 14:23:31,417 ssp_build_spectra    INFO     ES.ESPR..HHE: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,420 ssp_build_spectra    INFO     ES.ESPR..HHE: spectral S/N: 235.14
+2025-02-03 14:23:31,420 ssp_build_spectra    INFO     ES.ESPR..HHN: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,423 ssp_build_spectra    INFO     ES.ESPR..HHN: spectral S/N: 237.49
+2025-02-03 14:23:31,424 ssp_build_spectra    INFO     ES.ESPR..HHZ: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,426 ssp_build_spectra    INFO     ES.ESPR..HHZ: spectral S/N: 121.40
+2025-02-03 14:23:31,427 ssp_build_spectra    INFO     ES.ETOB..HHE: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,430 ssp_build_spectra    INFO     ES.ETOB..HHE: spectral S/N: 190.38
+2025-02-03 14:23:31,430 ssp_build_spectra    INFO     ES.ETOB..HHN: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,433 ssp_build_spectra    INFO     ES.ETOB..HHN: spectral S/N: 157.69
+2025-02-03 14:23:31,433 ssp_build_spectra    INFO     ES.ETOB..HHZ: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,436 ssp_build_spectra    INFO     ES.ETOB..HHZ: spectral S/N: 164.03
+2025-02-03 14:23:31,437 ssp_build_spectra    INFO     ES.EZAR..HHN: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,439 ssp_build_spectra    INFO     ES.EZAR..HHN: spectral S/N: 86.99
+2025-02-03 14:23:31,440 ssp_build_spectra    INFO     ES.EZAR..HHZ: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,442 ssp_build_spectra    INFO     ES.EZAR..HHZ: spectral S/N: 57.98
+2025-02-03 14:23:31,443 ssp_build_spectra    INFO     ES.TLOR..HHE: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,446 ssp_build_spectra    INFO     ES.TLOR..HHE: spectral S/N: 21.15
+2025-02-03 14:23:31,446 ssp_build_spectra    INFO     ES.TLOR..HHN: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,449 ssp_build_spectra    INFO     ES.TLOR..HHN: spectral S/N: 27.24
+2025-02-03 14:23:31,449 ssp_build_spectra    INFO     ES.TLOR..HHZ: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,452 ssp_build_spectra    INFO     ES.TLOR..HHZ: spectral S/N: 23.54
+2025-02-03 14:23:31,453 ssp_build_spectra    INFO     ES.UMV15..EHE: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,455 ssp_build_spectra    INFO     ES.UMV15..EHE: spectral S/N: 155.43
+2025-02-03 14:23:31,456 ssp_build_spectra    INFO     ES.UMV15..EHN: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,458 ssp_build_spectra    INFO     ES.UMV15..EHN: spectral S/N: 11078.67
+2025-02-03 14:23:31,459 ssp_build_spectra    INFO     ES.UMV15..EHZ: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:23:31,462 ssp_build_spectra    INFO     ES.UMV15..EHZ: spectral S/N: 10780.10
+2025-02-03 14:23:31,498 ssp_build_spectra    INFO     Building spectra: done
+2025-02-03 14:23:40,599 ssp_plot_traces      INFO     Trace plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/b3492e35-bbf5-473f-a87f-6815a0f6995a.traces.00.png
+2025-02-03 14:23:40,599 ssp_plot_traces      INFO     Trace plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/b3492e35-bbf5-473f-a87f-6815a0f6995a.traces.01.png
+2025-02-03 14:23:40,599 ssp_inversion        INFO     Inverting spectra...
+2025-02-03 14:23:40,599 ssp_inversion        INFO     Using noise weighting for inversion.
+2025-02-03 14:23:40,599 ssp_inversion        INFO     Using grid search for inversion.
+2025-02-03 14:23:40,601 ssp_inversion        INFO     ES.E0802..HHH broadb: initial values: Mw_0: 3.2777; fc_0: 4.3608; t_star_0: 0.045
+2025-02-03 14:23:40,601 ssp_inversion        INFO     ES.E0802..HHH broadb: bounds: Mw: 2.8322, 3.8169; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:23:53,343 ssp_grid_sampling    INFO     ES.E0802..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.cond_misfit_ES.E0802..HHH_broadb.png
+2025-02-03 14:23:54,039 ssp_grid_sampling    INFO     ES.E0802..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-t_star_ES.E0802..HHH_broadb.png
+2025-02-03 14:23:54,653 ssp_grid_sampling    INFO     ES.E0802..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-Mw_ES.E0802..HHH_broadb.png
+2025-02-03 14:23:55,156 ssp_grid_sampling    INFO     ES.E0802..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_t_star-Mw_ES.E0802..HHH_broadb.png
+2025-02-03 14:23:55,156 ssp_inversion        INFO     ES.E0802..HHH broadb: optimal values: Mw: 3.6096; fc: 3.2438; t_star: 0.0437
+2025-02-03 14:23:55,156 ssp_inversion        INFO     ES.E0802..HHH broadb: misfit: 0.090
+2025-02-03 14:23:55,157 ssp_inversion        INFO     ES.EADA..HHH broadb: initial values: Mw_0: 3.3437; fc_0: 5.2428; t_star_0: 0.045
+2025-02-03 14:23:55,157 ssp_inversion        INFO     ES.EADA..HHH broadb: bounds: Mw: 2.7678, 3.8743; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:24:07,787 ssp_grid_sampling    INFO     ES.EADA..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.cond_misfit_ES.EADA..HHH_broadb.png
+2025-02-03 14:24:08,463 ssp_grid_sampling    INFO     ES.EADA..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-t_star_ES.EADA..HHH_broadb.png
+2025-02-03 14:24:09,091 ssp_grid_sampling    INFO     ES.EADA..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-Mw_ES.EADA..HHH_broadb.png
+2025-02-03 14:24:09,603 ssp_grid_sampling    INFO     ES.EADA..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_t_star-Mw_ES.EADA..HHH_broadb.png
+2025-02-03 14:24:09,603 ssp_inversion        INFO     ES.EADA..HHH broadb: optimal values: Mw: 3.5831; fc: 3.9047; t_star: 0.0584
+2025-02-03 14:24:09,603 ssp_inversion        INFO     ES.EADA..HHH broadb: misfit: 0.058
+2025-02-03 14:24:09,604 ssp_inversion        INFO     ES.EALB..HHH broadb: initial values: Mw_0: 3.2054; fc_0: 2.0872; t_star_0: 0.045
+2025-02-03 14:24:09,605 ssp_inversion        INFO     ES.EALB..HHH broadb: bounds: Mw: 2.7874, 3.6816; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:24:22,240 ssp_grid_sampling    INFO     ES.EALB..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.cond_misfit_ES.EALB..HHH_broadb.png
+2025-02-03 14:24:22,936 ssp_grid_sampling    INFO     ES.EALB..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-t_star_ES.EALB..HHH_broadb.png
+2025-02-03 14:24:23,600 ssp_grid_sampling    INFO     ES.EALB..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-Mw_ES.EALB..HHH_broadb.png
+2025-02-03 14:24:24,142 ssp_grid_sampling    INFO     ES.EALB..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_t_star-Mw_ES.EALB..HHH_broadb.png
+2025-02-03 14:24:24,142 ssp_inversion        INFO     ES.EALB..HHH broadb: optimal values: Mw: 3.4463; fc: 1.2834; t_star: 0.0518
+2025-02-03 14:24:24,142 ssp_inversion        INFO     ES.EALB..HHH broadb: misfit: 0.151
+2025-02-03 14:24:24,143 ssp_inversion        INFO     ES.EBER..HHH broadb: initial values: Mw_0: 3.2785; fc_0: 3.9771; t_star_0: 0.045
+2025-02-03 14:24:24,143 ssp_inversion        INFO     ES.EBER..HHH broadb: bounds: Mw: 2.6997, 3.7808; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:24:36,666 ssp_grid_sampling    INFO     ES.EBER..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.cond_misfit_ES.EBER..HHH_broadb.png
+2025-02-03 14:24:37,362 ssp_grid_sampling    INFO     ES.EBER..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-t_star_ES.EBER..HHH_broadb.png
+2025-02-03 14:24:37,988 ssp_grid_sampling    INFO     ES.EBER..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-Mw_ES.EBER..HHH_broadb.png
+2025-02-03 14:24:38,494 ssp_grid_sampling    INFO     ES.EBER..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_t_star-Mw_ES.EBER..HHH_broadb.png
+2025-02-03 14:24:38,495 ssp_inversion        INFO     ES.EBER..HHH broadb: optimal values: Mw: 3.6101; fc: 1.9479; t_star: 0.0745
+2025-02-03 14:24:38,495 ssp_inversion        INFO     ES.EBER..HHH broadb: misfit: 0.070
+2025-02-03 14:24:38,496 ssp_inversion        INFO     ES.ECAB..HHH broadb: initial values: Mw_0: 3.4597; fc_0: 3.6272; t_star_0: 0.045
+2025-02-03 14:24:38,496 ssp_inversion        INFO     ES.ECAB..HHH broadb: bounds: Mw: 2.97, 3.9087; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:24:51,133 ssp_grid_sampling    INFO     ES.ECAB..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.cond_misfit_ES.ECAB..HHH_broadb.png
+2025-02-03 14:24:51,808 ssp_grid_sampling    INFO     ES.ECAB..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-t_star_ES.ECAB..HHH_broadb.png
+2025-02-03 14:24:52,445 ssp_grid_sampling    INFO     ES.ECAB..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-Mw_ES.ECAB..HHH_broadb.png
+2025-02-03 14:24:52,951 ssp_grid_sampling    INFO     ES.ECAB..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_t_star-Mw_ES.ECAB..HHH_broadb.png
+2025-02-03 14:24:52,951 ssp_inversion        INFO     ES.ECAB..HHH broadb: optimal values: Mw: 3.6617; fc: 2.5726; t_star: 0.0704
+2025-02-03 14:24:52,951 ssp_inversion        INFO     ES.ECAB..HHH broadb: misfit: 0.113
+2025-02-03 14:24:52,952 ssp_inversion        INFO     ES.EGOR..HHH broadb: initial values: Mw_0: 3.5026; fc_0: 5.7487; t_star_0: 0.045
+2025-02-03 14:24:52,952 ssp_inversion        INFO     ES.EGOR..HHH broadb: bounds: Mw: 2.8917, 3.9826; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:25:05,430 ssp_grid_sampling    INFO     ES.EGOR..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.cond_misfit_ES.EGOR..HHH_broadb.png
+2025-02-03 14:25:06,106 ssp_grid_sampling    INFO     ES.EGOR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-t_star_ES.EGOR..HHH_broadb.png
+2025-02-03 14:25:06,738 ssp_grid_sampling    INFO     ES.EGOR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-Mw_ES.EGOR..HHH_broadb.png
+2025-02-03 14:25:07,358 ssp_grid_sampling    INFO     ES.EGOR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_t_star-Mw_ES.EGOR..HHH_broadb.png
+2025-02-03 14:25:07,359 ssp_inversion        INFO     ES.EGOR..HHH broadb: optimal values: Mw: 3.9252; fc: 2.4561; t_star: 0.0584
+2025-02-03 14:25:07,360 ssp_inversion        INFO     ES.EGOR..HHH broadb: misfit: 0.091
+2025-02-03 14:25:07,361 ssp_inversion        INFO     ES.ELGU..HHH broadb: initial values: Mw_0: 3.4533; fc_0: 5.7487; t_star_0: 0.045
+2025-02-03 14:25:07,361 ssp_inversion        INFO     ES.ELGU..HHH broadb: bounds: Mw: 3.005, 3.9331; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:25:19,888 ssp_grid_sampling    INFO     ES.ELGU..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.cond_misfit_ES.ELGU..HHH_broadb.png
+2025-02-03 14:25:20,561 ssp_grid_sampling    INFO     ES.ELGU..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-t_star_ES.ELGU..HHH_broadb.png
+2025-02-03 14:25:21,180 ssp_grid_sampling    INFO     ES.ELGU..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-Mw_ES.ELGU..HHH_broadb.png
+2025-02-03 14:25:21,684 ssp_grid_sampling    INFO     ES.ELGU..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_t_star-Mw_ES.ELGU..HHH_broadb.png
+2025-02-03 14:25:21,685 ssp_inversion        INFO     ES.ELGU..HHH broadb: optimal values: Mw: 3.7377; fc: 5.1569; t_star: 0.0584
+2025-02-03 14:25:21,685 ssp_inversion        INFO     ES.ELGU..HHH broadb: misfit: 0.079
+2025-02-03 14:25:21,686 ssp_inversion        INFO     ES.ELOR.00.HHH broadb: initial values: Mw_0: 3.7659; fc_0: 0.8309; t_star_0: 0.045
+2025-02-03 14:25:21,686 ssp_inversion        INFO     ES.ELOR.00.HHH broadb: bounds: Mw: 3.3717, 4.1875; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:25:34,296 ssp_grid_sampling    INFO     ES.ELOR.00.HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.cond_misfit_ES.ELOR.00.HHH_broadb.png
+2025-02-03 14:25:34,977 ssp_grid_sampling    INFO     ES.ELOR.00.HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-t_star_ES.ELOR.00.HHH_broadb.png
+2025-02-03 14:25:35,634 ssp_grid_sampling    INFO     ES.ELOR.00.HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-Mw_ES.ELOR.00.HHH_broadb.png
+2025-02-03 14:25:36,289 ssp_grid_sampling    INFO     ES.ELOR.00.HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_t_star-Mw_ES.ELOR.00.HHH_broadb.png
+2025-02-03 14:25:36,291 ssp_inversion        INFO     ES.ELOR.00.HHH broadb: optimal values: Mw: 3.9728; fc: 0.7358; t_star: 0.0491
+2025-02-03 14:25:36,291 ssp_inversion        INFO     ES.ELOR.00.HHH broadb: misfit: 0.079
+2025-02-03 14:25:36,292 ssp_inversion        INFO     ES.EMIJ..HHH broadb: initial values: Mw_0: 3.4981; fc_0: 3.308; t_star_0: 0.045
+2025-02-03 14:25:36,292 ssp_inversion        INFO     ES.EMIJ..HHH broadb: bounds: Mw: 2.9653, 3.9997; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:25:48,798 ssp_grid_sampling    INFO     ES.EMIJ..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.cond_misfit_ES.EMIJ..HHH_broadb.png
+2025-02-03 14:25:49,472 ssp_grid_sampling    INFO     ES.EMIJ..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-t_star_ES.EMIJ..HHH_broadb.png
+2025-02-03 14:25:50,114 ssp_grid_sampling    INFO     ES.EMIJ..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-Mw_ES.EMIJ..HHH_broadb.png
+2025-02-03 14:25:50,620 ssp_grid_sampling    INFO     ES.EMIJ..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_t_star-Mw_ES.EMIJ..HHH_broadb.png
+2025-02-03 14:25:50,622 ssp_inversion        INFO     ES.EMIJ..HHH broadb: optimal values: Mw: 3.7275; fc: 2.4561; t_star: 0.0918
+2025-02-03 14:25:50,622 ssp_inversion        INFO     ES.EMIJ..HHH broadb: misfit: 0.105
+2025-02-03 14:25:50,623 ssp_inversion        INFO     ES.EMIN..HHH broadb: initial values: Mw_0: 3.1436; fc_0: 4.7815; t_star_0: 0.045
+2025-02-03 14:25:50,624 ssp_inversion        INFO     ES.EMIN..HHH broadb: bounds: Mw: 2.4666, 3.6713; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:26:03,152 ssp_grid_sampling    INFO     ES.EMIN..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.cond_misfit_ES.EMIN..HHH_broadb.png
+2025-02-03 14:26:03,859 ssp_grid_sampling    INFO     ES.EMIN..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-t_star_ES.EMIN..HHH_broadb.png
+2025-02-03 14:26:04,631 ssp_grid_sampling    INFO     ES.EMIN..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-Mw_ES.EMIN..HHH_broadb.png
+2025-02-03 14:26:05,166 ssp_grid_sampling    INFO     ES.EMIN..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_t_star-Mw_ES.EMIN..HHH_broadb.png
+2025-02-03 14:26:05,167 ssp_inversion        INFO     ES.EMIN..HHH broadb: optimal values: Mw: 3.4177; fc: 2.6947; t_star: 0.0718
+2025-02-03 14:26:05,167 ssp_inversion        INFO     ES.EMIN..HHH broadb: misfit: 0.041
+2025-02-03 14:26:05,168 ssp_inversion        INFO     ES.EMUR..HHH broadb: initial values: Mw_0: 3.3716; fc_0: 1.3169; t_star_0: 0.045
+2025-02-03 14:26:05,168 ssp_inversion        INFO     ES.EMUR..HHH broadb: bounds: Mw: 2.9238, 3.8546; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:26:17,809 ssp_grid_sampling    INFO     ES.EMUR..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.cond_misfit_ES.EMUR..HHH_broadb.png
+2025-02-03 14:26:18,500 ssp_grid_sampling    INFO     ES.EMUR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-t_star_ES.EMUR..HHH_broadb.png
+2025-02-03 14:26:19,127 ssp_grid_sampling    INFO     ES.EMUR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-Mw_ES.EMUR..HHH_broadb.png
+2025-02-03 14:26:19,643 ssp_grid_sampling    INFO     ES.EMUR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_t_star-Mw_ES.EMUR..HHH_broadb.png
+2025-02-03 14:26:19,644 ssp_inversion        INFO     ES.EMUR..HHH broadb: optimal values: Mw: 3.6097; fc: 1.4749; t_star: 0.1439
+2025-02-03 14:26:19,644 ssp_inversion        INFO     ES.EMUR..HHH broadb: misfit: 0.081
+2025-02-03 14:26:19,645 ssp_inversion        INFO     ES.ENIJ..HHH broadb: initial values: Mw_0: 3.1974; fc_0: 1.7361; t_star_0: 0.045
+2025-02-03 14:26:19,645 ssp_inversion        INFO     ES.ENIJ..HHH broadb: bounds: Mw: 2.7646, 3.72; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:26:32,229 ssp_grid_sampling    INFO     ES.ENIJ..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.cond_misfit_ES.ENIJ..HHH_broadb.png
+2025-02-03 14:26:32,947 ssp_grid_sampling    INFO     ES.ENIJ..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-t_star_ES.ENIJ..HHH_broadb.png
+2025-02-03 14:26:33,713 ssp_grid_sampling    INFO     ES.ENIJ..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-Mw_ES.ENIJ..HHH_broadb.png
+2025-02-03 14:26:34,225 ssp_grid_sampling    INFO     ES.ENIJ..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_t_star-Mw_ES.ENIJ..HHH_broadb.png
+2025-02-03 14:26:34,226 ssp_inversion        INFO     ES.ENIJ..HHH broadb: optimal values: Mw: 3.4183; fc: 1.6950; t_star: 0.1119
+2025-02-03 14:26:34,226 ssp_inversion        INFO     ES.ENIJ..HHH broadb: misfit: 0.076
+2025-02-03 14:26:34,227 ssp_inversion        INFO     ES.EQTA..HHH broadb: initial values: Mw_0: 3.3062; fc_0: 4.3608; t_star_0: 0.045
+2025-02-03 14:26:34,228 ssp_inversion        INFO     ES.EQTA..HHH broadb: bounds: Mw: 2.7295, 3.802; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:26:46,758 ssp_grid_sampling    INFO     ES.EQTA..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.cond_misfit_ES.EQTA..HHH_broadb.png
+2025-02-03 14:26:47,492 ssp_grid_sampling    INFO     ES.EQTA..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-t_star_ES.EQTA..HHH_broadb.png
+2025-02-03 14:26:48,120 ssp_grid_sampling    INFO     ES.EQTA..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-Mw_ES.EQTA..HHH_broadb.png
+2025-02-03 14:26:48,639 ssp_grid_sampling    INFO     ES.EQTA..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_t_star-Mw_ES.EQTA..HHH_broadb.png
+2025-02-03 14:26:48,639 ssp_inversion        INFO     ES.EQTA..HHH broadb: optimal values: Mw: 3.5762; fc: 1.6950; t_star: 0.0077
+2025-02-03 14:26:48,639 ssp_inversion        INFO     ES.EQTA..HHH broadb: misfit: 0.069
+2025-02-03 14:26:48,640 ssp_inversion        INFO     ES.ESPR..HHH broadb: initial values: Mw_0: 3.57; fc_0: 2.7515; t_star_0: 0.045
+2025-02-03 14:26:48,640 ssp_inversion        INFO     ES.ESPR..HHH broadb: bounds: Mw: 2.9981, 4.2515; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:27:01,203 ssp_grid_sampling    INFO     ES.ESPR..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.cond_misfit_ES.ESPR..HHH_broadb.png
+2025-02-03 14:27:01,886 ssp_grid_sampling    INFO     ES.ESPR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-t_star_ES.ESPR..HHH_broadb.png
+2025-02-03 14:27:02,657 ssp_grid_sampling    INFO     ES.ESPR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-Mw_ES.ESPR..HHH_broadb.png
+2025-02-03 14:27:03,195 ssp_grid_sampling    INFO     ES.ESPR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_t_star-Mw_ES.ESPR..HHH_broadb.png
+2025-02-03 14:27:03,197 ssp_inversion        INFO     ES.ESPR..HHH broadb: optimal values: Mw: 3.8557; fc: 2.6947; t_star: 0.1279
+2025-02-03 14:27:03,197 ssp_inversion        INFO     ES.ESPR..HHH broadb: misfit: 0.112
+2025-02-03 14:27:03,198 ssp_inversion        INFO     ES.ETOB..HHH broadb: initial values: Mw_0: 3.35; fc_0: 2.7515; t_star_0: 0.045
+2025-02-03 14:27:03,198 ssp_inversion        INFO     ES.ETOB..HHH broadb: bounds: Mw: 2.8492, 3.8845; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:27:15,698 ssp_grid_sampling    INFO     ES.ETOB..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.cond_misfit_ES.ETOB..HHH_broadb.png
+2025-02-03 14:27:16,372 ssp_grid_sampling    INFO     ES.ETOB..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-t_star_ES.ETOB..HHH_broadb.png
+2025-02-03 14:27:16,992 ssp_grid_sampling    INFO     ES.ETOB..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-Mw_ES.ETOB..HHH_broadb.png
+2025-02-03 14:27:17,497 ssp_grid_sampling    INFO     ES.ETOB..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_t_star-Mw_ES.ETOB..HHH_broadb.png
+2025-02-03 14:27:17,497 ssp_inversion        INFO     ES.ETOB..HHH broadb: optimal values: Mw: 3.6666; fc: 1.6950; t_star: 0.0811
+2025-02-03 14:27:17,497 ssp_inversion        INFO     ES.ETOB..HHH broadb: misfit: 0.071
+2025-02-03 14:27:17,498 ssp_inversion        INFO     ES.EZAR..HHH broadb: initial values: Mw_0: 3.8356; fc_0: 1.0954; t_star_0: 0.045
+2025-02-03 14:27:17,498 ssp_inversion        INFO     ES.EZAR..HHH broadb: bounds: Mw: 3.303, 4.4503; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:27:30,128 ssp_grid_sampling    INFO     ES.EZAR..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.cond_misfit_ES.EZAR..HHH_broadb.png
+2025-02-03 14:27:30,805 ssp_grid_sampling    INFO     ES.EZAR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-t_star_ES.EZAR..HHH_broadb.png
+2025-02-03 14:27:31,560 ssp_grid_sampling    INFO     ES.EZAR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-Mw_ES.EZAR..HHH_broadb.png
+2025-02-03 14:27:32,068 ssp_grid_sampling    INFO     ES.EZAR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_t_star-Mw_ES.EZAR..HHH_broadb.png
+2025-02-03 14:27:32,068 ssp_inversion        INFO     ES.EZAR..HHH broadb: optimal values: Mw: 4.1483; fc: 0.5836; t_star: 0.0851
+2025-02-03 14:27:32,068 ssp_inversion        INFO     ES.EZAR..HHH broadb: misfit: 0.054
+2025-02-03 14:27:32,069 ssp_inversion        INFO     ES.TLOR..HHH broadb: initial values: Mw_0: 3.8583; fc_0: 2.0872; t_star_0: 0.045
+2025-02-03 14:27:32,069 ssp_inversion        INFO     ES.TLOR..HHH broadb: bounds: Mw: 3.2149, 4.4743; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:27:44,827 ssp_grid_sampling    INFO     ES.TLOR..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.cond_misfit_ES.TLOR..HHH_broadb.png
+2025-02-03 14:27:45,502 ssp_grid_sampling    INFO     ES.TLOR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-t_star_ES.TLOR..HHH_broadb.png
+2025-02-03 14:27:46,128 ssp_grid_sampling    INFO     ES.TLOR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-Mw_ES.TLOR..HHH_broadb.png
+2025-02-03 14:27:46,640 ssp_grid_sampling    INFO     ES.TLOR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_t_star-Mw_ES.TLOR..HHH_broadb.png
+2025-02-03 14:27:46,641 ssp_inversion        INFO     ES.TLOR..HHH broadb: optimal values: Mw: 4.3418; fc: 0.5319; t_star: 0.0344
+2025-02-03 14:27:46,641 ssp_inversion        INFO     ES.TLOR..HHH broadb: misfit: 0.102
+2025-02-03 14:27:46,642 ssp_inversion        INFO     ES.UMV15..EHH shortp: initial values: Mw_0: 3.8034; fc_0: 7.5858; t_star_0: 0.045
+2025-02-03 14:27:46,642 ssp_inversion        INFO     ES.UMV15..EHH shortp: bounds: Mw: 3.1313, 4.3363; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:27:59,251 ssp_grid_sampling    INFO     ES.UMV15..EHH shortp: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.cond_misfit_ES.UMV15..EHH_shortp.png
+2025-02-03 14:27:59,925 ssp_grid_sampling    INFO     ES.UMV15..EHH shortp: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-t_star_ES.UMV15..EHH_shortp.png
+2025-02-03 14:28:00,684 ssp_grid_sampling    INFO     ES.UMV15..EHH shortp: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_fc-Mw_ES.UMV15..EHH_shortp.png
+2025-02-03 14:28:01,198 ssp_grid_sampling    INFO     ES.UMV15..EHH shortp: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/misfit/b3492e35-bbf5-473f-a87f-6815a0f6995a.misfit_t_star-Mw_ES.UMV15..EHH_shortp.png
+2025-02-03 14:28:01,200 ssp_inversion        INFO     ES.UMV15..EHH shortp: optimal values: Mw: 4.3363; fc: 2.3448; t_star: 0.0371
+2025-02-03 14:28:01,200 ssp_inversion        INFO     ES.UMV15..EHH shortp: misfit: 0.123
+2025-02-03 14:28:01,201 ssp_inversion        INFO     Inverting spectra: done
+2025-02-03 14:28:01,201 ssp_radiated_energy  INFO     Computing radiated energy...
+2025-02-03 14:28:01,202 ssp_radiated_energy  WARNING  ES.EZAR..HHH broadb: noise energy is larger than signal energy: skipping spectrum.
+2025-02-03 14:28:01,202 ssp_radiated_energy  WARNING  ES.EMUR..HHH broadb: noise energy is larger than signal energy: skipping spectrum.
+2025-02-03 14:28:01,203 ssp_radiated_energy  WARNING  ES.ENIJ..HHH broadb: noise energy is larger than signal energy: skipping spectrum.
+2025-02-03 14:28:01,204 ssp_radiated_energy  INFO     Computing radiated energy: done
+2025-02-03 14:28:01,204 ssp_local_magnitude  INFO     Computing local magnitude...
+2025-02-03 14:28:01,434 ssp_local_magnitude  INFO     ES.E0802..HHE broadb: Ml 3.8
+2025-02-03 14:28:01,648 ssp_local_magnitude  INFO     ES.E0802..HHN broadb: Ml 3.9
+2025-02-03 14:28:01,918 ssp_local_magnitude  INFO     ES.EADA..HHE broadb: Ml 4.0
+2025-02-03 14:28:02,191 ssp_local_magnitude  INFO     ES.EADA..HHN broadb: Ml 4.1
+2025-02-03 14:28:02,487 ssp_local_magnitude  INFO     ES.EALB..HHE broadb: Ml 3.8
+2025-02-03 14:28:02,789 ssp_local_magnitude  INFO     ES.EALB..HHN broadb: Ml 3.8
+2025-02-03 14:28:03,052 ssp_local_magnitude  INFO     ES.EBER..HHE broadb: Ml 3.7
+2025-02-03 14:28:03,315 ssp_local_magnitude  INFO     ES.EBER..HHN broadb: Ml 3.7
+2025-02-03 14:28:03,578 ssp_local_magnitude  INFO     ES.ECAB..HHE broadb: Ml 4.3
+2025-02-03 14:28:03,842 ssp_local_magnitude  INFO     ES.ECAB..HHN broadb: Ml 4.3
+2025-02-03 14:28:04,073 ssp_local_magnitude  INFO     ES.EGOR..HHE broadb: Ml 3.9
+2025-02-03 14:28:04,305 ssp_local_magnitude  INFO     ES.EGOR..HHN broadb: Ml 4.0
+2025-02-03 14:28:04,538 ssp_local_magnitude  INFO     ES.ELGU..HHE broadb: Ml 3.9
+2025-02-03 14:28:04,769 ssp_local_magnitude  INFO     ES.ELGU..HHN broadb: Ml 4.0
+2025-02-03 14:28:05,116 ssp_local_magnitude  INFO     ES.ELOR.00.HHE broadb: Ml 4.0
+2025-02-03 14:28:05,365 ssp_local_magnitude  INFO     ES.ELOR.00.HHN broadb: Ml 4.1
+2025-02-03 14:28:05,638 ssp_local_magnitude  INFO     ES.EMIJ..HHE broadb: Ml 4.0
+2025-02-03 14:28:05,911 ssp_local_magnitude  INFO     ES.EMIJ..HHN broadb: Ml 3.9
+2025-02-03 14:28:06,135 ssp_local_magnitude  INFO     ES.EMIN..HHN broadb: Ml 4.1
+2025-02-03 14:28:06,396 ssp_local_magnitude  INFO     ES.EMUR..HHE broadb: Ml 4.0
+2025-02-03 14:28:06,659 ssp_local_magnitude  INFO     ES.EMUR..HHN broadb: Ml 3.9
+2025-02-03 14:28:06,898 ssp_local_magnitude  INFO     ES.EQTA..HHE broadb: Ml 3.5
+2025-02-03 14:28:07,138 ssp_local_magnitude  INFO     ES.EQTA..HHN broadb: Ml 3.4
+2025-02-03 14:28:07,421 ssp_local_magnitude  INFO     ES.ESPR..HHE broadb: Ml 4.2
+2025-02-03 14:28:07,787 ssp_local_magnitude  INFO     ES.ESPR..HHN broadb: Ml 4.4
+2025-02-03 14:28:08,059 ssp_local_magnitude  INFO     ES.ETOB..HHE broadb: Ml 4.1
+2025-02-03 14:28:08,333 ssp_local_magnitude  INFO     ES.ETOB..HHN broadb: Ml 4.3
+2025-02-03 14:28:08,564 ssp_local_magnitude  INFO     ES.EZAR..HHE broadb: Ml 4.3
+2025-02-03 14:28:08,796 ssp_local_magnitude  INFO     ES.EZAR..HHN broadb: Ml 4.2
+2025-02-03 14:28:09,028 ssp_local_magnitude  INFO     ES.TLOR..HHE broadb: Ml 4.5
+2025-02-03 14:28:09,261 ssp_local_magnitude  INFO     ES.TLOR..HHN broadb: Ml 4.5
+2025-02-03 14:28:09,476 ssp_local_magnitude  INFO     ES.UMV15..EHE shortp: Ml 4.6
+2025-02-03 14:28:09,692 ssp_local_magnitude  INFO     ES.UMV15..EHN shortp: Ml 4.4
+2025-02-03 14:28:09,727 ssp_summary_statistics INFO     params_mean: {'Mw': 3.7580343254021518, 'fc': 1.7513935379944727, 't_star': 0.065500197394394}
+2025-02-03 14:28:09,727 ssp_summary_statistics INFO     params_mean_weighted: {'Mw': 3.8286258685988446, 'fc': 1.9560890606848593, 't_star': 0.02055938388038501}
+2025-02-03 14:28:09,727 ssp_summary_statistics INFO     params_percentiles: {'Mw': 3.6641326059731445, 'fc': 1.9479330723437789, 't_star': 0.058429530201342283}
+2025-02-03 14:28:09,728 tzlocal              DEBUG    /etc/localtime found
+2025-02-03 14:28:09,734 tzlocal              DEBUG    1 found:
+ {'/etc/localtime is a symlink to': 'Europe/Madrid'}
+2025-02-03 14:28:09,736 ssp_output           INFO     Output written to file: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/b3492e35-bbf5-473f-a87f-6815a0f6995a.ssp.out
+2025-02-03 14:28:09,739 ssp_output           INFO     Output written to file: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/b3492e35-bbf5-473f-a87f-6815a0f6995a.ssp.yaml
+2025-02-03 14:28:09,757 ssp_sqlite_output    INFO     Output written to SQLite database: source_spec.sqlite
+2025-02-03 14:28:09,768 ssp_qml_output       WARNING  Unable to find evid "b3492e35-bbf5-473f-a87f-6815a0f6995a" in QuakeML file. QuakeML output will not be written.
+2025-02-03 14:28:09,986 ssp_residuals        INFO     Spectral residuals saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/b3492e35-bbf5-473f-a87f-6815a0f6995a-residuals.pickle
+2025-02-03 14:28:22,894 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/b3492e35-bbf5-473f-a87f-6815a0f6995a.ssp.00.png
+2025-02-03 14:28:22,909 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/b3492e35-bbf5-473f-a87f-6815a0f6995a.ssp.01.png
+2025-02-03 14:28:40,436 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/b3492e35-bbf5-473f-a87f-6815a0f6995a.sspweight.00.png
+2025-02-03 14:28:40,436 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/b3492e35-bbf5-473f-a87f-6815a0f6995a.sspweight.01.png
+2025-02-03 14:28:40,436 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/b3492e35-bbf5-473f-a87f-6815a0f6995a.sspweight.02.png
+2025-02-03 14:28:40,436 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/b3492e35-bbf5-473f-a87f-6815a0f6995a.sspweight.03.png
+2025-02-03 14:28:41,397 ssp_plot_stacked_spectra INFO     Stacked spectra plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/b3492e35-bbf5-473f-a87f-6815a0f6995a.stacked_spectra.png
+2025-02-03 14:28:43,809 ssp_plot_params_stats INFO     Parameters box plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/b3492e35-bbf5-473f-a87f-6815a0f6995a.boxplot.png
+2025-02-03 14:28:43,827 ssp_html_report      INFO     HTML report written to file: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_c4d26e60c7c54f50a9013a819aa250e5/index.html
+2025-02-03 14:28:44,232 ssp_read_station_metadata INFO     Reading station metadata...
+2025-02-03 14:28:44,232 ssp_read_station_metadata INFO     Reading station metadata from file: /Volumes/LaCie/test_surfquake/Granada/inputs/metadata/ES_network.xml
+2025-02-03 14:28:52,037 ssp_read_station_metadata INFO     Reading station metadata: done
+2025-02-03 14:28:52,049 ssp_read_traces      INFO     Reading traces...
+2025-02-03 14:28:53,817 ssp_read_traces      INFO     Reading traces: done
+2025-02-03 14:28:53,819 ssp_read_traces      INFO     Vp_hypo: 5.00 km/s, Vs_hypo: 2.90 km/s
+2025-02-03 14:28:53,897 ssp_process_traces_mod INFO     Processing traces...
+2025-02-03 14:28:53,931 ssp_wave_arrival_mod INFO     ES.E0802..HHE: found P pick
+2025-02-03 14:28:53,958 ssp_wave_arrival_mod INFO     ES.E0802..HHE: found S pick
+2025-02-03 14:28:53,983 ssp_process_traces_mod INFO     ES.E0802..HHE broadb: clipping score: 0.5%
+2025-02-03 14:28:54,182 ssp_process_traces_mod INFO     ES.E0802..HHE broadb: S/N: 19.1
+2025-02-03 14:28:54,205 ssp_wave_arrival_mod INFO     ES.E0802..HHN: found P pick
+2025-02-03 14:28:54,231 ssp_wave_arrival_mod INFO     ES.E0802..HHN: found S pick
+2025-02-03 14:28:54,256 ssp_process_traces_mod INFO     ES.E0802..HHN broadb: clipping score: 0.3%
+2025-02-03 14:28:54,463 ssp_process_traces_mod INFO     ES.E0802..HHN broadb: S/N: 3.5
+2025-02-03 14:28:54,486 ssp_wave_arrival_mod INFO     ES.E0802..HHZ: found P pick
+2025-02-03 14:28:54,513 ssp_wave_arrival_mod INFO     ES.E0802..HHZ: found S pick
+2025-02-03 14:28:54,543 ssp_process_traces_mod INFO     ES.E0802..HHZ broadb: clipping score: 0.2%
+2025-02-03 14:28:54,776 ssp_process_traces_mod INFO     ES.E0802..HHZ broadb: S/N: 0.9
+2025-02-03 14:28:54,776 ssp_process_traces_mod WARNING  ES.E0802..HHZ broadb: S/N smaller than 1: skipping trace
+2025-02-03 14:28:54,802 ssp_wave_arrival_mod INFO     ES.EADA..HHE: found P pick
+2025-02-03 14:28:54,836 ssp_wave_arrival_mod INFO     ES.EADA..HHE: found S pick
+2025-02-03 14:28:54,916 ssp_process_traces_mod INFO     ES.EADA..HHE broadb: clipping score: 0.2%
+2025-02-03 14:28:55,152 ssp_process_traces_mod INFO     ES.EADA..HHE broadb: S/N: 57.9
+2025-02-03 14:28:55,183 ssp_wave_arrival_mod INFO     ES.EADA..HHN: found P pick
+2025-02-03 14:28:55,213 ssp_wave_arrival_mod INFO     ES.EADA..HHN: found S pick
+2025-02-03 14:28:55,291 ssp_process_traces_mod INFO     ES.EADA..HHN broadb: clipping score: 2.0%
+2025-02-03 14:28:55,507 ssp_process_traces_mod INFO     ES.EADA..HHN broadb: S/N: 59.1
+2025-02-03 14:28:55,533 ssp_wave_arrival_mod INFO     ES.EADA..HHZ: found P pick
+2025-02-03 14:28:55,634 ssp_wave_arrival_mod INFO     ES.EADA..HHZ: found S pick
+2025-02-03 14:28:55,727 ssp_process_traces_mod INFO     ES.EADA..HHZ broadb: clipping score: 1.3%
+2025-02-03 14:28:55,960 ssp_process_traces_mod INFO     ES.EADA..HHZ broadb: S/N: 59.5
+2025-02-03 14:28:55,984 ssp_wave_arrival_mod INFO     ES.EALB..HHE: found P pick
+2025-02-03 14:28:56,017 ssp_wave_arrival_mod INFO     ES.EALB..HHE: found S pick
+2025-02-03 14:28:56,124 ssp_process_traces_mod INFO     ES.EALB..HHE broadb: clipping score: 0.8%
+2025-02-03 14:28:56,416 ssp_process_traces_mod INFO     ES.EALB..HHE broadb: S/N: 2.2
+2025-02-03 14:28:56,442 ssp_wave_arrival_mod INFO     ES.EALB..HHN: found P pick
+2025-02-03 14:28:56,474 ssp_wave_arrival_mod INFO     ES.EALB..HHN: found S pick
+2025-02-03 14:28:56,571 ssp_process_traces_mod INFO     ES.EALB..HHN broadb: clipping score: 1.5%
+2025-02-03 14:28:56,812 ssp_process_traces_mod INFO     ES.EALB..HHN broadb: S/N: 4.9
+2025-02-03 14:28:56,838 ssp_wave_arrival_mod INFO     ES.EALB..HHZ: found P pick
+2025-02-03 14:28:56,874 ssp_wave_arrival_mod INFO     ES.EALB..HHZ: found S pick
+2025-02-03 14:28:56,979 ssp_process_traces_mod INFO     ES.EALB..HHZ broadb: clipping score: 4.0%
+2025-02-03 14:28:57,232 ssp_process_traces_mod INFO     ES.EALB..HHZ broadb: S/N: 1.1
+2025-02-03 14:28:57,253 ssp_wave_arrival_mod INFO     ES.EBER..HHE: found P pick
+2025-02-03 14:28:57,270 ssp_wave_arrival_mod INFO     ES.EBER..HHE: no S pick found
+2025-02-03 14:28:57,270 ssp_wave_arrival_mod INFO     ES.EBER..HHE: using theoretical S pick from global velocity model (iasp91)
+2025-02-03 14:28:57,382 ssp_process_traces_mod INFO     ES.EBER..HHE broadb: clipping score: 3.5%
+2025-02-03 14:28:57,592 ssp_process_traces_mod INFO     ES.EBER..HHE broadb: S/N: 24.9
+2025-02-03 14:28:57,613 ssp_wave_arrival_mod INFO     ES.EBER..HHN: found P pick
+2025-02-03 14:28:57,628 ssp_wave_arrival_mod INFO     ES.EBER..HHN: no S pick found
+2025-02-03 14:28:57,628 ssp_wave_arrival_mod INFO     ES.EBER..HHN: using theoretical S pick from global velocity model (iasp91)
+2025-02-03 14:28:57,731 ssp_process_traces_mod INFO     ES.EBER..HHN broadb: clipping score: 1.0%
+2025-02-03 14:28:57,945 ssp_process_traces_mod INFO     ES.EBER..HHN broadb: S/N: 24.7
+2025-02-03 14:28:57,967 ssp_wave_arrival_mod INFO     ES.EBER..HHZ: found P pick
+2025-02-03 14:28:57,982 ssp_wave_arrival_mod INFO     ES.EBER..HHZ: no S pick found
+2025-02-03 14:28:57,983 ssp_wave_arrival_mod INFO     ES.EBER..HHZ: using theoretical S pick from global velocity model (iasp91)
+2025-02-03 14:28:58,087 ssp_process_traces_mod INFO     ES.EBER..HHZ broadb: clipping score: 2.0%
+2025-02-03 14:28:58,282 ssp_process_traces_mod INFO     ES.EBER..HHZ broadb: S/N: 71.9
+2025-02-03 14:28:58,315 ssp_wave_arrival_mod INFO     ES.ECAB..HHE: found P pick
+2025-02-03 14:28:58,355 ssp_wave_arrival_mod INFO     ES.ECAB..HHE: found S pick
+2025-02-03 14:28:58,428 ssp_process_traces_mod INFO     ES.ECAB..HHE broadb: clipping score: 0.3%
+2025-02-03 14:28:58,678 ssp_process_traces_mod INFO     ES.ECAB..HHE broadb: S/N: 59.4
+2025-02-03 14:28:58,718 ssp_wave_arrival_mod INFO     ES.ECAB..HHN: found P pick
+2025-02-03 14:28:58,750 ssp_wave_arrival_mod INFO     ES.ECAB..HHN: found S pick
+2025-02-03 14:28:58,812 ssp_process_traces_mod INFO     ES.ECAB..HHN broadb: clipping score: 0.3%
+2025-02-03 14:28:59,025 ssp_process_traces_mod INFO     ES.ECAB..HHN broadb: S/N: 60.7
+2025-02-03 14:28:59,050 ssp_wave_arrival_mod INFO     ES.ECAB..HHZ: found P pick
+2025-02-03 14:28:59,083 ssp_wave_arrival_mod INFO     ES.ECAB..HHZ: found S pick
+2025-02-03 14:28:59,147 ssp_process_traces_mod INFO     ES.ECAB..HHZ broadb: clipping score: 0.3%
+2025-02-03 14:28:59,390 ssp_process_traces_mod INFO     ES.ECAB..HHZ broadb: S/N: 59.4
+2025-02-03 14:28:59,394 ssp_wave_arrival_mod INFO     ES.EGOR..HHE: found P pick
+2025-02-03 14:28:59,397 ssp_wave_arrival_mod INFO     ES.EGOR..HHE: found S pick
+2025-02-03 14:28:59,433 ssp_process_traces_mod INFO     ES.EGOR..HHE broadb: clipping score: 0.8%
+2025-02-03 14:28:59,657 ssp_process_traces_mod INFO     ES.EGOR..HHE broadb: S/N: 281.9
+2025-02-03 14:28:59,661 ssp_wave_arrival_mod INFO     ES.EGOR..HHN: found P pick
+2025-02-03 14:28:59,664 ssp_wave_arrival_mod INFO     ES.EGOR..HHN: found S pick
+2025-02-03 14:28:59,727 ssp_process_traces_mod INFO     ES.EGOR..HHN broadb: clipping score: 0.7%
+2025-02-03 14:28:59,920 ssp_process_traces_mod INFO     ES.EGOR..HHN broadb: S/N: 4.6
+2025-02-03 14:28:59,924 ssp_wave_arrival_mod INFO     ES.EGOR..HHZ: found P pick
+2025-02-03 14:28:59,927 ssp_wave_arrival_mod INFO     ES.EGOR..HHZ: found S pick
+2025-02-03 14:28:59,973 ssp_process_traces_mod INFO     ES.EGOR..HHZ broadb: clipping score: 5.1%
+2025-02-03 14:29:00,171 ssp_process_traces_mod INFO     ES.EGOR..HHZ broadb: S/N: 939.3
+2025-02-03 14:29:00,175 ssp_wave_arrival_mod INFO     ES.ELGU..HHE: found P pick
+2025-02-03 14:29:00,179 ssp_wave_arrival_mod INFO     ES.ELGU..HHE: found S pick
+2025-02-03 14:29:00,242 ssp_process_traces_mod INFO     ES.ELGU..HHE broadb: clipping score: 1.1%
+2025-02-03 14:29:00,460 ssp_process_traces_mod INFO     ES.ELGU..HHE broadb: S/N: 75.3
+2025-02-03 14:29:00,470 ssp_wave_arrival_mod INFO     ES.ELGU..HHN: found P pick
+2025-02-03 14:29:00,482 ssp_wave_arrival_mod INFO     ES.ELGU..HHN: found S pick
+2025-02-03 14:29:00,523 ssp_process_traces_mod INFO     ES.ELGU..HHN broadb: clipping score: 0.8%
+2025-02-03 14:29:00,730 ssp_process_traces_mod INFO     ES.ELGU..HHN broadb: S/N: 37.9
+2025-02-03 14:29:00,734 ssp_wave_arrival_mod INFO     ES.ELGU..HHZ: found P pick
+2025-02-03 14:29:00,737 ssp_wave_arrival_mod INFO     ES.ELGU..HHZ: found S pick
+2025-02-03 14:29:00,769 ssp_process_traces_mod INFO     ES.ELGU..HHZ broadb: clipping score: 1.0%
+2025-02-03 14:29:00,985 ssp_process_traces_mod INFO     ES.ELGU..HHZ broadb: S/N: 369.3
+2025-02-03 14:29:01,010 ssp_wave_arrival_mod INFO     ES.ELOR.00.HHE: found P pick
+2025-02-03 14:29:01,042 ssp_wave_arrival_mod INFO     ES.ELOR.00.HHE: found S pick
+2025-02-03 14:29:01,091 ssp_process_traces_mod INFO     ES.ELOR.00.HHE broadb: clipping score: 0.7%
+2025-02-03 14:29:01,346 ssp_process_traces_mod INFO     ES.ELOR.00.HHE broadb: S/N: 6.9
+2025-02-03 14:29:01,370 ssp_wave_arrival_mod INFO     ES.ELOR.00.HHN: found P pick
+2025-02-03 14:29:01,402 ssp_wave_arrival_mod INFO     ES.ELOR.00.HHN: found S pick
+2025-02-03 14:29:01,451 ssp_process_traces_mod INFO     ES.ELOR.00.HHN broadb: clipping score: 0.2%
+2025-02-03 14:29:01,663 ssp_process_traces_mod INFO     ES.ELOR.00.HHN broadb: S/N: 15.9
+2025-02-03 14:29:01,688 ssp_wave_arrival_mod INFO     ES.ELOR.00.HHZ: found P pick
+2025-02-03 14:29:01,730 ssp_wave_arrival_mod INFO     ES.ELOR.00.HHZ: found S pick
+2025-02-03 14:29:01,777 ssp_process_traces_mod INFO     ES.ELOR.00.HHZ broadb: clipping score: 1.7%
+2025-02-03 14:29:01,991 ssp_process_traces_mod INFO     ES.ELOR.00.HHZ broadb: S/N: 15.7
+2025-02-03 14:29:02,014 ssp_wave_arrival_mod INFO     ES.EMIJ..HHE: found P pick
+2025-02-03 14:29:02,039 ssp_wave_arrival_mod INFO     ES.EMIJ..HHE: found S pick
+2025-02-03 14:29:02,109 ssp_process_traces_mod INFO     ES.EMIJ..HHE broadb: clipping score: 2.2%
+2025-02-03 14:29:02,371 ssp_process_traces_mod INFO     ES.EMIJ..HHE broadb: S/N: 52.6
+2025-02-03 14:29:02,395 ssp_wave_arrival_mod INFO     ES.EMIJ..HHN: found P pick
+2025-02-03 14:29:02,421 ssp_wave_arrival_mod INFO     ES.EMIJ..HHN: found S pick
+2025-02-03 14:29:02,512 ssp_process_traces_mod INFO     ES.EMIJ..HHN broadb: clipping score: 3.2%
+2025-02-03 14:29:02,736 ssp_process_traces_mod INFO     ES.EMIJ..HHN broadb: S/N: 98.2
+2025-02-03 14:29:02,758 ssp_wave_arrival_mod INFO     ES.EMIJ..HHZ: found P pick
+2025-02-03 14:29:02,783 ssp_wave_arrival_mod INFO     ES.EMIJ..HHZ: found S pick
+2025-02-03 14:29:02,850 ssp_process_traces_mod INFO     ES.EMIJ..HHZ broadb: clipping score: 0.9%
+2025-02-03 14:29:03,088 ssp_process_traces_mod INFO     ES.EMIJ..HHZ broadb: S/N: 85.7
+2025-02-03 14:29:03,118 ssp_wave_arrival_mod INFO     ES.EMIN..HHN: found P pick
+2025-02-03 14:29:03,145 ssp_wave_arrival_mod INFO     ES.EMIN..HHN: found S pick
+2025-02-03 14:29:03,241 ssp_process_traces_mod INFO     ES.EMIN..HHN broadb: clipping score: 0.7%
+2025-02-03 14:29:03,405 ssp_process_traces_mod INFO     ES.EMIN..HHN broadb: S/N: 12.3
+2025-02-03 14:29:03,435 ssp_wave_arrival_mod INFO     ES.EMIN..HHZ: found P pick
+2025-02-03 14:29:03,487 ssp_wave_arrival_mod INFO     ES.EMIN..HHZ: found S pick
+2025-02-03 14:29:03,664 ssp_process_traces_mod INFO     ES.EMIN..HHZ broadb: clipping score: 2.3%
+2025-02-03 14:29:03,843 ssp_process_traces_mod INFO     ES.EMIN..HHZ broadb: S/N: 20.6
+2025-02-03 14:29:03,875 ssp_wave_arrival_mod INFO     ES.EMLI..HHN: no P pick found
+2025-02-03 14:29:03,875 ssp_wave_arrival_mod INFO     ES.EMLI..HHN: using theoretical P pick from global velocity model (iasp91)
+2025-02-03 14:29:03,914 ssp_wave_arrival_mod INFO     ES.EMLI..HHN: no S pick found
+2025-02-03 14:29:03,914 ssp_wave_arrival_mod INFO     ES.EMLI..HHN: using theoretical S pick from global velocity model (iasp91)
+2025-02-03 14:29:04,138 ssp_process_traces_mod INFO     ES.EMLI..HHN broadb: clipping score: 6.0%
+2025-02-03 14:29:04,610 ssp_process_traces_mod INFO     ES.EMLI..HHN broadb: S/N: 0.9
+2025-02-03 14:29:04,610 ssp_process_traces_mod WARNING  ES.EMLI..HHN broadb: S/N smaller than 1: skipping trace
+2025-02-03 14:29:04,640 ssp_wave_arrival_mod INFO     ES.EMUR..HHE: found P pick
+2025-02-03 14:29:04,669 ssp_wave_arrival_mod INFO     ES.EMUR..HHE: no S pick found
+2025-02-03 14:29:04,669 ssp_wave_arrival_mod INFO     ES.EMUR..HHE: using theoretical S pick from global velocity model (iasp91)
+2025-02-03 14:29:04,796 ssp_process_traces_mod INFO     ES.EMUR..HHE broadb: clipping score: 2.6%
+2025-02-03 14:29:04,987 ssp_process_traces_mod INFO     ES.EMUR..HHE broadb: S/N: 9.8
+2025-02-03 14:29:05,017 ssp_wave_arrival_mod INFO     ES.EMUR..HHN: found P pick
+2025-02-03 14:29:05,047 ssp_wave_arrival_mod INFO     ES.EMUR..HHN: no S pick found
+2025-02-03 14:29:05,047 ssp_wave_arrival_mod INFO     ES.EMUR..HHN: using theoretical S pick from global velocity model (iasp91)
+2025-02-03 14:29:05,147 ssp_process_traces_mod INFO     ES.EMUR..HHN broadb: clipping score: 1.8%
+2025-02-03 14:29:05,345 ssp_process_traces_mod INFO     ES.EMUR..HHN broadb: S/N: 8.3
+2025-02-03 14:29:05,374 ssp_wave_arrival_mod INFO     ES.EMUR..HHZ: found P pick
+2025-02-03 14:29:05,404 ssp_wave_arrival_mod INFO     ES.EMUR..HHZ: no S pick found
+2025-02-03 14:29:05,404 ssp_wave_arrival_mod INFO     ES.EMUR..HHZ: using theoretical S pick from global velocity model (iasp91)
+2025-02-03 14:29:05,521 ssp_process_traces_mod INFO     ES.EMUR..HHZ broadb: clipping score: 4.0%
+2025-02-03 14:29:05,715 ssp_process_traces_mod INFO     ES.EMUR..HHZ broadb: S/N: 4.2
+2025-02-03 14:29:05,740 ssp_wave_arrival_mod INFO     ES.ENIJ..HHZ: no P pick found
+2025-02-03 14:29:05,740 ssp_wave_arrival_mod INFO     ES.ENIJ..HHZ: using theoretical P pick from global velocity model (iasp91)
+2025-02-03 14:29:05,768 ssp_wave_arrival_mod INFO     ES.ENIJ..HHZ: found S pick
+2025-02-03 14:29:05,845 ssp_process_traces_mod INFO     ES.ENIJ..HHZ broadb: clipping score: 1.3%
+2025-02-03 14:29:06,023 ssp_process_traces_mod INFO     ES.ENIJ..HHZ broadb: S/N: 52.9
+2025-02-03 14:29:06,026 ssp_wave_arrival_mod INFO     ES.EQTA..HHE: found P pick
+2025-02-03 14:29:06,030 ssp_wave_arrival_mod INFO     ES.EQTA..HHE: found S pick
+2025-02-03 14:29:06,108 ssp_process_traces_mod INFO     ES.EQTA..HHE broadb: clipping score: 0.7%
+2025-02-03 14:29:06,321 ssp_process_traces_mod INFO     ES.EQTA..HHE broadb: S/N: 854.1
+2025-02-03 14:29:06,325 ssp_wave_arrival_mod INFO     ES.EQTA..HHN: found P pick
+2025-02-03 14:29:06,328 ssp_wave_arrival_mod INFO     ES.EQTA..HHN: found S pick
+2025-02-03 14:29:06,406 ssp_process_traces_mod INFO     ES.EQTA..HHN broadb: clipping score: 0.2%
+2025-02-03 14:29:06,600 ssp_process_traces_mod INFO     ES.EQTA..HHN broadb: S/N: 98.5
+2025-02-03 14:29:06,604 ssp_wave_arrival_mod INFO     ES.EQTA..HHZ: found P pick
+2025-02-03 14:29:06,607 ssp_wave_arrival_mod INFO     ES.EQTA..HHZ: found S pick
+2025-02-03 14:29:06,686 ssp_process_traces_mod INFO     ES.EQTA..HHZ broadb: clipping score: 0.3%
+2025-02-03 14:29:06,890 ssp_process_traces_mod INFO     ES.EQTA..HHZ broadb: S/N: 210.4
+2025-02-03 14:29:06,917 ssp_wave_arrival_mod INFO     ES.ESPR..HHE: found P pick
+2025-02-03 14:29:06,971 ssp_wave_arrival_mod INFO     ES.ESPR..HHE: found S pick
+2025-02-03 14:29:07,091 ssp_process_traces_mod INFO     ES.ESPR..HHE broadb: clipping score: 2.5%
+2025-02-03 14:29:07,292 ssp_process_traces_mod INFO     ES.ESPR..HHE broadb: S/N: 63.2
+2025-02-03 14:29:07,317 ssp_wave_arrival_mod INFO     ES.ESPR..HHN: found P pick
+2025-02-03 14:29:07,352 ssp_wave_arrival_mod INFO     ES.ESPR..HHN: found S pick
+2025-02-03 14:29:07,484 ssp_process_traces_mod INFO     ES.ESPR..HHN broadb: clipping score: 1.2%
+2025-02-03 14:29:07,670 ssp_process_traces_mod INFO     ES.ESPR..HHN broadb: S/N: 27.2
+2025-02-03 14:29:07,704 ssp_wave_arrival_mod INFO     ES.ESPR..HHZ: found P pick
+2025-02-03 14:29:07,750 ssp_wave_arrival_mod INFO     ES.ESPR..HHZ: found S pick
+2025-02-03 14:29:07,875 ssp_process_traces_mod INFO     ES.ESPR..HHZ broadb: clipping score: 2.1%
+2025-02-03 14:29:08,086 ssp_process_traces_mod INFO     ES.ESPR..HHZ broadb: S/N: 25.0
+2025-02-03 14:29:08,117 ssp_wave_arrival_mod INFO     ES.ETOB..HHE: found P pick
+2025-02-03 14:29:08,150 ssp_wave_arrival_mod INFO     ES.ETOB..HHE: no S pick found
+2025-02-03 14:29:08,150 ssp_wave_arrival_mod INFO     ES.ETOB..HHE: using theoretical S pick from global velocity model (iasp91)
+2025-02-03 14:29:08,243 ssp_process_traces_mod INFO     ES.ETOB..HHE broadb: clipping score: 0.8%
+2025-02-03 14:29:08,480 ssp_process_traces_mod INFO     ES.ETOB..HHE broadb: S/N: 9.8
+2025-02-03 14:29:08,511 ssp_wave_arrival_mod INFO     ES.ETOB..HHN: found P pick
+2025-02-03 14:29:08,544 ssp_wave_arrival_mod INFO     ES.ETOB..HHN: no S pick found
+2025-02-03 14:29:08,544 ssp_wave_arrival_mod INFO     ES.ETOB..HHN: using theoretical S pick from global velocity model (iasp91)
+2025-02-03 14:29:08,615 ssp_process_traces_mod INFO     ES.ETOB..HHN broadb: clipping score: 10.4%
+2025-02-03 14:29:08,615 ssp_process_traces_mod WARNING  ES.ETOB..HHN broadb: Trace is clipped or significantly distorted: skipping trace
+2025-02-03 14:29:08,863 ssp_process_traces_mod INFO     ES.ETOB..HHN broadb: S/N: 3.2
+2025-02-03 14:29:08,894 ssp_wave_arrival_mod INFO     ES.ETOB..HHZ: found P pick
+2025-02-03 14:29:08,929 ssp_wave_arrival_mod INFO     ES.ETOB..HHZ: no S pick found
+2025-02-03 14:29:08,953 ssp_wave_arrival_mod INFO     ES.ETOB..HHZ: using theoretical S pick from global velocity model (iasp91)
+2025-02-03 14:29:09,045 ssp_process_traces_mod INFO     ES.ETOB..HHZ broadb: clipping score: 2.5%
+2025-02-03 14:29:09,269 ssp_process_traces_mod INFO     ES.ETOB..HHZ broadb: S/N: 4.5
+2025-02-03 14:29:09,295 ssp_wave_arrival_mod INFO     ES.EZAR..HHE: found P pick
+2025-02-03 14:29:09,332 ssp_wave_arrival_mod INFO     ES.EZAR..HHE: found S pick
+2025-02-03 14:29:09,376 ssp_process_traces_mod INFO     ES.EZAR..HHE broadb: clipping score: 1.9%
+2025-02-03 14:29:09,613 ssp_process_traces_mod INFO     ES.EZAR..HHE broadb: S/N: 27.2
+2025-02-03 14:29:09,638 ssp_wave_arrival_mod INFO     ES.EZAR..HHN: found P pick
+2025-02-03 14:29:09,669 ssp_wave_arrival_mod INFO     ES.EZAR..HHN: found S pick
+2025-02-03 14:29:09,742 ssp_process_traces_mod INFO     ES.EZAR..HHN broadb: clipping score: 1.4%
+2025-02-03 14:29:09,966 ssp_process_traces_mod INFO     ES.EZAR..HHN broadb: S/N: 31.1
+2025-02-03 14:29:10,002 ssp_wave_arrival_mod INFO     ES.EZAR..HHZ: found P pick
+2025-02-03 14:29:10,033 ssp_wave_arrival_mod INFO     ES.EZAR..HHZ: found S pick
+2025-02-03 14:29:10,069 ssp_process_traces_mod INFO     ES.EZAR..HHZ broadb: clipping score: 2.6%
+2025-02-03 14:29:10,269 ssp_process_traces_mod INFO     ES.EZAR..HHZ broadb: S/N: 21.9
+2025-02-03 14:29:10,294 ssp_wave_arrival_mod INFO     ES.TLOR..HHE: found P pick
+2025-02-03 14:29:10,326 ssp_wave_arrival_mod INFO     ES.TLOR..HHE: found S pick
+2025-02-03 14:29:10,364 ssp_process_traces_mod INFO     ES.TLOR..HHE broadb: clipping score: 1.2%
+2025-02-03 14:29:10,588 ssp_process_traces_mod INFO     ES.TLOR..HHE broadb: S/N: 5.8
+2025-02-03 14:29:10,612 ssp_wave_arrival_mod INFO     ES.TLOR..HHN: found P pick
+2025-02-03 14:29:10,645 ssp_wave_arrival_mod INFO     ES.TLOR..HHN: found S pick
+2025-02-03 14:29:10,682 ssp_process_traces_mod INFO     ES.TLOR..HHN broadb: clipping score: 1.6%
+2025-02-03 14:29:10,899 ssp_process_traces_mod INFO     ES.TLOR..HHN broadb: S/N: 3.4
+2025-02-03 14:29:10,924 ssp_wave_arrival_mod INFO     ES.TLOR..HHZ: found P pick
+2025-02-03 14:29:10,972 ssp_wave_arrival_mod INFO     ES.TLOR..HHZ: found S pick
+2025-02-03 14:29:11,011 ssp_process_traces_mod INFO     ES.TLOR..HHZ broadb: clipping score: 1.9%
+2025-02-03 14:29:11,226 ssp_process_traces_mod INFO     ES.TLOR..HHZ broadb: S/N: 0.7
+2025-02-03 14:29:11,226 ssp_process_traces_mod WARNING  ES.TLOR..HHZ broadb: S/N smaller than 1: skipping trace
+2025-02-03 14:29:11,229 ssp_wave_arrival_mod INFO     ES.UMV15..EHE: found P pick
+2025-02-03 14:29:11,232 ssp_wave_arrival_mod INFO     ES.UMV15..EHE: found S pick
+2025-02-03 14:29:11,253 ssp_process_traces_mod INFO     ES.UMV15..EHE shortp: clipping score: 9.9%
+2025-02-03 14:29:11,491 ssp_process_traces_mod INFO     ES.UMV15..EHE shortp: S/N: 2.6
+2025-02-03 14:29:11,494 ssp_wave_arrival_mod INFO     ES.UMV15..EHN: found P pick
+2025-02-03 14:29:11,497 ssp_wave_arrival_mod INFO     ES.UMV15..EHN: found S pick
+2025-02-03 14:29:11,518 ssp_process_traces_mod INFO     ES.UMV15..EHN shortp: clipping score: 3.9%
+2025-02-03 14:29:11,726 ssp_process_traces_mod INFO     ES.UMV15..EHN shortp: S/N: 3.2
+2025-02-03 14:29:11,730 ssp_wave_arrival_mod INFO     ES.UMV15..EHZ: found P pick
+2025-02-03 14:29:11,733 ssp_wave_arrival_mod INFO     ES.UMV15..EHZ: found S pick
+2025-02-03 14:29:11,754 ssp_process_traces_mod INFO     ES.UMV15..EHZ shortp: clipping score: 0.2%
+2025-02-03 14:29:11,966 ssp_process_traces_mod INFO     ES.UMV15..EHZ shortp: S/N: 76.1
+2025-02-03 14:29:11,967 ssp_process_traces_mod INFO     Processing traces: done
+2025-02-03 14:29:11,967 ssp_build_spectra    INFO     Building spectra...
+2025-02-03 14:29:14,336 ssp_build_spectra    INFO     ES.E0802..HHE: spectral S/N: 219.78
+2025-02-03 14:29:14,340 ssp_build_spectra    INFO     ES.E0802..HHN: spectral S/N: 196.58
+2025-02-03 14:29:14,343 ssp_build_spectra    INFO     ES.EADA..HHE: spectral S/N: 701.90
+2025-02-03 14:29:14,346 ssp_build_spectra    INFO     ES.EADA..HHN: spectral S/N: 704.70
+2025-02-03 14:29:14,349 ssp_build_spectra    INFO     ES.EADA..HHZ: spectral S/N: 621.81
+2025-02-03 14:29:14,352 ssp_build_spectra    INFO     ES.EALB..HHE: spectral S/N: 17.89
+2025-02-03 14:29:14,355 ssp_build_spectra    INFO     ES.EALB..HHN: spectral S/N: 9.68
+2025-02-03 14:29:14,356 ssp_build_spectra    WARNING  ES.EALB..HHN: spectral S/N smaller than 10.00: ignoring spectrum
+2025-02-03 14:29:14,357 ssp_build_spectra    INFO     ES.EALB..HHZ: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:29:14,359 ssp_build_spectra    INFO     ES.EALB..HHZ: spectral S/N: 7.72
+2025-02-03 14:29:14,359 ssp_build_spectra    WARNING  ES.EALB..HHZ: spectral S/N smaller than 10.00: ignoring spectrum
+2025-02-03 14:29:14,362 ssp_build_spectra    INFO     ES.EBER..HHE: spectral S/N: 396.67
+2025-02-03 14:29:14,366 ssp_build_spectra    INFO     ES.EBER..HHN: spectral S/N: 406.14
+2025-02-03 14:29:14,369 ssp_build_spectra    INFO     ES.EBER..HHZ: spectral S/N: 436.60
+2025-02-03 14:29:14,372 ssp_build_spectra    INFO     ES.ECAB..HHE: spectral S/N: 396.09
+2025-02-03 14:29:14,375 ssp_build_spectra    INFO     ES.ECAB..HHN: spectral S/N: 368.07
+2025-02-03 14:29:14,378 ssp_build_spectra    INFO     ES.ECAB..HHZ: spectral S/N: 351.96
+2025-02-03 14:29:14,382 ssp_build_spectra    INFO     ES.EGOR..HHE: spectral S/N: 5447.67
+2025-02-03 14:29:14,385 ssp_build_spectra    INFO     ES.EGOR..HHN: spectral S/N: 1148.21
+2025-02-03 14:29:14,388 ssp_build_spectra    INFO     ES.EGOR..HHZ: spectral S/N: 5231.38
+2025-02-03 14:29:14,391 ssp_build_spectra    INFO     ES.ELGU..HHE: spectral S/N: 4292.14
+2025-02-03 14:29:14,394 ssp_build_spectra    INFO     ES.ELGU..HHN: spectral S/N: 4122.07
+2025-02-03 14:29:14,397 ssp_build_spectra    INFO     ES.ELGU..HHZ: spectral S/N: 5156.15
+2025-02-03 14:29:14,401 ssp_build_spectra    INFO     ES.ELOR.00.HHE: spectral S/N: 14.41
+2025-02-03 14:29:14,404 ssp_build_spectra    INFO     ES.ELOR.00.HHN: spectral S/N: 14.22
+2025-02-03 14:29:14,407 ssp_build_spectra    INFO     ES.ELOR.00.HHZ: spectral S/N: 13.14
+2025-02-03 14:29:14,410 ssp_build_spectra    INFO     ES.EMIJ..HHE: spectral S/N: 240.36
+2025-02-03 14:29:14,414 ssp_build_spectra    INFO     ES.EMIJ..HHN: spectral S/N: 289.38
+2025-02-03 14:29:14,417 ssp_build_spectra    INFO     ES.EMIJ..HHZ: spectral S/N: 236.55
+2025-02-03 14:29:14,420 ssp_build_spectra    INFO     ES.EMIN..HHN: spectral S/N: 146.05
+2025-02-03 14:29:14,423 ssp_build_spectra    INFO     ES.EMIN..HHZ: spectral S/N: 119.43
+2025-02-03 14:29:14,426 ssp_build_spectra    INFO     ES.EMUR..HHE: spectral S/N: 31.28
+2025-02-03 14:29:14,429 ssp_build_spectra    INFO     ES.EMUR..HHN: spectral S/N: 32.05
+2025-02-03 14:29:14,433 ssp_build_spectra    INFO     ES.EMUR..HHZ: spectral S/N: 32.72
+2025-02-03 14:29:14,436 ssp_build_spectra    INFO     ES.ENIJ..HHZ: spectral S/N: 68.41
+2025-02-03 14:29:14,439 ssp_build_spectra    INFO     ES.EQTA..HHE: spectral S/N: 7060.71
+2025-02-03 14:29:14,442 ssp_build_spectra    INFO     ES.EQTA..HHN: spectral S/N: 6817.21
+2025-02-03 14:29:14,445 ssp_build_spectra    INFO     ES.EQTA..HHZ: spectral S/N: 7576.63
+2025-02-03 14:29:14,448 ssp_build_spectra    INFO     ES.ESPR..HHE: spectral S/N: 179.51
+2025-02-03 14:29:14,451 ssp_build_spectra    INFO     ES.ESPR..HHN: spectral S/N: 172.72
+2025-02-03 14:29:14,455 ssp_build_spectra    INFO     ES.ESPR..HHZ: spectral S/N: 102.00
+2025-02-03 14:29:14,458 ssp_build_spectra    INFO     ES.ETOB..HHE: spectral S/N: 125.34
+2025-02-03 14:29:14,461 ssp_build_spectra    INFO     ES.ETOB..HHZ: spectral S/N: 134.24
+2025-02-03 14:29:14,461 ssp_build_spectra    INFO     ES.EZAR..HHE: Vs_hypo: 2.90 km/s, Vs_station: 2.50 km/s
+2025-02-03 14:29:14,464 ssp_build_spectra    INFO     ES.EZAR..HHE: spectral S/N: 110.53
+2025-02-03 14:29:14,467 ssp_build_spectra    INFO     ES.EZAR..HHN: spectral S/N: 133.38
+2025-02-03 14:29:14,470 ssp_build_spectra    INFO     ES.EZAR..HHZ: spectral S/N: 83.12
+2025-02-03 14:29:14,473 ssp_build_spectra    INFO     ES.TLOR..HHE: spectral S/N: 19.63
+2025-02-03 14:29:14,476 ssp_build_spectra    INFO     ES.TLOR..HHN: spectral S/N: 19.54
+2025-02-03 14:29:14,480 ssp_build_spectra    INFO     ES.UMV15..EHE: spectral S/N: 88.00
+2025-02-03 14:29:14,483 ssp_build_spectra    INFO     ES.UMV15..EHN: spectral S/N: 1386.11
+2025-02-03 14:29:14,486 ssp_build_spectra    INFO     ES.UMV15..EHZ: spectral S/N: 10859.77
+2025-02-03 14:29:14,522 ssp_build_spectra    INFO     Building spectra: done
+2025-02-03 14:29:23,889 ssp_plot_traces      INFO     Trace plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/9524dd9e-2967-42d6-ad48-09096e25a3e6.traces.00.png
+2025-02-03 14:29:23,889 ssp_plot_traces      INFO     Trace plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/9524dd9e-2967-42d6-ad48-09096e25a3e6.traces.01.png
+2025-02-03 14:29:23,889 ssp_inversion        INFO     Inverting spectra...
+2025-02-03 14:29:23,889 ssp_inversion        INFO     Using noise weighting for inversion.
+2025-02-03 14:29:23,889 ssp_inversion        INFO     Using grid search for inversion.
+2025-02-03 14:29:23,891 ssp_inversion        INFO     ES.E0802..HHH broadb: initial values: Mw_0: 3.2526; fc_0: 3.6272; t_star_0: 0.045
+2025-02-03 14:29:23,891 ssp_inversion        INFO     ES.E0802..HHH broadb: bounds: Mw: 2.8012, 3.7934; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:29:36,400 ssp_grid_sampling    INFO     ES.E0802..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.cond_misfit_ES.E0802..HHH_broadb.png
+2025-02-03 14:29:37,092 ssp_grid_sampling    INFO     ES.E0802..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-t_star_ES.E0802..HHH_broadb.png
+2025-02-03 14:29:37,711 ssp_grid_sampling    INFO     ES.E0802..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-Mw_ES.E0802..HHH_broadb.png
+2025-02-03 14:29:38,205 ssp_grid_sampling    INFO     ES.E0802..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_t_star-Mw_ES.E0802..HHH_broadb.png
+2025-02-03 14:29:38,205 ssp_inversion        INFO     ES.E0802..HHH broadb: optimal values: Mw: 3.6368; fc: 2.1372; t_star: 0.0317
+2025-02-03 14:29:38,205 ssp_inversion        INFO     ES.E0802..HHH broadb: misfit: 0.113
+2025-02-03 14:29:38,207 ssp_inversion        INFO     ES.EADA..HHH broadb: initial values: Mw_0: 3.468; fc_0: 3.6272; t_star_0: 0.045
+2025-02-03 14:29:38,207 ssp_inversion        INFO     ES.EADA..HHH broadb: bounds: Mw: 2.9133, 3.9808; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:29:50,727 ssp_grid_sampling    INFO     ES.EADA..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.cond_misfit_ES.EADA..HHH_broadb.png
+2025-02-03 14:29:51,421 ssp_grid_sampling    INFO     ES.EADA..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-t_star_ES.EADA..HHH_broadb.png
+2025-02-03 14:29:52,063 ssp_grid_sampling    INFO     ES.EADA..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-Mw_ES.EADA..HHH_broadb.png
+2025-02-03 14:29:52,611 ssp_grid_sampling    INFO     ES.EADA..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_t_star-Mw_ES.EADA..HHH_broadb.png
+2025-02-03 14:29:52,611 ssp_inversion        INFO     ES.EADA..HHH broadb: optimal values: Mw: 3.6437; fc: 3.0968; t_star: 0.0544
+2025-02-03 14:29:52,611 ssp_inversion        INFO     ES.EADA..HHH broadb: misfit: 0.045
+2025-02-03 14:29:52,612 ssp_inversion        INFO     ES.EALB..HHH broadb: initial values: Mw_0: 3.3026; fc_0: 1.7361; t_star_0: 0.045
+2025-02-03 14:29:52,612 ssp_inversion        INFO     ES.EALB..HHH broadb: bounds: Mw: 2.9368, 3.6775; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:30:05,308 ssp_grid_sampling    INFO     ES.EALB..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.cond_misfit_ES.EALB..HHH_broadb.png
+2025-02-03 14:30:05,985 ssp_grid_sampling    INFO     ES.EALB..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-t_star_ES.EALB..HHH_broadb.png
+2025-02-03 14:30:06,610 ssp_grid_sampling    INFO     ES.EALB..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-Mw_ES.EALB..HHH_broadb.png
+2025-02-03 14:30:07,121 ssp_grid_sampling    INFO     ES.EALB..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_t_star-Mw_ES.EALB..HHH_broadb.png
+2025-02-03 14:30:07,122 ssp_inversion        INFO     ES.EALB..HHH broadb: optimal values: Mw: 3.4826; fc: 1.4081; t_star: 0.0718
+2025-02-03 14:30:07,122 ssp_inversion        INFO     ES.EALB..HHH broadb: misfit: 0.094
+2025-02-03 14:30:07,123 ssp_inversion        INFO     ES.EBER..HHH broadb: initial values: Mw_0: 3.3324; fc_0: 3.0169; t_star_0: 0.045
+2025-02-03 14:30:07,123 ssp_inversion        INFO     ES.EBER..HHH broadb: bounds: Mw: 2.8185, 3.8591; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:30:19,613 ssp_grid_sampling    INFO     ES.EBER..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.cond_misfit_ES.EBER..HHH_broadb.png
+2025-02-03 14:30:20,581 ssp_grid_sampling    INFO     ES.EBER..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-t_star_ES.EBER..HHH_broadb.png
+2025-02-03 14:30:21,197 ssp_grid_sampling    INFO     ES.EBER..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-Mw_ES.EBER..HHH_broadb.png
+2025-02-03 14:30:21,698 ssp_grid_sampling    INFO     ES.EBER..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_t_star-Mw_ES.EBER..HHH_broadb.png
+2025-02-03 14:30:21,699 ssp_inversion        INFO     ES.EBER..HHH broadb: optimal values: Mw: 3.6400; fc: 1.5449; t_star: 0.0598
+2025-02-03 14:30:21,699 ssp_inversion        INFO     ES.EBER..HHH broadb: misfit: 0.062
+2025-02-03 14:30:21,700 ssp_inversion        INFO     ES.ECAB..HHH broadb: initial values: Mw_0: 3.5278; fc_0: 2.7515; t_star_0: 0.045
+2025-02-03 14:30:21,700 ssp_inversion        INFO     ES.ECAB..HHH broadb: bounds: Mw: 3.1, 3.9606; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:30:34,194 ssp_grid_sampling    INFO     ES.ECAB..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.cond_misfit_ES.ECAB..HHH_broadb.png
+2025-02-03 14:30:34,898 ssp_grid_sampling    INFO     ES.ECAB..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-t_star_ES.ECAB..HHH_broadb.png
+2025-02-03 14:30:35,542 ssp_grid_sampling    INFO     ES.ECAB..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-Mw_ES.ECAB..HHH_broadb.png
+2025-02-03 14:30:36,070 ssp_grid_sampling    INFO     ES.ECAB..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_t_star-Mw_ES.ECAB..HHH_broadb.png
+2025-02-03 14:30:36,070 ssp_inversion        INFO     ES.ECAB..HHH broadb: optimal values: Mw: 3.6889; fc: 2.2386; t_star: 0.0664
+2025-02-03 14:30:36,070 ssp_inversion        INFO     ES.ECAB..HHH broadb: misfit: 0.129
+2025-02-03 14:30:36,071 ssp_inversion        INFO     ES.EGOR..HHH broadb: initial values: Mw_0: 3.6258; fc_0: 3.6272; t_star_0: 0.045
+2025-02-03 14:30:36,071 ssp_inversion        INFO     ES.EGOR..HHH broadb: bounds: Mw: 3.2253, 4.019; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:30:48,530 ssp_grid_sampling    INFO     ES.EGOR..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.cond_misfit_ES.EGOR..HHH_broadb.png
+2025-02-03 14:30:49,203 ssp_grid_sampling    INFO     ES.EGOR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-t_star_ES.EGOR..HHH_broadb.png
+2025-02-03 14:30:49,853 ssp_grid_sampling    INFO     ES.EGOR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-Mw_ES.EGOR..HHH_broadb.png
+2025-02-03 14:30:50,368 ssp_grid_sampling    INFO     ES.EGOR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_t_star-Mw_ES.EGOR..HHH_broadb.png
+2025-02-03 14:30:50,368 ssp_inversion        INFO     ES.EGOR..HHH broadb: optimal values: Mw: 3.8937; fc: 2.5726; t_star: 0.0624
+2025-02-03 14:30:50,368 ssp_inversion        INFO     ES.EGOR..HHH broadb: misfit: 0.107
+2025-02-03 14:30:50,369 ssp_inversion        INFO     ES.ELGU..HHH broadb: initial values: Mw_0: 3.6565; fc_0: 2.2886; t_star_0: 0.045
+2025-02-03 14:30:50,369 ssp_inversion        INFO     ES.ELGU..HHH broadb: bounds: Mw: 3.1474, 4.1859; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:31:02,842 ssp_grid_sampling    INFO     ES.ELGU..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.cond_misfit_ES.ELGU..HHH_broadb.png
+2025-02-03 14:31:03,518 ssp_grid_sampling    INFO     ES.ELGU..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-t_star_ES.ELGU..HHH_broadb.png
+2025-02-03 14:31:04,141 ssp_grid_sampling    INFO     ES.ELGU..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-Mw_ES.ELGU..HHH_broadb.png
+2025-02-03 14:31:04,656 ssp_grid_sampling    INFO     ES.ELGU..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_t_star-Mw_ES.ELGU..HHH_broadb.png
+2025-02-03 14:31:04,656 ssp_inversion        INFO     ES.ELGU..HHH broadb: optimal values: Mw: 3.7486; fc: 3.0968; t_star: 0.0357
+2025-02-03 14:31:04,656 ssp_inversion        INFO     ES.ELGU..HHH broadb: misfit: 0.068
+2025-02-03 14:31:04,657 ssp_inversion        INFO     ES.ELOR.00.HHH broadb: initial values: Mw_0: 3.8782; fc_0: 0.7578; t_star_0: 0.045
+2025-02-03 14:31:04,657 ssp_inversion        INFO     ES.ELOR.00.HHH broadb: bounds: Mw: 3.4616, 4.3272; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:31:17,341 ssp_grid_sampling    INFO     ES.ELOR.00.HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.cond_misfit_ES.ELOR.00.HHH_broadb.png
+2025-02-03 14:31:18,016 ssp_grid_sampling    INFO     ES.ELOR.00.HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-t_star_ES.ELOR.00.HHH_broadb.png
+2025-02-03 14:31:18,652 ssp_grid_sampling    INFO     ES.ELOR.00.HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-Mw_ES.ELOR.00.HHH_broadb.png
+2025-02-03 14:31:19,177 ssp_grid_sampling    INFO     ES.ELOR.00.HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_t_star-Mw_ES.ELOR.00.HHH_broadb.png
+2025-02-03 14:31:19,177 ssp_inversion        INFO     ES.ELOR.00.HHH broadb: optimal values: Mw: 4.1450; fc: 0.4628; t_star: 0.0371
+2025-02-03 14:31:19,177 ssp_inversion        INFO     ES.ELOR.00.HHH broadb: misfit: 0.053
+2025-02-03 14:31:19,178 ssp_inversion        INFO     ES.EMIJ..HHH broadb: initial values: Mw_0: 3.4988; fc_0: 3.308; t_star_0: 0.045
+2025-02-03 14:31:19,179 ssp_inversion        INFO     ES.EMIJ..HHH broadb: bounds: Mw: 2.9208, 4.0004; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:31:31,993 ssp_grid_sampling    INFO     ES.EMIJ..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.cond_misfit_ES.EMIJ..HHH_broadb.png
+2025-02-03 14:31:32,660 ssp_grid_sampling    INFO     ES.EMIJ..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-t_star_ES.EMIJ..HHH_broadb.png
+2025-02-03 14:31:33,270 ssp_grid_sampling    INFO     ES.EMIJ..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-Mw_ES.EMIJ..HHH_broadb.png
+2025-02-03 14:31:33,770 ssp_grid_sampling    INFO     ES.EMIJ..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_t_star-Mw_ES.EMIJ..HHH_broadb.png
+2025-02-03 14:31:33,770 ssp_inversion        INFO     ES.EMIJ..HHH broadb: optimal values: Mw: 3.7731; fc: 1.7754; t_star: 0.0851
+2025-02-03 14:31:33,770 ssp_inversion        INFO     ES.EMIJ..HHH broadb: misfit: 0.095
+2025-02-03 14:31:33,771 ssp_inversion        INFO     ES.EMIN..HHH broadb: initial values: Mw_0: 3.322; fc_0: 2.7515; t_star_0: 0.045
+2025-02-03 14:31:33,771 ssp_inversion        INFO     ES.EMIN..HHH broadb: bounds: Mw: 2.8432, 3.8081; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:31:46,474 ssp_grid_sampling    INFO     ES.EMIN..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.cond_misfit_ES.EMIN..HHH_broadb.png
+2025-02-03 14:31:47,179 ssp_grid_sampling    INFO     ES.EMIN..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-t_star_ES.EMIN..HHH_broadb.png
+2025-02-03 14:31:47,816 ssp_grid_sampling    INFO     ES.EMIN..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-Mw_ES.EMIN..HHH_broadb.png
+2025-02-03 14:31:48,339 ssp_grid_sampling    INFO     ES.EMIN..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_t_star-Mw_ES.EMIN..HHH_broadb.png
+2025-02-03 14:31:48,341 ssp_inversion        INFO     ES.EMIN..HHH broadb: optimal values: Mw: 3.5034; fc: 2.0404; t_star: 0.0691
+2025-02-03 14:31:48,341 ssp_inversion        INFO     ES.EMIN..HHH broadb: misfit: 0.038
+2025-02-03 14:31:48,342 ssp_inversion        INFO     ES.EMUR..HHH broadb: initial values: Mw_0: 3.4337; fc_0: 1.3169; t_star_0: 0.045
+2025-02-03 14:31:48,342 ssp_inversion        INFO     ES.EMUR..HHH broadb: bounds: Mw: 2.9173, 3.9871; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:32:00,917 ssp_grid_sampling    INFO     ES.EMUR..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.cond_misfit_ES.EMUR..HHH_broadb.png
+2025-02-03 14:32:01,605 ssp_grid_sampling    INFO     ES.EMUR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-t_star_ES.EMUR..HHH_broadb.png
+2025-02-03 14:32:02,241 ssp_grid_sampling    INFO     ES.EMUR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-Mw_ES.EMUR..HHH_broadb.png
+2025-02-03 14:32:02,756 ssp_grid_sampling    INFO     ES.EMUR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_t_star-Mw_ES.EMUR..HHH_broadb.png
+2025-02-03 14:32:02,756 ssp_inversion        INFO     ES.EMUR..HHH broadb: optimal values: Mw: 3.9871; fc: 0.4027; t_star: 0.0798
+2025-02-03 14:32:02,756 ssp_inversion        INFO     ES.EMUR..HHH broadb: misfit: 0.155
+2025-02-03 14:32:02,757 ssp_inversion        INFO     ES.ENIJ..HHH broadb: initial values: Mw_0: 3.439; fc_0: 0.7578; t_star_0: 0.045
+2025-02-03 14:32:02,757 ssp_inversion        INFO     ES.ENIJ..HHH broadb: bounds: Mw: 3.0524, 3.868; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:32:15,320 ssp_grid_sampling    INFO     ES.ENIJ..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.cond_misfit_ES.ENIJ..HHH_broadb.png
+2025-02-03 14:32:16,013 ssp_grid_sampling    INFO     ES.ENIJ..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-t_star_ES.ENIJ..HHH_broadb.png
+2025-02-03 14:32:16,665 ssp_grid_sampling    INFO     ES.ENIJ..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-Mw_ES.ENIJ..HHH_broadb.png
+2025-02-03 14:32:17,206 ssp_grid_sampling    INFO     ES.ENIJ..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_t_star-Mw_ES.ENIJ..HHH_broadb.png
+2025-02-03 14:32:17,207 ssp_inversion        INFO     ES.ENIJ..HHH broadb: optimal values: Mw: 3.6105; fc: 0.8073; t_star: 0.0731
+2025-02-03 14:32:17,207 ssp_inversion        INFO     ES.ENIJ..HHH broadb: misfit: 0.073
+2025-02-03 14:32:17,208 ssp_inversion        INFO     ES.EQTA..HHH broadb: initial values: Mw_0: 3.3909; fc_0: 3.0169; t_star_0: 0.045
+2025-02-03 14:32:17,208 ssp_inversion        INFO     ES.EQTA..HHH broadb: bounds: Mw: 2.9399, 3.9505; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:32:29,728 ssp_grid_sampling    INFO     ES.EQTA..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.cond_misfit_ES.EQTA..HHH_broadb.png
+2025-02-03 14:32:30,725 ssp_grid_sampling    INFO     ES.EQTA..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-t_star_ES.EQTA..HHH_broadb.png
+2025-02-03 14:32:31,361 ssp_grid_sampling    INFO     ES.EQTA..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-Mw_ES.EQTA..HHH_broadb.png
+2025-02-03 14:32:31,880 ssp_grid_sampling    INFO     ES.EQTA..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_t_star-Mw_ES.EQTA..HHH_broadb.png
+2025-02-03 14:32:31,881 ssp_inversion        INFO     ES.EQTA..HHH broadb: optimal values: Mw: 3.5782; fc: 1.8597; t_star: 0.0077
+2025-02-03 14:32:31,881 ssp_inversion        INFO     ES.EQTA..HHH broadb: misfit: 0.087
+2025-02-03 14:32:31,882 ssp_inversion        INFO     ES.ESPR..HHH broadb: initial values: Mw_0: 3.6422; fc_0: 2.0872; t_star_0: 0.045
+2025-02-03 14:32:31,882 ssp_inversion        INFO     ES.ESPR..HHH broadb: bounds: Mw: 3.123, 4.3065; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:32:44,524 ssp_grid_sampling    INFO     ES.ESPR..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.cond_misfit_ES.ESPR..HHH_broadb.png
+2025-02-03 14:32:45,205 ssp_grid_sampling    INFO     ES.ESPR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-t_star_ES.ESPR..HHH_broadb.png
+2025-02-03 14:32:45,827 ssp_grid_sampling    INFO     ES.ESPR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-Mw_ES.ESPR..HHH_broadb.png
+2025-02-03 14:32:46,338 ssp_grid_sampling    INFO     ES.ESPR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_t_star-Mw_ES.ESPR..HHH_broadb.png
+2025-02-03 14:32:46,338 ssp_inversion        INFO     ES.ESPR..HHH broadb: optimal values: Mw: 3.9328; fc: 1.8597; t_star: 0.1212
+2025-02-03 14:32:46,338 ssp_inversion        INFO     ES.ESPR..HHH broadb: misfit: 0.113
+2025-02-03 14:32:46,339 ssp_inversion        INFO     ES.ETOB..HHH broadb: initial values: Mw_0: 3.0899; fc_0: 3.6272; t_star_0: 0.045
+2025-02-03 14:32:46,339 ssp_inversion        INFO     ES.ETOB..HHH broadb: bounds: Mw: 2.4387, 3.7771; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:32:58,850 ssp_grid_sampling    INFO     ES.ETOB..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.cond_misfit_ES.ETOB..HHH_broadb.png
+2025-02-03 14:32:59,527 ssp_grid_sampling    INFO     ES.ETOB..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-t_star_ES.ETOB..HHH_broadb.png
+2025-02-03 14:33:00,161 ssp_grid_sampling    INFO     ES.ETOB..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-Mw_ES.ETOB..HHH_broadb.png
+2025-02-03 14:33:00,675 ssp_grid_sampling    INFO     ES.ETOB..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_t_star-Mw_ES.ETOB..HHH_broadb.png
+2025-02-03 14:33:00,675 ssp_inversion        INFO     ES.ETOB..HHH broadb: optimal values: Mw: 3.5658; fc: 1.2253; t_star: 0.0664
+2025-02-03 14:33:00,675 ssp_inversion        INFO     ES.ETOB..HHH broadb: misfit: 0.071
+2025-02-03 14:33:00,677 ssp_inversion        INFO     ES.EZAR..HHH broadb: initial values: Mw_0: 3.9181; fc_0: 1.0954; t_star_0: 0.045
+2025-02-03 14:33:00,677 ssp_inversion        INFO     ES.EZAR..HHH broadb: bounds: Mw: 3.3986, 4.5315; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:33:13,191 ssp_grid_sampling    INFO     ES.EZAR..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.cond_misfit_ES.EZAR..HHH_broadb.png
+2025-02-03 14:33:13,869 ssp_grid_sampling    INFO     ES.EZAR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-t_star_ES.EZAR..HHH_broadb.png
+2025-02-03 14:33:14,494 ssp_grid_sampling    INFO     ES.EZAR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-Mw_ES.EZAR..HHH_broadb.png
+2025-02-03 14:33:15,015 ssp_grid_sampling    INFO     ES.EZAR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_t_star-Mw_ES.EZAR..HHH_broadb.png
+2025-02-03 14:33:15,015 ssp_inversion        INFO     ES.EZAR..HHH broadb: optimal values: Mw: 4.4123; fc: 0.3504; t_star: 0.0691
+2025-02-03 14:33:15,015 ssp_inversion        INFO     ES.EZAR..HHH broadb: misfit: 0.073
+2025-02-03 14:33:15,016 ssp_inversion        INFO     ES.TLOR..HHH broadb: initial values: Mw_0: 4.0362; fc_0: 0.999; t_star_0: 0.045
+2025-02-03 14:33:15,016 ssp_inversion        INFO     ES.TLOR..HHH broadb: bounds: Mw: 3.5407, 4.5741; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:33:27,528 ssp_grid_sampling    INFO     ES.TLOR..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.cond_misfit_ES.TLOR..HHH_broadb.png
+2025-02-03 14:33:28,204 ssp_grid_sampling    INFO     ES.TLOR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-t_star_ES.TLOR..HHH_broadb.png
+2025-02-03 14:33:28,817 ssp_grid_sampling    INFO     ES.TLOR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-Mw_ES.TLOR..HHH_broadb.png
+2025-02-03 14:33:29,628 ssp_grid_sampling    INFO     ES.TLOR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_t_star-Mw_ES.TLOR..HHH_broadb.png
+2025-02-03 14:33:29,630 ssp_inversion        INFO     ES.TLOR..HHH broadb: optimal values: Mw: 4.2478; fc: 0.7707; t_star: 0.0825
+2025-02-03 14:33:29,630 ssp_inversion        INFO     ES.TLOR..HHH broadb: misfit: 0.094
+2025-02-03 14:33:29,631 ssp_inversion        INFO     ES.UMV15..EHH shortp: initial values: Mw_0: 3.8872; fc_0: 7.5782; t_star_0: 0.045
+2025-02-03 14:33:29,631 ssp_inversion        INFO     ES.UMV15..EHH shortp: bounds: Mw: 3.1763, 4.5047; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:33:42,129 ssp_grid_sampling    INFO     ES.UMV15..EHH shortp: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.cond_misfit_ES.UMV15..EHH_shortp.png
+2025-02-03 14:33:42,825 ssp_grid_sampling    INFO     ES.UMV15..EHH shortp: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-t_star_ES.UMV15..EHH_shortp.png
+2025-02-03 14:33:43,471 ssp_grid_sampling    INFO     ES.UMV15..EHH shortp: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_fc-Mw_ES.UMV15..EHH_shortp.png
+2025-02-03 14:33:44,000 ssp_grid_sampling    INFO     ES.UMV15..EHH shortp: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/misfit/9524dd9e-2967-42d6-ad48-09096e25a3e6.misfit_t_star-Mw_ES.UMV15..EHH_shortp.png
+2025-02-03 14:33:44,000 ssp_inversion        INFO     ES.UMV15..EHH shortp: optimal values: Mw: 4.5047; fc: 1.9479; t_star: 0.0371
+2025-02-03 14:33:44,000 ssp_inversion        INFO     ES.UMV15..EHH shortp: misfit: 0.152
+2025-02-03 14:33:44,001 ssp_inversion        INFO     Inverting spectra: done
+2025-02-03 14:33:44,001 ssp_radiated_energy  INFO     Computing radiated energy...
+2025-02-03 14:33:44,003 ssp_radiated_energy  WARNING  ES.ESPR..HHH broadb: noise energy is larger than signal energy: skipping spectrum.
+2025-02-03 14:33:44,004 ssp_radiated_energy  INFO     Computing radiated energy: done
+2025-02-03 14:33:44,004 ssp_local_magnitude  INFO     Computing local magnitude...
+2025-02-03 14:33:44,226 ssp_local_magnitude  INFO     ES.E0802..HHE broadb: Ml 3.8
+2025-02-03 14:33:44,441 ssp_local_magnitude  INFO     ES.E0802..HHN broadb: Ml 4.0
+2025-02-03 14:33:44,714 ssp_local_magnitude  INFO     ES.EADA..HHE broadb: Ml 4.0
+2025-02-03 14:33:44,987 ssp_local_magnitude  INFO     ES.EADA..HHN broadb: Ml 4.2
+2025-02-03 14:33:45,281 ssp_local_magnitude  INFO     ES.EALB..HHE broadb: Ml 3.8
+2025-02-03 14:33:45,574 ssp_local_magnitude  INFO     ES.EALB..HHN broadb: Ml 3.8
+2025-02-03 14:33:45,837 ssp_local_magnitude  INFO     ES.EBER..HHE broadb: Ml 3.7
+2025-02-03 14:33:46,101 ssp_local_magnitude  INFO     ES.EBER..HHN broadb: Ml 3.6
+2025-02-03 14:33:46,367 ssp_local_magnitude  INFO     ES.ECAB..HHE broadb: Ml 4.4
+2025-02-03 14:33:46,632 ssp_local_magnitude  INFO     ES.ECAB..HHN broadb: Ml 4.3
+2025-02-03 14:33:46,865 ssp_local_magnitude  INFO     ES.EGOR..HHE broadb: Ml 4.0
+2025-02-03 14:33:47,098 ssp_local_magnitude  INFO     ES.EGOR..HHN broadb: Ml 4.1
+2025-02-03 14:33:47,331 ssp_local_magnitude  INFO     ES.ELGU..HHE broadb: Ml 3.8
+2025-02-03 14:33:47,565 ssp_local_magnitude  INFO     ES.ELGU..HHN broadb: Ml 3.8
+2025-02-03 14:33:47,812 ssp_local_magnitude  INFO     ES.ELOR.00.HHE broadb: Ml 3.9
+2025-02-03 14:33:48,060 ssp_local_magnitude  INFO     ES.ELOR.00.HHN broadb: Ml 4.0
+2025-02-03 14:33:48,335 ssp_local_magnitude  INFO     ES.EMIJ..HHE broadb: Ml 4.0
+2025-02-03 14:33:48,612 ssp_local_magnitude  INFO     ES.EMIJ..HHN broadb: Ml 3.9
+2025-02-03 14:33:48,839 ssp_local_magnitude  INFO     ES.EMIN..HHN broadb: Ml 4.1
+2025-02-03 14:33:49,103 ssp_local_magnitude  INFO     ES.EMUR..HHE broadb: Ml 3.9
+2025-02-03 14:33:49,366 ssp_local_magnitude  INFO     ES.EMUR..HHN broadb: Ml 3.9
+2025-02-03 14:33:49,609 ssp_local_magnitude  INFO     ES.EQTA..HHE broadb: Ml 3.5
+2025-02-03 14:33:49,853 ssp_local_magnitude  INFO     ES.EQTA..HHN broadb: Ml 3.4
+2025-02-03 14:33:50,359 ssp_local_magnitude  INFO     ES.ESPR..HHE broadb: Ml 4.3
+2025-02-03 14:33:50,647 ssp_local_magnitude  INFO     ES.ESPR..HHN broadb: Ml 4.3
+2025-02-03 14:33:50,927 ssp_local_magnitude  INFO     ES.ETOB..HHE broadb: Ml 4.0
+2025-02-03 14:33:51,211 ssp_local_magnitude  INFO     ES.ETOB..HHN broadb: Ml 4.2
+2025-02-03 14:33:51,444 ssp_local_magnitude  INFO     ES.EZAR..HHE broadb: Ml 4.2
+2025-02-03 14:33:51,676 ssp_local_magnitude  INFO     ES.EZAR..HHN broadb: Ml 4.2
+2025-02-03 14:33:51,910 ssp_local_magnitude  INFO     ES.TLOR..HHE broadb: Ml 4.4
+2025-02-03 14:33:52,144 ssp_local_magnitude  INFO     ES.TLOR..HHN broadb: Ml 4.5
+2025-02-03 14:33:52,362 ssp_local_magnitude  INFO     ES.UMV15..EHE shortp: Ml 4.7
+2025-02-03 14:33:52,579 ssp_local_magnitude  INFO     ES.UMV15..EHN shortp: Ml 4.6
+2025-02-03 14:33:52,604 ssp_summary_statistics INFO     params_mean: {'Mw': 3.8330373308816568, 'fc': 1.3758380617225083, 't_star': 0.058193841294907234}
+2025-02-03 14:33:52,604 ssp_summary_statistics INFO     params_mean_weighted: {'Mw': 3.823195873867024, 'fc': 1.5374641843731505, 't_star': 0.020091488044746267}
+2025-02-03 14:33:52,604 ssp_summary_statistics INFO     params_percentiles: {'Mw': 3.718750614493226, 'fc': 1.8175625188496887, 't_star': 0.06644295302013423}
+2025-02-03 14:33:52,606 ssp_output           INFO     Output written to file: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/9524dd9e-2967-42d6-ad48-09096e25a3e6.ssp.out
+2025-02-03 14:33:52,608 ssp_output           INFO     Output written to file: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/9524dd9e-2967-42d6-ad48-09096e25a3e6.ssp.yaml
+2025-02-03 14:33:52,675 ssp_sqlite_output    INFO     Output written to SQLite database: source_spec.sqlite
+2025-02-03 14:33:52,727 ssp_qml_output       WARNING  Unable to find evid "9524dd9e-2967-42d6-ad48-09096e25a3e6" in QuakeML file. QuakeML output will not be written.
+2025-02-03 14:33:52,734 ssp_residuals        INFO     Spectral residuals saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/9524dd9e-2967-42d6-ad48-09096e25a3e6-residuals.pickle
+2025-02-03 14:34:19,025 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/9524dd9e-2967-42d6-ad48-09096e25a3e6.ssp.00.png
+2025-02-03 14:34:19,025 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/9524dd9e-2967-42d6-ad48-09096e25a3e6.ssp.01.png
+2025-02-03 14:34:19,025 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/9524dd9e-2967-42d6-ad48-09096e25a3e6.ssp.02.png
+2025-02-03 14:34:19,025 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/9524dd9e-2967-42d6-ad48-09096e25a3e6.ssp.03.png
+2025-02-03 14:34:19,025 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/9524dd9e-2967-42d6-ad48-09096e25a3e6.ssp.04.png
+2025-02-03 14:34:19,025 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/9524dd9e-2967-42d6-ad48-09096e25a3e6.ssp.05.png
+2025-02-03 14:34:50,269 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/9524dd9e-2967-42d6-ad48-09096e25a3e6.sspweight.00.png
+2025-02-03 14:34:50,269 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/9524dd9e-2967-42d6-ad48-09096e25a3e6.sspweight.01.png
+2025-02-03 14:34:50,269 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/9524dd9e-2967-42d6-ad48-09096e25a3e6.sspweight.02.png
+2025-02-03 14:34:50,269 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/9524dd9e-2967-42d6-ad48-09096e25a3e6.sspweight.03.png
+2025-02-03 14:34:50,270 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/9524dd9e-2967-42d6-ad48-09096e25a3e6.sspweight.04.png
+2025-02-03 14:34:50,270 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/9524dd9e-2967-42d6-ad48-09096e25a3e6.sspweight.05.png
+2025-02-03 14:34:50,270 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/9524dd9e-2967-42d6-ad48-09096e25a3e6.sspweight.06.png
+2025-02-03 14:34:50,270 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/9524dd9e-2967-42d6-ad48-09096e25a3e6.sspweight.07.png
+2025-02-03 14:34:51,177 ssp_plot_stacked_spectra INFO     Stacked spectra plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/9524dd9e-2967-42d6-ad48-09096e25a3e6.stacked_spectra.png
+2025-02-03 14:34:53,525 ssp_plot_params_stats INFO     Parameters box plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/9524dd9e-2967-42d6-ad48-09096e25a3e6.boxplot.png
+2025-02-03 14:34:53,540 ssp_html_report      INFO     HTML report written to file: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_e4a025e0f97b47fbaeb7bedc2c44576b/index.html
+2025-02-03 14:34:53,881 ssp_read_station_metadata INFO     Reading station metadata...
+2025-02-03 14:34:53,882 ssp_read_station_metadata INFO     Reading station metadata from file: /Volumes/LaCie/test_surfquake/Granada/inputs/metadata/ES_network.xml
+2025-02-03 14:35:00,611 ssp_read_station_metadata INFO     Reading station metadata: done
+2025-02-03 14:35:00,621 ssp_read_traces      INFO     Reading traces...
+2025-02-03 14:35:01,680 ssp_read_traces      INFO     Reading traces: done
+2025-02-03 14:35:01,681 ssp_read_traces      INFO     Vp_hypo: 5.00 km/s, Vs_hypo: 2.90 km/s
+2025-02-03 14:35:01,745 ssp_process_traces_mod INFO     Processing traces...
+2025-02-03 14:35:01,776 ssp_wave_arrival_mod INFO     ES.E0802..HHE: found P pick
+2025-02-03 14:35:01,802 ssp_wave_arrival_mod INFO     ES.E0802..HHE: found S pick
+2025-02-03 14:35:01,824 ssp_process_traces_mod INFO     ES.E0802..HHE broadb: clipping score: 0.5%
+2025-02-03 14:35:02,003 ssp_process_traces_mod INFO     ES.E0802..HHE broadb: S/N: 6.1
+2025-02-03 14:35:02,025 ssp_wave_arrival_mod INFO     ES.E0802..HHN: found P pick
+2025-02-03 14:35:02,051 ssp_wave_arrival_mod INFO     ES.E0802..HHN: found S pick
+2025-02-03 14:35:02,074 ssp_process_traces_mod INFO     ES.E0802..HHN broadb: clipping score: 0.4%
+2025-02-03 14:35:02,251 ssp_process_traces_mod INFO     ES.E0802..HHN broadb: S/N: 4.1
+2025-02-03 14:35:02,273 ssp_wave_arrival_mod INFO     ES.E0802..HHZ: found P pick
+2025-02-03 14:35:02,299 ssp_wave_arrival_mod INFO     ES.E0802..HHZ: found S pick
+2025-02-03 14:35:02,320 ssp_process_traces_mod INFO     ES.E0802..HHZ broadb: clipping score: 0.3%
+2025-02-03 14:35:02,498 ssp_process_traces_mod INFO     ES.E0802..HHZ broadb: S/N: 1.5
+2025-02-03 14:35:02,519 ssp_wave_arrival_mod INFO     ES.EADA..HHE: found P pick
+2025-02-03 14:35:02,543 ssp_wave_arrival_mod INFO     ES.EADA..HHE: found S pick
+2025-02-03 14:35:02,608 ssp_process_traces_mod INFO     ES.EADA..HHE broadb: clipping score: 0.2%
+2025-02-03 14:35:02,810 ssp_process_traces_mod INFO     ES.EADA..HHE broadb: S/N: 21.2
+2025-02-03 14:35:02,831 ssp_wave_arrival_mod INFO     ES.EADA..HHN: found P pick
+2025-02-03 14:35:02,855 ssp_wave_arrival_mod INFO     ES.EADA..HHN: found S pick
+2025-02-03 14:35:02,919 ssp_process_traces_mod INFO     ES.EADA..HHN broadb: clipping score: 1.4%
+2025-02-03 14:35:03,121 ssp_process_traces_mod INFO     ES.EADA..HHN broadb: S/N: 37.5
+2025-02-03 14:35:03,144 ssp_wave_arrival_mod INFO     ES.EADA..HHZ: found P pick
+2025-02-03 14:35:03,168 ssp_wave_arrival_mod INFO     ES.EADA..HHZ: found S pick
+2025-02-03 14:35:03,232 ssp_process_traces_mod INFO     ES.EADA..HHZ broadb: clipping score: 1.1%
+2025-02-03 14:35:03,433 ssp_process_traces_mod INFO     ES.EADA..HHZ broadb: S/N: 14.6
+2025-02-03 14:35:03,458 ssp_wave_arrival_mod INFO     ES.EALB..HHE: found P pick
+2025-02-03 14:35:03,484 ssp_wave_arrival_mod INFO     ES.EALB..HHE: found S pick
+2025-02-03 14:35:03,564 ssp_process_traces_mod INFO     ES.EALB..HHE broadb: clipping score: 2.7%
+2025-02-03 14:35:03,776 ssp_process_traces_mod INFO     ES.EALB..HHE broadb: S/N: 4.8
+2025-02-03 14:35:03,800 ssp_wave_arrival_mod INFO     ES.EALB..HHN: found P pick
+2025-02-03 14:35:03,827 ssp_wave_arrival_mod INFO     ES.EALB..HHN: found S pick
+2025-02-03 14:35:03,907 ssp_process_traces_mod INFO     ES.EALB..HHN broadb: clipping score: 1.5%
+2025-02-03 14:35:04,117 ssp_process_traces_mod INFO     ES.EALB..HHN broadb: S/N: 5.6
+2025-02-03 14:35:04,141 ssp_wave_arrival_mod INFO     ES.EALB..HHZ: found P pick
+2025-02-03 14:35:04,168 ssp_wave_arrival_mod INFO     ES.EALB..HHZ: found S pick
+2025-02-03 14:35:04,248 ssp_process_traces_mod INFO     ES.EALB..HHZ broadb: clipping score: 17.9%
+2025-02-03 14:35:04,248 ssp_process_traces_mod WARNING  ES.EALB..HHZ broadb: Trace is clipped or significantly distorted: skipping trace
+2025-02-03 14:35:04,459 ssp_process_traces_mod INFO     ES.EALB..HHZ broadb: S/N: 5.2
+2025-02-03 14:35:04,481 ssp_wave_arrival_mod INFO     ES.EBER..HHE: found P pick
+2025-02-03 14:35:04,494 ssp_wave_arrival_mod INFO     ES.EBER..HHE: found S pick
+2025-02-03 14:35:04,587 ssp_process_traces_mod INFO     ES.EBER..HHE broadb: clipping score: 3.8%
+2025-02-03 14:35:04,758 ssp_process_traces_mod INFO     ES.EBER..HHE broadb: S/N: 51.7
+2025-02-03 14:35:04,781 ssp_wave_arrival_mod INFO     ES.EBER..HHN: found P pick
+2025-02-03 14:35:04,795 ssp_wave_arrival_mod INFO     ES.EBER..HHN: found S pick
+2025-02-03 14:35:04,884 ssp_process_traces_mod INFO     ES.EBER..HHN broadb: clipping score: 9.6%
+2025-02-03 14:35:05,056 ssp_process_traces_mod INFO     ES.EBER..HHN broadb: S/N: 75.0
+2025-02-03 14:35:05,078 ssp_wave_arrival_mod INFO     ES.EBER..HHZ: found P pick
+2025-02-03 14:35:05,092 ssp_wave_arrival_mod INFO     ES.EBER..HHZ: found S pick
+2025-02-03 14:35:05,181 ssp_process_traces_mod INFO     ES.EBER..HHZ broadb: clipping score: 3.4%
+2025-02-03 14:35:05,352 ssp_process_traces_mod INFO     ES.EBER..HHZ broadb: S/N: 77.6
+2025-02-03 14:35:05,379 ssp_wave_arrival_mod INFO     ES.ECAB..HHE: found P pick
+2025-02-03 14:35:05,410 ssp_wave_arrival_mod INFO     ES.ECAB..HHE: found S pick
+2025-02-03 14:35:05,469 ssp_process_traces_mod INFO     ES.ECAB..HHE broadb: clipping score: 0.2%
+2025-02-03 14:35:05,671 ssp_process_traces_mod INFO     ES.ECAB..HHE broadb: S/N: 75.6
+2025-02-03 14:35:05,697 ssp_wave_arrival_mod INFO     ES.ECAB..HHN: found P pick
+2025-02-03 14:35:05,728 ssp_wave_arrival_mod INFO     ES.ECAB..HHN: found S pick
+2025-02-03 14:35:05,787 ssp_process_traces_mod INFO     ES.ECAB..HHN broadb: clipping score: 1.5%
+2025-02-03 14:35:05,987 ssp_process_traces_mod INFO     ES.ECAB..HHN broadb: S/N: 27.0
+2025-02-03 14:35:06,013 ssp_wave_arrival_mod INFO     ES.ECAB..HHZ: found P pick
+2025-02-03 14:35:06,044 ssp_wave_arrival_mod INFO     ES.ECAB..HHZ: found S pick
+2025-02-03 14:35:06,102 ssp_process_traces_mod INFO     ES.ECAB..HHZ broadb: clipping score: 1.5%
+2025-02-03 14:35:06,302 ssp_process_traces_mod INFO     ES.ECAB..HHZ broadb: S/N: 43.4
+2025-02-03 14:35:06,305 ssp_wave_arrival_mod INFO     ES.EGOR..HHE: found P pick
+2025-02-03 14:35:06,308 ssp_wave_arrival_mod INFO     ES.EGOR..HHE: found S pick
+2025-02-03 14:35:06,340 ssp_process_traces_mod INFO     ES.EGOR..HHE broadb: clipping score: 2.7%
+2025-02-03 14:35:06,528 ssp_process_traces_mod INFO     ES.EGOR..HHE broadb: S/N: 531.2
+2025-02-03 14:35:06,532 ssp_wave_arrival_mod INFO     ES.EGOR..HHN: found P pick
+2025-02-03 14:35:06,535 ssp_wave_arrival_mod INFO     ES.EGOR..HHN: found S pick
+2025-02-03 14:35:06,568 ssp_process_traces_mod INFO     ES.EGOR..HHN broadb: clipping score: 0.4%
+2025-02-03 14:35:06,763 ssp_process_traces_mod INFO     ES.EGOR..HHN broadb: S/N: 10.9
+2025-02-03 14:35:06,766 ssp_wave_arrival_mod INFO     ES.EGOR..HHZ: found P pick
+2025-02-03 14:35:06,769 ssp_wave_arrival_mod INFO     ES.EGOR..HHZ: found S pick
+2025-02-03 14:35:06,801 ssp_process_traces_mod INFO     ES.EGOR..HHZ broadb: clipping score: 3.4%
+2025-02-03 14:35:06,987 ssp_process_traces_mod INFO     ES.EGOR..HHZ broadb: S/N: 312.9
+2025-02-03 14:35:06,990 ssp_wave_arrival_mod INFO     ES.ELGU..HHE: found P pick
+2025-02-03 14:35:06,993 ssp_wave_arrival_mod INFO     ES.ELGU..HHE: found S pick
+2025-02-03 14:35:07,025 ssp_process_traces_mod INFO     ES.ELGU..HHE broadb: clipping score: 0.3%
+2025-02-03 14:35:07,212 ssp_process_traces_mod INFO     ES.ELGU..HHE broadb: S/N: 128.6
+2025-02-03 14:35:07,215 ssp_wave_arrival_mod INFO     ES.ELGU..HHN: found P pick
+2025-02-03 14:35:07,218 ssp_wave_arrival_mod INFO     ES.ELGU..HHN: found S pick
+2025-02-03 14:35:07,250 ssp_process_traces_mod INFO     ES.ELGU..HHN broadb: clipping score: 0.3%
+2025-02-03 14:35:07,435 ssp_process_traces_mod INFO     ES.ELGU..HHN broadb: S/N: 53.4
+2025-02-03 14:35:07,439 ssp_wave_arrival_mod INFO     ES.ELGU..HHZ: found P pick
+2025-02-03 14:35:07,441 ssp_wave_arrival_mod INFO     ES.ELGU..HHZ: found S pick
+2025-02-03 14:35:07,473 ssp_process_traces_mod INFO     ES.ELGU..HHZ broadb: clipping score: 0.4%
+2025-02-03 14:35:07,660 ssp_process_traces_mod INFO     ES.ELGU..HHZ broadb: S/N: 305.0
+2025-02-03 14:35:07,686 ssp_wave_arrival_mod INFO     ES.ELOR.00.HHE: found P pick
+2025-02-03 14:35:07,717 ssp_wave_arrival_mod INFO     ES.ELOR.00.HHE: found S pick
+2025-02-03 14:35:07,763 ssp_process_traces_mod INFO     ES.ELOR.00.HHE broadb: clipping score: 1.5%
+2025-02-03 14:35:07,954 ssp_process_traces_mod INFO     ES.ELOR.00.HHE broadb: S/N: 22.3
+2025-02-03 14:35:07,981 ssp_wave_arrival_mod INFO     ES.ELOR.00.HHN: found P pick
+2025-02-03 14:35:08,012 ssp_wave_arrival_mod INFO     ES.ELOR.00.HHN: found S pick
+2025-02-03 14:35:08,059 ssp_process_traces_mod INFO     ES.ELOR.00.HHN broadb: clipping score: 0.9%
+2025-02-03 14:35:08,250 ssp_process_traces_mod INFO     ES.ELOR.00.HHN broadb: S/N: 21.5
+2025-02-03 14:35:08,277 ssp_wave_arrival_mod INFO     ES.ELOR.00.HHZ: found P pick
+2025-02-03 14:35:08,309 ssp_wave_arrival_mod INFO     ES.ELOR.00.HHZ: found S pick
+2025-02-03 14:35:08,355 ssp_process_traces_mod INFO     ES.ELOR.00.HHZ broadb: clipping score: 4.4%
+2025-02-03 14:35:08,547 ssp_process_traces_mod INFO     ES.ELOR.00.HHZ broadb: S/N: 8.5
+2025-02-03 14:35:08,567 ssp_wave_arrival_mod INFO     ES.EMIJ..HHE: found P pick
+2025-02-03 14:35:08,594 ssp_wave_arrival_mod INFO     ES.EMIJ..HHE: found S pick
+2025-02-03 14:35:08,660 ssp_process_traces_mod INFO     ES.EMIJ..HHE broadb: clipping score: 6.9%
+2025-02-03 14:35:08,863 ssp_process_traces_mod INFO     ES.EMIJ..HHE broadb: S/N: 71.0
+2025-02-03 14:35:08,883 ssp_wave_arrival_mod INFO     ES.EMIJ..HHN: found P pick
+2025-02-03 14:35:08,909 ssp_wave_arrival_mod INFO     ES.EMIJ..HHN: found S pick
+2025-02-03 14:35:08,975 ssp_process_traces_mod INFO     ES.EMIJ..HHN broadb: clipping score: 1.3%
+2025-02-03 14:35:09,178 ssp_process_traces_mod INFO     ES.EMIJ..HHN broadb: S/N: 39.8
+2025-02-03 14:35:09,197 ssp_wave_arrival_mod INFO     ES.EMIJ..HHZ: found P pick
+2025-02-03 14:35:09,224 ssp_wave_arrival_mod INFO     ES.EMIJ..HHZ: found S pick
+2025-02-03 14:35:09,290 ssp_process_traces_mod INFO     ES.EMIJ..HHZ broadb: clipping score: 0.6%
+2025-02-03 14:35:09,493 ssp_process_traces_mod INFO     ES.EMIJ..HHZ broadb: S/N: 49.5
+2025-02-03 14:35:09,527 ssp_wave_arrival_mod INFO     ES.EMIN..HHN: found P pick
+2025-02-03 14:35:09,560 ssp_wave_arrival_mod WARNING  ES.EMIN..HHN: measured S pick time - theoretical time = -23.4 s
+2025-02-03 14:35:09,560 ssp_wave_arrival_mod INFO     ES.EMIN..HHN: no S pick found
+2025-02-03 14:35:09,560 ssp_wave_arrival_mod INFO     ES.EMIN..HHN: using theoretical S pick from global velocity model (iasp91)
+2025-02-03 14:35:09,627 ssp_process_traces_mod INFO     ES.EMIN..HHN broadb: clipping score: 0.6%
+2025-02-03 14:35:09,784 ssp_process_traces_mod INFO     ES.EMIN..HHN broadb: S/N: 7.9
+2025-02-03 14:35:09,817 ssp_wave_arrival_mod INFO     ES.EMIN..HHZ: found P pick
+2025-02-03 14:35:09,850 ssp_wave_arrival_mod WARNING  ES.EMIN..HHZ: measured S pick time - theoretical time = -23.4 s
+2025-02-03 14:35:09,850 ssp_wave_arrival_mod INFO     ES.EMIN..HHZ: no S pick found
+2025-02-03 14:35:09,850 ssp_wave_arrival_mod INFO     ES.EMIN..HHZ: using theoretical S pick from global velocity model (iasp91)
+2025-02-03 14:35:09,917 ssp_process_traces_mod INFO     ES.EMIN..HHZ broadb: clipping score: 2.1%
+2025-02-03 14:35:10,074 ssp_process_traces_mod INFO     ES.EMIN..HHZ broadb: S/N: 3.8
+2025-02-03 14:35:10,100 ssp_wave_arrival_mod INFO     ES.EMLI..HHN: no P pick found
+2025-02-03 14:35:10,100 ssp_wave_arrival_mod INFO     ES.EMLI..HHN: using theoretical P pick from global velocity model (iasp91)
+2025-02-03 14:35:10,133 ssp_wave_arrival_mod INFO     ES.EMLI..HHN: no S pick found
+2025-02-03 14:35:10,133 ssp_wave_arrival_mod INFO     ES.EMLI..HHN: using theoretical S pick from global velocity model (iasp91)
+2025-02-03 14:35:10,317 ssp_process_traces_mod INFO     ES.EMLI..HHN broadb: clipping score: 0.1%
+2025-02-03 14:35:10,579 ssp_process_traces_mod INFO     ES.EMLI..HHN broadb: S/N: 4.8
+2025-02-03 14:35:10,606 ssp_wave_arrival_mod INFO     ES.EMUR..HHE: found P pick
+2025-02-03 14:35:10,639 ssp_wave_arrival_mod INFO     ES.EMUR..HHE: found S pick
+2025-02-03 14:35:10,733 ssp_process_traces_mod INFO     ES.EMUR..HHE broadb: clipping score: 1.3%
+2025-02-03 14:35:10,904 ssp_process_traces_mod INFO     ES.EMUR..HHE broadb: S/N: 28.5
+2025-02-03 14:35:10,930 ssp_wave_arrival_mod INFO     ES.EMUR..HHN: found P pick
+2025-02-03 14:35:10,963 ssp_wave_arrival_mod INFO     ES.EMUR..HHN: found S pick
+2025-02-03 14:35:11,057 ssp_process_traces_mod INFO     ES.EMUR..HHN broadb: clipping score: 2.2%
+2025-02-03 14:35:11,228 ssp_process_traces_mod INFO     ES.EMUR..HHN broadb: S/N: 20.2
+2025-02-03 14:35:11,255 ssp_wave_arrival_mod INFO     ES.EMUR..HHZ: found P pick
+2025-02-03 14:35:11,288 ssp_wave_arrival_mod INFO     ES.EMUR..HHZ: found S pick
+2025-02-03 14:35:11,382 ssp_process_traces_mod INFO     ES.EMUR..HHZ broadb: clipping score: 2.9%
+2025-02-03 14:35:11,554 ssp_process_traces_mod INFO     ES.EMUR..HHZ broadb: S/N: 12.9
+2025-02-03 14:35:11,577 ssp_wave_arrival_mod INFO     ES.ENIJ..HHZ: found P pick
+2025-02-03 14:35:11,601 ssp_wave_arrival_mod INFO     ES.ENIJ..HHZ: no S pick found
+2025-02-03 14:35:11,601 ssp_wave_arrival_mod INFO     ES.ENIJ..HHZ: using theoretical S pick from global velocity model (iasp91)
+2025-02-03 14:35:11,668 ssp_process_traces_mod INFO     ES.ENIJ..HHZ broadb: clipping score: 4.4%
+2025-02-03 14:35:11,827 ssp_process_traces_mod INFO     ES.ENIJ..HHZ broadb: S/N: 39.4
+2025-02-03 14:35:11,830 ssp_wave_arrival_mod INFO     ES.EQTA..HHE: found P pick
+2025-02-03 14:35:11,833 ssp_wave_arrival_mod INFO     ES.EQTA..HHE: found S pick
+2025-02-03 14:35:11,909 ssp_process_traces_mod INFO     ES.EQTA..HHE broadb: clipping score: 3.8%
+2025-02-03 14:35:12,071 ssp_process_traces_mod INFO     ES.EQTA..HHE broadb: S/N: 320.2
+2025-02-03 14:35:12,075 ssp_wave_arrival_mod INFO     ES.EQTA..HHN: found P pick
+2025-02-03 14:35:12,078 ssp_wave_arrival_mod INFO     ES.EQTA..HHN: found S pick
+2025-02-03 14:35:12,153 ssp_process_traces_mod INFO     ES.EQTA..HHN broadb: clipping score: 1.8%
+2025-02-03 14:35:12,317 ssp_process_traces_mod INFO     ES.EQTA..HHN broadb: S/N: 49.7
+2025-02-03 14:35:12,321 ssp_wave_arrival_mod INFO     ES.EQTA..HHZ: found P pick
+2025-02-03 14:35:12,324 ssp_wave_arrival_mod INFO     ES.EQTA..HHZ: found S pick
+2025-02-03 14:35:12,399 ssp_process_traces_mod INFO     ES.EQTA..HHZ broadb: clipping score: 0.3%
+2025-02-03 14:35:12,562 ssp_process_traces_mod INFO     ES.EQTA..HHZ broadb: S/N: 199.8
+2025-02-03 14:35:12,586 ssp_wave_arrival_mod INFO     ES.ESPR..HHE: found P pick
+2025-02-03 14:35:12,617 ssp_wave_arrival_mod INFO     ES.ESPR..HHE: no S pick found
+2025-02-03 14:35:12,618 ssp_wave_arrival_mod INFO     ES.ESPR..HHE: using theoretical S pick from global velocity model (iasp91)
+2025-02-03 14:35:12,730 ssp_process_traces_mod INFO     ES.ESPR..HHE broadb: clipping score: 5.4%
+2025-02-03 14:35:12,912 ssp_process_traces_mod INFO     ES.ESPR..HHE broadb: S/N: 18.9
+2025-02-03 14:35:12,936 ssp_wave_arrival_mod INFO     ES.ESPR..HHN: found P pick
+2025-02-03 14:35:12,968 ssp_wave_arrival_mod INFO     ES.ESPR..HHN: no S pick found
+2025-02-03 14:35:12,968 ssp_wave_arrival_mod INFO     ES.ESPR..HHN: using theoretical S pick from global velocity model (iasp91)
+2025-02-03 14:35:13,080 ssp_process_traces_mod INFO     ES.ESPR..HHN broadb: clipping score: 0.7%
+2025-02-03 14:35:13,262 ssp_process_traces_mod INFO     ES.ESPR..HHN broadb: S/N: 9.3
+2025-02-03 14:35:13,287 ssp_wave_arrival_mod INFO     ES.ESPR..HHZ: found P pick
+2025-02-03 14:35:13,317 ssp_wave_arrival_mod INFO     ES.ESPR..HHZ: no S pick found
+2025-02-03 14:35:13,317 ssp_wave_arrival_mod INFO     ES.ESPR..HHZ: using theoretical S pick from global velocity model (iasp91)
+2025-02-03 14:35:13,428 ssp_process_traces_mod INFO     ES.ESPR..HHZ broadb: clipping score: 6.7%
+2025-02-03 14:35:13,610 ssp_process_traces_mod INFO     ES.ESPR..HHZ broadb: S/N: 14.3
+2025-02-03 14:35:13,641 ssp_wave_arrival_mod INFO     ES.ETOB..HHE: found P pick
+2025-02-03 14:35:13,677 ssp_wave_arrival_mod INFO     ES.ETOB..HHE: found S pick
+2025-02-03 14:35:14,013 ssp_process_traces_mod INFO     ES.ETOB..HHE broadb: clipping score: 3.3%
+2025-02-03 14:35:14,218 ssp_process_traces_mod INFO     ES.ETOB..HHE broadb: S/N: 16.6
+2025-02-03 14:35:14,249 ssp_wave_arrival_mod INFO     ES.ETOB..HHN: found P pick
+2025-02-03 14:35:14,285 ssp_wave_arrival_mod INFO     ES.ETOB..HHN: found S pick
+2025-02-03 14:35:14,355 ssp_process_traces_mod INFO     ES.ETOB..HHN broadb: clipping score: 0.4%
+2025-02-03 14:35:14,560 ssp_process_traces_mod INFO     ES.ETOB..HHN broadb: S/N: 17.7
+2025-02-03 14:35:14,592 ssp_wave_arrival_mod INFO     ES.ETOB..HHZ: found P pick
+2025-02-03 14:35:14,628 ssp_wave_arrival_mod INFO     ES.ETOB..HHZ: found S pick
+2025-02-03 14:35:14,699 ssp_process_traces_mod INFO     ES.ETOB..HHZ broadb: clipping score: 0.7%
+2025-02-03 14:35:14,904 ssp_process_traces_mod INFO     ES.ETOB..HHZ broadb: S/N: 31.5
+2025-02-03 14:35:14,926 ssp_wave_arrival_mod INFO     ES.EZAR..HHE: found P pick
+2025-02-03 14:35:14,957 ssp_wave_arrival_mod INFO     ES.EZAR..HHE: found S pick
+2025-02-03 14:35:14,993 ssp_process_traces_mod INFO     ES.EZAR..HHE broadb: clipping score: 2.4%
+2025-02-03 14:35:15,180 ssp_process_traces_mod INFO     ES.EZAR..HHE broadb: S/N: 99.0
+2025-02-03 14:35:15,202 ssp_wave_arrival_mod INFO     ES.EZAR..HHN: found P pick
+2025-02-03 14:35:15,234 ssp_wave_arrival_mod INFO     ES.EZAR..HHN: found S pick
+2025-02-03 14:35:15,272 ssp_process_traces_mod INFO     ES.EZAR..HHN broadb: clipping score: 0.9%
+2025-02-03 14:35:15,459 ssp_process_traces_mod INFO     ES.EZAR..HHN broadb: S/N: 185.6
+2025-02-03 14:35:15,480 ssp_wave_arrival_mod INFO     ES.EZAR..HHZ: found P pick
+2025-02-03 14:35:15,511 ssp_wave_arrival_mod INFO     ES.EZAR..HHZ: found S pick
+2025-02-03 14:35:15,546 ssp_process_traces_mod INFO     ES.EZAR..HHZ broadb: clipping score: 5.5%
+2025-02-03 14:35:15,733 ssp_process_traces_mod INFO     ES.EZAR..HHZ broadb: S/N: 148.1
+2025-02-03 14:35:15,757 ssp_wave_arrival_mod INFO     ES.TLOR..HHE: found P pick
+2025-02-03 14:35:15,789 ssp_wave_arrival_mod INFO     ES.TLOR..HHE: no S pick found
+2025-02-03 14:35:15,789 ssp_wave_arrival_mod INFO     ES.TLOR..HHE: using theoretical S pick from global velocity model (iasp91)
+2025-02-03 14:35:15,826 ssp_process_traces_mod INFO     ES.TLOR..HHE broadb: clipping score: 0.9%
+2025-02-03 14:35:16,012 ssp_process_traces_mod INFO     ES.TLOR..HHE broadb: S/N: 24.3
+2025-02-03 14:35:16,036 ssp_wave_arrival_mod INFO     ES.TLOR..HHN: found P pick
+2025-02-03 14:35:16,068 ssp_wave_arrival_mod INFO     ES.TLOR..HHN: no S pick found
+2025-02-03 14:35:16,068 ssp_wave_arrival_mod INFO     ES.TLOR..HHN: using theoretical S pick from global velocity model (iasp91)
+2025-02-03 14:35:16,104 ssp_process_traces_mod INFO     ES.TLOR..HHN broadb: clipping score: 3.0%
+2025-02-03 14:35:16,291 ssp_process_traces_mod INFO     ES.TLOR..HHN broadb: S/N: 23.1
+2025-02-03 14:35:16,315 ssp_wave_arrival_mod INFO     ES.TLOR..HHZ: found P pick
+2025-02-03 14:35:16,346 ssp_wave_arrival_mod INFO     ES.TLOR..HHZ: no S pick found
+2025-02-03 14:35:16,346 ssp_wave_arrival_mod INFO     ES.TLOR..HHZ: using theoretical S pick from global velocity model (iasp91)
+2025-02-03 14:35:16,382 ssp_process_traces_mod INFO     ES.TLOR..HHZ broadb: clipping score: 0.6%
+2025-02-03 14:35:16,569 ssp_process_traces_mod INFO     ES.TLOR..HHZ broadb: S/N: 1.7
+2025-02-03 14:35:16,573 ssp_wave_arrival_mod INFO     ES.UMV15..EHE: found P pick
+2025-02-03 14:35:16,575 ssp_wave_arrival_mod INFO     ES.UMV15..EHE: found S pick
+2025-02-03 14:35:16,575 ssp_process_traces_mod WARNING  ES.UMV15..EHE: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2025-02-03 14:35:16,595 ssp_process_traces_mod INFO     ES.UMV15..EHE shortp: clipping score: 0.9%
+2025-02-03 14:35:16,775 ssp_process_traces_mod INFO     ES.UMV15..EHE shortp: S/N: 68.1
+2025-02-03 14:35:16,779 ssp_wave_arrival_mod INFO     ES.UMV15..EHN: found P pick
+2025-02-03 14:35:16,781 ssp_wave_arrival_mod INFO     ES.UMV15..EHN: found S pick
+2025-02-03 14:35:16,781 ssp_process_traces_mod WARNING  ES.UMV15..EHN: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2025-02-03 14:35:16,801 ssp_process_traces_mod INFO     ES.UMV15..EHN shortp: clipping score: 2.2%
+2025-02-03 14:35:16,981 ssp_process_traces_mod INFO     ES.UMV15..EHN shortp: S/N: 75.8
+2025-02-03 14:35:16,984 ssp_wave_arrival_mod INFO     ES.UMV15..EHZ: found P pick
+2025-02-03 14:35:16,987 ssp_wave_arrival_mod INFO     ES.UMV15..EHZ: found S pick
+2025-02-03 14:35:16,987 ssp_process_traces_mod WARNING  ES.UMV15..EHZ: signal_pre_time is larger than (Ts-Tp)/2. Using (Ts-Tp)/2 instead
+2025-02-03 14:35:17,006 ssp_process_traces_mod INFO     ES.UMV15..EHZ shortp: clipping score: 0.3%
+2025-02-03 14:35:17,186 ssp_process_traces_mod INFO     ES.UMV15..EHZ shortp: S/N: 43.0
+2025-02-03 14:35:17,186 ssp_process_traces_mod INFO     Processing traces: done
+2025-02-03 14:35:17,186 ssp_build_spectra    INFO     Building spectra...
+2025-02-03 14:35:19,215 ssp_build_spectra    INFO     ES.E0802..HHE: spectral S/N: 102.39
+2025-02-03 14:35:19,218 ssp_build_spectra    INFO     ES.E0802..HHN: spectral S/N: 106.89
+2025-02-03 14:35:19,221 ssp_build_spectra    INFO     ES.E0802..HHZ: spectral S/N: 67.16
+2025-02-03 14:35:19,224 ssp_build_spectra    INFO     ES.EADA..HHE: spectral S/N: 84.90
+2025-02-03 14:35:19,227 ssp_build_spectra    INFO     ES.EADA..HHN: spectral S/N: 96.49
+2025-02-03 14:35:19,230 ssp_build_spectra    INFO     ES.EADA..HHZ: spectral S/N: 65.59
+2025-02-03 14:35:19,233 ssp_build_spectra    INFO     ES.EALB..HHE: spectral S/N: 23.71
+2025-02-03 14:35:19,236 ssp_build_spectra    INFO     ES.EALB..HHN: spectral S/N: 16.45
+2025-02-03 14:35:19,239 ssp_build_spectra    INFO     ES.EBER..HHE: spectral S/N: 130.02
+2025-02-03 14:35:19,242 ssp_build_spectra    INFO     ES.EBER..HHN: spectral S/N: 152.84
+2025-02-03 14:35:19,245 ssp_build_spectra    INFO     ES.EBER..HHZ: spectral S/N: 156.15
+2025-02-03 14:35:19,248 ssp_build_spectra    INFO     ES.ECAB..HHE: spectral S/N: 63.80
+2025-02-03 14:35:19,251 ssp_build_spectra    INFO     ES.ECAB..HHN: spectral S/N: 64.56
+2025-02-03 14:35:19,254 ssp_build_spectra    INFO     ES.ECAB..HHZ: spectral S/N: 60.12
+2025-02-03 14:35:19,258 ssp_build_spectra    INFO     ES.EGOR..HHE: spectral S/N: 250.16
+2025-02-03 14:35:19,261 ssp_build_spectra    INFO     ES.EGOR..HHN: spectral S/N: 172.26
+2025-02-03 14:35:19,264 ssp_build_spectra    INFO     ES.EGOR..HHZ: spectral S/N: 161.82
+2025-02-03 14:35:19,267 ssp_build_spectra    INFO     ES.ELGU..HHE: spectral S/N: 411.04
+2025-02-03 14:35:19,270 ssp_build_spectra    INFO     ES.ELGU..HHN: spectral S/N: 340.25
+2025-02-03 14:35:19,273 ssp_build_spectra    INFO     ES.ELGU..HHZ: spectral S/N: 248.74
+2025-02-03 14:35:19,276 ssp_build_spectra    INFO     ES.ELOR.00.HHE: spectral S/N: 18.90
+2025-02-03 14:35:19,279 ssp_build_spectra    INFO     ES.ELOR.00.HHN: spectral S/N: 23.63
+2025-02-03 14:35:19,282 ssp_build_spectra    INFO     ES.ELOR.00.HHZ: spectral S/N: 19.40
+2025-02-03 14:35:19,285 ssp_build_spectra    INFO     ES.EMIJ..HHE: spectral S/N: 66.29
+2025-02-03 14:35:19,288 ssp_build_spectra    INFO     ES.EMIJ..HHN: spectral S/N: 59.71
+2025-02-03 14:35:19,291 ssp_build_spectra    INFO     ES.EMIJ..HHZ: spectral S/N: 59.95
+2025-02-03 14:35:19,295 ssp_build_spectra    INFO     ES.EMIN..HHN: spectral S/N: 38.17
+2025-02-03 14:35:19,298 ssp_build_spectra    INFO     ES.EMIN..HHZ: spectral S/N: 29.50
+2025-02-03 14:35:19,301 ssp_build_spectra    INFO     ES.EMLI..HHN: spectral S/N: 4.80
+2025-02-03 14:35:19,301 ssp_build_spectra    WARNING  ES.EMLI..HHN: spectral S/N smaller than 10.00: ignoring spectrum
+2025-02-03 14:35:19,304 ssp_build_spectra    INFO     ES.EMUR..HHE: spectral S/N: 37.57
+2025-02-03 14:35:19,307 ssp_build_spectra    INFO     ES.EMUR..HHN: spectral S/N: 37.98
+2025-02-03 14:35:19,310 ssp_build_spectra    INFO     ES.EMUR..HHZ: spectral S/N: 31.81
+2025-02-03 14:35:19,313 ssp_build_spectra    INFO     ES.ENIJ..HHZ: spectral S/N: 68.93
+2025-02-03 14:35:19,316 ssp_build_spectra    INFO     ES.EQTA..HHE: spectral S/N: 274.84
+2025-02-03 14:35:19,319 ssp_build_spectra    INFO     ES.EQTA..HHN: spectral S/N: 222.86
+2025-02-03 14:35:19,322 ssp_build_spectra    INFO     ES.EQTA..HHZ: spectral S/N: 189.75
+2025-02-03 14:35:19,326 ssp_build_spectra    INFO     ES.ESPR..HHE: spectral S/N: 19.59
+2025-02-03 14:35:19,329 ssp_build_spectra    INFO     ES.ESPR..HHN: spectral S/N: 18.31
+2025-02-03 14:35:19,332 ssp_build_spectra    INFO     ES.ESPR..HHZ: spectral S/N: 21.89
+2025-02-03 14:35:19,335 ssp_build_spectra    INFO     ES.ETOB..HHE: spectral S/N: 51.25
+2025-02-03 14:35:19,338 ssp_build_spectra    INFO     ES.ETOB..HHN: spectral S/N: 54.11
+2025-02-03 14:35:19,341 ssp_build_spectra    INFO     ES.ETOB..HHZ: spectral S/N: 56.26
+2025-02-03 14:35:19,344 ssp_build_spectra    INFO     ES.EZAR..HHE: spectral S/N: 58.93
+2025-02-03 14:35:19,347 ssp_build_spectra    INFO     ES.EZAR..HHN: spectral S/N: 69.32
+2025-02-03 14:35:19,350 ssp_build_spectra    INFO     ES.EZAR..HHZ: spectral S/N: 57.57
+2025-02-03 14:35:19,353 ssp_build_spectra    INFO     ES.TLOR..HHE: spectral S/N: 37.16
+2025-02-03 14:35:19,356 ssp_build_spectra    INFO     ES.TLOR..HHN: spectral S/N: 23.48
+2025-02-03 14:35:19,359 ssp_build_spectra    INFO     ES.TLOR..HHZ: spectral S/N: 24.63
+2025-02-03 14:35:19,363 ssp_build_spectra    INFO     ES.UMV15..EHE: spectral S/N: 51.89
+2025-02-03 14:35:19,366 ssp_build_spectra    INFO     ES.UMV15..EHN: spectral S/N: 40.82
+2025-02-03 14:35:19,369 ssp_build_spectra    INFO     ES.UMV15..EHZ: spectral S/N: 45.20
+2025-02-03 14:35:19,404 ssp_build_spectra    INFO     Building spectra: done
+2025-02-03 14:35:29,067 ssp_plot_traces      INFO     Trace plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/dc2ca744-3140-4e29-8551-a9591442d500.traces.00.png
+2025-02-03 14:35:29,089 ssp_plot_traces      INFO     Trace plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/dc2ca744-3140-4e29-8551-a9591442d500.traces.01.png
+2025-02-03 14:35:29,089 ssp_inversion        INFO     Inverting spectra...
+2025-02-03 14:35:29,089 ssp_inversion        INFO     Using noise weighting for inversion.
+2025-02-03 14:35:29,089 ssp_inversion        INFO     Using grid search for inversion.
+2025-02-03 14:35:29,092 ssp_inversion        INFO     ES.E0802..HHH broadb: initial values: Mw_0: 3.3596; fc_0: 4.3608; t_star_0: 0.045
+2025-02-03 14:35:29,092 ssp_inversion        INFO     ES.E0802..HHH broadb: bounds: Mw: 2.8845, 3.8345; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:35:42,010 ssp_grid_sampling    INFO     ES.E0802..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.cond_misfit_ES.E0802..HHH_broadb.png
+2025-02-03 14:35:42,825 ssp_grid_sampling    INFO     ES.E0802..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-t_star_ES.E0802..HHH_broadb.png
+2025-02-03 14:35:43,439 ssp_grid_sampling    INFO     ES.E0802..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-Mw_ES.E0802..HHH_broadb.png
+2025-02-03 14:35:43,948 ssp_grid_sampling    INFO     ES.E0802..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_t_star-Mw_ES.E0802..HHH_broadb.png
+2025-02-03 14:35:43,948 ssp_inversion        INFO     ES.E0802..HHH broadb: optimal values: Mw: 3.8345; fc: 1.6950; t_star: 0.0290
+2025-02-03 14:35:43,949 ssp_inversion        INFO     ES.E0802..HHH broadb: misfit: 0.118
+2025-02-03 14:35:43,950 ssp_inversion        INFO     ES.EADA..HHH broadb: initial values: Mw_0: 3.5952; fc_0: 1.0954; t_star_0: 0.045
+2025-02-03 14:35:43,950 ssp_inversion        INFO     ES.EADA..HHH broadb: bounds: Mw: 3.2003, 3.9867; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:35:56,698 ssp_grid_sampling    INFO     ES.EADA..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.cond_misfit_ES.EADA..HHH_broadb.png
+2025-02-03 14:35:57,448 ssp_grid_sampling    INFO     ES.EADA..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-t_star_ES.EADA..HHH_broadb.png
+2025-02-03 14:35:58,111 ssp_grid_sampling    INFO     ES.EADA..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-Mw_ES.EADA..HHH_broadb.png
+2025-02-03 14:35:58,637 ssp_grid_sampling    INFO     ES.EADA..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_t_star-Mw_ES.EADA..HHH_broadb.png
+2025-02-03 14:35:58,637 ssp_inversion        INFO     ES.EADA..HHH broadb: optimal values: Mw: 3.6142; fc: 2.5726; t_star: 0.0464
+2025-02-03 14:35:58,637 ssp_inversion        INFO     ES.EADA..HHH broadb: misfit: 0.070
+2025-02-03 14:35:58,638 ssp_inversion        INFO     ES.EALB..HHH broadb: initial values: Mw_0: 3.6581; fc_0: 1.9036; t_star_0: 0.045
+2025-02-03 14:35:58,638 ssp_inversion        INFO     ES.EALB..HHH broadb: bounds: Mw: 3.2264, 4.0707; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:36:11,378 ssp_grid_sampling    INFO     ES.EALB..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.cond_misfit_ES.EALB..HHH_broadb.png
+2025-02-03 14:36:12,188 ssp_grid_sampling    INFO     ES.EALB..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-t_star_ES.EALB..HHH_broadb.png
+2025-02-03 14:36:12,860 ssp_grid_sampling    INFO     ES.EALB..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-Mw_ES.EALB..HHH_broadb.png
+2025-02-03 14:36:13,419 ssp_grid_sampling    INFO     ES.EALB..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_t_star-Mw_ES.EALB..HHH_broadb.png
+2025-02-03 14:36:13,419 ssp_inversion        INFO     ES.EALB..HHH broadb: optimal values: Mw: 3.8930; fc: 1.3443; t_star: 0.1025
+2025-02-03 14:36:13,419 ssp_inversion        INFO     ES.EALB..HHH broadb: misfit: 0.082
+2025-02-03 14:36:13,420 ssp_inversion        INFO     ES.EBER..HHH broadb: initial values: Mw_0: 3.7589; fc_0: 3.0169; t_star_0: 0.045
+2025-02-03 14:36:13,420 ssp_inversion        INFO     ES.EBER..HHH broadb: bounds: Mw: 3.1566, 4.3113; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:36:26,252 ssp_grid_sampling    INFO     ES.EBER..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.cond_misfit_ES.EBER..HHH_broadb.png
+2025-02-03 14:36:27,002 ssp_grid_sampling    INFO     ES.EBER..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-t_star_ES.EBER..HHH_broadb.png
+2025-02-03 14:36:27,673 ssp_grid_sampling    INFO     ES.EBER..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-Mw_ES.EBER..HHH_broadb.png
+2025-02-03 14:36:28,204 ssp_grid_sampling    INFO     ES.EBER..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_t_star-Mw_ES.EBER..HHH_broadb.png
+2025-02-03 14:36:28,205 ssp_inversion        INFO     ES.EBER..HHH broadb: optimal values: Mw: 4.0074; fc: 1.6950; t_star: 0.0798
+2025-02-03 14:36:28,205 ssp_inversion        INFO     ES.EBER..HHH broadb: misfit: 0.078
+2025-02-03 14:36:28,206 ssp_inversion        INFO     ES.ECAB..HHH broadb: initial values: Mw_0: 3.5126; fc_0: 1.0954; t_star_0: 0.045
+2025-02-03 14:36:28,206 ssp_inversion        INFO     ES.ECAB..HHH broadb: bounds: Mw: 3.068, 4.0254; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:36:41,135 ssp_grid_sampling    INFO     ES.ECAB..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.cond_misfit_ES.ECAB..HHH_broadb.png
+2025-02-03 14:36:41,847 ssp_grid_sampling    INFO     ES.ECAB..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-t_star_ES.ECAB..HHH_broadb.png
+2025-02-03 14:36:42,464 ssp_grid_sampling    INFO     ES.ECAB..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-Mw_ES.ECAB..HHH_broadb.png
+2025-02-03 14:36:42,979 ssp_grid_sampling    INFO     ES.ECAB..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_t_star-Mw_ES.ECAB..HHH_broadb.png
+2025-02-03 14:36:42,979 ssp_inversion        INFO     ES.ECAB..HHH broadb: optimal values: Mw: 3.6222; fc: 1.7754; t_star: 0.0544
+2025-02-03 14:36:42,979 ssp_inversion        INFO     ES.ECAB..HHH broadb: misfit: 0.094
+2025-02-03 14:36:42,980 ssp_inversion        INFO     ES.EGOR..HHH broadb: initial values: Mw_0: 3.8722; fc_0: 0.7578; t_star_0: 0.045
+2025-02-03 14:36:42,980 ssp_inversion        INFO     ES.EGOR..HHH broadb: bounds: Mw: 3.4743, 4.2754; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:36:56,341 ssp_grid_sampling    INFO     ES.EGOR..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.cond_misfit_ES.EGOR..HHH_broadb.png
+2025-02-03 14:36:57,200 ssp_grid_sampling    INFO     ES.EGOR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-t_star_ES.EGOR..HHH_broadb.png
+2025-02-03 14:36:57,974 ssp_grid_sampling    INFO     ES.EGOR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-Mw_ES.EGOR..HHH_broadb.png
+2025-02-03 14:36:58,588 ssp_grid_sampling    INFO     ES.EGOR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_t_star-Mw_ES.EGOR..HHH_broadb.png
+2025-02-03 14:36:58,588 ssp_inversion        INFO     ES.EGOR..HHH broadb: optimal values: Mw: 3.9802; fc: 1.2834; t_star: 0.0411
+2025-02-03 14:36:58,588 ssp_inversion        INFO     ES.EGOR..HHH broadb: misfit: 0.140
+2025-02-03 14:36:58,589 ssp_inversion        INFO     ES.ELGU..HHH broadb: initial values: Mw_0: 3.914; fc_0: 2.0872; t_star_0: 0.045
+2025-02-03 14:36:58,589 ssp_inversion        INFO     ES.ELGU..HHH broadb: bounds: Mw: 3.4379, 4.4297; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:37:12,337 ssp_grid_sampling    INFO     ES.ELGU..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.cond_misfit_ES.ELGU..HHH_broadb.png
+2025-02-03 14:37:13,531 ssp_grid_sampling    INFO     ES.ELGU..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-t_star_ES.ELGU..HHH_broadb.png
+2025-02-03 14:37:14,179 ssp_grid_sampling    INFO     ES.ELGU..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-Mw_ES.ELGU..HHH_broadb.png
+2025-02-03 14:37:14,713 ssp_grid_sampling    INFO     ES.ELGU..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_t_star-Mw_ES.ELGU..HHH_broadb.png
+2025-02-03 14:37:14,713 ssp_inversion        INFO     ES.ELGU..HHH broadb: optimal values: Mw: 4.0643; fc: 1.9479; t_star: 0.0357
+2025-02-03 14:37:14,713 ssp_inversion        INFO     ES.ELGU..HHH broadb: misfit: 0.077
+2025-02-03 14:37:14,715 ssp_inversion        INFO     ES.ELOR.00.HHH broadb: initial values: Mw_0: 4.1317; fc_0: 0.8309; t_star_0: 0.045
+2025-02-03 14:37:14,715 ssp_inversion        INFO     ES.ELOR.00.HHH broadb: bounds: Mw: 3.6907, 4.6074; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:37:27,574 ssp_grid_sampling    INFO     ES.ELOR.00.HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.cond_misfit_ES.ELOR.00.HHH_broadb.png
+2025-02-03 14:37:28,255 ssp_grid_sampling    INFO     ES.ELOR.00.HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-t_star_ES.ELOR.00.HHH_broadb.png
+2025-02-03 14:37:28,868 ssp_grid_sampling    INFO     ES.ELOR.00.HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-Mw_ES.ELOR.00.HHH_broadb.png
+2025-02-03 14:37:29,366 ssp_grid_sampling    INFO     ES.ELOR.00.HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_t_star-Mw_ES.ELOR.00.HHH_broadb.png
+2025-02-03 14:37:29,366 ssp_inversion        INFO     ES.ELOR.00.HHH broadb: optimal values: Mw: 4.3179; fc: 0.8456; t_star: 0.1052
+2025-02-03 14:37:29,366 ssp_inversion        INFO     ES.ELOR.00.HHH broadb: misfit: 0.052
+2025-02-03 14:37:29,367 ssp_inversion        INFO     ES.EMIJ..HHH broadb: initial values: Mw_0: 3.6901; fc_0: 0.999; t_star_0: 0.045
+2025-02-03 14:37:29,368 ssp_inversion        INFO     ES.EMIJ..HHH broadb: bounds: Mw: 3.2703, 4.1732; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:37:42,515 ssp_grid_sampling    INFO     ES.EMIJ..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.cond_misfit_ES.EMIJ..HHH_broadb.png
+2025-02-03 14:37:43,288 ssp_grid_sampling    INFO     ES.EMIJ..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-t_star_ES.EMIJ..HHH_broadb.png
+2025-02-03 14:37:43,968 ssp_grid_sampling    INFO     ES.EMIJ..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-Mw_ES.EMIJ..HHH_broadb.png
+2025-02-03 14:37:44,531 ssp_grid_sampling    INFO     ES.EMIJ..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_t_star-Mw_ES.EMIJ..HHH_broadb.png
+2025-02-03 14:37:44,531 ssp_inversion        INFO     ES.EMIJ..HHH broadb: optimal values: Mw: 3.8405; fc: 1.1698; t_star: 0.0731
+2025-02-03 14:37:44,531 ssp_inversion        INFO     ES.EMIJ..HHH broadb: misfit: 0.074
+2025-02-03 14:37:44,532 ssp_inversion        INFO     ES.EMIN..HHH broadb: initial values: Mw_0: 3.2008; fc_0: 1.2011; t_star_0: 0.045
+2025-02-03 14:37:44,533 ssp_inversion        INFO     ES.EMIN..HHH broadb: bounds: Mw: 2.7167, 3.7823; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:37:59,285 ssp_grid_sampling    INFO     ES.EMIN..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.cond_misfit_ES.EMIN..HHH_broadb.png
+2025-02-03 14:38:00,224 ssp_grid_sampling    INFO     ES.EMIN..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-t_star_ES.EMIN..HHH_broadb.png
+2025-02-03 14:38:01,029 ssp_grid_sampling    INFO     ES.EMIN..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-Mw_ES.EMIN..HHH_broadb.png
+2025-02-03 14:38:01,589 ssp_grid_sampling    INFO     ES.EMIN..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_t_star-Mw_ES.EMIN..HHH_broadb.png
+2025-02-03 14:38:01,590 ssp_inversion        INFO     ES.EMIN..HHH broadb: optimal values: Mw: 3.3336; fc: 1.3443; t_star: 0.0411
+2025-02-03 14:38:01,590 ssp_inversion        INFO     ES.EMIN..HHH broadb: misfit: 0.112
+2025-02-03 14:38:01,593 ssp_inversion        INFO     ES.EMUR..HHH broadb: initial values: Mw_0: 3.9017; fc_0: 0.9111; t_star_0: 0.045
+2025-02-03 14:38:01,593 ssp_inversion        INFO     ES.EMUR..HHH broadb: bounds: Mw: 3.4757, 4.3253; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:38:16,185 ssp_grid_sampling    INFO     ES.EMUR..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.cond_misfit_ES.EMUR..HHH_broadb.png
+2025-02-03 14:38:17,002 ssp_grid_sampling    INFO     ES.EMUR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-t_star_ES.EMUR..HHH_broadb.png
+2025-02-03 14:38:17,719 ssp_grid_sampling    INFO     ES.EMUR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-Mw_ES.EMUR..HHH_broadb.png
+2025-02-03 14:38:18,328 ssp_grid_sampling    INFO     ES.EMUR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_t_star-Mw_ES.EMUR..HHH_broadb.png
+2025-02-03 14:38:18,329 ssp_inversion        INFO     ES.EMUR..HHH broadb: optimal values: Mw: 4.2358; fc: 0.5836; t_star: 0.1119
+2025-02-03 14:38:18,329 ssp_inversion        INFO     ES.EMUR..HHH broadb: misfit: 0.179
+2025-02-03 14:38:18,330 ssp_inversion        INFO     ES.ENIJ..HHH broadb: initial values: Mw_0: 3.4464; fc_0: 1.3169; t_star_0: 0.045
+2025-02-03 14:38:18,330 ssp_inversion        INFO     ES.ENIJ..HHH broadb: bounds: Mw: 2.9419, 3.95; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:38:32,411 ssp_grid_sampling    INFO     ES.ENIJ..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.cond_misfit_ES.ENIJ..HHH_broadb.png
+2025-02-03 14:38:33,174 ssp_grid_sampling    INFO     ES.ENIJ..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-t_star_ES.ENIJ..HHH_broadb.png
+2025-02-03 14:38:33,837 ssp_grid_sampling    INFO     ES.ENIJ..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-Mw_ES.ENIJ..HHH_broadb.png
+2025-02-03 14:38:34,387 ssp_grid_sampling    INFO     ES.ENIJ..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_t_star-Mw_ES.ENIJ..HHH_broadb.png
+2025-02-03 14:38:34,387 ssp_inversion        INFO     ES.ENIJ..HHH broadb: optimal values: Mw: 3.7378; fc: 1.0662; t_star: 0.0785
+2025-02-03 14:38:34,387 ssp_inversion        INFO     ES.ENIJ..HHH broadb: misfit: 0.087
+2025-02-03 14:38:34,391 ssp_inversion        INFO     ES.EQTA..HHH broadb: initial values: Mw_0: 3.8484; fc_0: 1.5833; t_star_0: 0.045
+2025-02-03 14:38:34,391 ssp_inversion        INFO     ES.EQTA..HHH broadb: bounds: Mw: 3.3498, 4.3601; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:38:47,264 ssp_grid_sampling    INFO     ES.EQTA..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.cond_misfit_ES.EQTA..HHH_broadb.png
+2025-02-03 14:38:48,035 ssp_grid_sampling    INFO     ES.EQTA..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-t_star_ES.EQTA..HHH_broadb.png
+2025-02-03 14:38:48,687 ssp_grid_sampling    INFO     ES.EQTA..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-Mw_ES.EQTA..HHH_broadb.png
+2025-02-03 14:38:49,227 ssp_grid_sampling    INFO     ES.EQTA..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_t_star-Mw_ES.EQTA..HHH_broadb.png
+2025-02-03 14:38:49,227 ssp_inversion        INFO     ES.EQTA..HHH broadb: optimal values: Mw: 4.0410; fc: 1.2253; t_star: 0.0063
+2025-02-03 14:38:49,227 ssp_inversion        INFO     ES.EQTA..HHH broadb: misfit: 0.077
+2025-02-03 14:38:49,228 ssp_inversion        INFO     ES.ESPR..HHH broadb: initial values: Mw_0: 4.051; fc_0: 0.6911; t_star_0: 0.045
+2025-02-03 14:38:49,228 ssp_inversion        INFO     ES.ESPR..HHH broadb: bounds: Mw: 3.4977, 4.5749; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:39:03,274 ssp_grid_sampling    INFO     ES.ESPR..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.cond_misfit_ES.ESPR..HHH_broadb.png
+2025-02-03 14:39:04,040 ssp_grid_sampling    INFO     ES.ESPR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-t_star_ES.ESPR..HHH_broadb.png
+2025-02-03 14:39:04,760 ssp_grid_sampling    INFO     ES.ESPR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-Mw_ES.ESPR..HHH_broadb.png
+2025-02-03 14:39:05,327 ssp_grid_sampling    INFO     ES.ESPR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_t_star-Mw_ES.ESPR..HHH_broadb.png
+2025-02-03 14:39:05,327 ssp_inversion        INFO     ES.ESPR..HHH broadb: optimal values: Mw: 4.3481; fc: 0.3346; t_star: 0.0664
+2025-02-03 14:39:05,327 ssp_inversion        INFO     ES.ESPR..HHH broadb: misfit: 0.122
+2025-02-03 14:39:05,328 ssp_inversion        INFO     ES.ETOB..HHH broadb: initial values: Mw_0: 3.9207; fc_0: 1.0954; t_star_0: 0.045
+2025-02-03 14:39:05,328 ssp_inversion        INFO     ES.ETOB..HHH broadb: bounds: Mw: 3.4971, 4.3687; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:39:18,368 ssp_grid_sampling    INFO     ES.ETOB..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.cond_misfit_ES.ETOB..HHH_broadb.png
+2025-02-03 14:39:19,102 ssp_grid_sampling    INFO     ES.ETOB..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-t_star_ES.ETOB..HHH_broadb.png
+2025-02-03 14:39:19,794 ssp_grid_sampling    INFO     ES.ETOB..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-Mw_ES.ETOB..HHH_broadb.png
+2025-02-03 14:39:20,374 ssp_grid_sampling    INFO     ES.ETOB..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_t_star-Mw_ES.ETOB..HHH_broadb.png
+2025-02-03 14:39:20,375 ssp_inversion        INFO     ES.ETOB..HHH broadb: optimal values: Mw: 4.0935; fc: 1.0662; t_star: 0.0838
+2025-02-03 14:39:20,375 ssp_inversion        INFO     ES.ETOB..HHH broadb: misfit: 0.074
+2025-02-03 14:39:20,376 ssp_inversion        INFO     ES.EZAR..HHH broadb: initial values: Mw_0: 4.3149; fc_0: 0.999; t_star_0: 0.045
+2025-02-03 14:39:20,376 ssp_inversion        INFO     ES.EZAR..HHH broadb: bounds: Mw: 3.7787, 4.9097; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:39:33,145 ssp_grid_sampling    INFO     ES.EZAR..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.cond_misfit_ES.EZAR..HHH_broadb.png
+2025-02-03 14:39:33,818 ssp_grid_sampling    INFO     ES.EZAR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-t_star_ES.EZAR..HHH_broadb.png
+2025-02-03 14:39:34,437 ssp_grid_sampling    INFO     ES.EZAR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-Mw_ES.EZAR..HHH_broadb.png
+2025-02-03 14:39:34,943 ssp_grid_sampling    INFO     ES.EZAR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_t_star-Mw_ES.EZAR..HHH_broadb.png
+2025-02-03 14:39:34,944 ssp_inversion        INFO     ES.EZAR..HHH broadb: optimal values: Mw: 4.6716; fc: 0.4419; t_star: 0.0891
+2025-02-03 14:39:34,944 ssp_inversion        INFO     ES.EZAR..HHH broadb: misfit: 0.091
+2025-02-03 14:39:34,945 ssp_inversion        INFO     ES.TLOR..HHH broadb: initial values: Mw_0: 4.2573; fc_0: 1.9036; t_star_0: 0.045
+2025-02-03 14:39:34,945 ssp_inversion        INFO     ES.TLOR..HHH broadb: bounds: Mw: 3.5689, 4.9512; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:39:47,697 ssp_grid_sampling    INFO     ES.TLOR..HHH broadb: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.cond_misfit_ES.TLOR..HHH_broadb.png
+2025-02-03 14:39:48,416 ssp_grid_sampling    INFO     ES.TLOR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-t_star_ES.TLOR..HHH_broadb.png
+2025-02-03 14:39:49,078 ssp_grid_sampling    INFO     ES.TLOR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-Mw_ES.TLOR..HHH_broadb.png
+2025-02-03 14:39:49,601 ssp_grid_sampling    INFO     ES.TLOR..HHH broadb: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_t_star-Mw_ES.TLOR..HHH_broadb.png
+2025-02-03 14:39:49,601 ssp_inversion        INFO     ES.TLOR..HHH broadb: optimal values: Mw: 4.8057; fc: 0.3671; t_star: 0.0331
+2025-02-03 14:39:49,601 ssp_inversion        INFO     ES.TLOR..HHH broadb: misfit: 0.127
+2025-02-03 14:39:49,602 ssp_inversion        INFO     ES.UMV15..EHH shortp: initial values: Mw_0: 4.1528; fc_0: 0.7586; t_star_0: 0.045
+2025-02-03 14:39:49,602 ssp_inversion        INFO     ES.UMV15..EHH shortp: bounds: Mw: 3.6939, 4.6325; fc: 0.05, 50.0; t_star: 0.001, 0.2
+2025-02-03 14:40:02,399 ssp_grid_sampling    INFO     ES.UMV15..EHH shortp: conditional misfit plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.cond_misfit_ES.UMV15..EHH_shortp.png
+2025-02-03 14:40:03,099 ssp_grid_sampling    INFO     ES.UMV15..EHH shortp: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-t_star_ES.UMV15..EHH_shortp.png
+2025-02-03 14:40:03,730 ssp_grid_sampling    INFO     ES.UMV15..EHH shortp: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_fc-Mw_ES.UMV15..EHH_shortp.png
+2025-02-03 14:40:04,235 ssp_grid_sampling    INFO     ES.UMV15..EHH shortp: conditional misfit map saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/misfit/dc2ca744-3140-4e29-8551-a9591442d500.misfit_t_star-Mw_ES.UMV15..EHH_shortp.png
+2025-02-03 14:40:04,235 ssp_inversion        INFO     ES.UMV15..EHH shortp: optimal values: Mw: 4.1385; fc: 2.8226; t_star: 0.0317
+2025-02-03 14:40:04,235 ssp_inversion        INFO     ES.UMV15..EHH shortp: misfit: 0.100
+2025-02-03 14:40:04,236 ssp_inversion        INFO     Inverting spectra: done
+2025-02-03 14:40:04,236 ssp_radiated_energy  INFO     Computing radiated energy...
+2025-02-03 14:40:04,237 ssp_radiated_energy  WARNING  ES.ELOR.00.HHH broadb: noise energy is larger than signal energy: skipping spectrum.
+2025-02-03 14:40:04,238 ssp_radiated_energy  WARNING  ES.EALB..HHH broadb: noise energy is larger than signal energy: skipping spectrum.
+2025-02-03 14:40:04,239 ssp_radiated_energy  INFO     Computing radiated energy: done
+2025-02-03 14:40:04,239 ssp_local_magnitude  INFO     Computing local magnitude...
+2025-02-03 14:40:04,461 ssp_local_magnitude  INFO     ES.E0802..HHE broadb: Ml 4.1
+2025-02-03 14:40:04,683 ssp_local_magnitude  INFO     ES.E0802..HHN broadb: Ml 4.1
+2025-02-03 14:40:04,963 ssp_local_magnitude  INFO     ES.EADA..HHE broadb: Ml 3.9
+2025-02-03 14:40:05,242 ssp_local_magnitude  INFO     ES.EADA..HHN broadb: Ml 4.0
+2025-02-03 14:40:05,542 ssp_local_magnitude  INFO     ES.EALB..HHE broadb: Ml 4.2
+2025-02-03 14:40:05,848 ssp_local_magnitude  INFO     ES.EALB..HHN broadb: Ml 4.2
+2025-02-03 14:40:06,115 ssp_local_magnitude  INFO     ES.EBER..HHE broadb: Ml 4.2
+2025-02-03 14:40:06,388 ssp_local_magnitude  INFO     ES.EBER..HHN broadb: Ml 4.2
+2025-02-03 14:40:06,663 ssp_local_magnitude  INFO     ES.ECAB..HHE broadb: Ml 3.9
+2025-02-03 14:40:06,941 ssp_local_magnitude  INFO     ES.ECAB..HHN broadb: Ml 4.0
+2025-02-03 14:40:07,182 ssp_local_magnitude  INFO     ES.EGOR..HHE broadb: Ml 3.7
+2025-02-03 14:40:07,425 ssp_local_magnitude  INFO     ES.EGOR..HHN broadb: Ml 3.8
+2025-02-03 14:40:07,665 ssp_local_magnitude  INFO     ES.ELGU..HHE broadb: Ml 4.4
+2025-02-03 14:40:07,914 ssp_local_magnitude  INFO     ES.ELGU..HHN broadb: Ml 4.1
+2025-02-03 14:40:08,179 ssp_local_magnitude  INFO     ES.ELOR.00.HHE broadb: Ml 4.6
+2025-02-03 14:40:08,445 ssp_local_magnitude  INFO     ES.ELOR.00.HHN broadb: Ml 4.6
+2025-02-03 14:40:08,735 ssp_local_magnitude  INFO     ES.EMIJ..HHE broadb: Ml 3.9
+2025-02-03 14:40:09,475 ssp_local_magnitude  INFO     ES.EMIJ..HHN broadb: Ml 3.7
+2025-02-03 14:40:09,712 ssp_local_magnitude  INFO     ES.EMIN..HHN broadb: Ml 3.9
+2025-02-03 14:40:09,990 ssp_local_magnitude  INFO     ES.EMUR..HHE broadb: Ml 4.4
+2025-02-03 14:40:10,263 ssp_local_magnitude  INFO     ES.EMUR..HHN broadb: Ml 4.4
+2025-02-03 14:40:10,511 ssp_local_magnitude  INFO     ES.EQTA..HHE broadb: Ml 4.2
+2025-02-03 14:40:10,758 ssp_local_magnitude  INFO     ES.EQTA..HHN broadb: Ml 4.0
+2025-02-03 14:40:11,046 ssp_local_magnitude  INFO     ES.ESPR..HHE broadb: Ml 4.4
+2025-02-03 14:40:11,341 ssp_local_magnitude  INFO     ES.ESPR..HHN broadb: Ml 4.1
+2025-02-03 14:40:11,653 ssp_local_magnitude  INFO     ES.ETOB..HHE broadb: Ml 4.5
+2025-02-03 14:40:11,933 ssp_local_magnitude  INFO     ES.ETOB..HHN broadb: Ml 4.6
+2025-02-03 14:40:12,169 ssp_local_magnitude  INFO     ES.EZAR..HHE broadb: Ml 4.7
+2025-02-03 14:40:12,409 ssp_local_magnitude  INFO     ES.EZAR..HHN broadb: Ml 4.7
+2025-02-03 14:40:12,648 ssp_local_magnitude  INFO     ES.TLOR..HHE broadb: Ml 5.1
+2025-02-03 14:40:12,890 ssp_local_magnitude  INFO     ES.TLOR..HHN broadb: Ml 5.0
+2025-02-03 14:40:13,117 ssp_local_magnitude  INFO     ES.UMV15..EHE shortp: Ml 4.5
+2025-02-03 14:40:13,340 ssp_local_magnitude  INFO     ES.UMV15..EHN shortp: Ml 4.4
+2025-02-03 14:40:13,366 ssp_summary_statistics INFO     params_mean: {'Mw': 3.986728315714196, 'fc': 1.1167688531925615, 't_star': 0.061620059656972405}
+2025-02-03 14:40:13,366 ssp_summary_statistics INFO     params_mean_weighted: {'Mw': 4.070891537649227, 'fc': 1.2152154392601973, 't_star': 0.016232280152906738}
+2025-02-03 14:40:13,366 ssp_summary_statistics INFO     params_percentiles: {'Mw': 4.0074465570348075, 'fc': 1.2543407535922375, 't_star': 0.06043288590604027}
+2025-02-03 14:40:13,369 ssp_output           INFO     Output written to file: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/dc2ca744-3140-4e29-8551-a9591442d500.ssp.out
+2025-02-03 14:40:13,372 ssp_output           INFO     Output written to file: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/dc2ca744-3140-4e29-8551-a9591442d500.ssp.yaml
+2025-02-03 14:40:13,601 ssp_sqlite_output    INFO     Output written to SQLite database: source_spec.sqlite
+2025-02-03 14:40:13,743 ssp_qml_output       WARNING  Unable to find evid "dc2ca744-3140-4e29-8551-a9591442d500" in QuakeML file. QuakeML output will not be written.
+2025-02-03 14:40:13,765 ssp_residuals        INFO     Spectral residuals saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/dc2ca744-3140-4e29-8551-a9591442d500-residuals.pickle
+2025-02-03 14:40:55,595 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/dc2ca744-3140-4e29-8551-a9591442d500.ssp.00.png
+2025-02-03 14:40:55,595 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/dc2ca744-3140-4e29-8551-a9591442d500.ssp.01.png
+2025-02-03 14:40:55,595 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/dc2ca744-3140-4e29-8551-a9591442d500.ssp.02.png
+2025-02-03 14:40:55,595 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/dc2ca744-3140-4e29-8551-a9591442d500.ssp.03.png
+2025-02-03 14:40:55,595 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/dc2ca744-3140-4e29-8551-a9591442d500.ssp.04.png
+2025-02-03 14:40:55,595 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/dc2ca744-3140-4e29-8551-a9591442d500.ssp.05.png
+2025-02-03 14:40:55,595 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/dc2ca744-3140-4e29-8551-a9591442d500.ssp.06.png
+2025-02-03 14:40:55,595 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/dc2ca744-3140-4e29-8551-a9591442d500.ssp.07.png
+2025-02-03 14:40:55,595 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/dc2ca744-3140-4e29-8551-a9591442d500.ssp.08.png
+2025-02-03 14:40:55,595 ssp_plot_spectra     INFO     Spectral plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/dc2ca744-3140-4e29-8551-a9591442d500.ssp.09.png
+2025-02-03 14:41:41,699 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/dc2ca744-3140-4e29-8551-a9591442d500.sspweight.00.png
+2025-02-03 14:41:41,845 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/dc2ca744-3140-4e29-8551-a9591442d500.sspweight.01.png
+2025-02-03 14:41:41,845 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/dc2ca744-3140-4e29-8551-a9591442d500.sspweight.02.png
+2025-02-03 14:41:41,845 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/dc2ca744-3140-4e29-8551-a9591442d500.sspweight.03.png
+2025-02-03 14:41:41,845 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/dc2ca744-3140-4e29-8551-a9591442d500.sspweight.04.png
+2025-02-03 14:41:41,845 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/dc2ca744-3140-4e29-8551-a9591442d500.sspweight.05.png
+2025-02-03 14:41:41,845 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/dc2ca744-3140-4e29-8551-a9591442d500.sspweight.06.png
+2025-02-03 14:41:41,845 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/dc2ca744-3140-4e29-8551-a9591442d500.sspweight.07.png
+2025-02-03 14:41:41,845 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/dc2ca744-3140-4e29-8551-a9591442d500.sspweight.08.png
+2025-02-03 14:41:41,846 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/dc2ca744-3140-4e29-8551-a9591442d500.sspweight.09.png
+2025-02-03 14:41:41,846 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/dc2ca744-3140-4e29-8551-a9591442d500.sspweight.10.png
+2025-02-03 14:41:41,846 ssp_plot_spectra     INFO     Weight plots saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/dc2ca744-3140-4e29-8551-a9591442d500.sspweight.11.png
+2025-02-03 14:41:43,488 ssp_plot_stacked_spectra INFO     Stacked spectra plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/dc2ca744-3140-4e29-8551-a9591442d500.stacked_spectra.png
+2025-02-03 14:41:45,990 ssp_plot_params_stats INFO     Parameters box plot saved to: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/dc2ca744-3140-4e29-8551-a9591442d500.boxplot.png
+2025-02-03 14:41:46,072 ssp_html_report      INFO     HTML report written to file: /Volumes/LaCie/test_surfquake/Granada/source/no_evid_b276ad84cbfb445b9df2d6c190434538/index.html

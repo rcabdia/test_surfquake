@@ -1,0 +1,72 @@
+
+Hypocenter location:
+  Agency: 
+  Origin time: 2021-01-26 21:36:33
+  Lat   37.195   Lon   -3.730   Depth 1.0 km
+Station coordinates: /var/folders/gj/jqdffl4j0694fbnkzr8x231h0000gn/T/tmp6a8hzhj8/stations.txt
+Crustal model(s): /Volumes/LaCie/test_surfquake/Granada/inputs/model_mti/Iberia.dat
+
+Sampling frequencies:
+  Data sampling: 100.0 Hz, 100.0 Hz, 100.0 Hz, 100.0 Hz, 100.0 Hz, 100.0 Hz, 100.0 Hz, 100.0 Hz, 100.0 Hz, 100.0 Hz
+  Common sampling: 100.0
+  Decimation factor: 156 x
+  Sampling used:   0.6 Hz
+
+Grid parameters:
+  number of points:  726
+  horizontal step:   797 m
+  vertical step:   797 m
+  grid radius:  4.326 km
+  minimal depth:  1.000 km
+  maximal depth:  5.326 km
+Estimated rupture length:  1.326 km
+
+Grid-search over time:
+  min = -1.00 s (-96 samples)
+  max =  1.53 s (153 samples)
+  step = 0.12 s ( 12 samples)
+
+Green's function calculation:
+  npts:  128
+  tl: 199.68
+  freq:   65
+  npts for inversion:  124
+  source time function: triangle in velocity, length = 2.0 s
+
+Components used in inversion and their weights
+station     	   	 Z 	 N 	 E 	dist	azimuth	fmin	fmax
+            	   	   	   	   	(km)    	(deg)	(Hz)	(Hz)
+ ES:EQTA    	HH 	1.0	1.0	1.0	  26    	 87	0.04	0.08
+ ES:EGOR    	HH 	1.0	1.0	1.0	  35    	255	0.04	0.08
+ ES:ELGU    	HH 	1.0	1.0	1.0	  37    	166	0.04	0.08
+ ES:EBER    	HH 	1.0	1.0	1.0	  82    	114	0.04	0.08
+ ES:EMIJ    	HH 	1.0	1.0	1.0	 116    	233	0.04	0.08
+ ES:EADA    	HH 	1.0	1.0	1.0	 131    	326	0.04	0.08
+ ES:EALB    	HH 	---	---	---	 153    	156	0.04	0.08
+ ES:ECAB    	HH 	1.0	1.0	1.0	 178    	304	0.04	0.08
+ ES:ELOR    	HH 	1.0	1.0	1.0	 182    	 74	0.04	0.08
+ ES:ESPR    	HH 	1.0	1.0	1.0	 193    	260	0.04	0.08
+
+Creating covariance matrix
+Inversion of deviatoric part of moment tensor (5 components)
+
+Centroid location:
+  Centroid time: 2021-01-26 21:36:34
+  Lat   37.231   Lon   -3.685   Depth   1.8 km
+  ( 3986 m to the north and  3986 m to the east with respect to epicenter)
+  Warning: the solution lies on the edge of the grid!
+  time:  1.44 s after origin time
+
+  Warning: the solution lies on the edge of the time-grid!
+  VR:   16 %
+  CN:    6
+  MT [ Mrr    Mtt    Mpp    Mrt    Mrp    Mtp  ]:
+     [-8.47   7.78   0.69  -4.29  -3.90   1.33 ] * 1e+14
+
+Scalar Moment: M0 =  1.06e+15 Nm (Mw = 4.0)
+  DC component:  78 %  CLVD component: -22 %   ISOtropic component: -0 %
+  Fault plane 1: strike =  273, dip =  31 , slip-rake = -64
+  Fault plane 2: strike =  63, dip =  62 , slip-rake = -105
+
+Uncertainty evaluation: plotted 400 mechanism of 400 requested.
+Standard deviation :: dc: 0.01, clvd: 0.01, iso: 0.00, Mw: 0.02, t: 0.00, x: 0.00, y: 0.00, z: 0.00

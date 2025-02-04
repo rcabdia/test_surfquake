@@ -1,0 +1,562 @@
+# SourceSpec output in YAML format
+
+# Information on the SourceSpec run
+run_info:
+  SourceSpec_version: 1.7
+  run_completed: 2025-02-03 14:40:13.366706 CET
+  author_name: SurfQuakeCore
+  author_email: https://projectisp.github.io/ISP_tutorial.github.io/
+  agency_full_name: Spanish Navy Observatory
+  agency_short_name: ROA
+  agency_url: https://armada.defensa.gob.es/ArmadaPortal/page/Portal/ArmadaEspannola/cienciaobservatorio/prefLang-es/02InfoGeneral
+
+# Information on the event
+event_info:
+  event_id: dc2ca744-3140-4e29-8551-a9591442d500
+  longitude: -3.699294
+  latitude: 37.198792
+  depth_in_km: 3.295898
+  origin_time: 2021-01-26T21:54:55.227870Z
+
+# Information on the inversion procedure
+inversion_info:
+  algorithm: GS
+  weighting: noise
+  t_star_0: 0.045
+  invert_t_star_0: False
+  t_star_0_variability: 0.1
+  t_star_min_max: [0.001, 0.2]
+  fc_min_max: [0.05, 50.0]
+  Qo_min_max: null
+
+# Summary spectral parameters, computed using different statistics
+summary_spectral_parameters:
+  reference_statistics: weighted_mean
+  Mw:
+    name: moment magnitude
+    mean:
+      {value: 3.99, uncertainty: 0.31, confidence_level: 68.27, nobs: 17}
+    weighted_mean:
+      {value: 4.07, uncertainty: 0.27, confidence_level: 68.27, nobs: 17}
+    percentiles:
+      {value: 4.01, lower_uncertainty: 0.32, upper_uncertainty: 0.27, confidence_level: 68.2, lower_percentage: 15.9, mid_percentage: 50.0, upper_percentage: 84.1, nobs: 17}
+  Mo:
+    name: seismic moment
+    units: N·m
+    mean:
+      {value: 1.037e+15, lower_uncertainty: 6.231e+14, upper_uncertainty: 1.560e+15, confidence_level: 68.27, nobs: 16}
+    weighted_mean:
+      {value: 1.439e+15, lower_uncertainty: 8.150e+14, upper_uncertainty: 1.880e+15, confidence_level: 68.27, nobs: 16}
+    percentiles:
+      {value: 1.234e+15, lower_uncertainty: 8.278e+14, upper_uncertainty: 1.297e+15, confidence_level: 68.2, lower_percentage: 15.9, mid_percentage: 50.0, upper_percentage: 84.1, nobs: 16}
+  fc:
+    name: corner frequency
+    units: Hz
+    mean:
+      {value: 1.117, lower_uncertainty: 0.507, upper_uncertainty: 0.928, confidence_level: 68.27, nobs: 18}
+    weighted_mean:
+      {value: 1.215, lower_uncertainty: 0.532, upper_uncertainty: 0.947, confidence_level: 68.27, nobs: 18}
+    percentiles:
+      {value: 1.254, lower_uncertainty: 0.713, upper_uncertainty: 0.572, confidence_level: 68.2, lower_percentage: 15.9, mid_percentage: 50.0, upper_percentage: 84.1, nobs: 18}
+  t_star:
+    name: t-star
+    units: s
+    mean:
+      {value: 0.062, uncertainty: 0.030, confidence_level: 68.27, nobs: 18}
+    weighted_mean:
+      {value: 0.016, uncertainty: 0.020, confidence_level: 68.27, nobs: 18}
+    percentiles:
+      {value: 0.060, lower_uncertainty: 0.028, upper_uncertainty: 0.033, confidence_level: 68.2, lower_percentage: 15.9, mid_percentage: 50.0, upper_percentage: 84.1, nobs: 18}
+  radius:
+    name: source radius
+    units: m
+    mean:
+      {value: 778.905, lower_uncertainty: 253.643, upper_uncertainty: 376.123, confidence_level: 68.27, nobs: 15}
+    weighted_mean:
+      {value: 754.245, lower_uncertainty: 246.660, upper_uncertainty: 366.524, confidence_level: 68.27, nobs: 15}
+    percentiles:
+      {value: 803.355, lower_uncertainty: 236.768, upper_uncertainty: 209.573, confidence_level: 68.2, lower_percentage: 15.9, mid_percentage: 50.0, upper_percentage: 84.1, nobs: 15}
+  bsd:
+    name: Brune stress drop
+    units: MPa
+    mean:
+      {value: 5.003e-01, lower_uncertainty: 3.117e-01, upper_uncertainty: 8.268e-01, confidence_level: 68.27, nobs: 16}
+    weighted_mean:
+      {value: 5.511e-01, lower_uncertainty: 3.369e-01, upper_uncertainty: 8.666e-01, confidence_level: 68.27, nobs: 16}
+    percentiles:
+      {value: 6.978e-01, lower_uncertainty: 4.947e-01, upper_uncertainty: 3.984e-01, confidence_level: 68.2, lower_percentage: 15.9, mid_percentage: 50.0, upper_percentage: 84.1, nobs: 16}
+  Qo:
+    name: quality factor
+    mean:
+      {value: 670.9, uncertainty: 362.5, confidence_level: 68.27, nobs: 17}
+    weighted_mean:
+      {value: 223.7, uncertainty: 213.1, confidence_level: 68.27, nobs: 17}
+    percentiles:
+      {value: 580.1, lower_uncertainty: 274.5, upper_uncertainty: 401.0, confidence_level: 68.2, lower_percentage: 15.9, mid_percentage: 50.0, upper_percentage: 84.1, nobs: 17}
+  Er:
+    name: radiated energy
+    units: N·m
+    mean:
+      {value: 1.071e+10, lower_uncertainty: 8.625e+09, upper_uncertainty: 4.427e+10, confidence_level: 68.27, nobs: 15}
+    percentiles:
+      {value: 1.521e+10, lower_uncertainty: 1.195e+10, upper_uncertainty: 4.645e+10, confidence_level: 68.2, lower_percentage: 15.9, mid_percentage: 50.0, upper_percentage: 84.1, nobs: 15}
+  Ml:
+    name: local magnitude
+    mean:
+      {value: 4.25, uncertainty: 0.34, confidence_level: 68.27, nobs: 17}
+    percentiles:
+      {value: 4.18, lower_uncertainty: 0.27, upper_uncertainty: 0.40, confidence_level: 68.2, lower_percentage: 15.9, mid_percentage: 50.0, upper_percentage: 84.1, nobs: 17}
+
+# Parameters describing each station and spectral measurements
+# performed at that station
+station_parameters:
+  ES.E0802..HHH:
+    instrument_type: broadb
+    latitude: 38.025766
+    longitude: -3.375653
+    hypo_dist_in_km: 96.21614354037938
+    epi_dist_in_km: 96.13019687505319
+    azimuth: 17.194191336789604
+    Mw:
+      {value: 3.83, lower_uncertainty: 0.40, upper_uncertainty: 0.00, confidence_level: 68.2, outlier: False}
+    fc:
+      {value: 1.695, lower_uncertainty: 0.924, upper_uncertainty: 2.395, confidence_level: 68.2, outlier: False}
+    t_star:
+      {value: 0.029, lower_uncertainty: 0.016, upper_uncertainty: 0.013, confidence_level: 68.2, outlier: False}
+    Mo:
+      {value: 7.108e+14, lower_uncertainty: 5.322e+14, upper_uncertainty: 0.000e+00, confidence_level: 68.2, outlier: False}
+    radius:
+      {value: 637.142, lower_uncertainty: 373.092, upper_uncertainty: 764.116, confidence_level: 68.2, outlier: False}
+    bsd:
+      {value: 1.202e+00, lower_uncertainty: 1.174e+00, upper_uncertainty: 1.569e+01, confidence_level: 68.2, outlier: False}
+    Qo:
+      {value: 1009.1, lower_uncertainty: 317.8, upper_uncertainty: 1242.2, confidence_level: 68.2, outlier: False}
+    Er:
+      {value: 1.199e+10, outlier: False}
+    Ml:
+      {value: 4.09, outlier: False}
+  ES.EADA..HHH:
+    instrument_type: broadb
+    latitude: 38.1673
+    longitude: -4.5771
+    hypo_dist_in_km: 132.53362673965074
+    epi_dist_in_km: 132.477378006204
+    azimuth: 324.5016495415675
+    Mw:
+      {value: 3.61, lower_uncertainty: 0.21, upper_uncertainty: 0.17, confidence_level: 68.2, outlier: False}
+    fc:
+      {value: 2.573, lower_uncertainty: 1.228, upper_uncertainty: 3.085, confidence_level: 68.2, outlier: False}
+    t_star:
+      {value: 0.046, lower_uncertainty: 0.023, upper_uncertainty: 0.020, confidence_level: 68.2, outlier: False}
+    Mo:
+      {value: 3.321e+14, lower_uncertainty: 1.696e+14, upper_uncertainty: 2.563e+14, confidence_level: 68.2, outlier: False}
+    radius:
+      {value: 419.786, lower_uncertainty: 228.912, upper_uncertainty: 383.569, confidence_level: 68.2, outlier: False}
+    bsd:
+      {value: 1.964e+00, lower_uncertainty: 1.827e+00, upper_uncertainty: 3.505e+01, confidence_level: 68.2, outlier: False}
+    Qo:
+      {value: 855.0, lower_uncertainty: 257.8, upper_uncertainty: 819.0, confidence_level: 68.2, outlier: False}
+    Er:
+      {value: 8.354e+09, outlier: False}
+    Ml:
+      {value: 3.94, outlier: False}
+  ES.EALB..HHH:
+    instrument_type: broadb
+    latitude: 35.939897
+    longitude: -3.034254
+    hypo_dist_in_km: 151.88836898862624
+    epi_dist_in_km: 151.85216973912054
+    azimuth: 156.72143822196804
+    Mw:
+      {value: 3.89, lower_uncertainty: 0.13, upper_uncertainty: 0.09, confidence_level: 68.2, outlier: False}
+    fc:
+      {value: 1.344, lower_uncertainty: 0.642, upper_uncertainty: 1.478, confidence_level: 68.2, outlier: False}
+    t_star:
+      {value: 0.103, lower_uncertainty: 0.048, upper_uncertainty: 0.045, confidence_level: 68.2, outlier: False}
+    Mo:
+      {value: 8.698e+14, lower_uncertainty: 3.209e+14, upper_uncertainty: 3.125e+14, confidence_level: 68.2, outlier: False}
+    radius:
+      {value: 803.355, lower_uncertainty: 420.742, upper_uncertainty: 734.044, confidence_level: 68.2, outlier: False}
+    bsd:
+      {value: 7.340e-01, lower_uncertainty: 6.679e-01, upper_uncertainty: 8.501e+00, confidence_level: 68.2, outlier: False}
+    Qo:
+      {value: 431.6, lower_uncertainty: 132.5, upper_uncertainty: 381.3, confidence_level: 68.2, outlier: False}
+    Er:
+      {value: nan, outlier: True}
+    Ml:
+      {value: 4.18, outlier: False}
+  ES.EBER..HHH:
+    instrument_type: broadb
+    latitude: 36.8979
+    longitude: -2.8896
+    hypo_dist_in_km: 79.54673946951877
+    epi_dist_in_km: 79.39033052812597
+    azimuth: 114.62881434191915
+    Mw:
+      {value: 4.01, lower_uncertainty: 0.18, upper_uncertainty: 0.12, confidence_level: 68.2, outlier: False}
+    fc:
+      {value: 1.695, lower_uncertainty: 0.888, upper_uncertainty: 2.210, confidence_level: 68.2, outlier: False}
+    t_star:
+      {value: 0.080, lower_uncertainty: 0.036, upper_uncertainty: 0.035, confidence_level: 68.2, outlier: False}
+    Mo:
+      {value: 1.292e+15, lower_uncertainty: 6.036e+14, upper_uncertainty: 6.739e+14, confidence_level: 68.2, outlier: False}
+    radius:
+      {value: 637.142, lower_uncertainty: 360.562, upper_uncertainty: 700.636, confidence_level: 68.2, outlier: False}
+    bsd:
+      {value: 2.185e+00, lower_uncertainty: 2.059e+00, upper_uncertainty: 3.846e+01, confidence_level: 68.2, outlier: False}
+    Qo:
+      {value: 295.9, lower_uncertainty: 89.7, upper_uncertainty: 243.9, confidence_level: 68.2, outlier: False}
+    Er:
+      {value: 4.120e+10, outlier: False}
+    Ml:
+      {value: 4.18, outlier: False}
+  ES.ECAB..HHH:
+    instrument_type: broadb
+    latitude: 38.075298
+    longitude: -5.4186
+    hypo_dist_in_km: 180.29243929207112
+    epi_dist_in_km: 180.25205293793118
+    azimuth: 303.18532751501283
+    Mw:
+      {value: 3.62, lower_uncertainty: 0.20, upper_uncertainty: 0.15, confidence_level: 68.2, outlier: False}
+    fc:
+      {value: 1.775, lower_uncertainty: 0.930, upper_uncertainty: 2.509, confidence_level: 68.2, outlier: False}
+    t_star:
+      {value: 0.054, lower_uncertainty: 0.027, upper_uncertainty: 0.024, confidence_level: 68.2, outlier: False}
+    Mo:
+      {value: 3.415e+14, lower_uncertainty: 1.713e+14, upper_uncertainty: 2.341e+14, confidence_level: 68.2, outlier: False}
+    radius:
+      {value: 608.278, lower_uncertainty: 356.190, upper_uncertainty: 668.895, confidence_level: 68.2, outlier: False}
+    bsd:
+      {value: 6.638e-01, lower_uncertainty: 6.281e-01, upper_uncertainty: 1.506e+01, confidence_level: 68.2, outlier: False}
+    Qo:
+      {value: 957.7, lower_uncertainty: 293.4, upper_uncertainty: 923.2, confidence_level: 68.2, outlier: False}
+    Er:
+      {value: 3.285e+09, outlier: False}
+    Ml:
+      {value: 3.92, outlier: False}
+  ES.EGOR..HHH:
+    instrument_type: broadb
+    latitude: 37.1101
+    longitude: -4.1096
+    hypo_dist_in_km: 38.04191275425906
+    epi_dist_in_km: 37.75369920270402
+    azimuth: 255.01128734887234
+    Mw:
+      {value: 3.98, lower_uncertainty: 0.21, upper_uncertainty: 0.13, confidence_level: 68.2, outlier: False}
+    fc:
+      {value: 1.283, lower_uncertainty: 0.752, upper_uncertainty: 2.114, confidence_level: 68.2, outlier: False}
+    t_star:
+      {value: 0.041, lower_uncertainty: 0.021, upper_uncertainty: 0.021, confidence_level: 68.2, outlier: False}
+    Mo:
+      {value: 1.176e+15, lower_uncertainty: 6.081e+14, upper_uncertainty: 6.442e+14, confidence_level: 68.2, outlier: False}
+    radius:
+      {value: 841.476, lower_uncertainty: 523.625, upper_uncertainty: 1188.973, confidence_level: 68.2, outlier: False}
+    bsd:
+      {value: 8.634e-01, lower_uncertainty: 8.337e-01, upper_uncertainty: 2.393e+01, confidence_level: 68.2, outlier: False}
+    Qo:
+      {value: 287.4, lower_uncertainty: 98.4, upper_uncertainty: 311.8, confidence_level: 68.2, outlier: False}
+    Er:
+      {value: 1.521e+10, outlier: False}
+    Ml:
+      {value: 3.79, outlier: False}
+  ES.ELGU..HHH:
+    instrument_type: broadb
+    latitude: 36.8678
+    longitude: -3.6266
+    hypo_dist_in_km: 37.52002493434054
+    epi_dist_in_km: 37.29798019420264
+    azimuth: 169.99203147391145
+    Mw:
+      {value: 4.06, lower_uncertainty: 0.21, upper_uncertainty: 0.16, confidence_level: 68.2, outlier: False}
+    fc:
+      {value: 1.948, lower_uncertainty: 0.976, upper_uncertainty: 2.539, confidence_level: 68.2, outlier: False}
+    t_star:
+      {value: 0.036, lower_uncertainty: 0.019, upper_uncertainty: 0.016, confidence_level: 68.2, outlier: False}
+    Mo:
+      {value: 1.572e+15, lower_uncertainty: 8.077e+14, upper_uncertainty: 1.128e+15, confidence_level: 68.2, outlier: False}
+    radius:
+      {value: 554.413, lower_uncertainty: 313.746, upper_uncertainty: 556.927, confidence_level: 68.2, outlier: False}
+    bsd:
+      {value: 4.036e+00, lower_uncertainty: 3.792e+00, upper_uncertainty: 8.070e+01, confidence_level: 68.2, outlier: True}
+    Qo:
+      {value: 313.8, lower_uncertainty: 97.2, upper_uncertainty: 344.7, confidence_level: 68.2, outlier: False}
+    Er:
+      {value: 8.768e+10, outlier: False}
+    Ml:
+      {value: 4.24, outlier: False}
+  ES.ELOR.00.HHH:
+    instrument_type: broadb
+    latitude: 37.639134
+    longitude: -1.745285
+    hypo_dist_in_km: 179.77605202575205
+    epi_dist_in_km: 179.73815998256882
+    azimuth: 73.63053977032348
+    Mw:
+      {value: 4.32, lower_uncertainty: 0.14, upper_uncertainty: 0.10, confidence_level: 68.2, outlier: False}
+    fc:
+      {value: 0.846, lower_uncertainty: 0.383, upper_uncertainty: 0.849, confidence_level: 68.2, outlier: False}
+    t_star:
+      {value: 0.105, lower_uncertainty: 0.047, upper_uncertainty: 0.044, confidence_level: 68.2, outlier: False}
+    Mo:
+      {value: 3.775e+15, lower_uncertainty: 1.485e+15, upper_uncertainty: 1.493e+15, confidence_level: 68.2, outlier: False}
+    radius:
+      {value: 1277.173, lower_uncertainty: 640.031, upper_uncertainty: 1056.257, confidence_level: 68.2, outlier: False}
+    bsd:
+      {value: 7.927e-01, lower_uncertainty: 7.139e-01, upper_uncertainty: 8.118e+00, confidence_level: 68.2, outlier: False}
+    Qo:
+      {value: 521.8, lower_uncertainty: 154.1, upper_uncertainty: 417.5, confidence_level: 68.2, outlier: False}
+    Er:
+      {value: nan, outlier: True}
+    Ml:
+      {value: 4.58, outlier: False}
+  ES.EMIJ..HHH:
+    instrument_type: broadb
+    latitude: 36.5645
+    longitude: -4.7727
+    hypo_dist_in_km: 118.85266999564513
+    epi_dist_in_km: 118.79299296400995
+    azimuth: 233.98538231535898
+    Mw:
+      {value: 3.84, lower_uncertainty: 0.19, upper_uncertainty: 0.14, confidence_level: 68.2, outlier: False}
+    fc:
+      {value: 1.170, lower_uncertainty: 0.662, upper_uncertainty: 1.787, confidence_level: 68.2, outlier: False}
+    t_star:
+      {value: 0.073, lower_uncertainty: 0.033, upper_uncertainty: 0.033, confidence_level: 68.2, outlier: False}
+    Mo:
+      {value: 7.258e+14, lower_uncertainty: 3.494e+14, upper_uncertainty: 4.618e+14, confidence_level: 68.2, outlier: False}
+    radius:
+      {value: 923.231, lower_uncertainty: 557.951, upper_uncertainty: 1203.568, confidence_level: 68.2, outlier: False}
+    bsd:
+      {value: 4.035e-01, lower_uncertainty: 3.864e-01, upper_uncertainty: 1.026e+01, confidence_level: 68.2, outlier: False}
+    Qo:
+      {value: 518.1, lower_uncertainty: 162.4, upper_uncertainty: 435.4, confidence_level: 68.2, outlier: False}
+    Er:
+      {value: 3.749e+09, outlier: False}
+    Ml:
+      {value: 3.81, outlier: False}
+  ES.EMIN..HHH:
+    instrument_type: broadb
+    latitude: 37.7675
+    longitude: -6.6724
+    hypo_dist_in_km: 270.43619917992805
+    epi_dist_in_km: 270.41308262031134
+    azimuth: 284.3994172108984
+    Mw:
+      {value: 3.33, lower_uncertainty: 0.28, upper_uncertainty: 0.17, confidence_level: 68.2, outlier: False}
+    fc:
+      {value: 1.344, lower_uncertainty: 0.761, upper_uncertainty: 2.053, confidence_level: 68.2, outlier: False}
+    t_star:
+      {value: 0.041, lower_uncertainty: 0.021, upper_uncertainty: 0.020, confidence_level: 68.2, outlier: False}
+    Mo:
+      {value: 1.260e+14, lower_uncertainty: 7.818e+13, upper_uncertainty: 9.932e+13, confidence_level: 68.2, outlier: False}
+    radius:
+      {value: 803.355, lower_uncertainty: 485.504, upper_uncertainty: 1047.292, confidence_level: 68.2, outlier: False}
+    bsd:
+      {value: 1.063e-01, lower_uncertainty: 1.030e-01, upper_uncertainty: 2.964e+00, confidence_level: 68.2, outlier: False}
+    Qo:
+      {value: 1747.5, lower_uncertainty: 573.0, upper_uncertainty: 1895.8, confidence_level: 68.2, outlier: True}
+    Er:
+      {value: 1.796e+08, outlier: False}
+    Ml:
+      {value: 3.92, outlier: False}
+  ES.EMUR..HHH:
+    instrument_type: broadb
+    latitude: 37.8422
+    longitude: -1.2405
+    hypo_dist_in_km: 228.8141551237422
+    epi_dist_in_km: 228.78142729352302
+    azimuth: 71.0667770063175
+    Mw:
+      {value: 4.24, lower_uncertainty: 0.09, upper_uncertainty: 0.04, confidence_level: 68.2, outlier: False}
+    fc:
+      {value: 0.584, lower_uncertainty: 0.353, upper_uncertainty: 1.111, confidence_level: 68.2, outlier: False}
+    t_star:
+      {value: 0.112, lower_uncertainty: 0.047, upper_uncertainty: 0.045, confidence_level: 68.2, outlier: False}
+    Mo:
+      {value: 2.843e+15, lower_uncertainty: 7.554e+14, upper_uncertainty: 4.747e+14, confidence_level: 68.2, outlier: False}
+    radius:
+      {value: 1850.647, lower_uncertainty: 1213.505, upper_uncertainty: 2826.792, confidence_level: 68.2, outlier: False}
+    bsd:
+      {value: 1.962e-01, lower_uncertainty: 1.873e-01, upper_uncertainty: 5.415e+00, confidence_level: 68.2, outlier: False}
+    Qo:
+      {value: 580.1, lower_uncertainty: 167.5, upper_uncertainty: 416.5, confidence_level: 68.2, outlier: False}
+    Er:
+      {value: 1.961e+10, outlier: False}
+    Ml:
+      {value: 4.44, outlier: False}
+  ES.ENIJ..HHH:
+    instrument_type: broadb
+    latitude: 36.9715
+    longitude: -2.207
+    hypo_dist_in_km: 135.10988752083864
+    epi_dist_in_km: 135.0582273392749
+    azimuth: 100.3136137375795
+    Mw:
+      {value: 3.74, lower_uncertainty: 0.16, upper_uncertainty: 0.11, confidence_level: 68.2, outlier: False}
+    fc:
+      {value: 1.066, lower_uncertainty: 0.603, upper_uncertainty: 1.629, confidence_level: 68.2, outlier: False}
+    t_star:
+      {value: 0.078, lower_uncertainty: 0.036, upper_uncertainty: 0.035, confidence_level: 68.2, outlier: False}
+    Mo:
+      {value: 5.089e+14, lower_uncertainty: 2.152e+14, upper_uncertainty: 2.253e+14, confidence_level: 68.2, outlier: False}
+    radius:
+      {value: 1012.928, lower_uncertainty: 612.159, upper_uncertainty: 1320.502, confidence_level: 68.2, outlier: False}
+    bsd:
+      {value: 2.142e-01, lower_uncertainty: 2.041e-01, upper_uncertainty: 4.776e+00, confidence_level: 68.2, outlier: False}
+    Qo:
+      {value: 512.3, lower_uncertainty: 157.2, upper_uncertainty: 435.7, confidence_level: 68.2, outlier: False}
+    Er:
+      {value: 1.611e+09, outlier: False}
+    Ml:
+      {value: nan, outlier: True}
+  ES.EQTA..HHH:
+    instrument_type: broadb
+    latitude: 37.205
+    longitude: -3.4399
+    hypo_dist_in_km: 23.453839523323367
+    epi_dist_in_km: 23.038200215281602
+    azimuth: 88.20786132936985
+    Mw:
+      {value: 4.04, lower_uncertainty: 0.21, upper_uncertainty: 0.11, confidence_level: 68.2, outlier: False}
+    fc:
+      {value: 1.225, lower_uncertainty: 0.693, upper_uncertainty: 1.872, confidence_level: 68.2, outlier: False}
+    t_star:
+      {value: 0.006, lower_uncertainty: 0.004, upper_uncertainty: 0.003, confidence_level: 68.2, outlier: False}
+    Mo:
+      {value: 1.451e+15, lower_uncertainty: 7.548e+14, upper_uncertainty: 6.439e+14, confidence_level: 68.2, outlier: False}
+    radius:
+      {value: 881.406, lower_uncertainty: 532.674, upper_uncertainty: 1149.043, confidence_level: 68.2, outlier: False}
+    bsd:
+      {value: 9.268e-01, lower_uncertainty: 8.905e-01, upper_uncertainty: 2.068e+01, confidence_level: 68.2, outlier: False}
+    Qo:
+      {value: 1117.8, lower_uncertainty: 331.2, upper_uncertainty: 1917.5, confidence_level: 68.2, outlier: False}
+    Er:
+      {value: 1.798e+10, outlier: False}
+    Ml:
+      {value: 4.05, outlier: False}
+  ES.ESPR..HHH:
+    instrument_type: broadb
+    latitude: 36.8686
+    longitude: -5.8562
+    hypo_dist_in_km: 195.39769768077653
+    epi_dist_in_km: 195.36757458150967
+    azimuth: 259.8403972653679
+    Mw:
+      {value: 4.35, lower_uncertainty: 0.17, upper_uncertainty: 0.11, confidence_level: 68.2, outlier: False}
+    fc:
+      {value: 0.335, lower_uncertainty: 0.196, upper_uncertainty: 0.551, confidence_level: 68.2, outlier: False}
+    t_star:
+      {value: 0.066, lower_uncertainty: 0.035, upper_uncertainty: 0.032, confidence_level: 68.2, outlier: False}
+    Mo:
+      {value: 4.190e+15, lower_uncertainty: 1.862e+15, upper_uncertainty: 2.009e+15, confidence_level: 68.2, outlier: False}
+    radius:
+      {value: 3228.006, lower_uncertainty: 2008.692, upper_uncertainty: 4561.047, confidence_level: 68.2, outlier: True}
+    bsd:
+      {value: 5.450e-02, lower_uncertainty: 5.234e-02, upper_uncertainty: 1.442e+00, confidence_level: 68.2, outlier: False}
+    Qo:
+      {value: 828.9, lower_uncertainty: 269.7, upper_uncertainty: 907.4, confidence_level: 68.2, outlier: False}
+    Er:
+      {value: 3.255e+09, outlier: False}
+    Ml:
+      {value: 4.23, outlier: False}
+  ES.ETOB..HHH:
+    instrument_type: broadb
+    latitude: 38.6447
+    longitude: -1.5478
+    hypo_dist_in_km: 248.0983070650085
+    epi_dist_in_km: 248.06358058835812
+    azimuth: 49.03236576471328
+    Mw:
+      {value: 4.09, lower_uncertainty: 0.14, upper_uncertainty: 0.14, confidence_level: 68.2, outlier: False}
+    fc:
+      {value: 1.066, lower_uncertainty: 0.581, upper_uncertainty: 1.629, confidence_level: 68.2, outlier: False}
+    t_star:
+      {value: 0.084, lower_uncertainty: 0.039, upper_uncertainty: 0.037, confidence_level: 68.2, outlier: False}
+    Mo:
+      {value: 1.739e+15, lower_uncertainty: 6.578e+14, upper_uncertainty: 1.058e+15, confidence_level: 68.2, outlier: False}
+    radius:
+      {value: 1012.928, lower_uncertainty: 612.159, upper_uncertainty: 1214.791, confidence_level: 68.2, outlier: False}
+    bsd:
+      {value: 7.319e-01, lower_uncertainty: 6.891e-01, upper_uncertainty: 1.828e+01, confidence_level: 68.2, outlier: False}
+    Qo:
+      {value: 844.1, lower_uncertainty: 260.4, upper_uncertainty: 725.3, confidence_level: 68.2, outlier: False}
+    Er:
+      {value: 1.763e+10, outlier: False}
+    Ml:
+      {value: 4.58, outlier: False}
+  ES.EZAR..HHH:
+    instrument_type: broadb
+    latitude: 37.874981
+    longitude: -1.694093
+    hypo_dist_in_km: 192.50171595445053
+    epi_dist_in_km: 192.4533285497072
+    azimuth: 66.44015981772942
+    Mw:
+      {value: 4.67, lower_uncertainty: 0.18, upper_uncertainty: 0.12, confidence_level: 68.2, outlier: False}
+    fc:
+      {value: 0.442, lower_uncertainty: 0.275, upper_uncertainty: 0.842, confidence_level: 68.2, outlier: False}
+    t_star:
+      {value: 0.089, lower_uncertainty: 0.041, upper_uncertainty: 0.041, confidence_level: 68.2, outlier: False}
+    Mo:
+      {value: 1.281e+16, lower_uncertainty: 5.896e+15, upper_uncertainty: 6.514e+15, confidence_level: 68.2, outlier: True}
+    radius:
+      {value: 2444.156, lower_uncertainty: 1602.680, upper_uncertainty: 4026.491, confidence_level: 68.2, outlier: True}
+    bsd:
+      {value: 3.838e-01, lower_uncertainty: 3.726e-01, upper_uncertainty: 1.380e+01, confidence_level: 68.2, outlier: False}
+    Qo:
+      {value: 645.9, lower_uncertainty: 204.8, upper_uncertainty: 560.1, confidence_level: 68.2, outlier: False}
+    Er:
+      {value: 6.763e+10, outlier: False}
+    Ml:
+      {value: 4.73, outlier: False}
+  ES.TLOR..HHH:
+    instrument_type: broadb
+    latitude: 37.655196
+    longitude: -1.688587
+    hypo_dist_in_km: 185.06962804008495
+    epi_dist_in_km: 185.03441803979334
+    azimuth: 73.50303944303482
+    Mw:
+      {value: 4.81, lower_uncertainty: 0.15, upper_uncertainty: 0.07, confidence_level: 68.2, outlier: True}
+    fc:
+      {value: 0.367, lower_uncertainty: 0.222, upper_uncertainty: 0.605, confidence_level: 68.2, outlier: False}
+    t_star:
+      {value: 0.033, lower_uncertainty: 0.019, upper_uncertainty: 0.017, confidence_level: 68.2, outlier: False}
+    Mo:
+      {value: 2.035e+16, lower_uncertainty: 8.037e+15, upper_uncertainty: 5.812e+15, confidence_level: 68.2, outlier: True}
+    radius:
+      {value: 2942.157, lower_uncertainty: 1830.817, upper_uncertainty: 4494.032, confidence_level: 68.2, outlier: True}
+    bsd:
+      {value: 3.495e-01, lower_uncertainty: 3.364e-01, upper_uncertainty: 7.988e+00, confidence_level: 68.2, outlier: False}
+    Qo:
+      {value: 1596.6, lower_uncertainty: 549.8, upper_uncertainty: 2079.5, confidence_level: 68.2, outlier: False}
+    Er:
+      {value: 1.047e+11, outlier: False}
+    Ml:
+      {value: 5.05, outlier: False}
+  ES.UMV15..EHH:
+    instrument_type: shortp
+    latitude: 37.214246
+    longitude: -3.771256
+    hypo_dist_in_km: 7.650657589475927
+    epi_dist_in_km: 6.614326943915125
+    azimuth: 285.0504056806034
+    Mw:
+      {value: 4.14, lower_uncertainty: 0.25, upper_uncertainty: 0.20, confidence_level: 68.2, outlier: False}
+    fc:
+      {value: 2.823, lower_uncertainty: 1.414, upper_uncertainty: 3.385, confidence_level: 68.2, outlier: False}
+    t_star:
+      {value: 0.032, uncertainty: 0.016, confidence_level: 68.2, outlier: False}
+    Mo:
+      {value: 2.031e+15, lower_uncertainty: 1.166e+15, upper_uncertainty: 1.988e+15, confidence_level: 68.2, outlier: False}
+    radius:
+      {value: 382.613, lower_uncertainty: 208.642, upper_uncertainty: 384.348, confidence_level: 68.2, outlier: False}
+    bsd:
+      {value: 1.587e+01, lower_uncertainty: 1.503e+01, upper_uncertainty: 3.181e+02, confidence_level: 68.2, outlier: True}
+    Qo:
+      {value: 88.3, lower_uncertainty: 29.7, upper_uncertainty: 90.2, confidence_level: 68.2, outlier: False}
+    Er:
+      {value: 4.919e+11, outlier: True}
+    Ml:
+      {value: 4.44, outlier: False}

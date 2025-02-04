@@ -1,0 +1,41 @@
+CONTROL 1 54321
+TRANS GLOBAL
+TRANS GLOBAL
+LOCSIG surfQuake
+INCLUDE /Volumes/LaCie/test_surfquake/Granada/outputs/nll/stations/stations.txt 
+LOCFILES /Volumes/LaCie/test_surfquake/Granada/outputs/real/output_directory/nll_input.txt NLLOC_OBS /Users/admin/opt/anaconda3/envs/isp/lib/python3.9/site-packages/surfquakecore/earthquake_location/loc_structure/ak135/ak135 /Volumes/LaCie/test_surfquake/Granada/outputs/nll/loc/location 1
+LOCANGLES ANGLES_YES 5
+LOCSEARCH  OCT 96 48 6 0.05 50000 10000 4 0
+LOCGRID  361 181 601  -180.0 -90.0 0.0  1.0 1.0 1.0   PROB_DENSITY  SAVE
+LOCGAU 0.5 0.0
+LOCGAU2 0.01 0.05 2.0
+LOCMETH EDT_OT_WT 1.0e6 4 50 -1 -1.7 6 -1.0 0
+LOCQUAL2ERR 0.2 0.5 1.0 2.0 99999.9
+LOCPHSTAT 9999.0 -1 9999.0 1.0 1.0
+
+#Total Phase Corrections (CalcResidual + InputDelay)  RMS_Max: 9999.000000  NRdgs_Min: -1  Gap_Max: 9999.000000  P_Res_Max: 1.000000  S_Res_Max: 1.000000  Ell_Len3_Max: 1000000000000000019884624838656.000000  Hypo_Depth_Min: -1000000000000000019884624838656.000000  Hypo_Depth_Max: 1000000000000000019884624838656.000000  Hypo_Dist_Max: 1000000000000000019884624838656.000000
+#         ID      Phase   Nres      TotCorr      StdDev
+LOCDELAY  E0802 P 3        -0.266231    0.122107    
+LOCDELAY  E0802 S 3        1.226555     0.124613    
+LOCDELAY  EADA P 3        -0.539165    0.115998    
+LOCDELAY  EADA S 3        0.738173     0.546025    
+LOCDELAY  EALB P 3        -1.563595    0.247903    
+LOCDELAY  EALB S 3        0.325692     0.432704    
+LOCDELAY  EBER P 3        -0.040811    0.064831    
+LOCDELAY  EBER S 1        0.712488     -1.000000   
+LOCDELAY  ECAB P 2        -1.115653    0.093021    
+LOCDELAY  ECAB S 3        1.512206     0.108072    
+LOCDELAY  EGOR P 3        -0.770894    0.079426    
+LOCDELAY  EGOR S 3        0.712801     0.171167    
+LOCDELAY  ELGU P 3        -0.277391    0.105769    
+LOCDELAY  ELGU S 3        0.902736     0.318281    
+LOCDELAY  ELOR P 3        2.038926     0.419649    
+LOCDELAY  EMIN P 3        -1.059702    0.127938    
+LOCDELAY  EMUR P 3        1.744455     0.318572    
+LOCDELAY  ENIJ P 2        -0.720082    0.099149    
+LOCDELAY  EQTA P 3        -0.203331    0.044346    
+LOCDELAY  EQTA S 3        0.402395     0.201328    
+LOCDELAY  ESPR P 3        1.145520     0.027159    
+LOCDELAY  ETOB P 3        0.923794     0.287651    
+LOCDELAY  UMV15 P 3        -0.268464    0.008342    
+LOCDELAY  UMV15 S 3        0.484364     0.049591    

@@ -1,0 +1,57 @@
+NLLOC "/Volumes/LaCie/test_surfquake/Granada/outputs/nll/loc/location.20210126.213633.grid0" "LOCATED" "Location completed."
+PUBLIC_ID None
+SIGNATURE "surfQuake   obs:/Volumes/LaCie/test_surfquake/Granada/outputs/real/output_directory/nll_input.txt   NLLoc:v7.00.13(17Jan2022)   run:03Feb2025 11h52m58"
+COMMENT ""
+GRID  361 181 601  -180 -90 0  1 1 1 PROB_DENSITY
+SEARCH OCTREE nInitial 17628 nEvaluated 50012 smallestNodeSide 0.250590/0.203604/0.048828 oct_tree_integral 7.886195e-01 scatter_volume 7.886195e-01
+HYPOCENTER  x -3.69479 y 37.1878 z 5.00488  OT 32.5582  ix -1 iy -1 iz -1 MAXIMUM_LIKELIHOOD
+GEOGRAPHIC  OT 2021 01 26  21 36 32.558214  Lat 37.187805 Long -3.694787 Depth 5.004883
+QUALITY  Pmax 9.76427e+93 MFmin 33.748 MFmax 34.1295 RMS 0.381873 Nphs 34 Gap 64.137 Dist 0.0664007 Mamp -9.90 0 Mdur -9.90 0
+VPVSRATIO  VpVsRatio 1.84905  Npair 16  Diff 36.14
+STATISTICS  ExpectX -3.697602 Y 37.187493 Z 4.990056  CovXX 0.108402 XY 0.0255554 XZ -0.0307639 YY 0.150952 YZ 0.0564119 ZZ 0.262605 EllAz1  303.319 Dip1  -17.2627 Len1  0.531954 Az2  217.565 Dip2  13.4017 Len2  0.73647 Len3  1.008540e+00
+STAT_GEOG  ExpectLat 37.187493 Long -3.697602 Depth 4.990056
+TRANSFORM  GLOBAL
+QML_OriginQuality  assocPhCt 34  usedPhCt 34  assocStaCt -1  usedStaCt 18  depthPhCt -1  stdErr 0.381873  azGap 64.137  secAzGap 64.137  gtLevel -  minDist 7.38344 maxDist 270.532 medDist 142.468
+QML_OriginUncertainty  horUnc -1  minHorUnc 0.470933  maxHorUnc 0.612158  azMaxHorUnc 25.1111
+QML_ConfidenceEllipsoid  semiMajorAxisLength 1.00854  semiMinorAxisLength 0.531954  semiIntermediateAxisLength 0.73647  majorAxisPlunge -67.8804  majorAxisAzimuth 163.453  majorAxisRotation 60.7703
+FOCALMECH  Hyp  37.187805 -3.694787 5.004883 Mech  0 0 0 mf  0 nObs -1
+END_NLLOC
+
+NLLOC "/Volumes/LaCie/test_surfquake/Granada/outputs/nll/loc/location.20210126.214419.grid0" "LOCATED" "Location completed."
+PUBLIC_ID None
+SIGNATURE "surfQuake   obs:/Volumes/LaCie/test_surfquake/Granada/outputs/real/output_directory/nll_input.txt   NLLoc:v7.00.13(17Jan2022)   run:03Feb2025 11h52m59"
+COMMENT ""
+GRID  361 181 601  -180 -90 0  1 1 1 PROB_DENSITY
+SEARCH OCTREE nInitial 17628 nEvaluated 50004 smallestNodeSide 0.250590/0.203604/0.048828 oct_tree_integral 8.046258e-01 scatter_volume 8.046258e-01
+HYPOCENTER  x -3.69479 y 37.1896 z 5.93262  OT 18.1571  ix -1 iy -1 iz -1 MAXIMUM_LIKELIHOOD
+GEOGRAPHIC  OT 2021 01 26  21 44 18.157058  Lat 37.189636 Long -3.694787 Depth 5.932617
+QUALITY  Pmax 7.68537e+86 MFmin 31.983 MFmax 32.2985 RMS 0.389213 Nphs 32 Gap 64.0028 Dist 0.0656924 Mamp -9.90 0 Mdur -9.90 0
+VPVSRATIO  VpVsRatio 1.83512  Npair 14  Diff 36.18
+STATISTICS  ExpectX -3.695360 Y 37.190048 Z 5.962261  CovXX 0.0723384 XY -0.00635213 XZ -0.0325396 YY 0.243504 YZ 0.0474802 ZZ 0.221755 EllAz1  271.238 Dip1  -12.1198 Len1  0.480798 Az2  14.9172 Dip2  -47.7592 Len2  0.813991 Len3  1.001984e+00
+STAT_GEOG  ExpectLat 37.190048 Long -3.695360 Depth 5.962261
+TRANSFORM  GLOBAL
+QML_OriginQuality  assocPhCt 32  usedPhCt 32  assocStaCt -1  usedStaCt 18  depthPhCt -1  stdErr 0.389213  azGap 64.0028  secAzGap 64.0028  gtLevel -  minDist 7.30467 maxDist 270.481 medDist 142.579
+QML_OriginUncertainty  horUnc -1  minHorUnc 0.407231  maxHorUnc 0.748733  azMaxHorUnc 177.878
+QML_ConfidenceEllipsoid  semiMajorAxisLength 1.00198  semiMinorAxisLength 0.480798  semiIntermediateAxisLength 0.813991  majorAxisPlunge -39.689  majorAxisAzimuth 170.972  majorAxisRotation 303.022
+FOCALMECH  Hyp  37.189636 -3.694787 5.932617 Mech  0 0 0 mf  0 nObs -1
+END_NLLOC
+
+NLLOC "/Volumes/LaCie/test_surfquake/Granada/outputs/nll/loc/location.20210126.215456.grid0" "LOCATED" "Location completed."
+PUBLIC_ID None
+SIGNATURE "surfQuake   obs:/Volumes/LaCie/test_surfquake/Granada/outputs/real/output_directory/nll_input.txt   NLLoc:v7.00.13(17Jan2022)   run:03Feb2025 11h53m00"
+COMMENT ""
+GRID  361 181 601  -180 -90 0  1 1 1 PROB_DENSITY
+SEARCH OCTREE nInitial 17628 nEvaluated 50012 smallestNodeSide 0.250590/0.203604/0.048828 oct_tree_integral 1.340749e+00 scatter_volume 1.338299e+00
+HYPOCENTER  x -3.69929 y 37.1988 z 3.2959  OT 55.2279  ix -1 iy -1 iz -1 MAXIMUM_LIKELIHOOD
+GEOGRAPHIC  OT 2021 01 26  21 54 55.227870  Lat 37.198792 Long -3.699294 Depth 3.295898
+QUALITY  Pmax 1.70724e+89 MFmin 32.9894 MFmax 33.1557 RMS 0.289593 Nphs 33 Gap 63.8338 Dist 0.0593621 Mamp -9.90 0 Mdur -9.90 0
+VPVSRATIO  VpVsRatio 1.6723  Npair 15  Diff 30.109
+STATISTICS  ExpectX -3.699619 Y 37.195423 Z 3.404042  CovXX 0.0792758 XY -0.00162994 XZ -0.0755729 YY 0.347523 YZ 0.105999 ZZ 0.650626 EllAz1  272.68 Dip1  -7.8734 Len1  0.493134 Az2  5.02398 Dip2  -16.4729 Len2  1.05602 Len3  1.563633e+00
+STAT_GEOG  ExpectLat 37.195423 Long -3.699619 Depth 3.404042
+TRANSFORM  GLOBAL
+QML_OriginQuality  assocPhCt 33  usedPhCt 33  assocStaCt -1  usedStaCt 18  depthPhCt -1  stdErr 0.289593  azGap 63.8338  secAzGap 63.8338  gtLevel -  minDist 6.60077 maxDist 269.838 medDist 143.411
+QML_OriginUncertainty  horUnc -1  minHorUnc 0.426979  maxHorUnc 0.89405  azMaxHorUnc 179.652
+QML_ConfidenceEllipsoid  semiMajorAxisLength 1.56363  semiMinorAxisLength 0.493134  semiIntermediateAxisLength 1.05602  majorAxisPlunge -71.6443  majorAxisAzimuth 158.049  majorAxisRotation 31.0736
+FOCALMECH  Hyp  37.198792 -3.699294 3.295898 Mech  0 0 0 mf  0 nObs -1
+END_NLLOC
+

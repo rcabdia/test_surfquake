@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SourceSpec: 9524dd9e-2967-42d6-ad48-09096e25a3e6</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <link rel="stylesheet" href="style.css" onerror="this.onerror=null;this.href='http://cdn.jsdelivr.net/gh/SeismicSource/sourcespec/sourcespec/html_report_template/style.css';">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.6.0/lightgallery.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.6.0/plugins/zoom/lg-zoom.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.6.0-beta.1/css/lightgallery-bundle.min.css">
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <span id="event_summary"></span>
+
+      <nav id="sidebar">
+        <div class="sidebar-header">
+
+          <a href="https://github.com/SeismicSource/sourcespec" target="_blank">
+            <img class="logo" src="https://cdn.jsdelivr.net/gh/SeismicSource/sourcespec@1.6/imgs/SourceSpec_logo.svg"/>
+          </a>
+        </div>
+        <ul class="list-unstyled components">
+          <li>
+            <a href="#event_summary">
+              <i class="fas fa-info-circle"></i>
+              &nbsp;&nbsp;
+              Event Summary
+            </a>
+          </li>
+          <li>
+            <a href="#traces">
+              <i class="fas fa-image"></i>
+              &nbsp;&nbsp;
+              Traces
+            </a>
+          </li>
+          <li>
+            <a href="#spectra">
+              <i class="fas fa-image"></i>
+              &nbsp;&nbsp;
+              Spectra
+            </a>
+          </li>
+          <li>
+            <a href="#inversion_info">
+              <i class="fas fa-table"></i>
+              &nbsp;&nbsp;
+              Inversion Information
+            </a>
+          </li>
+          <li>
+            <a href="#summary_spectral_parameters">
+              <i class="fas fa-table"></i>
+              &nbsp;&nbsp;
+              Summary Spectral Parameters
+            </a>
+          </li>
+          <li>
+            <a href="#box_plots">
+              <i class="fas fa-image"></i>
+              &nbsp;&nbsp;
+              Spectral Parameter<br>Box Plots
+            </a>
+          </li>
+          <li>
+            <a href="#stacked_spectra">
+              <i class="fas fa-image"></i>
+              &nbsp;&nbsp;
+              Stacked Spectra
+            </a>
+          </li>
+          <li>
+            <a href="#station_parameters">
+              <i class="fas fa-table"></i>
+              &nbsp;&nbsp;
+              Station Parameters
+            </a>
+          </li>
+          <li>
+            <a href="#misfit_plots">
+              <i class="fas fa-image"></i>
+              &nbsp;&nbsp;
+              Misfit Plots
+            </a>
+          </li>
+          <li>
+            <a href="#files">
+              <i class="fas fa-file"></i>
+              &nbsp;&nbsp;
+              Files
+            </a>
+          </li>
+        </ul>
+        <div class="sidebar-footer">
+          SourceSpec 1.7<br/>
+          Run completed on<br/>
+          2025-02-03 14:33:52CET
+          <br/><br/><a href="mailto:https://projectisp.github.io/ISP_tutorial.github.io/">SurfQuakeCore</a>
+          <br/><a href="https://armada.defensa.gob.es/ArmadaPortal/page/Portal/ArmadaEspannola/cienciaobservatorio/prefLang-es/02InfoGeneral" target="_blank">Spanish Navy Observatory (ROA)</a>
+        </div>
+      </nav>
+
+      <div id="content">
+        <div id="sidebarCollapse">
+            <button type="button" class="btn btn-info">
+            <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+      <div class="text_footer">
+        <a href="mailto:https://projectisp.github.io/ISP_tutorial.github.io/">SurfQuakeCore</a>
+        -
+        <a href="https://armada.defensa.gob.es/ArmadaPortal/page/Portal/ArmadaEspannola/cienciaobservatorio/prefLang-es/02InfoGeneral" target="_blank">Spanish Navy Observatory (ROA)</a>
+
+        -
+        2025-02-03
+      </div>
+
+      <div class="page">
+        <h2>Event Summary</h2>
+        <table class="table">
+          <tbody>
+            <tr>
+              <th scope="row">Event ID:</th>
+              <td>
+                <a href="https://projectisp.github.io/ISP_tutorial.github.io//9524dd9e-2967-42d6-ad48-09096e25a3e6" title="Go to event page" target="_new">
+                  9524dd9e-2967-42d6-ad48-09096e25a3e6
+                  &nbsp;<i class="fas fa-external-link-alt"></i>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Longitude:</th>
+              <td>  -3.695 °E</td>
+            </tr>
+            <tr>
+              <th scope="row">Latitude:</th>
+              <td> 37.190 °N</td>
+            </tr>
+            <tr>
+              <th scope="row">Depth:</th>
+              <td>  5.9 km</td>
+            </tr>
+            <tr>
+              <th scope="row">Origin Time:</th>
+              <td>2021-01-26T21:44:18.157058Z</td>
+            </tr>
+            <tr>
+              <th scope="row">Moment Magnitude:</th>
+              <td>3.82 [- 0.29, + 0.29]</td>
+            </tr>
+            <tr>
+              <th scope="row">Corner Frequency:</th>
+              <td>1.537 [- 0.708, + 1.313] Hz</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="line" id="traces"></div>
+      <div class="page">
+        <h2>Traces<span class="print_inline">&nbsp;(1 of 2)</span></h2>
+        <div class="item" data-src="9524dd9e-2967-42d6-ad48-09096e25a3e6.traces.00.png">
+          <img class="trace_plot" src="9524dd9e-2967-42d6-ad48-09096e25a3e6.traces.00.png"/>
+        </div>
+      </div>
+      <div class="page">
+        <h2 class="print">Traces<span class="print_inline">&nbsp;(2 of 2)</span></h2>
+        <div class="item" data-src="9524dd9e-2967-42d6-ad48-09096e25a3e6.traces.01.png">
+          <img class="trace_plot" src="9524dd9e-2967-42d6-ad48-09096e25a3e6.traces.01.png"/>
+        </div>
+      </div>
+
+      <div class="line" id="spectra"></div>
+      <div class="page">
+        <h2>Spectra<span class="print_inline">&nbsp;(1 of 6)</span></h2>
+        <div class="item" data-src="9524dd9e-2967-42d6-ad48-09096e25a3e6.ssp.00.png">
+          <img class="spectral_plot" src="9524dd9e-2967-42d6-ad48-09096e25a3e6.ssp.00.png"/>
+        </div>
+      </div>
+      <div class="page">
+        <h2 class="print">Spectra<span class="print_inline">&nbsp;(2 of 6)</span></h2>
+        <div class="item" data-src="9524dd9e-2967-42d6-ad48-09096e25a3e6.ssp.01.png">
+          <img class="spectral_plot" src="9524dd9e-2967-42d6-ad48-09096e25a3e6.ssp.01.png"/>
+        </div>
+      </div>
+      <div class="page">
+        <h2 class="print">Spectra<span class="print_inline">&nbsp;(3 of 6)</span></h2>
+        <div class="item" data-src="9524dd9e-2967-42d6-ad48-09096e25a3e6.ssp.02.png">
+          <img class="spectral_plot" src="9524dd9e-2967-42d6-ad48-09096e25a3e6.ssp.02.png"/>
+        </div>
+      </div>
+      <div class="page">
+        <h2 class="print">Spectra<span class="print_inline">&nbsp;(4 of 6)</span></h2>
+        <div class="item" data-src="9524dd9e-2967-42d6-ad48-09096e25a3e6.ssp.03.png">
+          <img class="spectral_plot" src="9524dd9e-2967-42d6-ad48-09096e25a3e6.ssp.03.png"/>
+        </div>
+      </div>
+      <div class="page">
+        <h2 class="print">Spectra<span class="print_inline">&nbsp;(5 of 6)</span></h2>
+        <div class="item" data-src="9524dd9e-2967-42d6-ad48-09096e25a3e6.ssp.04.png">
+          <img class="spectral_plot" src="9524dd9e-2967-42d6-ad48-09096e25a3e6.ssp.04.png"/>
+        </div>
+      </div>
+      <div class="page">
+        <h2 class="print">Spectra<span class="print_inline">&nbsp;(6 of 6)</span></h2>
+        <div class="item" data-src="9524dd9e-2967-42d6-ad48-09096e25a3e6.ssp.05.png">
+          <img class="spectral_plot" src="9524dd9e-2967-42d6-ad48-09096e25a3e6.ssp.05.png"/>
+        </div>
+      </div>
+
+      <div class="page">
+        <div class="line" id="inversion_info"></div>
+        <h2>Inversion Information</h2>
+        <table class="table">
+          <tbody>
+            <tr>
+              <th scope="row">Algorithm:</th>
+              <td>
+                Grid search
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Weighting:</th>
+              <td>
+                Noise weighting
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">t-star-0:</th>
+              <td>
+                0.045 s
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Invert t-star-0:</th>
+              <td>
+                False
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">t-star-0 variability:</th>
+              <td>
+                10.0 %
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">t-star min, max:</th>
+              <td>
+                [0.001, 0.2] s
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">fc min, max:</th>
+              <td>
+                [0.05, 50.0] Hz
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Qo min, max:</th>
+              <td>
+                -
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="page">
+        <div class="line" id="summary_spectral_parameters"></div>
+        <h2>Summary Spectral Parameters</h2>
+        <h6>
+          Note: the highlighted column indicates the reference parameters used
+          for <a href="#event_summary">Event Summary</a> and
+          <a href="#moment_magnitude">Map Plots</a>.
+        </h6>
+        <table class="table summary">
+          <colgroup>
+            <col>
+            <col >
+            <col class="highlighted_column">
+            <col >
+          </colgroup>
+          <thead>
+            <tr>
+              <th></th>
+              <th scope="col">Mean<div class="th_subtitle">(1 sigma)</div></th>
+              <th scope="col">Weighted Mean<div class="th_subtitle">(1 sigma)</div></th>
+              <th scope="col">Percentiles<div class="th_subtitle">(50%, [15.9%, 84.1%])</div></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Mw</th>
+              <td>3.83<br>&#177;0.30</td>
+              <td>3.82<br>&#177;0.29</td>
+              <td>3.72<br>-0.14<br>+0.46</td>
+            </tr>
+            <tr>
+              <th scope="row">Seismic Moment (N&#183;m)</th>
+              <td>4.819e+14<br>-2.271e+14<br>+4.294e+14</td>
+              <td>5.095e+14<br>-2.525e+14<br>+5.006e+14</td>
+              <td>3.677e+14<br>-8.399e+13<br>+6.018e+14</td>
+            </tr>
+            <tr>
+              <th scope="row">Corner Frequency (Hz)</th>
+              <td>1.376<br>-0.666<br>+1.290</td>
+              <td>1.537<br>-0.708<br>+1.313</td>
+              <td>1.818<br>-1.138<br>+0.520</td>
+            </tr>
+            <tr>
+              <th scope="row">t-star (s)</th>
+              <td>0.058<br>&#177;0.021</td>
+              <td>0.020<br>&#177;0.022</td>
+              <td>0.066<br>-0.030<br>+0.010</td>
+            </tr>
+            <tr>
+              <th scope="row">Qo</th>
+              <td>690.7<br>&#177;331.2</td>
+              <td>256.5<br>&#177;231.9</td>
+              <td>704.5<br>-332.3<br>+241.8</td>
+            </tr>
+            <tr>
+              <th scope="row">Source Radius (m)</th>
+              <td>613.944<br>-202.535<br>+302.243</td>
+              <td>582.898<br>-186.482<br>+274.208</td>
+              <td>580.721<br>-146.779<br>+274.820</td>
+            </tr>
+            <tr>
+              <th scope="row">Brune Stress Drop (MPa)</th>
+              <td>3.856e-01<br>-2.928e-01<br>+1.216e+00</td>
+              <td>4.666e-01<br>-3.458e-01<br>+1.335e+00</td>
+              <td>4.711e-01<br>-3.981e-01<br>+1.100e+00</td>
+            </tr>
+            <tr>
+              <th scope="row">Radiated Energy (N&#183;m)</th>
+              <td>3.339e+09<br>-2.559e+09<br>+1.096e+10</td>
+              <td></td>
+              <td>2.543e+09<br>-1.880e+09<br>+1.477e+10</td>
+            </tr>
+            <tr>
+              <th scope="row">Ml</th>
+              <td>4.05<br>&#177;0.28</td>
+              <td></td>
+              <td>4.01<br>-0.20<br>+0.32</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="page">
+        <div class="line" id="box_plots"></div>
+        <h2>Spectral Parameter Box Plots</h2>
+        <div class="item" data-src="9524dd9e-2967-42d6-ad48-09096e25a3e6.boxplot.png">
+          <img class="box_plot" src="9524dd9e-2967-42d6-ad48-09096e25a3e6.boxplot.png"/>
+        </div>
+      </div>
+
+      <div class="page">
+        <div class="line" id="stacked_spectra"></div>
+        <h2>Stacked Spectra</h2>
+        <div class="item" data-src="9524dd9e-2967-42d6-ad48-09096e25a3e6.stacked_spectra.png">
+          <img class="stacked_spectra" src="9524dd9e-2967-42d6-ad48-09096e25a3e6.stacked_spectra.png"/>
+        </div>
+      </div>
+
+      <div class="page">
+        <div class="line" id="station_parameters"></div>
+        <h2>Station Parameters</h2>
+        <h6>Note: outliers are greyed out</h6>
+        <div class="table_wrapper">
+          <table class="table stations" id="station_table">
+            <thead>
+              <tr>
+                <th class="station_id" onclick="sortTable(0)" scope="col">
+                  <nobr><i class="fas fa-sort dontprint_inline"></i>&nbsp;Station</nobr>
+                </th>
+                <th onclick="sortTable(1)" scope="col">
+                  <nobr><i class="fas fa-sort dontprint_inline"></i>&nbsp;Type</nobr>
+                </th>
+                <th onclick="sortTable(2, numeric=true)" scope="col">
+                  <nobr><i class="fas fa-sort dontprint_inline"></i>&nbsp;Mw</nobr>
+                </th>
+                <th onclick="sortTable(3, numeric=true)" scope="col">
+                  <nobr><i class="fas fa-sort dontprint_inline"></i>&nbsp;Corner</nobr>
+                    <br/>Frequency<br/>(Hz)
+                </th>
+                <th onclick="sortTable(4, numeric=true)" scope="col">
+                  <nobr><i class="fas fa-sort dontprint_inline"></i>&nbsp;t-star</nobr><br/>(s)
+                </th>
+                <th onclick="sortTable(5, numeric=true)" scope="col">
+                  <nobr><i class="fas fa-sort dontprint_inline"></i>&nbsp;Qo</nobr>
+                </th>
+                <th onclick="sortTable(6, numeric=true)" scope="col">
+                  <nobr><i class="fas fa-sort dontprint_inline"></i>&nbsp;Seismic</nobr>
+                    <br/>Moment<br/>(N&#183;m)
+                </th>
+                <th onclick="sortTable(7, numeric=true)" scope="col">
+                  <nobr><i class="fas fa-sort dontprint_inline"></i>&nbsp;Brune</nobr>
+                    <br/>stress<br/>drop<br/>(MPa)
+                </th>
+                <th onclick="sortTable(8, numeric=true)" scope="col">
+                  <nobr><i class="fas fa-sort dontprint_inline"></i>&nbsp;Source</nobr>
+                    <br/>radius<br/>(m)
+                </th>
+                <th onclick="sortTable(9, numeric=true)" scope="col">
+                  <nobr><i class="fas fa-sort dontprint_inline"></i>&nbsp;Radiated</nobr>
+                    <br/>Energy<br/>(N&#183;m)
+                </th>
+                <th onclick="sortTable(10, numeric=true)" scope="col">
+                  <nobr><i class="fas fa-sort dontprint_inline"></i>&nbsp;Hypocentral</nobr>
+                    <br/>Distance<br/>(km)
+                </th>
+                <th onclick="sortTable(11, numeric=true)" scope="col">
+                  <nobr><i class="fas fa-sort dontprint_inline"></i>&nbsp;Azimuth</nobr><br/>(°)
+                </th>
+                <th onclick="sortTable(12, numeric=true)" scope="col">
+                  <nobr><i class="fas fa-sort"></i>&nbsp;Ml</nobr>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+              <td class="station_id">ES.E0802..HHH</td>
+              <td>broadb</td>
+              <td><nobr>3.637</nobr><br/><nobr>-0.104</nobr><br/><nobr>+0.052</nobr></td>
+              <td><nobr>2.137</nobr><br/><nobr>-1.071</nobr><br/><nobr>+2.786</nobr></td>
+              <td><nobr>0.032</nobr><br/><nobr>-0.017</nobr><br/><nobr>+0.016</nobr></td>
+              <td><nobr>924.2</nobr><br/><nobr>-310.2</nobr><br/><nobr>+1117.7</nobr></td>
+              <td><nobr>3.590e+14</nobr><br/><nobr>-1.087e+14</nobr><br/><nobr>+7.096e+13</nobr></td>
+              <td><nobr>1.217e+00</nobr><br/><nobr>-1.112e+00</nobr><br/><nobr>+1.661e+01</nobr></td>
+              <td><nobr>505.318</nobr><br/><nobr>-285.963</nobr><br/><nobr>+507.610</nobr></td>
+              <td><nobr>6.218e+09</nobr></td>
+              <td><nobr>97.216</nobr></td>
+              <td><nobr>16.794</nobr></td>
+              <td><nobr>3.908</nobr></td>
+            </tr>
+            <tr>
+              <td class="station_id">ES.EADA..HHH</td>
+              <td>broadb</td>
+              <td><nobr>3.644</nobr><br/><nobr>-0.169</nobr><br/><nobr>+0.112</nobr></td>
+              <td><nobr>3.097</nobr><br/><nobr>-1.402</nobr><br/><nobr>+3.111</nobr></td>
+              <td><nobr>0.054</nobr><br/><nobr>-0.024</nobr><br/><nobr>+0.023</nobr></td>
+              <td><nobr>709.9</nobr><br/><nobr>-209.0</nobr><br/><nobr>+561.7</nobr></td>
+              <td><nobr>3.677e+14</nobr><br/><nobr>-1.623e+14</nobr><br/><nobr>+1.744e+14</nobr></td>
+              <td><nobr>3.793e+00</nobr><br/><nobr>-3.446e+00</nobr><br/><nobr>+4.125e+01</nobr></td>
+              <td><nobr>348.732</nobr><br/><nobr>-174.760</nobr><br/><nobr>+288.410</nobr></td>
+              <td><nobr>1.841e+10</nobr></td>
+              <td><nobr>133.695</nobr></td>
+              <td><nobr>324.618</nobr></td>
+              <td><nobr>4.089</nobr></td>
+            </tr>
+            <tr>
+              <td class="station_id">ES.EALB..HHH</td>
+              <td>broadb</td>
+              <td><nobr>3.483</nobr><br/><nobr>-0.117</nobr><br/><nobr>+0.078</nobr></td>
+              <td><nobr>1.408</nobr><br/><nobr>-0.706</nobr><br/><nobr>+1.689</nobr></td>
+              <td><nobr>0.072</nobr><br/><nobr>-0.036</nobr><br/><nobr>+0.035</nobr></td>
+              <td><nobr>614.5</nobr><br/><nobr>-200.3</nobr><br/><nobr>+620.3</nobr></td>
+              <td><nobr>2.108e+14</nobr><br/><nobr>-7.005e+13</nobr><br/><nobr>+6.514e+13</nobr></td>
+              <td><nobr>2.044e-01</nobr><br/><nobr>-1.875e-01</nobr><br/><nobr>+2.642e+00</nobr></td>
+              <td><nobr>766.961</nobr><br/><nobr>-418.229</nobr><br/><nobr>+770.438</nobr></td>
+              <td><nobr>6.699e+08</nobr></td>
+              <td><nobr>150.878</nobr></td>
+              <td><nobr>156.711</nobr></td>
+              <td><nobr>3.800</nobr></td>
+            </tr>
+            <tr>
+              <td class="station_id">ES.EBER..HHH</td>
+              <td>broadb</td>
+              <td><nobr>3.640</nobr><br/><nobr>-0.164</nobr><br/><nobr>+0.055</nobr></td>
+              <td><nobr>1.545</nobr><br/><nobr>-0.809</nobr><br/><nobr>+2.014</nobr></td>
+              <td><nobr>0.060</nobr><br/><nobr>&#177;0.027</nobr></td>
+              <td><nobr>392.4</nobr><br/><nobr>-121.2</nobr><br/><nobr>+317.1</nobr></td>
+              <td><nobr>3.631e+14</nobr><br/><nobr>-1.572e+14</nobr><br/><nobr>+7.561e+13</nobr></td>
+              <td><nobr>4.650e-01</nobr><br/><nobr>-4.365e-01</nobr><br/><nobr>+6.404e+00</nobr></td>
+              <td><nobr>699.044</nobr><br/><nobr>-395.593</nobr><br/><nobr>+768.707</nobr></td>
+              <td><nobr>2.185e+09</nobr></td>
+              <td><nobr>78.975</nobr></td>
+              <td><nobr>114.080</nobr></td>
+              <td><nobr>3.699</nobr></td>
+            </tr>
+            <tr>
+              <td class="station_id">ES.ECAB..HHH</td>
+              <td>broadb</td>
+              <td><nobr>3.689</nobr><br/><nobr>-0.181</nobr><br/><nobr>+0.136</nobr></td>
+              <td><nobr>2.239</nobr><br/><nobr>-1.172</nobr><br/><nobr>+2.918</nobr></td>
+              <td><nobr>0.066</nobr><br/><nobr>-0.032</nobr><br/><nobr>+0.032</nobr></td>
+              <td><nobr>783.1</nobr><br/><nobr>-254.9</nobr><br/><nobr>+729.9</nobr></td>
+              <td><nobr>4.298e+14</nobr><br/><nobr>-1.999e+14</nobr><br/><nobr>+2.575e+14</nobr></td>
+              <td><nobr>1.675e+00</nobr><br/><nobr>-1.578e+00</nobr><br/><nobr>+3.106e+01</nobr></td>
+              <td><nobr>482.426</nobr><br/><nobr>-273.008</nobr><br/><nobr>+530.502</nobr></td>
+              <td><nobr>1.353e+10</nobr></td>
+              <td><nobr>181.259</nobr></td>
+              <td><nobr>303.388</nobr></td>
+              <td><nobr>4.323</nobr></td>
+            </tr>
+            <tr>
+              <td class="station_id">ES.EGOR..HHH</td>
+              <td>broadb</td>
+              <td><nobr>3.894</nobr><br/><nobr>-0.084</nobr><br/><nobr>+0.042</nobr></td>
+              <td><nobr>2.573</nobr><br/><nobr>-1.289</nobr><br/><nobr>+3.085</nobr></td>
+              <td><nobr>0.062</nobr><br/><nobr>-0.029</nobr><br/><nobr>+0.028</nobr></td>
+              <td><nobr>184.1</nobr><br/><nobr>-57.1</nobr><br/><nobr>+163.6</nobr></td>
+              <td><nobr>8.720e+14</nobr><br/><nobr>-2.186e+14</nobr><br/><nobr>+1.353e+14</nobr></td>
+              <td><span style="color:#979A9A"><nobr>5.157e+00</nobr></span><br/><span style="color:#979A9A"><nobr>-4.677e+00</nobr><br/><nobr>+5.822e+01</nobr></span></td>
+              <td><nobr>419.786</nobr><br/><nobr>-228.912</nobr><br/><nobr>+421.690</nobr></td>
+              <td><span style="color:#979A9A"><nobr>7.900e+10</nobr></span></td>
+              <td><nobr>38.592</nobr></td>
+              <td><nobr>256.655</nobr></td>
+              <td><nobr>4.014</nobr></td>
+            </tr>
+            <tr>
+              <td class="station_id">ES.ELGU..HHH</td>
+              <td>broadb</td>
+              <td><nobr>3.749</nobr><br/><nobr>-0.219</nobr><br/><nobr>+0.164</nobr></td>
+              <td><nobr>3.097</nobr><br/><nobr>-1.479</nobr><br/><nobr>+3.405</nobr></td>
+              <td><nobr>0.036</nobr><br/><nobr>-0.017</nobr><br/><nobr>+0.016</nobr></td>
+              <td><nobr>324.5</nobr><br/><nobr>-100.5</nobr><br/><nobr>+306.8</nobr></td>
+              <td><nobr>5.284e+14</nobr><br/><nobr>-2.801e+14</nobr><br/><nobr>+4.026e+14</nobr></td>
+              <td><span style="color:#979A9A"><nobr>5.451e+00</nobr></span><br/><span style="color:#979A9A"><nobr>-5.085e+00</nobr><br/><nobr>+8.345e+01</nobr></span></td>
+              <td><nobr>348.732</nobr><br/><nobr>-182.642</nobr><br/><nobr>+318.644</nobr></td>
+              <td><nobr>3.673e+10</nobr></td>
+              <td><nobr>36.845</nobr></td>
+              <td><nobr>170.339</nobr></td>
+              <td><nobr>3.821</nobr></td>
+            </tr>
+            <tr>
+              <td class="station_id">ES.ELOR.00.HHH</td>
+              <td>broadb</td>
+              <td><nobr>4.145</nobr><br/><nobr>-0.091</nobr><br/><nobr>+0.091</nobr></td>
+              <td><nobr>0.463</nobr><br/><nobr>-0.252</nobr><br/><nobr>+0.654</nobr></td>
+              <td><nobr>0.037</nobr><br/><nobr>-0.019</nobr><br/><nobr>+0.019</nobr></td>
+              <td><nobr>1476.9</nobr><br/><nobr>-495.2</nobr><br/><nobr>+1503.8</nobr></td>
+              <td><nobr>2.077e+15</nobr><br/><nobr>-5.608e+14</nobr><br/><nobr>+7.682e+14</nobr></td>
+              <td><nobr>7.152e-02</nobr><br/><nobr>-6.661e-02</nobr><br/><nobr>+1.305e+00</nobr></td>
+              <td><span style="color:#979A9A"><nobr>2333.430</nobr></span><br/><span style="color:#979A9A"><nobr>-1366.390</nobr><br/><nobr>+2798.452</nobr></span></td>
+              <td><nobr>1.936e+09</nobr></td>
+              <td><nobr>179.755</nobr></td>
+              <td><nobr>73.286</nobr></td>
+              <td><nobr>3.938</nobr></td>
+            </tr>
+            <tr>
+              <td class="station_id">ES.EMIJ..HHH</td>
+              <td>broadb</td>
+              <td><nobr>3.773</nobr><br/><nobr>-0.170</nobr><br/><nobr>+0.114</nobr></td>
+              <td><nobr>1.775</nobr><br/><nobr>-0.890</nobr><br/><nobr>+2.315</nobr></td>
+              <td><nobr>0.085</nobr><br/><nobr>-0.040</nobr><br/><nobr>+0.039</nobr></td>
+              <td><nobr>458.9</nobr><br/><nobr>-143.5</nobr><br/><nobr>+407.9</nobr></td>
+              <td><nobr>5.750e+14</nobr><br/><nobr>-2.559e+14</nobr><br/><nobr>+2.764e+14</nobr></td>
+              <td><nobr>1.118e+00</nobr><br/><nobr>-1.041e+00</nobr><br/><nobr>+1.912e+01</nobr></td>
+              <td><nobr>608.278</nobr><br/><nobr>-344.228</nobr><br/><nobr>+611.036</nobr></td>
+              <td><nobr>9.648e+09</nobr></td>
+              <td><nobr>118.697</nobr></td>
+              <td><nobr>234.499</nobr></td>
+              <td><nobr>3.955</nobr></td>
+            </tr>
+            <tr>
+              <td class="station_id">ES.EMIN..HHH</td>
+              <td>broadb</td>
+              <td><nobr>3.503</nobr><br/><nobr>-0.152</nobr><br/><nobr>+0.102</nobr></td>
+              <td><nobr>2.040</nobr><br/><nobr>-0.924</nobr><br/><nobr>+2.050</nobr></td>
+              <td><nobr>0.069</nobr><br/><nobr>-0.031</nobr><br/><nobr>+0.028</nobr></td>
+              <td><nobr>1121.3</nobr><br/><nobr>-323.7</nobr><br/><nobr>+897.1</nobr></td>
+              <td><nobr>2.265e+14</nobr><br/><nobr>-9.267e+13</nobr><br/><nobr>+9.517e+13</nobr></td>
+              <td><nobr>6.682e-01</nobr><br/><nobr>-6.035e-01</nobr><br/><nobr>+6.976e+00</nobr></td>
+              <td><nobr>529.297</nobr><br/><nobr>-265.247</nobr><br/><nobr>+437.743</nobr></td>
+              <td><nobr>2.036e+09</nobr></td>
+              <td><nobr>271.125</nobr></td>
+              <td><nobr>284.589</nobr></td>
+              <td><nobr>4.117</nobr></td>
+            </tr>
+            <tr>
+              <td class="station_id">ES.EMUR..HHH</td>
+              <td>broadb</td>
+              <td><nobr>3.987</nobr><br/><nobr>-0.507</nobr><br/><nobr>+0.000</nobr></td>
+              <td><nobr>0.403</nobr><br/><nobr>-0.257</nobr><br/><nobr>+0.767</nobr></td>
+              <td><nobr>0.080</nobr><br/><nobr>-0.041</nobr><br/><nobr>+0.040</nobr></td>
+              <td><nobr>776.6</nobr><br/><nobr>-259.6</nobr><br/><nobr>+837.4</nobr></td>
+              <td><nobr>1.204e+15</nobr><br/><nobr>-9.951e+14</nobr><br/><nobr>+0.000e+00</nobr></td>
+              <td><nobr>2.732e-02</nobr><br/><nobr>-2.710e-02</nobr><br/><nobr>+6.422e-01</nobr></td>
+              <td><span style="color:#979A9A"><nobr>2681.621</nobr></span><br/><span style="color:#979A9A"><nobr>-1758.390</nobr><br/><nobr>+4754.568</nobr></span></td>
+              <td><nobr>4.786e+08</nobr></td>
+              <td><nobr>228.828</nobr></td>
+              <td><nobr>70.796</nobr></td>
+              <td><nobr>3.875</nobr></td>
+            </tr>
+            <tr>
+              <td class="station_id">ES.ENIJ..HHH</td>
+              <td>broadb</td>
+              <td><nobr>3.610</nobr><br/><nobr>-0.172</nobr><br/><nobr>+0.129</nobr></td>
+              <td><nobr>0.807</nobr><br/><nobr>-0.473</nobr><br/><nobr>+1.233</nobr></td>
+              <td><nobr>0.073</nobr><br/><nobr>-0.033</nobr><br/><nobr>+0.033</nobr></td>
+              <td><nobr>619.8</nobr><br/><nobr>-194.3</nobr><br/><nobr>+520.9</nobr></td>
+              <td><nobr>3.279e+14</nobr><br/><nobr>-1.467e+14</nobr><br/><nobr>+1.837e+14</nobr></td>
+              <td><nobr>5.991e-02</nobr><br/><nobr>-5.756e-02</nobr><br/><nobr>+1.449e+00</nobr></td>
+              <td><nobr>1337.778</nobr><br/><nobr>-808.481</nobr><br/><nobr>+1890.228</nobr></td>
+              <td><nobr>2.630e+08</nobr></td>
+              <td><nobr>134.637</nobr></td>
+              <td><nobr>99.921</nobr></td>
+              <td><span style="color:#979A9A"><nobr>nan</nobr></span></td>
+            </tr>
+            <tr>
+              <td class="station_id">ES.EQTA..HHH</td>
+              <td>broadb</td>
+              <td><nobr>3.578</nobr><br/><nobr>-0.213</nobr><br/><nobr>+0.160</nobr></td>
+              <td><nobr>1.860</nobr><br/><nobr>-0.974</nobr><br/><nobr>+2.628</nobr></td>
+              <td><nobr>0.008</nobr><br/><nobr>-0.005</nobr><br/><nobr>+0.003</nobr></td>
+              <td><nobr>911.7</nobr><br/><nobr>-235.3</nobr><br/><nobr>+2085.4</nobr></td>
+              <td><nobr>2.933e+14</nobr><br/><nobr>-1.526e+14</nobr><br/><nobr>+2.156e+14</nobr></td>
+              <td><nobr>6.551e-01</nobr><br/><nobr>-6.212e-01</nobr><br/><nobr>+1.532e+01</nobr></td>
+              <td><nobr>580.721</nobr><br/><nobr>-340.054</nobr><br/><nobr>+638.592</nobr></td>
+              <td><nobr>2.543e+09</nobr></td>
+              <td><nobr>23.758</nobr></td>
+              <td><nobr>85.614</nobr></td>
+              <td><nobr>3.477</nobr></td>
+            </tr>
+            <tr>
+              <td class="station_id">ES.ESPR..HHH</td>
+              <td>broadb</td>
+              <td><nobr>3.933</nobr><br/><nobr>-0.249</nobr><br/><nobr>+0.187</nobr></td>
+              <td><nobr>1.860</nobr><br/><nobr>-0.888</nobr><br/><nobr>+2.045</nobr></td>
+              <td><span style="color:#979A9A"><nobr>0.121</nobr></span><br/><span style="color:#979A9A"><nobr>-0.040</nobr><br/><nobr>+0.040</nobr></span></td>
+              <td><nobr>502.8</nobr><br/><nobr>-124.9</nobr><br/><nobr>+248.3</nobr></td>
+              <td><nobr>9.981e+14</nobr><br/><nobr>-5.759e+14</nobr><br/><nobr>+9.050e+14</nobr></td>
+              <td><nobr>2.230e+00</nobr><br/><nobr>-2.095e+00</nobr><br/><nobr>+3.712e+01</nobr></td>
+              <td><nobr>580.721</nobr><br/><nobr>-304.142</nobr><br/><nobr>+530.619</nobr></td>
+              <td><span style="color:#979A9A"><nobr>nan</nobr></span></td>
+              <td><nobr>195.679</nobr></td>
+              <td><nobr>260.157</nobr></td>
+              <td><nobr>4.336</nobr></td>
+            </tr>
+            <tr>
+              <td class="station_id">ES.ETOB..HHH</td>
+              <td>broadb</td>
+              <td><nobr>3.566</nobr><br/><nobr>-0.141</nobr><br/><nobr>+0.070</nobr></td>
+              <td><nobr>1.225</nobr><br/><nobr>-0.668</nobr><br/><nobr>+1.731</nobr></td>
+              <td><nobr>0.066</nobr><br/><nobr>-0.031</nobr><br/><nobr>+0.029</nobr></td>
+              <td><nobr>998.7</nobr><br/><nobr>-306.2</nobr><br/><nobr>+858.7</nobr></td>
+              <td><nobr>2.810e+14</nobr><br/><nobr>-1.083e+14</nobr><br/><nobr>+7.739e+13</nobr></td>
+              <td><nobr>1.795e-01</nobr><br/><nobr>-1.691e-01</nobr><br/><nobr>+3.037e+00</nobr></td>
+              <td><nobr>881.406</nobr><br/><nobr>-516.126</nobr><br/><nobr>+1057.058</nobr></td>
+              <td><nobr>6.606e+08</nobr></td>
+              <td><nobr>248.522</nobr></td>
+              <td><nobr>48.798</nobr></td>
+              <td><nobr>4.136</nobr></td>
+            </tr>
+            <tr>
+              <td class="station_id">ES.EZAR..HHH</td>
+              <td>broadb</td>
+              <td><nobr>4.412</nobr><br/><nobr>-0.119</nobr><br/><nobr>+0.060</nobr></td>
+              <td><nobr>0.350</nobr><br/><nobr>-0.205</nobr><br/><nobr>+0.495</nobr></td>
+              <td><nobr>0.069</nobr><br/><nobr>-0.032</nobr><br/><nobr>+0.031</nobr></td>
+              <td><nobr>839.1</nobr><br/><nobr>-258.2</nobr><br/><nobr>+725.7</nobr></td>
+              <td><span style="color:#979A9A"><nobr>5.229e+15</nobr></span><br/><span style="color:#979A9A"><nobr>-1.765e+15</nobr><br/><nobr>+1.196e+15</nobr></span></td>
+              <td><nobr>7.816e-02</nobr><br/><nobr>-7.447e-02</nobr><br/><nobr>+1.271e+00</nobr></td>
+              <td><span style="color:#979A9A"><nobr>3081.769</nobr></span><br/><span style="color:#979A9A"><nobr>-1804.596</nobr><br/><nobr>+4354.420</nobr></span></td>
+              <td><nobr>5.446e+09</nobr></td>
+              <td><nobr>192.621</nobr></td>
+              <td><nobr>66.118</nobr></td>
+              <td><nobr>4.209</nobr></td>
+            </tr>
+            <tr>
+              <td class="station_id">ES.TLOR..HHH</td>
+              <td>broadb</td>
+              <td><nobr>4.248</nobr><br/><nobr>&#177;0.163</nobr></td>
+              <td><nobr>0.771</nobr><br/><nobr>-0.420</nobr><br/><nobr>+1.089</nobr></td>
+              <td><nobr>0.082</nobr><br/><nobr>-0.041</nobr><br/><nobr>+0.039</nobr></td>
+              <td><nobr>699.1</nobr><br/><nobr>-223.4</nobr><br/><nobr>+704.8</nobr></td>
+              <td><span style="color:#979A9A"><nobr>2.963e+15</nobr></span><br/><span style="color:#979A9A"><nobr>-1.276e+15</nobr><br/><nobr>+2.242e+15</nobr></span></td>
+              <td><nobr>4.711e-01</nobr><br/><nobr>-4.459e-01</nobr><br/><nobr>+1.116e+01</nobr></td>
+              <td><nobr>1401.258</nobr><br/><nobr>-820.537</nobr><br/><nobr>+1680.511</nobr></td>
+              <td><nobr>1.961e+10</nobr></td>
+              <td><nobr>185.048</nobr></td>
+              <td><nobr>73.169</nobr></td>
+              <td><nobr>4.432</nobr></td>
+            </tr>
+            <tr>
+              <td class="station_id">ES.UMV15..EHH</td>
+              <td>shortp</td>
+              <td><nobr>4.505</nobr><br/><nobr>-0.559</nobr><br/><nobr>+0.000</nobr></td>
+              <td><nobr>1.948</nobr><br/><nobr>-1.102</nobr><br/><nobr>+2.975</nobr></td>
+              <td><nobr>0.037</nobr><br/><nobr>-0.020</nobr><br/><nobr>+0.017</nobr></td>
+              <td><nobr>94.8</nobr><br/><nobr>-30.2</nobr><br/><nobr>+111.5</nobr></td>
+              <td><span style="color:#979A9A"><nobr>7.195e+15</nobr></span><br/><span style="color:#979A9A"><nobr>-6.152e+15</nobr><br/><nobr>+0.000e+00</nobr></span></td>
+              <td><span style="color:#979A9A"><nobr>1.847e+01</nobr></span><br/><span style="color:#979A9A"><nobr>-1.825e+01</nobr><br/><nobr>+2.798e+02</nobr></span></td>
+              <td><nobr>554.413</nobr><br/><nobr>-335.058</nobr><br/><nobr>+722.760</nobr></td>
+              <td><span style="color:#979A9A"><nobr>6.351e+13</nobr></span></td>
+              <td><nobr>9.775</nobr></td>
+              <td><nobr>291.940</nobr></td>
+              <td><nobr>4.671</nobr></td>
+            </tr>
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="page dontprint">
+        <div class="line" id="misfit_plots"></div>
+        <h2>Misfit plots</h2>
+        <i class="fas fa-image"></i>&nbsp;&nbsp;
+        <a href="misfit.html">Click here to go to misfit plot page</a>
+      </div>
+
+      <div class="dontprint">
+        <div class="line" id="files"></div>
+        <h2>Files</h2>
+        <table class="table">
+          <tbody>
+            <tr>
+              <th scope="row">Configuration:</th>
+              <td>
+                <a href="9524dd9e-2967-42d6-ad48-09096e25a3e6.ssp.conf" type="text/plain">
+                  9524dd9e-2967-42d6-ad48-09096e25a3e6.ssp.conf
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Output:</th>
+              <td>
+                <a href="9524dd9e-2967-42d6-ad48-09096e25a3e6.ssp.yaml" type="application/x-yaml">
+                  9524dd9e-2967-42d6-ad48-09096e25a3e6.ssp.yaml
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Log:</th>
+              <td>
+                <a href="9524dd9e-2967-42d6-ad48-09096e25a3e6.ssp.log" type="text/plain">
+                  9524dd9e-2967-42d6-ad48-09096e25a3e6.ssp.log
+                </a>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+          $("#sidebar").mCustomScrollbar({
+              theme: "minimal"
+          });
+
+          $('#sidebarCollapse').on('click', function () {
+              $('#sidebar, #sidebarCollapse, #content').toggleClass('active');
+              $('.collapse.in').toggleClass('in');
+              $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+          });
+      });
+      // Smooth scrolling
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+      });
+
+      //lightGallery
+      lightGallery(document.getElementById('content'), {
+        selector: '.item',
+        plugins: [lgZoom],
+      });
+    </script>
+    <script>
+      function sortTable(n, numeric=false) {
+        var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+        table = document.getElementById("station_table");
+        switching = true;
+        // Set the sorting direction to ascending:
+        dir = "asc";
+        /* Make a loop that will continue until
+        no switching has been done: */
+        while (switching) {
+          // Start by saying: no switching is done:
+          switching = false;
+          rows = table.rows;
+          /* Loop through all table rows (except the
+          first, which contains table headers): */
+          for (i = 1; i < (rows.length - 1); i++) {
+            // Start by saying there should be no switching:
+            shouldSwitch = false;
+            /* Get the two elements you want to compare,
+            one from current row and one from the next: */
+            x = rows[i].getElementsByTagName("TD")[n];
+            y = rows[i + 1].getElementsByTagName("TD")[n];
+            xvalue = x.innerHTML.toLowerCase();
+            yvalue = y.innerHTML.toLowerCase();
+            if (numeric) {
+              // split with respect to "<br>", then strip all remaining tags
+              xvalue = xvalue.split("<br>")[0].replace(/<\/?[^>]+(>|$)/g, "");
+              yvalue = yvalue.split("<br>")[0].replace(/<\/?[^>]+(>|$)/g, "");
+              if (xvalue == "nan") {
+                xvalue = -1e99;
+              }
+              if (yvalue == "nan") {
+                yvalue = -1e99;
+              }
+              xvalue = Number(xvalue);
+              yvalue = Number(yvalue);
+            }
+            /* Check if the two rows should switch place,
+            based on the direction, asc or desc: */
+            if (dir == "asc") {
+              if (xvalue > yvalue) {
+                // If so, mark as a switch and break the loop:
+                shouldSwitch = true;
+                break;
+              }
+            } else if (dir == "desc") {
+              if (xvalue < yvalue) {
+                // If so, mark as a switch and break the loop:
+                shouldSwitch = true;
+                break;
+              }
+            }
+          }
+          if (shouldSwitch) {
+            /* If a switch has been marked, make the switch
+            and mark that a switch has been done: */
+            rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+            switching = true;
+            // Each time a switch is done, increase this count by 1:
+            switchcount ++;
+          } else {
+            /* If no switching has been done AND the direction is "asc",
+            set the direction to "desc" and run the while loop again. */
+            if (switchcount == 0 && dir == "asc") {
+              dir = "desc";
+              switching = true;
+            }
+          }
+        }
+      }
+      </script>
+  </body>
+</html>

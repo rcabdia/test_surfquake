@@ -1,0 +1,85 @@
+*** Note: this file is deprecated and might not contain all the output information. ***
+*** It will be removed in future versions of SourceSpec. ***
+*** Please look at the YAML file in this directory. ***
+b3492e35-bbf5-473f-a87f-6815a0f6995a lon   -3.695 lat  37.188 depth   5.0 km orig_time 2021-01-26T21:36:32.558214Z
+
+*** Station source parameters ***
+*** Note: outliers are prepended by a star (*) symbol ***
+  ES.E0802..HHH broadb	  Mw  3.610   fc  3.244   t_star  0.044   Qo   670.8   Mo 3.269e+14   bsd 3.876e+00   ra  332.933   hyp_dist  97.351   az  16.759   Er 1.699e+10 
+            --- errmin	  Mw  0.155   fc  1.468   t_star  0.021   Qo   220.2   Mo 1.358e+14   bsd 3.504e+00   ra  174.367   hyp_dist     nan   az     nan   Er       nan 
+            --- errmax	  Mw  0.104   fc  3.567   t_star  0.021   Qo   640.9   Mo 1.407e+14   bsd 4.744e+01   ra  275.345   hyp_dist     nan   az     nan   Er       nan 
+   ES.EADA..HHH broadb	  Mw  3.583   fc  3.905   t_star  0.058   Qo   676.6   Mo 2.983e+14   bsd 6.169e+00   ra  276.580   hyp_dist 133.819   az 324.668   Er 2.444e+10 
+            --- errmin	  Mw  0.175   fc  1.666   t_star  0.027   Qo   204.9   Mo 1.352e+14   bsd 5.533e+00   ra  132.055   hyp_dist     nan   az     nan   Er       nan 
+            --- errmax	  Mw  0.116   fc  3.568   t_star  0.025   Qo   569.8   Mo 1.478e+14   bsd 5.848e+01   ra  205.847   hyp_dist     nan   az     nan   Er       nan 
+   ES.EALB..HHH broadb	  Mw  3.446   fc  1.283   t_star  0.052   Qo   833.6   Mo 1.860e+14   bsd 1.365e-01   ra  841.476   hyp_dist 150.658   az 156.681   Er 4.423e+08 
+            --- errmin	  Mw  0.141   fc  0.672   t_star  0.028   Qo   283.8   Mo 7.177e+13   bsd 1.275e-01   ra  492.744   hyp_dist     nan   az     nan   Er       nan 
+            --- errmax	  Mw  0.094   fc  1.813   t_star  0.027   Qo   986.3   Mo 7.145e+13   bsd 2.519e+00   ra  925.332   hyp_dist     nan   az     nan   Er       nan 
+   ES.EBER..HHH broadb	  Mw  3.610   fc  1.948   t_star  0.074   Qo   314.4   Mo 3.275e+14   bsd 8.407e-01   ra  554.413   hyp_dist  78.809   az 113.944   Er 3.800e+09 
+            --- errmin	  Mw  0.114   fc  0.976   t_star  0.033   Qo    97.3   Mo 1.064e+14   bsd 7.703e-01   ra  290.363   hyp_dist     nan   az     nan   Er       nan 
+            --- errmax	  Mw  0.057   fc  2.142   t_star  0.033   Qo   255.6   Mo 7.111e+13   bsd 8.631e+00   ra  556.927   hyp_dist     nan   az     nan   Er       nan 
+   ES.ECAB..HHH broadb	  Mw  3.662   fc  2.573   t_star  0.070   Qo   739.0   Mo 3.913e+14   bsd 2.314e+00   ra  419.786   hyp_dist 181.340   az 303.441   Er 1.542e+10 
+            --- errmin	  Mw  0.148   fc  1.228   t_star  0.033   Qo   231.1   Mo 1.568e+14   bsd 2.117e+00   ra  228.912   hyp_dist     nan   az     nan   Er       nan 
+            --- errmax	  Mw  0.099   fc  3.085   t_star  0.032   Qo   665.8   Mo 1.592e+14   bsd 3.232e+01   ra  383.569   hyp_dist     nan   az     nan   Er       nan 
+   ES.EGOR..HHH broadb	  Mw  3.925   fc  2.456   t_star  0.058   Qo   198.9   Mo 9.722e+14   bsd 5.003e+00   ra  439.706   hyp_dist  38.381   az 256.954   Er 7.025e+10 
+            --- errmin	  Mw  0.057   fc  1.286   t_star  0.027   Qo    62.4   Mo 1.749e+14   bsd 4.560e+00   ra  239.775   hyp_dist     nan   az     nan   Er       nan 
+            --- errmax	  Mw  0.000   fc  2.946   t_star  0.027   Qo   167.5   Mo 0.000e+00   bsd 4.822e+01   ra  483.524   hyp_dist     nan   az     nan   Er       nan 
+   ES.ELGU..HHH broadb	  Mw  3.738  *fc  5.157   t_star  0.058   Qo   200.1   Mo 5.088e+14  *bsd 2.424e+01   ra  209.418   hyp_dist  36.490   az 170.284  *Er 1.730e+11 
+            --- errmin	  Mw  0.147  *fc  2.060   t_star  0.027   Qo    60.6   Mo 2.021e+14  *bsd 2.107e+01   ra   99.989   hyp_dist     nan   az     nan  *Er       nan 
+            --- errmax	  Mw  0.098  *fc  4.712   t_star  0.025   Qo   168.5   Mo 2.042e+14  *bsd 2.138e+02   ra  139.313   hyp_dist     nan   az     nan  *Er       nan 
+ ES.ELOR.00.HHH broadb	  Mw  3.973   fc  0.736   t_star  0.049   Qo  1117.2   Mo 1.146e+15   bsd 1.586e-01  *ra 1467.751   hyp_dist 179.784   az  73.224   Er 2.498e+09 
+            --- errmin	  Mw  0.129   fc  0.401   t_star  0.025   Qo   353.3   Mo 4.116e+14   bsd 1.490e-01  *ra  887.030   hyp_dist     nan   az     nan   Er       nan 
+            --- errmax	  Mw  0.086   fc  1.124   t_star  0.023   Qo  1195.9   Mo 3.958e+14   bsd 3.286e+00  *ra 1760.255   hyp_dist     nan   az     nan   Er       nan 
+   ES.EMIJ..HHH broadb	  Mw  3.727   fc  2.456   t_star  0.092   Qo   423.8   Mo 4.912e+14   bsd 2.528e+00   ra  439.706   hyp_dist 118.533   az 234.579   Er 1.857e+10 
+            --- errmin	  Mw  0.163   fc  1.173   t_star  0.043   Qo   134.6   Mo 2.118e+14   bsd 2.323e+00   ra  230.288   hyp_dist     nan   az     nan   Er       nan 
+            --- errmax	  Mw  0.109   fc  2.701   t_star  0.043   Qo   369.0   Mo 2.242e+14   bsd 3.155e+01   ra  401.770   hyp_dist     nan   az     nan   Er       nan 
+   ES.EMIN..HHH broadb	  Mw  3.418   fc  2.695   t_star  0.072   Qo  1076.9   Mo 1.685e+14   bsd 1.145e+00   ra  400.769   hyp_dist 271.157   az 284.631   Er 2.576e+09 
+            --- errmin	  Mw  0.127   fc  1.150   t_star  0.032   Qo   312.8   Mo 5.976e+13   bsd 1.006e+00   ra  191.351   hyp_dist     nan   az     nan   Er       nan 
+            --- errmax	  Mw  0.063   fc  2.462   t_star  0.029   Qo   868.8   Mo 4.125e+13   bsd 8.845e+00   ra  298.276   hyp_dist     nan   az     nan   Er       nan 
+   ES.EMUR..HHH broadb	  Mw  3.610   fc  1.475  *t_star  0.144   Qo   432.0   Mo 3.270e+14   bsd 3.644e-01   ra  732.216   hyp_dist 228.870   az  70.748  *Er       nan 
+            --- errmin	  Mw  0.147   fc  0.668  *t_star  0.029   Qo    73.3   Mo 1.302e+14   bsd 3.284e-01   ra  366.936   hyp_dist     nan   az     nan  *Er       nan 
+            --- errmax	  Mw  0.098   fc  1.482  *t_star  0.029   Qo   110.8   Mo 1.317e+14   bsd 3.753e+00   ra  605.562   hyp_dist     nan   az     nan  *Er       nan 
+   ES.ENIJ..HHH broadb	  Mw  3.418   fc  1.695   t_star  0.112   Qo   415.7   Mo 1.688e+14   bsd 2.856e-01   ra  637.142   hyp_dist 134.561   az  99.836  *Er       nan 
+            --- errmin	  Mw  0.201   fc  0.767   t_star  0.043   Qo   112.3   Mo 8.455e+13   bsd 2.622e-01   ra  319.292   hyp_dist     nan   az     nan  *Er       nan 
+            --- errmax	  Mw  0.101   fc  1.703   t_star  0.041   Qo   257.1   Mo 7.013e+13   bsd 2.970e+00   ra  526.934   hyp_dist     nan   az     nan  *Er       nan 
+   ES.EQTA..HHH broadb	  Mw  3.576   fc  1.695   t_star  0.008   Qo   968.9   Mo 2.913e+14   bsd 4.927e-01   ra  637.142   hyp_dist  23.516   az  85.103   Er 1.896e+09 
+            --- errmin	  Mw  0.169   fc  0.924   t_star  0.004   Qo   332.2   Mo 1.290e+14   bsd 4.669e-01   ra  373.092   hyp_dist     nan   az     nan   Er       nan 
+            --- errmax	  Mw  0.113   fc  2.395   t_star  0.004   Qo  1057.4   Mo 1.389e+14   bsd 9.730e+00   ra  764.116   hyp_dist     nan   az     nan   Er       nan 
+   ES.ESPR..HHH broadb	  Mw  3.856   fc  2.695   t_star  0.128   Qo   478.3   Mo 7.647e+14   bsd 5.197e+00   ra  400.769   hyp_dist 195.618   az 260.215  *Er 3.963e+11 
+            --- errmin	  Mw  0.264   fc  1.150   t_star  0.039   Qo   105.2   Mo 4.573e+14   bsd 4.804e+00   ra  200.838   hyp_dist     nan   az     nan  *Er       nan 
+            --- errmax	  Mw  0.132   fc  2.707   t_star  0.036   Qo   207.8   Mo 4.414e+14   bsd 6.083e+01   ra  298.276   hyp_dist     nan   az     nan  *Er       nan 
+   ES.ETOB..HHH broadb	  Mw  3.667   fc  1.695   t_star  0.081   Qo   870.0   Mo 3.980e+14   bsd 6.731e-01   ra  637.142   hyp_dist 248.633   az  48.763   Er 3.561e+09 
+            --- errmin	  Mw  0.163   fc  0.849   t_star  0.037   Qo   260.8   Mo 1.717e+14   bsd 6.256e-01   ra  347.438   hyp_dist     nan   az     nan   Er       nan 
+            --- errmax	  Mw  0.109   fc  2.033   t_star  0.035   Qo   743.9   Mo 1.819e+14   bsd 9.760e+00   ra  640.031   hyp_dist     nan   az     nan   Er       nan 
+   ES.EZAR..HHH broadb	  Mw  4.148   fc  0.584   t_star  0.085   Qo   680.7  *Mo 2.101e+15   bsd 1.451e-01  *ra 1850.647   hyp_dist 192.672   az  66.063  *Er       nan 
+            --- errmin	  Mw  0.181   fc  0.318   t_star  0.040   Qo   207.7  *Mo 9.774e+14   bsd 1.378e-01  *ra 1083.686   hyp_dist     nan   az     nan  *Er       nan 
+            --- errmax	  Mw  0.121   fc  0.825   t_star  0.037   Qo   605.1  *Mo 1.088e+15   bsd 2.948e+00  *ra 2219.457   hyp_dist     nan   az     nan  *Er       nan 
+   ES.TLOR..HHH broadb	  Mw  4.342   fc  0.532   t_star  0.034  *Qo  1661.9  *Mo 4.099e+15   bsd 2.142e-01  *ra 2030.449   hyp_dist 185.078   az  73.109   Er 1.210e+10 
+            --- errmin	  Mw  0.133   fc  0.340   t_star  0.019  *Qo   557.6  *Mo 1.506e+15   bsd 2.079e-01  *ra 1331.404   hyp_dist     nan   az     nan   Er       nan 
+            --- errmax	  Mw  0.066   fc  1.013   t_star  0.017  *Qo  1980.4  *Mo 1.054e+15   bsd 6.385e+00  *ra 3600.026   hyp_dist     nan   az     nan   Er       nan 
+  ES.UMV15..EHH shortp	  Mw  4.336   fc  2.345   t_star  0.037   Qo    89.9  *Mo 4.023e+15  *bsd 1.801e+01   ra  460.571   hyp_dist   9.249   az 293.400  *Er 1.024e+13 
+            --- errmin	  Mw  0.507   fc  1.279   t_star  0.019   Qo    30.1  *Mo 3.325e+15  *bsd 1.772e+01   ra  260.640   hyp_dist     nan   az     nan  *Er       nan 
+            --- errmax	  Mw  0.000   fc  3.057   t_star  0.019   Qo    91.5  *Mo 0.000e+00  *bsd 2.022e+02   ra  552.357   hyp_dist     nan   az     nan  *Er       nan 
+
+*** Average source parameters ***
+*** Note: averages computed after removing outliers ****
+Mw: 3.76 +/- 0.28
+Mw (weighted): 3.83 +/- 0.22
+Mo: 3.818e+14 /- 1.646e+14 /+ 2.893e+14 N·m
+Mo (weighted): 6.188e+14 /- 2.871e+14 /+ 5.357e+14 N·m
+fc: 1.751 /- 0.753 /+ 1.322 Hz
+fc (weighted): 1.956 /- 0.776 /+ 1.287 Hz
+t_star: 0.066 +/- 0.028 s
+t_star (weighted): 0.021 +/- 0.025 s
+Qo: 599.2 +/- 303.5
+Qo (weighted): 262.8 +/- 192.7
+Source radius: 464.861 /- 141.177 /+ 202.752 m
+Source radius (weighted): 441.370 /- 139.253 /+ 203.437 m
+Brune stress drop: 8.548e-01 /- 6.292e-01 /+ 2.383e+00 MPa
+Brune stress drop (weighted): 1.020e+00 /- 7.420e-01 /+ 2.721e+00 MPa
+Ml: 4.081 +/- 0.226
+Er: 6.642e+09 /- 4.913e+09 /+ 1.887e+10 N·m
+
+*** SourceSpec: 1.7
+*** Run completed on: 2025-02-03 14:28:09.727829 CET
+*** Author: SurfQuakeCore <https://projectisp.github.io/ISP_tutorial.github.io/>
+*** Agency: Spanish Navy Observatory (ROA) - https://armada.defensa.gob.es/ArmadaPortal/page/Portal/ArmadaEspannola/cienciaobservatorio/prefLang-es/02InfoGeneral

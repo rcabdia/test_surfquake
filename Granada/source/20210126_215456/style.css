@@ -1,0 +1,472 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+html, body{ height:100% };
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fff;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.7em;
+  color: #999;
+}
+
+a,
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+h6 {
+  font-size: 0.8em;
+  max-width: 75%;
+}
+h6 a, h6 a:hover {
+  text-decoration: underline;
+}
+
+table a:hover {
+  text-decoration: underline;
+}
+
+table.summary {
+  max-width: 75%;
+}
+
+table.summary td {
+  text-align: right;
+}
+
+table.summary th[scope=col] {
+  text-align: right;
+}
+
+.highlighted_column {
+  border: 2px dotted #666;
+}
+
+.th_subtitle {
+  font-size: 0.8em;
+}
+
+table.stations {
+  font-size: 0.8em;
+  text-align: right;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+table.stations th {
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+table.stations th.station_id {
+  background-color: white;
+  border-right: 2px dotted #dee2e6;
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  z-index: 4;
+}
+
+table.stations th:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+table.stations td.station_id {
+  background-color: white;
+  border-right: 2px dotted #dee2e6;
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  z-index: 3;
+}
+
+.table_wrapper {
+  height: 500px;
+  white-space: nowrap;
+  overflow: hidden;
+  /* scrollbar style for Firefox */
+  scrollbar-width: auto;
+}
+.table_wrapper:hover {
+  overflow: scroll;
+}
+/* scrollbar styles for webkit browsers */
+.table_wrapper::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.table_wrapper::-webkit-scrollbar-track {
+  background: rgb(240, 240, 240);
+  border-radius: 8px;
+}
+.table_wrapper::-webkit-scrollbar-thumb {
+  background: rgb(200, 200, 200);
+  border-radius: 8px;
+}
+.table_wrapper::-webkit-scrollbar-thumb:hover {
+  background: rgb(100, 100, 100);
+  border-radius: 8px;
+}
+.table_wrapper::-webkit-scrollbar-thumb:active {
+  background: rgb(68, 68, 68);
+  border-radius: 8px;
+}
+
+.navbar {
+  padding: 15px 10px;
+  background: #fff;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 40px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+  box-shadow: none;
+  outline: none !important;
+  border: none;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px dashed #ddd;
+  margin: 40px 0;
+}
+
+/* ---------------------------------------------------
+    IMAGE STYLES
+----------------------------------------------------- */
+
+.logo {
+  max-width: 100%;
+}
+
+.station_map {
+  max-width: 70%;
+}
+
+.trace_plot {
+  max-width: 100%;
+}
+
+.spectral_plot {
+  max-width: 100%;
+}
+
+.box_plot {
+  max-width: 80%;
+}
+
+.stacked_spectra {
+  max-width: 68%;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+  display: flex;
+  width: 100%;
+}
+
+hr.solid {
+  border-top: 3px solid #505050;
+}
+
+#sidebar {
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 999;
+  background: #212121;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+#sidebar.active {
+  margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+  padding: 5px;
+  background: #17054F;
+  border-bottom: 4px solid #444;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+#sidebar .sidebar-footer {
+  margin-top: -20px;
+  padding-left: 20px;
+  font-size: 1.6vh;
+  color: #94AFAB;
+}
+
+#sidebar .sidebar-footer a:hover {
+  color: #e14d5b;
+}
+
+#sidebar ul.components {
+  padding: 20px 0;
+}
+
+#sidebar ul p {
+  color: #fff;
+  padding: 10px;
+}
+
+#sidebar ul li a {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 20px;
+  padding-right: 10px;
+  font-size: 1.0em;
+  display: block;
+  border-bottom: 1px solid #444;
+  color: #aaa;
+}
+
+#sidebar ul li a:hover {
+  color: #e14d5b;
+  background: #fff;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+  color: #fff;
+  background: #6d7fcc;
+}
+
+a[data-toggle="collapse"] {
+  position: relative;
+}
+
+.dropdown-toggle::after {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+ul ul a {
+  font-size: 0.9em !important;
+  padding-left: 30px !important;
+  background: #6d7fcc;
+}
+
+ul.CTAs {
+  padding: 20px;
+}
+
+ul.CTAs a {
+  text-align: center;
+  font-size: 0.9em !important;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+a.download {
+  background: #fff;
+  color: #7386D5;
+}
+
+a.article,
+a.article:hover {
+  background: #6d7fcc !important;
+  color: #fff !important;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR COLLAPSE BUTTON
+----------------------------------------------------- */
+
+#sidebarCollapse {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 250px;
+  transition: all 0.3s;
+}
+#sidebarCollapse.active {
+  left: 0;
+}
+#sidebarCollapse .btn.btn-info {
+  font-size: 24px;
+  color: black;
+  background: transparent;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+  width: calc(100% - 250px);
+  padding: 40px;
+  min-height: 100vh;
+  transition: all 0.3s;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#content.active {
+  width: 100%;
+}
+
+/* ---------------------------------------------------
+    LIGHTGALLERY ITEMS
+----------------------------------------------------- */
+
+.item {
+  cursor: zoom-in;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+  #sidebar {
+    margin-left: -250px;
+  }
+  #sidebar.active {
+    margin-left: 0;
+  }
+  #content {
+    width: 100%;
+  }
+  /* Uncomment the following if you do not want sidebar hovering content
+     on small window widths */
+  /* #content.active {
+    width: calc(100% - 250px);
+  } */
+  #sidebarCollapse span {
+    display: none;
+  }
+  #sidebarCollapse {
+    left: 0;
+  }
+  #sidebarCollapse.active {
+    left: 246px;
+  }
+  #sidebarCollapse.active .btn.btn-info {
+    font-size: 27.4px;
+    background: #17054f;
+    color: white;
+  }
+}
+
+
+/* ---------------------------------------------------
+    PRINTING
+----------------------------------------------------- */
+
+.print {
+  display: none;
+}
+.dontprint {
+  display: block;
+}
+.dontprint_inline {
+  display: inline;
+}
+.print_inline {
+  display: none;
+}
+
+@media screen {
+  .text_footer{
+    display: none;
+  }
+  .logo_footer{
+    display: none;
+  }
+}
+
+@page {
+  size: A4 landscape;
+}
+
+@media print {
+  #sidebarCollapse {
+    display: none;
+  }
+  #sidebar {
+    margin-left: -250px;
+  }
+  #content {
+    width: 100%;
+  }
+  .print {
+    display: block;
+  }
+  .dontprint {
+    display: none;
+  }
+  .dontprint_inline {
+    display: none;
+  }
+  .print_inline {
+    display: inline;
+  }
+  .line {
+    display: none;
+  }
+  .page
+  {
+    page-break-after: always;
+    page-break-inside: avoid;
+  }
+  .table_wrapper{
+    height: auto;
+    overflow: visible;
+    white-space: normal;
+    font-size: 0.8em;
+  }
+  .station_map {
+    max-width: 70%;
+  }
+  .box_plot {
+    max-width: 60%;
+  }
+  .stacked_spectra {
+    max-width: 60%;
+  }
+  .text_footer {
+    font-size: 0.8em;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+  .text_footer a:link {
+    text-decoration: none;
+  }
+  .logo_footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+  }
+}
