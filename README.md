@@ -1,3 +1,5 @@
+<img src="logo/surfQuake.png" width="600">
+
 # Test case for surfQuake 
 
 Welcome to the SurfQuake Test Case repository. Here, you'll find everything you need to run a full SurfQuake example, from project setup to phase picking and MTI (Moment Tensor Inversion). This guide provides a clear structure for testing SurfQuake using two predefined examples: Andorra and Granada.
